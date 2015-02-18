@@ -1,0 +1,177 @@
+// ====================================================
+// STATS BLOCK MODULE
+// ====================================================
+.stats-block {
+    // @include grid-row();
+    @include grid-column(12);
+    padding: em-calc(30 20);
+    &.stats-block__col-3-5 {
+        .stats-block__section--slim {
+            @media #{$medium} {
+                @include grid-column(4);
+                padding-left: 0;
+            }
+        }
+        .stats-block__section--wide {
+            @media #{$medium} {
+                @include grid-column(8);
+            }
+        }
+        .stats-block__section--slim-last {
+            @media #{$medium} {
+                @include grid-column(0);
+            }
+        }
+    }
+    &.stats-block__col-3-8 {
+        .stats-block__section--slim {
+            @media #{$medium} {
+                @include grid-column(3);
+                padding-left: 0;
+            }
+        }
+        .stats-block__section--wide {
+            @media #{$medium} {
+                @include grid-column(9);
+            }
+        }
+        .stats-block__section--slim-last {
+            @media #{$medium} {
+                @include grid-column(0);
+            }
+        }
+    }
+    &.stats-block__col-3-5-3 {
+        .stats-block__section--slim {
+            @media #{$medium} {
+                @include grid-column(3);
+                padding-left: 0;
+            }
+        }
+        .stats-block__section--wide {
+            @media #{$medium} {
+                @include grid-column(6);
+            }
+        }
+        .stats-block__section--slim-last {
+            @media #{$medium} {
+                @include grid-column(3);
+            }
+        }
+    }
+}
+
+
+// STATS BLOCK -- BODY
+// ====================================================
+// .stats-block__layout {
+//     @include grid-column(12);
+
+//     @media #{$small} {
+//         @include grid-column(10, false, false, 1);
+//     }
+
+//     @media #{$medium} {
+//         @include grid-column(11, false, false, 1);
+//     }
+// }
+
+// STATS BLOCK -- SECTION
+// ====================================================
+// .stats-block__section_heading {
+//     @include grid-column(12);
+
+//     @media #{$small} {
+//         @include grid-column(12);
+//     }
+// }
+
+.stats-block__section--slim, 
+.stats-block__section--slim-last {
+    // @extend .stats-block__section;
+    @media #{$small} {
+        // @include grid-column(3);
+        // padding-left: 0;
+    }
+    @media #{$medium} {
+        padding-left: 0;
+    }
+}
+
+.stats-block__section--wide {
+    // @extend .stats-block__section;
+    @media #{$small} {
+        padding-left: 0;
+    }
+    @media #{$medium} {
+        padding-left: 0;
+    }
+}
+
+
+// STATS BLOCK -- HEADING
+// ====================================================
+.stats-block__heading {
+    @include grid-column(12);
+    color: #00395d;
+    text-transform: inherit;
+    font-size: em-calc(22);
+    margin-bottom: em-calc(15);
+    font-family: $header-font-family-regular;
+    font-size: em-calc(22);
+    padding-left: 0;
+    padding-bottom: 0;
+    @media #{$small} {
+        font-size: em-calc(24);
+        border-bottom: 1px solid #d9ecf4;
+        padding-bottom: em-calc(10);
+        margin-bottom: em-calc(15);
+    }
+    @media #{$medium} {
+        font-size: em-calc(28);
+    }
+}
+
+// STATS BLOCK -- BODY
+// ====================================================
+// .stats-block__body {
+
+// }
+
+
+// STATS BLOCK -- ITEM
+// ====================================================
+.stats-block__item {
+    margin-bottom: em-calc(20);
+    color: $blue-link-quote;
+
+    &.full-width {
+        @include grid-column(12);
+    }
+
+    .num {
+        display: block;
+        font-family: $header-font-family;
+        font-size: em-calc(36);
+        @media #{$small} {
+            font-size: em-calc(48);
+        }
+    }
+
+    .info {
+        display: block;
+        font-family: $header-font-family;
+        font-size: em-calc(13);
+        line-height: 1.4;
+        @media #{$small} {
+            font-size: em-calc(14);
+            line-height: 18px;
+        }
+    }
+}
+
+// STATS BLOCK -- IMAGE
+// ====================================================
+.stats-block__image {
+    margin-bottom: em-calc(20);
+}

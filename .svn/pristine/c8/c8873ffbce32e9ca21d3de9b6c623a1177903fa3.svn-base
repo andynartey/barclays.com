@@ -1,0 +1,113 @@
+// ====================================================
+// STATS BLOCK MODULE
+// ====================================================
+.stats-block {
+    padding: em-calc(20 0);
+}
+
+
+// STATS BLOCK -- BODY
+// ====================================================
+.stats-block__layout {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(11, false, false, 1);
+    }
+}
+
+// STATS BLOCK -- SECTION
+// ====================================================
+.stats-block__section {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+}
+
+.stats-block__section--slim {
+    @extend .stats-block__section;
+
+    @media #{$medium} {
+        @include grid-column(5);
+    }
+}
+
+.stats-block__section--wide {
+    @extend .stats-block__section;
+
+    @media #{$medium} {
+        @include grid-column(7);
+    }
+}
+
+
+// STATS BLOCK -- HEADING
+// ====================================================
+.stats-block__heading {
+    color: #00395d;
+    text-transform: uppercase;
+    font-size: em-calc(22);
+    margin-bottom: em-calc(15);
+
+    @media #{$medium} {
+        font-size: em-calc(18);
+        border-bottom: 1px solid #d9ecf4;
+        padding-bottom: em-calc(10);
+    }
+}
+
+// STATS BLOCK -- BODY
+// ====================================================
+.stats-block__body {
+
+    @media #{$medium} {
+        p {
+            line-height: 2;
+        }
+    }
+}
+
+
+// STATS BLOCK -- ITEM
+// ====================================================
+.stats-block__item {
+    margin-bottom: em-calc(20);
+    color: $blue-link-quote;
+
+    &.full-width {
+        @include grid-column(12);
+    }
+
+    &.half-width {
+        @include grid-column(6);
+
+        @media #{$medium} {
+            @include grid-column(12);
+        }
+    }
+
+    .num {
+        display: block;
+        font-family: $header-font-family;
+        font-size: em-calc(48);
+    }
+
+    .info {
+        display: block;
+        font-family: $header-font-family;
+        font-size: em-calc(14);
+        line-height: 1.4;
+    }
+}
+
+// STATS BLOCK -- IMAGE
+// ====================================================
+.stats-block__image {
+    margin-bottom: em-calc(20);
+}

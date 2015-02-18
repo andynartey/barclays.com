@@ -1,0 +1,57 @@
+// TAGS
+/* --------------------------------------*/
+
+// .topics-1 {
+//     border-top: $border-style;
+// }
+
+.tags {
+    @include grid-column(12);
+    padding-top: em-calc(15);
+    margin-bottom: em-calc(20);
+    border-top: $border-style;
+    float: none;
+
+    @media #{$medium} {
+        border-top: 4px solid $gray-rule;
+        border-bottom: none;
+    }
+}
+
+.tags__heading {
+    h2 {
+        font-family: $header-font-family-regular;
+        color: $blue-darker;
+        font-size: em-calc(20);
+        margin-bottom: em-calc(10);
+
+        @media #{$small} {
+            font-size: em-calc(22);
+            line-height: 1.185;
+        }
+    }
+
+    @media #{$medium} {
+        h2 {
+            font-size: em-calc(22);
+        }
+    }
+}
+.col__full-width .tags__heading h2:first-child {
+    margin-top: 0;
+}
+
+.tags__body {
+    padding-bottom: em-calc(10);
+
+    a, .lorenze {
+        display: inline-block;
+        background: $gray-bkgnd;
+        font-size: em-calc(14);
+        padding: em-calc(10);
+        border-radius: 15px;
+        color: $blue-link-quote;
+        margin-right: em-calc(5);
+        margin-bottom: em-calc(10);
+    }
+}

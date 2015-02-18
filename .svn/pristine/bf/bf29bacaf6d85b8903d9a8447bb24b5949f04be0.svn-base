@@ -1,0 +1,36 @@
+// ====================================================
+// DOWNLOAD STRIP MODULE
+// ====================================================
+.download-strip {
+	background-color: $blue-bkgnd;
+    padding: em-calc(20 15 10 15);
+    margin-bottom: em-calc(20);
+
+    @media #{$small} {
+        @include grid-column(12, false, false, -1, false, false, false, false);
+        padding-left: em-calc(15);
+    }
+
+    @media #{$medium} {
+        @include grid-column(12, false, false, 0);
+        padding-left: em-calc(15);
+    }
+}
+
+.download-strip__title {
+    font-family: $header-font-family-regular;
+    font-size: em-calc(18);
+    small {
+	    font-size: em-calc(13);
+    }
+}
+
+.download-strip__author {
+    font-family: $header-font-family;
+    font-size: em-calc(14);
+
+    @media #{$small} {
+        font-size: em-calc(12);
+        color: $blue-darker;
+    }
+}

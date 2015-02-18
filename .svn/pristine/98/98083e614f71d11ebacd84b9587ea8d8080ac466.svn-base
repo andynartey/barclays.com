@@ -1,0 +1,37 @@
+.links-list {
+	margin: 2em 0;
+	list-style: none;
+	border-top: $border-style;
+
+	li {
+		border-bottom: $border-style;
+		a {
+			display: block;
+			position: relative;
+			padding: 0.8em  1.2em 0.5em 0;
+			font-size: em-calc(22);
+			font-family: $header-font-family;
+			&:before {
+				position: absolute;
+				right: 0;
+				top: 1em;
+			}
+		}
+	}
+
+	.link-list-external {
+		a {
+			&:before {
+				@include icon-font($icon-external-link);
+			}
+		}
+	}
+
+	.link-list-arrow {
+		a {
+			&:before {
+				@include icon-font($icon-chevron-right);
+			}
+		}
+	}
+}

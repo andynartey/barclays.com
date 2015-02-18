@@ -1,0 +1,33 @@
+<h3 class="accordion__product_title">Our Products</h3>
+<ul class="large-block-grid-2 our__products">
+  <li>
+    <div class="products__container">
+        <h3><a href="#" title="">Mortgages <i class="icon icon__external-link"></i></a></h3>
+        <p>If you’re planning to buy a new home, we have a range of mortgages to help meet your needs</p>
+    </div>
+  </li>
+  <li>
+    <div class="products__container">
+        <h3><a href="#" title="">Loans <i class="icon icon__external-link"></i></a></h3>
+        <p>If you’re looking for support  buying a car or a dream purchase, our personal loans could help</p>
+    </div>
+  </li>
+  <li>
+    <div class="products__container">
+        <h3><a href="#" title="">Insurance <i class="icon icon__external-link"></i></a></h3>
+        <p>We can provide cover for the things you care about – your home, your family and your well-being</p>
+    </div>
+  </li>
+  <li>
+    <div class="products__container">
+        <h3><a href="#" title="">Banks accounts <i class="icon icon__external-link"></i></a></h3>
+        <p>We offer basic current accounts and others packed with extra benefits for an extra monthly fee</p>
+    </div>
+  </li>
+  <li>
+      <div class="products__container">
+        <h3><a href="#" title="">Investments & ISAs <i class="icon icon__external-link"></i></a></h3>
+        <p>We offer a range of savings accounts, whether you’re looking for easy access or want to put your cash away </p>
+      </div>
+  </li>
+</ul>

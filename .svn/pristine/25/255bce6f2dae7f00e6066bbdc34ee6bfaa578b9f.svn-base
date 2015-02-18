@@ -1,0 +1,125 @@
+<div class="accordion_mini">
+    <div class="accordion_frame">
+        
+        <ul class="accordion__product_list">
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Accordion item heading</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <p>Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Donec id elit non mi porta gravida at eget metus.</p>
+							<p>Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Accordion item heading</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                                <!-- 2 columns (50% each) - START -->
+                                <div class="column-control-container__50">
+                                    <div class="column-control__6">
+                                        <!-- CLIENT STORY - IMAGE LEFT -->
+                                        <img data-interchange="
+                                        [/images/products-services/470x264_fields.jpg, (default)]" alt="" >
+                                    </div>
+
+                                    <div class="column-control__6">
+                                        <h3>Link list</h3>
+                                        <!-- Link list begins -->
+                                        <ul class="links-list">
+                                            <li class="link-list-external">
+                                                <a href="">Personal banking</a>
+                                            </li>
+                                            <li class="link-list-external">
+                                                <a href="">Business banking</a>
+                                            </li>
+                                            <li class="link-list-arrow">
+                                                <a href="">Online banking</a>
+                                            </li>
+                                            <li class="link-list-arrow">
+                                                <a href="">Online banking</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Online banking</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Online banking</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Accordion item heading</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <div class="document-download"> <!-- this is the wrapper for all downloads (even if only 1) -->
+
+                                <!--#include virtual="../../includes/story-chrome/download-strip.html"-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Accordion item heading</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!-- 2 columns (50% each) - START -->
+                            <div class="column-control-container__50">
+
+                                <div class="column-control__6">
+                                    <img data-interchange="
+                                        [/images/products-services/470x264_fields.jpg, (default)]" alt="" >
+                                </div>
+
+                                <div class="column-control__6">
+                                    <!-- Bullet list begins -->
+                                    <div class="bullet_list">
+                                        <h2 class="bullet_list__heading">Bullet list</h2>
+                                        <ul>
+                                            <li>Ensure financial inclusion is part of the new UN Development framework</li>
+                                            <li>Recognise group banking as a springboard to financial inclusion</li>
+                                            <li>Build bridges between informal and formal financial sectors</li>
+                                            <li>Invest in, and expand access to, financial literacy</li>
+                                            <li>Develop strong checks and balances to protect the most poor and vulnerable people</li>
+                                        </ul>
+                                    </div>
+                                    <!-- Bullet list ends -->
+                                </div>
+                            </div>
+                            <!-- 2 columns (50% each) - END -->
+                            <!-- <p>Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Donec id elit non mi porta gravida at eget metus.</p>
+                            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

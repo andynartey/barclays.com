@@ -1,0 +1,31 @@
+.site-container {
+    background: #fff;
+    position: relative;
+    padding: 0;
+}
+
+.content {
+    position: relative;
+}
+
+
+// TYPOGRAPHY
+// ====================================================
+
+h1 {
+	color: $blue-darker;
+	.lt-ie9 & {
+		color: $blue-darker;
+	}
+}
+// TEMPLATE COMMON
+// ====================================================
+
+.link__page_holder {
+    min-height: em-calc(45);
+}
+
+.link__page-parent {
+	display: inline-block;
+	margin: 0.6em 0 1.1em;
+}

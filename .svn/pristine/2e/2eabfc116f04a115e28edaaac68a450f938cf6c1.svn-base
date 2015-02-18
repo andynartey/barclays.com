@@ -1,0 +1,4 @@
+<div class="country-selector">
+    <!-- <a class="country-selector__call-to-action" href="/stub/country-selector.html">United Kingdom</a> country-selector__call-to-action-->
+    <a class="btn btn__tertiary js-country-toggle" href="#"><i class="icon icon__location"></i> United Kingdom</a>
+</div>

@@ -1,0 +1,93 @@
+// ====================================================
+// TOPIC RESULTS
+// ====================================================
+
+#CQ input[type="text"],
+#CQ input[type="password"],
+#CQ input[type="date"],
+#CQ input[type="datetime"],
+#CQ input[type="datetime-local"],
+#CQ input[type="month"],
+#CQ input[type="week"],
+#CQ input[type="email"],
+#CQ input[type="number"],
+#CQ input[type="search"],
+#CQ input[type="tel"],
+#CQ input[type="time"],
+#CQ input[type="url"],
+#CQ textarea {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	background-color: transparent;
+	font-family: tahoma, arial, helvetica, sans-serif;
+	border: 1px solid #f0f0f0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #000;
+	display: inherit;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+	-moz-box-sizing: content-box !important;
+	-webkit-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+#CQ input[type="text"]:focus,
+#CQ input[type="password"]:focus,
+#CQ input[type="date"]:focus,
+#CQ input[type="datetime"]:focus,
+#CQ input[type="datetime-local"]:focus,
+#CQ input[type="month"]:focus,
+#CQ input[type="week"]:focus,
+#CQ input[type="email"]:focus,
+#CQ input[type="number"]:focus,
+#CQ input[type="search"]:focus,
+#CQ input[type="tel"]:focus,
+#CQ input[type="time"]:focus,
+#CQ input[type="url"]:focus,
+#CQ textarea:focus {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: none;
+}
+
+#CQ label {
+	font-size: 12px;
+	color: #000;
+	cursor: pointer;
+	display: block;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+#CQ form {
+  margin: 0;
+}
+
+#CQ *, #CQ *:before, #CQ *:after {
+	-moz-box-sizing: content-box;
+	-web-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+
+// GL testing
+// fixes dropdown arrow alignment, input boxes border color
+#CQ .x-form-field-wrap .x-form-trigger {
+	right: 0;
+}
+
+#CQ input[type="text"] {
+	width: 95%;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-color: #c1c1c1;
+}

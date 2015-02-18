@@ -1,0 +1,44 @@
+<div class="table table--clear-head">
+    <table class="table__table-x-y table--striped">
+        <thead>
+            <tr>
+                <td></td>
+                <th>2012</th>
+                <th>2011</th>
+                <th>2010</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="table__table-x-y__y-label"><a href="#">Total community investment</a></td>
+                <td>64.5m</td>
+                <td>63.5m</td>
+                <td>55.3m</td>
+            </tr>
+            <tr>
+                <td class="table__table-x-y__y-label">Amount raised by employees and matched to charities through Barclays fundraising and giving programmes</td>
+                <td class="cell-highlight">highlight</td>
+                <td>26.8m</td>
+                <td>19.7m</td>
+            </tr>
+            <tr>
+                <td class="table__table-x-y__y-label">Number of employees involved in Barclays volunteering, fundraising or giving programmes (% of all Barclays employees)</td>
+                <td>68,000<br />(48%)</td>
+                <td>73,000<br />(47%)</td>
+                <td>59,000<br />(39%)</td>
+            </tr>
+            <tr>
+                <td class="table__table-x-y__y-label"><strong>Hours spent (personal and work time)</strong> to support volunteering activities</td>
+                <td>489,000</td>
+                <td>418,000</td>
+                <td>359,000</td>
+            </tr>
+            <tr class="table__table-x-y__totals-row">
+                <td class="table__table-x-y__y-label">Totals highlight row</td>
+                <td>1,254</td>
+                <td>2,543</td>
+                <td>5,478</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

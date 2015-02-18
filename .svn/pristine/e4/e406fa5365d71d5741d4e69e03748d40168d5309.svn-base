@@ -1,0 +1,225 @@
+// ====================================================
+// HOVER BLOCK
+// ====================================================
+.hover-block__container {
+	@include grid-column(12);
+	margin-bottom: em-calc(40);
+	.flex-control-nav {
+		margin-top: em-calc(30);
+	}
+}
+
+.hover-block__three_up {
+	.hover-block__item {
+		@include grid-column(6);
+		position: relative;
+		overflow: hidden;
+		padding-right: 0;
+		.icon {
+			display: none;
+		}
+		.hover-block__image {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.hover-block__desc {
+			padding: em-calc(10 10 10 10);
+			background-color: $primary-color;
+			background-color: rgba(0, 126, 182, 0.9);
+			color: $white;
+			position: absolute;
+			width: 100%;
+			top: 68%;
+			@media #{$small} {
+				top: 71%;
+			}
+			a {
+				color: $white;
+			}
+			.hover-block__heading {
+				font-size: em-calc(16);
+				font-family: $header-font-family;
+				@media #{$small} {
+					font-size: em-calc(20);
+				}
+			}
+			.hover-block__paragraph {
+				font-size: em-calc(13);
+				display: none;
+			}
+		}
+	}
+	@media #{$medium} {
+		.hover-block__item {
+			@include grid-column(4);
+			position: relative;
+			overflow: hidden;
+			padding-right: 0;
+			.icon {
+				position: absolute;
+				right: em-calc(20);
+				display: inline-block;
+			}
+			.hover-block__image {
+				padding-left: 0;
+				padding-right: 0;
+			}
+			.hover-block__desc {
+				padding: em-calc(15 15 10 15);
+				background-color: rgba(0, 126, 182, 0.9);
+				color: $white;
+				position: absolute;
+				width: 100%;
+				min-height: em-calc(135);
+				top: 65%;
+				a {
+					color: $white;
+				}
+				.hover-block__heading {
+					font-size: em-calc(22);
+					font-family: $header-font-family;
+					padding-top: 0;
+				}
+				.hover-block__paragraph {
+					font-size: em-calc(13);
+					display: block;
+				}
+			}
+		}
+	}
+}
+.hover-block__four_up {
+	.hover-block__item {
+		@include grid-column(6);
+		position: relative;
+		overflow: hidden;
+		padding-right: 0;
+		.icon {
+			display: none;
+		}
+		.hover-block__image {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.hover-block__desc {
+			padding: em-calc(10 10 10 10);
+			background-color: $primary-color;
+			background-color: rgba(0, 126, 182, 0.9);
+			color: $white;
+			position: absolute;
+			width: 100%;
+			top: 68%;
+			@media #{$small} {
+				top: 71%;
+			}
+			a {
+				color: $white;
+			}
+			.hover-block__heading {
+				font-size: em-calc(16);
+				font-family: $header-font-family;
+				@media #{$small} {
+					font-size: em-calc(20);
+				}
+				@media #{$medium} {
+					font-size: em-calc(20);
+				}
+			}
+			.hover-block__paragraph {
+				font-size: em-calc(13);
+				display: none;
+			}
+		}
+	}
+	@media #{$medium} {
+		.hover-block__item {
+			@include grid-column(3);
+			position: relative;
+			overflow: hidden;
+			padding-right: 0;
+			.icon {
+				position: absolute;
+				right: em-calc(20);
+				display: inline-block;
+			}
+			.hover-block__image {
+				padding-left: 0;
+				padding-right: 0;
+			}
+			.hover-block__desc {
+				padding: em-calc(8 15 10 15);
+				background-color: rgba(0, 126, 182, 0.9);
+				color: $white;
+				position: absolute;
+				width: 100%;
+				min-height: em-calc(135);
+				top: 65%;
+				a {
+					color: $white;
+				}
+				.hover-block__heading {
+					font-family: $header-font-family;
+					padding-top: 0;
+				}
+				.hover-block__paragraph {
+					font-size: em-calc(13);
+					display: block;
+				}
+			}
+		}
+	}
+}
+// hover animations
+.csstransforms {
+	.hover-block__heading .icon {
+	    -webkit-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+	}
+	.hover-block__desc {
+	    -webkit-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+	}
+	.hover-block__item--hover {
+		.hover-block__heading .icon {
+			-webkit-transform: scale(0, 0);
+		}
+	}
+	.hover-block__three_up {
+		.hover-block__item--hover {
+			.hover-block__desc {
+				-webkit-transform: translate(0, -80px);
+			}
+		}
+	}
+	.hover-block__four_up {
+		.hover-block__item--hover {
+			.hover-block__desc {
+				-webkit-transform: translate(0, -60px);
+			}
+		}
+	}
+}
+.no-csstransforms {
+	.hover-block__item--hover {
+		.hover-block__heading .icon {
+			display: none;
+		}
+	}
+	.hover-block__desc {
+		margin-top: 5px;
+	}
+	.hover-block__three_up {
+		.hover-block__item--hover {
+			.hover-block__desc {
+				margin-top: -80px;
+			}
+		}
+	}
+	.hover-block__four_up {
+		.hover-block__item--hover {
+			.hover-block__desc {
+				margin-top: -60px;
+			}
+		}
+	}
+}

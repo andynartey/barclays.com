@@ -1,0 +1,10 @@
+<script src="/javascripts/vendor/jquery.js"></script>
+<script src="/javascripts/foundation/foundation.js"></script>
+<script src="/javascripts/foundation/foundation.dropdown.js"></script>
+<script src="/javascripts/foundation/foundation.interchange.js"></script>
+<script src="/javascripts/foundation/foundation.section.js"></script>
+<script src="/javascripts/foundation/foundation.forms.js"></script>
+<script src="/javascripts/foundation/foundation.magellan.js"></script>
+<!--<script src="javascripts/foundation/foundation.orbit.js"></script>-->
+<script src="/javascripts/vendor/jquery.flexslider-min.js"></script>
+<script src="/javascripts/main.js"></script>

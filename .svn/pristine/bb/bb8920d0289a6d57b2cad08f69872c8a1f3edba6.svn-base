@@ -1,0 +1,59 @@
+// ====================================================
+// SELECTED TWEET MODULE
+// ====================================================
+.selected-tweet {
+    background: $blue-bkgnd;
+    padding: em-calc(20 15 10 60);
+    margin-bottom: em-calc(20);
+    position: relative;
+
+    @media #{$small} {
+        @include grid-column(12, false, false, 0, false, false, false, false);
+        padding-left: em-calc(60);
+    }
+
+    @media #{$medium} {
+        @include grid-column(12, false, false, 0);
+        padding-left: em-calc(70);
+    }
+    .icon {
+        color: $primary-color;
+        position: absolute;
+        left: 13px;
+        @media #{$medium} {
+            left: 21px;
+        }
+        top: 14px;
+        &:after {
+            font-size: 23px;
+        }
+    }
+}
+
+.selected-tweet__tweet {
+    font-family: $header-font-family;
+    font-size: em-calc(16);
+    -webkit-backface-visibility: hidden;
+}
+
+.selected-tweet__author {
+    font-family: $header-font-family;
+    font-size: em-calc(14);
+    margin-bottom: em-calc(5);
+    -webkit-backface-visibility: hidden;
+
+    @media #{$small} {
+        font-size: em-calc(12);
+        color: $blue-darker;
+    }
+}
+
+@media #{$small} {
+    .accordion .selected-tweet__author {
+        font-size: 0.9em;
+    }
+}
+
+.selected-tweet__date {
+    color: #b2b2b2;
+}

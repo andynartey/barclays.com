@@ -1,0 +1,48 @@
+<div class="responsiveTab resTab1">
+    <div class="tabs__controls tabs__secondary">
+        <div class="tabs__mobile">
+            <a href="" class="tabs__mobile__trigger" data-tabs-mobile-trigger>
+                <!-- Make a selection -->
+            </a>
+
+            <ul class="tabs__mobile__dropdown" data-tabs-mobile-dropdown>
+                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                    <a href="">Tab 1</a>
+                </li>
+                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                    <a href="">Tab 2</a>
+                </li>
+                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                    <a href="">Tab 3</a>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="tabs__desktop">
+            <li class="tabs__desktop__item active" data-tabs-desktop-item>
+                <a href="">Tab 1</a>
+            </li>
+            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                <a href="">Tab 2</a>
+            </li>
+            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                <a href="">Tab 3</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="tabs__contentHolder">
+        <div class="tabs__content" data-tabs-content>
+            <h1>Tab 1 content title</h1>
+        </div>
+
+        <div class="tabs__content" data-tabs-content>
+            <h1>Tab 2 content title</h1>
+        </div>
+
+        <div class="tabs__content" data-tabs-content>
+            <h1>Tab 3 content title</h1>
+        </div>
+    </div>
+</div>

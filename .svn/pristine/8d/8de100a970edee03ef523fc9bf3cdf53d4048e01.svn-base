@@ -1,0 +1,124 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+	<div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+		        <h1>Share price feed</h1>
+                <div class="grid-container grid-container-3-3">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/containers/share-price-feed.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <div class="share-price-feed">
+                                <h3>NYSE (US)</h3>
+
+                                <p class="share-price-feed__price">
+                                    <span class="value">$38.95</span>
+                                    <span class="change down">-0.25</span>
+                                </p>
+
+                                <p class="share-price-feed__date">at 14:21 BST on 22/01/2015</p>
+                                <p class="share-price-feed__info">Prices can be delayed by 20 mins</p>
+
+                                <ul class="links-list">
+                                    <li class="link-list-arrow">
+                                        <a href="">Share price charts and tools</a>
+                                    </li>
+                                    <li class="link-list-arrow">
+                                        <a href="">Share price charts and tools</a>
+                                    </li>
+                                    <li class="link-list-arrow">
+                                        <a href="">Share price charts and tools</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/containers/share-price-feed-tabs.html"-->
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid-container grid-container-3-3">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/containers/share-price-feed.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <div class="share-price-feed">
+                                <h3>NYSE (US)</h3>
+
+                                <p class="share-price-feed__price">
+                                    <span class="value">$38.95</span>
+                                    <span class="change up">-0.25</span>
+                                </p>
+
+                                <p class="share-price-feed__date">at 14:21 BST on 22/01/2015</p>
+                                <p class="share-price-feed__info">Prices can be delayed by 20 mins</p>
+
+                                <ul class="links-list">
+                                    <li class="link-list-arrow">
+                                        <a href="">Share price charts and tools</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="grid-container-item">
+                            <div class="share-price-feed">
+                                <div class="tabs-basic tab2">
+
+                                    <ul class="tabs-basic__menu">
+                                        <li><a href="">Q3 Dividend</a></li>
+                                        <!--<li><a href="">Q3 ADR</a></li>-->
+                                    </ul>
+
+                                    <div class="tabs-basic__item">
+                                        <p class="share-price-feed__price">
+                                            <span class="value">1.00p</span>
+                                        </p>
+
+                                        <p class="share-price-feed__date">12 September 2014</p>
+                                        <p class="share-price-feed__info">Prices can be delayed by 20 mins</p>
+
+                                        <ul class="links-list">
+                                            <li class="link-list-arrow">
+                                                <a href="">Dividend details and tools</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--
+                                    <div class="tabs-basic__item">
+                                        <p class="share-price-feed__price">
+                                            <span class="value">5.00p</span>
+                                        </p>
+
+                                        <p class="share-price-feed__date">15 September 2014</p>
+
+                                        <ul class="links-list">
+                                            <li class="link-list-arrow">
+                                                <a href="">Dividend details and tools</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                -->
+
+                                </div>
+
+
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+	<div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+		        <h1>iframe</h1>
+		    	<!--#include virtual="../../includes/containers/iframe.html"-->
+
+                <h1>iframe testing</h1>
+
+                <p>Test 1</p>
+                <iframe frameborder="0" height="400" width="1600" src="http://qfx.quartalflife.com/Clients/%28S%28bcwgo1r4e1jefu55d2fvyejq%29%29/ch/swisscom3/SM6m/Default.aspx?culture=en-US"></iframe>
+
+                <hr />
+
+                <p>Test 2</p>
+                <iframe frameborder="0" height="1100" width="1600" src="http://qfx.quartalflife.com/Clients/%28S%28dr50nq55l2rrol55yh5o3e55%29%29/uk/responsive/SM6.3/Default.aspx?culture=en-GB"></iframe>
+
+                <hr />
+
+                <p>Test 3</p>
+                <iframe frameborder="0" height="800" width="1600" src="http://otp.investis.com/clients/uk/responsive/rns/regulatory-news.aspx?culture=en-GB&cid=504&confid=385"></iframe>
+
+                <hr />
+                <p>Test 4</p>
+                <iframe frameborder="0" height="1200" width="1600" src="http://otp.investis.com/clients/uk/responsive/cas/default.aspx?culture=en-GB&cid=504"></iframe>
+
+                <hr />
+                
+                <p>Iframes for small containers only
+                <div class="column-control-container__50">
+
+                    <div class="column-control__6">
+                        <p>Test 5</p>
+                        <iframe frameborder="0" height="280" width="320" src="http://dev.ir2.flife.de/data/responsive/hpl_e.php"></iframe>
+                    </div>
+
+                    <div class="column-control__6">
+                        <p>Test 6</p>
+                        <iframe frameborder="0" height="300" width="280" src="http://otp.investis.com/clients/uk/responsive/spc/default.aspx?culture=en-GB&cid=266&confid=142"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

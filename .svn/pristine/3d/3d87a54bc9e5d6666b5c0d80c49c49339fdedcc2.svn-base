@@ -1,0 +1,11 @@
+<!-- Blockquote begins -->
+<div class="news-feature__blockquote--no-indent">
+    <blockquote class="news-feature__quote">
+        The scale of the turnout for this years walk was truly amazing. To see so many staff and customers getting behind such a worthy cause underlines our shared.
+    </blockquote>
+
+    <cite class="news-feature__cite">
+        <strong>Ashok Vaswani</strong>, COO Barclays UK
+    </cite>
+</div>
+<!-- Blockquote ends -->

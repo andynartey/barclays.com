@@ -1,0 +1,61 @@
+.number_list {
+    @extend .bullet_list;
+
+    ol {
+        list-style-type: none;
+        margin-left: em-calc(0);
+    }
+
+    span {
+        display: block;
+        float: left;
+        //width: 40px;
+        width: 10%;
+        height: em-calc(20);
+        padding-top: 5px;
+        font-size: em-calc(38);
+
+        @media #{$small} {
+            width: 6%;
+        }
+    }
+
+    li p {
+        @include grid-column(10);
+        font-size: em-calc(16);
+        display: block;
+        float: left;
+        padding-left: 0;
+        padding-right: 0;
+
+        @media #{$small} {
+            @include grid-column(11);
+            padding-right: 0;
+        }
+
+        @media #{$medium} {
+            @include grid-column(11);
+        }
+    }
+    li {
+        @include clearfix;
+    }
+}
+
+.number_list--indented {
+    @extend .number_list;
+
+    @media #{$small} {
+        @include grid-column(12, false, false, -1);
+        padding-left: 0;
+    }
+
+    @media #{$medium} {
+        @include grid-column(13, false, false, -1.75);
+        padding: 0;
+    }
+}
+
+.number_list__heading {
+    @extend .bullet_list__heading;
+}

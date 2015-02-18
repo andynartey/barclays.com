@@ -1,0 +1,20 @@
+{
+    "title": "Amount of burgers consumed per restaurant",
+    "yAxis": "Burgers consumed per developer",
+    "categories": [ "Byron", "GBK", "Canteen" ],
+    "developer": [
+        {
+            "name": "Imran",
+            "data": [3, 2, 1]
+        },
+        {
+            "name": "Andrew",
+            "data": [4,1,1]
+        },
+        {
+            "name": "Graham",
+            "data": [2, 3, 3]
+        }
+    ]
+}
+

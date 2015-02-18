@@ -1,0 +1,33 @@
+// ====================================================
+// SELECTED TWEET MODULE
+// ====================================================
+.selected-tweet {
+    background: $blue-bkgnd url(../images/icon-twitter2.png) no-repeat em-calc(10 20);
+    padding: em-calc(20 15 10 50);
+    margin-bottom: em-calc(20);
+
+    @media #{$small} {
+        @include grid-column(12, false, false, -1, false, false, false, false);
+        padding-left: em-calc(50);
+    }
+
+    @media #{$medium} {
+        @include grid-column(12, false, false, 0);
+        padding-left: em-calc(50);
+    }
+}
+
+.selected-tweet__tweet {
+    font-family: $header-font-family;
+    font-size: em-calc(16);
+}
+
+.selected-tweet__author {
+    font-family: $header-font-family;
+    font-size: em-calc(14);
+
+    @media #{$small} {
+        font-size: em-calc(12);
+        color: $blue-darker;
+    }
+}

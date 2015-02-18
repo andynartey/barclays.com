@@ -1,0 +1,47 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+		        <h1>Grid container content examples</h1>
+
+                <h1>Adaptive image</h1>
+                <div class="grid-container grid-container-4">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <textarea>resize me!</textarea>
+                        </li>
+                        <li class="grid-container-item">
+                            <p>Lorem ipsum dolor sit amet etc</p>
+                        </li>
+                        <li class="grid-container-item">
+                            <textarea>Lorem ipsum dolor sit amet etc some text in a box. Lorem ipsum dolor sit amet</textarea>
+                        </li>
+                        <li class="grid-container-item">
+                            <p>Lorem ipsum dolor sit amet etc</p>
+                        </li>
+                        <li class="grid-container-item">
+                            <p>Lorem ipsum dolor sit amet etc</p>
+                        </li>
+                        <li class="grid-container-item">
+                            <p>Lorem ipsum dolor sit amet etc</p>
+                        </li>
+                        <li class="grid-container-item">
+                            <p>Lorem ipsum dolor sit amet etc</p>
+                        </li>
+                        <li class="grid-container-item">
+                            <p>Lorem ipsum dolor sit amet etc</p>
+                        </li>
+                    </ul>
+                </div>
+
+	        </div>
+        </div>
+    </div> <!-- END .siteContainer -->
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

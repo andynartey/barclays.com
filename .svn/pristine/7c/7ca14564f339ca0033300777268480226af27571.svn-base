@@ -1,0 +1,6 @@
+<script src="/javascripts/vendor/jquery-1.10.2.min.js"></script>
+<script src="/javascripts/plugins.js"></script>
+<script src="/highcharts/highcharts.js"></script>
+<script src="/javascripts/main.js"></script>
+<!-- <script src="/javascripts/iframe.js"></script> -->
+<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52dd53871ddd5d1f"></script> -->

@@ -1,0 +1,160 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+
+	<div class="row">
+
+        <div class="small-12 medium-12 large-12 columns">
+            <br />
+            <img src="/images/logo.png" alt="Barclays">
+
+            <hr />
+        </div>
+
+		<div class="medium-4 large-4 columns">
+
+            <h2>Pages</h2>
+            <ul class="square">
+                <li><a href="/news-landing.html">News Landing</a></li>
+                <li><a href="/news-article.html">News Article</a></li>
+                <li><a href="/news-feature.html">News Feature Article</a></li>
+
+                <li><a href="/products-and-services.html">Products and services</a></li>
+                <li><a href="/products-and-services-individuals.html">Products and services level 2</a></li>
+                <li><a href="/citizenship.html">Citizenship</a></li>
+                <li><a href="/sponsorship.html">Sponsorship</a></li>
+            </ul>
+
+
+            <h2>Site chrome</h2>
+
+            <ul class="square">
+                <li><a href="/modules/site-chrome/header.html">Header</a></li>
+                <li><a href="/modules/site-chrome/footer.html">Footer</a></li>
+            </ul>
+
+
+            <h2>Containers</h2>
+            <ul class="square">
+                <li><a href="/modules/containers/storyteller.html">Story Teller</a></li>
+                <li>Tabs</li>
+                <li><a href="/modules/containers/alert-box.html">Alert box</a></li>
+                <li><a href="/modules/containers/carousel.html">Carousels</a></li>
+                <li><a href="/modules/containers/cookie-message.html">Cookie Message</a></li>
+                <li><a href="/modules/containers/hero-module.html">Hero Module</a></li>
+                <li><a href="/modules/containers/image-gallery.html">Image Gallery</a></li>
+                <li>Video</li>
+                <li>Video Gallery</li>
+                <li>Video Transcript</li>
+                <li>Audio</li>
+                <li>Audio Transcript</li>
+                <li>Map</li>
+                <li>Tables</li>
+                <li>Profile</li>
+                <li>Social feed</li>
+                <li><a href="/modules/containers/key-stats.html">Key stats</a></li>
+                <li><a href="/modules/containers/stats-block.html">Stats Block</a></li>
+                <li>Dynamic Charts</li>
+                <li>Interactive quiz</li>
+            </ul>
+
+        </div>
+
+        <div class="medium-4 large-4 columns">
+            <h2>Products and Services</h2>
+            <ul>
+                <li><a href="/modules/containers/product-category.html">Product category box</a></li>
+                <li><a href="/modules/containers/key-links.html">Key links module</a></li>
+                <li><a href="/modules/containers/our-products.html">Our products module</a></li>
+                <li><a href="/modules/containers/highlighted-story.html">Highlighted story module</a></li>
+                <li>Products in other countries</li>
+            </ul>
+
+
+            <h2>Story chrome</h2>
+            <ul class="square">
+                <li>Jump-To</li>
+                <li>Author/Editor details</li>
+                <li><a href="/modules/story-chrome/share-tools.html">Share Tools</a></li>
+                <li>Share Selector</li>
+                <li>Email Form</li>
+                <li><a href="/modules/story-chrome/tags.html">Tags</a></li>
+                <li>Related Links</li>
+                <li>Related Contacts</li>
+                <li>Related Documents</li>
+                <li>Label</li>
+                <li><a href="/modules/story-chrome/prev-next-stories.html">Previous/Next Stories</a></li>
+                <li><a href="/modules/story-chrome/related-content.html">Related Stories</a></li>
+                <li><a href="/modules/story-chrome/latest-news.html">Latest News</a></li>
+                <li><a href="/modules/story-chrome/cross-promo.html">Cross Promotion (Related Promotion)</a></li>
+                <!-- LINK TO OLD CROSS PROMO -->
+                <!-- <li><a href="/modules/story-chrome/cross-promotion.html">Cross Promotion (Related Promotion)</a></li> -->
+                <!-- LINK TO OLD CROSS PROMO ENDS-->
+                <li>Text Panel</li>
+                <li>Pull Quote</li>
+                <li>Story Highlights</li>
+                <li>Footnotes</li>
+                <li>Accordion</li>
+                <li><a href="/modules/story-chrome/link-blocks.html">Link Blocks</a></li>
+                <li>Contact Panel</li>
+                <li>Primary Contacts Module</li>
+                <li>Secondary Contacts Module</li>
+                <li>External Links Module</li>
+                <li><a href="/modules/story-chrome/event-summary.html">Event Summary</a></li>
+                <li><a href="/modules/story-chrome/promo-list.html">Promo List</a></li>
+                <li><a href="/modules/story-chrome/download-strip.html">Download strip</a></li>
+            </ul>
+
+        </div>
+
+        <div class="medium-4 large-4 columns">
+
+            <h2>Lists</h2>
+
+            <ul class="square">
+                <li>Milestones</li>
+                <li>Load More Button</li>
+                <li><a href="/modules/story-chrome/bullet-list.html">Bullet list</a></li>
+                <li><a href="/modules/story-chrome/number-list.html">Number list</a></li>
+            </ul>
+
+            <h2>Localised Areas</h2>
+            <ul>
+                <li>Contact &amp; P&amp;S Location selector</li>
+                <li>OLB</li>
+            </ul>
+
+            <h2>Templates</h2>
+
+            <ul class="square">
+                <li><a href="/templates/hub.html">Hub</a></li>
+                <li><a href="/templates/utility.html">Utility</a></li>
+                <li><a href="/templates/editorial.html">Editorial</a></li>
+                <li><a href="/templates/news-article.html">News article</a></li>
+                <li><a href="/templates/feature.html">Feature</a></li>
+                <li><a href="/templates/magazine.html">Magazine</a></li>
+            </ul>
+
+            <ul class="square">
+                <li><a href="/templates/column-controls.html">Column controls</a></li>
+            </ul>
+
+            <h2>Style guide</h2>
+            <ul class="square">
+                <li>Typography</li>
+                <li>Forms</li>
+                <li>Aperture</li>
+                <li><a href="/style-guide/buttons.html">Buttons &amp; icons</a></li>
+            </ul>
+
+            <h2>HTML drops</h2>
+            <ul class="square">
+                <li><a href="/code-drops/dotcom-291113.zip">Site code - Drop 1 - 29/11/13</a></li>
+                <li><a href="/code-drops/dotcom-091213.zip">Site code - Drop 2 - 09/12/13</a></li>
+                <li><a href="/code-drops/dotcom-111213.zip">Site code - Drop 2.1 - 11/12/13</a></li>
+            </ul>
+        </div>
+
+	</div>
+
+</body>
+</html>

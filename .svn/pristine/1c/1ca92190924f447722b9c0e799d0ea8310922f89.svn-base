@@ -1,0 +1,46 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+
+    <!--#include file="includes/site-chrome/mobile-nav.html"-->
+    <!--#include file="includes/country-selector.html"-->
+
+    <div class="site-container">
+
+        <!--#include file="includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include file="includes/site-chrome/logo-banner.html"-->
+
+        <!--#include file="includes/site-chrome/main-navigation.html"-->
+
+        <div class="product-services__banner">
+            <div class="product-services__imageBackground">
+                <img data-interchange="
+                    [images/products-services//wide-img.jpg, (large)]" alt="" class="hide-for-medium-down">
+            </div>
+            <div class="product-services__bannerContent">
+                <!--#set var="apertureSubtitle" value="Products and services" -->
+                <!--#set var="apertureTitle" value="For individuals" -->
+                <!--#set var="apertureText" value="We offer world-class everyday banking services in 20 countries around the world" -->
+                <!--#set var="aperturehasCountrySelect" value="true" -->
+                <!--#include file="includes/aperture.html"-->
+            </div>
+        </div>
+
+        <div class="content row">
+
+            <section class="main-content small-12 columns">
+
+                <!--#include file="includes/products-and-services.html"-->
+
+            </section>
+
+        </div>
+
+        <!--#include file="includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include file="includes/javascripts.html"-->
+
+</body>
+</html>

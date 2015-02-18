@@ -1,0 +1,18 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+                <h1>Tabs</h1>
+                <!--#include virtual="/includes/contact-us/tabbed-content-example.html"-->
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

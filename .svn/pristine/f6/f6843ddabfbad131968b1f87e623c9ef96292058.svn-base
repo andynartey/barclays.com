@@ -1,0 +1,41 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+	<div class="site-container">
+
+        <div class="content row">
+
+            <div class="small-12 medium-8 large-8 medium-centered large-centered column">
+
+                <div class="row">
+
+                    <h1>Outdent box - full width</h1>
+
+                    <!-- Outdent Box Full Width - start -->
+                    <div class="article-item--left--full-width">
+                        <!--#include virtual="../../includes/containers/key-stats.html"-->
+                    </div>
+                    <!-- Outdent Box Full Width - end -->
+
+
+                    <h1>Outdent box</h1>
+
+                    <!-- Outdent Box Full Width - start -->
+                    <div class="article-item--left">
+                        <!--#include virtual="../../includes/containers/key-stats.html"-->
+                    </div>
+                    <!-- Outdent Box Full Width - end -->
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

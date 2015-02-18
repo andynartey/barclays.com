@@ -1,0 +1,6 @@
+<!--#set var="title" value="Barclays" -->
+<!--#include virtual="example-include.html" -->
+
+{page content}
+
+<!--#include virtual="example-include-bot.html" -->

@@ -1,0 +1,21 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+                <h1>Hover blocks - 3 UP</h1>
+                <!--#include virtual="../../includes/containers/hover-blocks-3.html"-->
+
+                <h1>Hover blocks - 4 UP</h1>
+                <!--#include virtual="../../includes/containers/hover-blocks-4.html"-->
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

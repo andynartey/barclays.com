@@ -1,0 +1,181 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__hub">
+
+        <!--#include virtual="../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../includes/site-chrome/main-navigation.html"-->
+
+
+        <div class="row row__full-bleed">
+
+            <!-- hub hero: modules start here -->
+            <div class="dummy-module dummy-module__example">
+                <div class="dummy-module__content">
+                    <p><strong>Hub hero.</strong></p>
+                    <img src="http://placehold.it/1170x350" data-interchange="
+                        [http://placehold.it/480x144, (default)],
+                        [http://placehold.it/768x230, (medium)],
+                        [http://placehold.it/1170x350, (large)]" alt="" />
+                </div>
+            </div>
+            <!-- modules end here -->
+
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+                
+                <!-- parsys 1: modules start here -->
+                <p>
+                    <strong>Parsys 1.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row row__full-bleed">
+
+            <!-- parsys 2: modules start here -->
+            <div class="dummy-module dummy-module__example">
+                <div class="dummy-module__content">
+                    <p>
+                        <strong>Parsys 2.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                    </p>
+                </div>
+            </div>
+            <!-- modules end here -->
+
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- parsys 3: modules start here -->
+                <p><strong>Parsys 3.</strong></p>
+                <img src="http://placehold.it/1170x350" data-interchange="
+                    [http://placehold.it/480x144, (default)],
+                    [http://placehold.it/768x230, (medium)],
+                    [http://placehold.it/1170x350, (large)]" alt="" />
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row row__full-bleed">
+
+            <!-- parsys 4: modules start here -->
+            <div class="dummy-module dummy-module__example">
+                <div class="dummy-module__content">
+                    <p>
+                        <strong>Parsys 4.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                    </p>
+                </div>
+            </div>
+            <!-- modules end here -->
+
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- parsys 5: modules start here -->
+                <p>
+                    <strong>Parsys 5.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row row__full-bleed">
+
+            <!-- parsys 6: modules start here -->
+            <div class="dummy-module dummy-module__example">
+                <div class="dummy-module__content">
+                    <p>
+                        <strong>Parsys 6.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                    </p>
+                </div>
+            </div>
+            <!-- modules end here -->
+
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- parsys 7: modules start here -->
+                <p>
+                    <strong>Parsys 7.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row row__full-bleed">
+
+            <!-- parsys 8: modules start here -->
+            <div class="dummy-module dummy-module__example">
+                <div class="dummy-module__content">
+                    <p>
+                        <strong>Parsys 8.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                    </p>
+                </div>
+            </div>
+            <!-- modules end here -->
+
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- parsys 9: modules start here -->
+                <p>
+                    <strong>Parsys 9.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row row__full-bleed">
+
+
+            <!-- parsys 10: modules start here -->
+            <div class="dummy-module dummy-module__example">
+                <div class="dummy-module__content">
+                    <p>
+                        <strong>Parsys 10.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                    </p>
+                </div>
+            </div>
+            <!-- modules end here -->
+
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- parsys 11: modules start here -->
+                <p>
+                    <strong>Parsys 11.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <!--#include virtual="../includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .site-container -->
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

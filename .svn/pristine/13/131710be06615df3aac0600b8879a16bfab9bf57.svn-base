@@ -1,0 +1,86 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__magazine">
+
+        <!--#include virtual="../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../includes/site-chrome/main-navigation.html"-->
+
+        <div class="row">
+            <div class="col__magazine-header">
+                <a href="#" class="link__page-parent"><i class="icon icon__chevron icon__chevron-left"></i>Link to parent page</a>
+
+                <h1>Magazine template</h1>
+
+            </div>
+        </div>
+
+        <div class="row" data-sticky="start">
+
+            <div class="col__social">
+
+                <p>Social icons</p>
+
+            </div>
+            <div class="col__magazine-top-content">
+                
+                <p>
+                    <strong>Parsys.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col__magazine-content">
+
+                <p>
+                    <strong>Parsys.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <img src="http://placehold.it/1170x350" data-interchange="
+                    [http://placehold.it/480x144, (default)],
+                    [http://placehold.it/768x230, (medium)],
+                    [http://placehold.it/1170x350, (large)]" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+
+            </div>
+
+            <div class="col__magazine-sidebar">
+
+                <p>
+                    <strong>Parsys.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <img src="http://placehold.it/768x230" data-interchange="
+                    [http://placehold.it/480x144, (default)],
+                    [http://placehold.it/768x230, (medium)]" alt="" />
+                <p>
+                    Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <p>
+                    <strong>Full width.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+
+            </div>
+        </div>
+
+        <!--#include virtual="../includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .site-container -->
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

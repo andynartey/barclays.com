@@ -1,0 +1,14 @@
+<!-- LEVEL 3 HEADING BEGINS -->
+<div class="level-3-heading">
+        <h2>
+        	<a href="#" title="" class="level-3-sub-heading">
+                <i class="icon icon__chevron-left"></i> For Individuals
+            </a>
+        </h2>
+        <h1>Personal banking</h1>
+
+        <p>We offer world-class everyday banking services in 20 countries around the world</p>
+
+        <!--#include virtual="/includes/country-select.html"-->
+</div>
+<!-- LEVEL 3 HEADING ENDS -->

@@ -1,0 +1,29 @@
+<div class="content-switcher">
+  <form action="" class="custom">
+      <!-- KeyLinksCombo function -->
+      <select id="contentSwitcher-2" class="button-container custom-forms medium">
+          <option>Filter by country</option>
+          <option value="Africa">Africa &amp; Middle East (11)</option>
+          <option value="Americas">Americas (7)</option>
+          <option value="Asia">Asia Pacific (9)</option>
+          <option value="Europe">Europe (23)</option>
+      </select>
+  </form>
+
+  <div id="Africa" class="js-contentSwitcher">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+  </div>
+  <div id="Americas" class="js-contentSwitcher">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+
+    <a href="#" class="btn btn__secondary">Online banking <i class="icon icon__external-link"></i></a>
+  </div>
+  <div id="Asia" class="js-contentSwitcher">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+  </div>
+  <div id="Europe" class="js-contentSwitcher">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+
+    <a href="#" class="btn btn__secondary">Online banking <i class="icon icon__external-link"></i></a>
+  </div>
+</div>

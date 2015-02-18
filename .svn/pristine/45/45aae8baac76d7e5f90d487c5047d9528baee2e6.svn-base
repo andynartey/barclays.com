@@ -1,0 +1,21 @@
+<!-- HERO SUB-HUB BEGINS -->
+<div class="row">
+    <div class="hero__subHub">
+        <div class="medium-6 columns">
+            <div class="aperture__content">
+                <img data-interchange="[/images/products-services/370x139.jpg, (default)], 
+                                    [/images/products-services/570x321.jpg, (medium)]" src="" alt="" >
+            </div>
+        </div>
+        <div class="medium-6 columns">
+                <a href="" class="aperture__subtitle">
+                    Products and services
+                </a>
+                <h2 class="aperture__title">For individuals</h2>
+                <p class="aperture__lead">We offer world-class everyday banking services in 20 countries around the world
+                </p>
+                <a href="/products-and-services-individuals-country-selection.html" class="btn btn__secondary">United Kingdom <i class="icon icon__location"></i></a>
+        </div>
+    </div>
+</div>
+<!-- HERO SUB-HUB ENDS -->

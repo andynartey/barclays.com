@@ -1,0 +1,110 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body> 
+
+    <div class="content row">
+        <br>
+        <div class="small-12 columns">
+            <h1>Tables</h1>
+
+            <h2>Basic Table</h2>
+
+            <!--#include virtual="/includes/ir/table-y.html"-->
+
+
+            <br />
+            <br />
+            <br />
+
+            <h2>Data Table 1</h2>
+            <!--#include virtual="/includes/ir/table-xy.html"-->
+
+            <br />
+            <br />
+
+            <br />
+            <br />
+            <br />
+
+            <h2>Data Table 2 - horizontal line</h2>
+            <!--#include virtual="/includes/ir/table-xy-horizontal-line.html"-->
+
+            <br />
+
+            <br />
+            <br />
+            <br />
+
+            <h2>Data Table 3 - vertical shading</h2>
+            <!--#include virtual="/includes/ir/table-xy-vertical-shading.html"-->
+            <br />
+
+            <br />
+            <br />
+            <br />
+            <h2>Data Table 4 - horizontal shading</h2>
+            <!--#include virtual="/includes/ir/table-xy-horizontal-shading.html"-->
+
+            <br />
+            <br />
+            <br />
+
+            <h2>Data Table 5 horizontal shading 2</h2>
+            <!--#include virtual="/includes/ir/table-xy-horizontal-shading-2.html"-->
+
+            <br />
+            <br />
+            <br />
+
+            <br />
+            <br />
+            <br />
+
+            <h2>Text Table 1</h2>
+            <!--#include virtual="/includes/ir/table-text-xy.html"-->
+
+            <br />
+            <h2>Text Table 2 horizontal line</h2>
+            <!--#include virtual="/includes/ir/table-text-xy-horizontal-line.html"-->
+
+            <br />
+            <br />
+            <h2>Text Table 3 vertical shading</h2>
+            <!--#include virtual="/includes/ir/table-text-xy-vertical-shading.html"-->
+            <br />
+
+            <br />
+
+
+            <br />
+            <br />
+
+            <h2>Text Table 4 horizontal shading</h2>
+            <!--#include virtual="/includes/ir/table-text-xy-horizontal-shading.html"-->
+
+            <br />
+
+
+            <br />
+            <br />
+
+            <br />
+            <br />
+
+            <br />
+
+
+            <br />
+            <br />
+
+            <br />
+
+
+        </div>
+
+    </div>
+
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

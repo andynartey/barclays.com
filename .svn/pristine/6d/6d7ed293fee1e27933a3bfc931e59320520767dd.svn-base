@@ -1,0 +1,192 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container">
+
+        <!--#include virtual="../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../includes/site-chrome/main-navigation.html"-->
+
+        <div class="row">
+            <div class="col__full-width">
+                <div class="text-image">
+                    <p>Hello, I'm some text outside the column control module.</p>
+                </div>
+                <!-- 2 columns (50% each) - START -->
+                <div class="column-control-container__50">
+
+                    <div class="column-control__6">
+                        <h2>2 columns (50% each)</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                        </p>
+                    </div>
+
+                    <div class="column-control__6">
+                        <h2>2 columns (50% each)</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                        </p>
+                    </div>
+                </div>
+                <!-- 2 columns (50% each) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (50% each - collapses in tablet/mobile) - START -->
+                <div class="column-control-container__50--collapse">
+
+                    <div class="column-control__6">
+                        <!--#include virtual="/includes/link-module.html"-->
+                    </div>
+
+                    <div class="column-control__6">
+                        <!--#include virtual="/includes/lists/link-list.html"-->
+                        <!--#include virtual="/includes/story-chrome/list-item.html"-->
+                    </div>
+                </div>
+                <!-- 2 columns (50% each - collapses in tablet/mobile) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (50% each - collapses in mobile only) - START -->
+                <div class="column-control-container__50--collapse-mobile">
+
+                    <div class="column-control__6">
+                        <!--#include virtual="/includes/blockquote.html"-->
+                    </div>
+
+                    <div class="column-control__6">
+                        <!--#include virtual="/includes/containers/carousel.html"-->
+                    </div>
+                </div>
+                <!-- 2 columns (50% each - collapses in mobile only) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 3 columns (33.3% each) - START -->
+                <div class="column-control-container__33">
+                    <div class="column-control__4">
+                        <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                        <!--#include virtual="/includes/spacer.html"-->
+                    </div>
+
+                    <div class="column-control__4">
+                        <!--#include virtual="/includes/cross-promo-image-top.html"-->
+                    </div>
+
+                    <div class="column-control__4">
+                        <!--#include virtual="/includes/text-image.html"-->
+                    </div>
+                </div>
+                <!-- 3 columns (33.3% each) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 4 columns (25% each) - START -->
+                <div class="column-control-container__25">
+                    <div class="column-control__3">
+                        <!--#include virtual="/includes/selected-tweet.html"-->
+                    </div>
+
+                    <div class="column-control__3">
+                        <!--#include virtual="/includes/story-chrome/document-download.html"-->
+                    </div>
+
+                    <div class="column-control__3">
+                        <!--#include virtual="/includes/story-chrome/bullet-list.html"-->
+                    </div>
+
+                    <div class="column-control__3">
+                        <!--#include virtual="/includes/story-chrome/bullet-list-no-heading.html"-->
+                    </div>
+                </div>
+                <!-- 4 columns (25% each) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (25/75) - START -->
+                <div class="column-control-container__25-75">
+                    <div class="column-control__75">
+                        <!--#include virtual="/includes/contact-us/tabbed-content-example.html"-->
+                        <!--#include virtual="/includes/story-chrome/link-blocks-3-up-small-image.html"-->
+                    </div>
+                    <div class="column-control__25">
+
+                    </div>
+                </div>
+                <!-- 2 columns (25/75) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (25/75) - START -->
+                <div class="column-control-container__25-75">
+                    <div class="column-control__75">
+                        <!--#include virtual="/includes/ir/table-y.html"-->
+                    </div>
+                    <div class="column-control__25">
+                    </div>
+                </div>
+                <!-- 2 columns (25/75) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (75/25) - START -->
+                <div class="column-control-container__75-25">
+                    <div class="column-control__75">
+                        <!--#include virtual="/includes/containers/carousel.html"-->
+                    </div>
+                    <div class="column-control__25">
+                        <!--#include virtual="/includes/text-image.html"-->
+                    </div>
+                </div>
+                <!-- 2 columns (75/25) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (75/25) - START -->
+                <div class="column-control-container__75-25">
+                    <div class="column-control__75">
+                        <!--#include virtual="/includes/containers/dropdown-container.html"-->
+                    </div>
+                    <div class="column-control__25">
+
+                    </div>
+                </div>
+                <!-- 2 columns (75/25) - END -->
+
+            </div>
+        </div>
+
+    </div> <!-- END .site-container -->
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

@@ -1,0 +1,37 @@
+<div class="share-price-feed">
+
+    <div class="tabs-basic tab1">
+
+        <ul class="tabs-basic__menu">
+            <li><a href="">Q3 Dividend</a></li>
+            <li><a href="">Q3 ADR</a></li>
+        </ul>
+
+        <div class="tabs-basic__item">
+            <p class="share-price-feed__price">
+                <span class="value">1.00p</span>
+            </p>
+
+            <p class="share-price-feed__date">12 September 2014</p>
+            <p class="share-price-feed__info">Prices can be delayed by 20 mins</p>
+
+            <div class="share-price-feed__links">
+                <a href="#" class="link--internal">Dividend details and tools</a>
+            </div>
+        </div>
+
+        <div class="tabs-basic__item">
+            <p class="share-price-feed__price">
+                <span class="value">5.00</span>
+            </p>
+
+            <p class="share-price-feed__date">15 September 2014</p>
+
+            <div class="share-price-feed__links">
+                <a href="#" class="link--internal">Dividend details and tools 2</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,7 @@
+<div class="country-selector">
+    <!-- <a class="country-selector__call-to-action" href="/stub/country-selector.html">United Kingdom</a> -->
+    <a class="country-selector__call-to-action js-country-toggle" href="#">United Kingdom</a>
+    <div class="country-selector__overlay">
+        <!-- stub content loaded into here from ./stub/country-selector.html -->
+    </div>
+</div>

@@ -1,0 +1,414 @@
+// ====================================================
+// IMAGE GALLERY MODULE
+// ====================================================
+
+.image-gallery {
+    padding: em-calc(30 0 0);
+}
+@media #{$small} {
+    .image-gallery {
+        padding-bottom: em-calc(30);
+    }
+}
+    .image-gallery__image {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+
+// IMAGE GALLERY -- HEADING
+// ====================================================
+.image-gallery__heading {
+
+    h2, h3 {
+        font-family: $header-font-family-regular;
+        color: $blue-darker;
+    }
+    h2 {
+        font-size: em-calc(20);
+        line-height: 1.2;
+        margin-bottom: em-calc(15);
+    }
+
+
+    @media #{$small} {
+        h2 {
+            font-size: em-calc(24);
+            line-height: 1.25;
+        }
+    }
+
+    @media #{$medium} {
+        h2 {
+            font-size: em-calc(28);
+            line-height: 1.29;
+            // font-family: $header-font-family;
+        }
+        h3 {
+            text-transform: uppercase;
+            font-size: em-calc(18);
+        }
+
+    }
+}
+
+// IMAGE GALLERY -- BODY
+// ====================================================
+.image-gallery__body {
+    position: relative;
+}
+
+// IMAGE GALLERY -- CAPTION
+// ====================================================
+.image-gallery__caption {
+    background: $white;
+    padding: em-calc(10 30 10 10);
+    margin-bottom: em-calc(20);
+    position: relative;
+    p, a {
+        -webkit-transition: opacity 0.1s;
+        transition: opacity 0.1s;
+        opacity: 1;
+    }
+    p {
+        color: $blue-darker;
+        font-size: em-calc(16);
+        margin-bottom: 0;
+    }
+}
+.image-gallery__animating {
+    .image-gallery__caption {
+        p, a {
+            opacity: 0;
+        }
+    }
+}
+.image-gallery__count {
+    font-weight: bold;
+}
+
+// IMAGE GALLERY -- FULLSCREEN LINK
+// ====================================================
+.image-gallery__fullscreen-link {
+    display: block;
+    // hide the icon until we're ready
+    visibility: hidden;
+    display: none;
+    // text-indent: -9999px;
+    // background: url(../images/icon-fullscreen.png) no-repeat;
+    width: em(28);
+    height: em-calc(22);
+    position: absolute;
+    right: em-calc(10);
+    top: em-calc(10);
+    color: #999;
+    &:hover, &:focus {
+        color: #666;
+    }
+}
+.image-gallery__fullscreen-link--inactive {
+    color: $gray-rule;
+    &:hover, &:focus {
+        color: $gray-rule;
+        cursor: default;
+    }
+}
+
+// IMAGE GALLERY -- CAROUSEL NAV ARROWS
+// ====================================================
+.image-gallery__body {
+    &.image-gallery__body--mobile {
+        // .flex-direction-nav {
+        //     display: none;
+        // }
+    }
+    .flex-control-nav {
+        display: none;
+        // @media #{$small} {
+            // display: block;
+        // }
+    }
+    .flex-direction-nav {
+        text-align: center;
+        list-style: none;
+        a {
+            position: relative;
+        }
+    }
+    @media #{$small} {
+        .flex-direction-nav {
+            a {
+                position: absolute;
+                // fudge to align arrows vertically centre to the image
+                // regular % doens't work as the carousel height is greater than the image
+                // using JS isn't a brilliant thing for this and breaks scaling down to mobile
+                top: 25%;
+                @media #{$small} {
+                    top: 33%;
+                }
+                @media (min-width: 600px) {
+                    top: 38%;
+                }
+                @media (min-width: 800px) {
+                    top: 35%;
+                }
+                @media (min-width: 1000px) {
+                    top: 40%;
+                }
+                margin-top: -9px;
+                background: $blue-darker;
+                background: rgba(0, 57, 93, 0.8);
+                @media #{$medium} {
+                    // top: 42%;
+                    margin-top: -5px;
+                    width: 32px;
+                    height: 64px;
+                }
+                &:before {
+                    font-size: 26px; // pixel size so IE9 plays nice
+                    color: $white;
+                    margin-top: 0.45em;
+                    @media #{$medium} {
+                        margin-top: 0.3em;
+                        margin-top: 0.55em;
+                    }
+                }
+            }
+            .flex-prev {
+                left: 0;
+            }
+            .flex-next {
+                right: 1px;
+            }
+            // now rob says we're looping the carousel so all this no longer needed *sob*
+            // .flex-prev__container:before,
+            // .flex-next__container:before {
+            //     font-family: "Icons";
+            //     font-size: 2em;
+            //     display: inline-block;
+            //     background: $blue-darker;
+            //     background: rgba(0, 57, 93, 0.8);
+            //     padding: 8px 0 7px;
+            //     top: 42%;
+            //     color: $gray-carousel-arrow;
+            //     margin: -5px 0 0;
+            //     position: absolute;
+            //     z-index: 10;
+            // }
+            // .flex-prev__container:before {
+            //     content: $icon-chevron-left;
+            //     left: 0;
+            // }
+            // .flex-next__container:before {
+            //     content: $icon-chevron-right;
+            //     right: 0;
+            // }
+        }
+    }
+    @media #{$medium} {
+        .flex-control-paging {
+            display: none;
+        }
+    }
+}
+
+.image-gallery__body {
+    .flex-direction-nav .flex-prev__container,
+    .flex-direction-nav .flex-next__container {
+        .flex-prev,
+        .flex-next,
+        &:before {
+            -webkit-transition: opacity 0.2s;
+            transition: opacity 0.2s;
+            opacity: 1;
+            @media #{$small} {
+                opacity: 0;
+            }
+        }
+        // visibility: hidden;
+        &.flex-direction-nav--mobile {
+            display: inline-block;
+            // padding-bottom: 3em;
+            width: 3em;
+            height: 1.4em;
+            &:before {
+                opacity: 1;
+            }
+            a {
+                background: none;
+                margin: 0;
+                height: 3em;
+                &:before {
+                    // color: #b2b2b2;
+                    margin: 0;
+                    line-height: 1;
+                    height: 1em;
+                }
+            }
+            &.flex-prev__container {
+                border-right: solid 1px #b2b2b2;
+            }
+            .flex-prev {
+                left: auto;
+                &:before {
+                    // border-right: solid 1px #b2b2b2;
+                    position: relative;
+                    right: -1px;
+                }
+            }
+            .flex-next {
+                right: auto;
+                width: 2.4em;
+            }
+        // visibility: visible;
+        }
+    }
+    .flex-direction-nav .flex-disabled {
+        opacity: 1;
+        filter: alpha(opacity=1);
+        cursor: pointer;
+        visibility: visible;
+    }
+}
+
+// remove focus states when mousing over
+.image-gallery__mouseover {
+    outline: none;
+    li,
+    img:focus {
+        outline: none;
+    }
+}
+.image-gallery__hover {
+    .flex-direction-nav .flex-prev__container,
+    .flex-direction-nav .flex-next__container {
+        .flex-prev,
+        .flex-next,
+        &:before {
+            opacity: 1;
+        }
+    }
+}
+
+// IMAGE GALLERY -- THUMNBNAIL SLIDER
+// ====================================================
+.image-gallery__thumb-slider {
+    // @extend .show-for-large-up;
+    display: none;
+    @media #{$small} {
+        display: block;
+    }
+    position: relative;
+    @include grid-column(12, false, false, false, false, false, false, false);
+    overflow: hidden;
+    padding: 0;
+    outline: none;
+
+    li {
+        margin: em-calc(0 4);
+        padding: 4px;
+        img {
+            margin: 0;
+        }
+    }
+    .slides {
+        li {
+            position: relative;
+
+            &:hover,
+            &.flex-active-slide {
+                &:after {
+                    content: " ";
+                    width: 94%;
+                    height: 90%;
+                    border: solid 4px $primary-color;
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    margin: 4px 0;
+                }
+            }
+
+        }
+    }
+
+    .flex-viewport {
+        // margin: 0 25px 0 20px;
+        margin-right: 25px;
+        margin-left: 20px;
+        padding-right: 25px;
+    }
+
+    .flex-direction-nav {
+        font-size: inherit;
+        list-style: none;
+        .flex-prev, .flex-next {
+            opacity: 1;
+            visibility: visible;
+            top: 34%;
+            &.flex-disabled {
+                visibility: hidden;
+            }
+        }
+
+        .flex-prev {
+            left: -0.3em;
+        }
+
+        .flex-next {
+            right: -0.4em;
+        }
+
+        .flex-prev__container:before,
+        .flex-next__container:before {
+            font-family: "Icons";
+            font-size: em-calc(25);
+            display: inline-block;
+            top: 33%;
+            // color: $gray-carousel-arrow;
+            color: $gray-rule;
+            margin: -5px 0 0;
+            position: absolute;
+            z-index: 10;
+        }
+        .flex-prev__container:before {
+            content: $icon-chevron-left;
+            left: -0.15em;
+        }
+        .flex-next__container:before {
+            content: $icon-chevron-right;
+            right: -0.25em;
+        }
+    }
+}
+.image-gallery__container {
+    .flex-control-nav li {
+        margin: 0 2px;
+        @media #{$small} {
+            margin: 0 6px;
+        }
+    }
+}
+
+.no-js .image-gallery__thumb-slider {
+    display: none !important;
+}
+
+// IMAGE with CAPTION
+// ====================================================
+.image__with-caption {
+    margin-bottom: em-calc(20);
+
+    img {
+        margin-bottom: 0;
+    }
+
+    p {
+        background: $blue-bkgnd;
+        padding: em-calc(15 10);
+        color: $gray;
+        font-size: em-calc(14);
+        margin-bottom: 0;
+    }
+}

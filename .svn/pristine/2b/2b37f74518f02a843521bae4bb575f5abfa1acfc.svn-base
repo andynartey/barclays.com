@@ -1,0 +1,233 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+                <h1>Tabs</h1>
+
+                <div class="resTab1">
+                    <div class="tabs__controls">
+                        <div class="tabs__mobile">
+                            <a href="" class="tabs__mobile__trigger" data-tabs-mobile-trigger>
+                                Make a selection
+                            </a>
+
+                            <ul class="tabs__mobile__dropdown" data-tabs-mobile-dropdown>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 1</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 2</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 3</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 4</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 5</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 6</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 7</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 8</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 9</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 10</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="tabs__desktop">
+                            <li class="tabs__desktop__item active" data-tabs-desktop-item>
+                                <a href="">Tab 1</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 2</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 3</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 4</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 5</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 6</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 7</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 8</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 9</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tabs__contentHolder">
+                        <div class="tabs__content" data-tabs-content>
+                        <!-- TAB1 -->
+
+                            <!--#include virtual="/includes/containers/accordion.html"-->
+                            <!--#include virtual="../../includes/containers/accordion-mini.html"-->
+                        </div>
+                        <div class="tabs__content" data-tabs-content>
+                        <!-- TAB2 -->
+                        <!-- START VIDEO EMBED CODE -->
+                            <script src="//www.media.barclays.co.uk/player/player.ashx?mode=accessible&id=160714-6680180&autostart=n&enablesharing=y&showrelated=y&width=604&height=340"></script>
+                            <!-- END VIDEO EMBED CODE -->
+                            <!--#include virtual="/includes/link-module.html"-->
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                            <!--#include virtual="/includes/story-chrome/list-item.html"-->
+
+                            <h1>Document group</h1>
+                            <!--#include virtual="../../includes/story-chrome/document-group.html"-->
+                            <!--#include virtual="../../includes/story-chrome/document-group-past.html"-->
+                            <!--#include virtual="../../includes/story-chrome/document-group-generic.html"-->
+                            <!--#include virtual="../../includes/story-chrome/document-group-horizontal-line.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                        <!-- TAB3 -->
+                            <!--#include virtual="/includes/blockquote.html"-->
+                            <!--#include virtual="/includes/containers/alert-box.html"-->
+                            <!--#include virtual="/includes/containers/column-control-50.html"-->
+                            <br/>
+                            <h1>Contact pair</h1>
+                            <!--#include virtual="/includes/contact-us/contact-pair.html"-->
+                            <br/>
+                            <h1>More contacts</h1>
+                            <!--#include virtual="/includes/contact-us/more-contacts.html"-->
+                            <br/>
+                            <h1>Multi office filter</h1>
+                            <!--#include virtual="/includes/contact-us/multi-office-filter.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                        <!-- TAB4 -->
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                            <!--#include virtual="/includes/text-image.html"-->
+
+                            <br/>
+                            <h1>Button filter</h1>
+                            <!--#include virtual="/includes/products-services/key-links-by-region.html"-->
+
+                            <br/>
+                            <h1>Spacers</h1>
+                            <!--#include virtual="../../includes/miscellaneus/spacers.html"-->
+
+                            <br/>
+                            <h1>Link and Blurb</h1>
+                            <!--#include virtual="/includes/products-services/our-products.html"-->
+
+                            <br/>
+                            <h1>Stats block</h1>
+                            <!-- 3-5 -->
+                            <!--#include virtual="../../includes/containers/stats-block-3-5.html"-->
+                            <!-- 3-5-3 -->
+                            <!--#include virtual="../../includes/containers/stats-block-3-5-3.html"-->
+                            <!-- 3-8 -->
+                            <!--#include virtual="../../includes/containers/stats-block-3-8.html"-->
+
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                        <!-- TAB5 -->
+                            <!--#include virtual="/includes/cross-promo-image-top.html"-->
+                            <!--#include virtual="/includes/spacer.html"-->
+                            <!--#include virtual="/includes/ir/table-y.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                        <!-- TAB6 -->
+                            <!--#include virtual="/includes/blockquote.html"-->
+                            <!--#include virtual="/includes/containers/image-gallery.html"-->
+                            <!--#include virtual="/includes/containers/grid-container-4.html"-->
+                            <br/>
+                            <!--#include virtual="/includes/containers/dropdown-container-2.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                        <!-- TAB7 -->
+                            <!--#include virtual="/includes/containers/story-highlights.html"-->
+                            <!--#include virtual="/includes/story-chrome/bullet-list.html"-->
+                            <!--#include virtual="/includes/selected-tweet.html"-->
+                            <h2>Donut chart</h2>
+                            <div class="donut-chart"></div>
+                            <br/>
+                            <br/>
+                            <h2>Donut chart (narrow)</h2>
+                            <div class="donut-chart-narrow"></div>
+                            <br/>
+                            <br/>
+                            <h2>Bar chart</h2>
+                            <div class="bar-chart"></div>
+                            <br/>
+                            <br/>
+                            <h2>Line chart</h2>
+                            <div class="line-chart"></div>
+
+                            <!--#include virtual="/includes/containers/accordion.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                        <!-- TAB8 -->
+                            <!--#include virtual="/includes/products-services/button-filter.html"-->
+                            <!--#include virtual="/includes/story-chrome/document-download.html"-->
+                            <!--#include virtual="/includes/ir/table-xy-horizontal-line.html"-->
+                            <br/>
+                            <!--#include virtual="../../includes/containers/dropdown-container.html"-->
+
+
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                        <!-- TAB9 -->
+                            <!--#include virtual="/includes/containers/storyteller.html"-->
+                            <!--#include virtual="/includes/containers/carousel-grid-3.html"-->
+                            <!--#include virtual="/includes/containers/carousel.html"-->
+
+                            <!-- GRID CONTAINER 3 -->
+                            <div class="grid-container grid-container-3">
+                                <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                                    <li class="grid-container-item">
+                                        <!--#include virtual="../../includes/containers/share-price-feed.html"-->
+                                    </li>
+                                    <li class="grid-container-item">
+                                        <!--#include virtual="../../includes/containers/share-price-feed.html"-->
+                                    </li>
+                                    <li class="grid-container-item">
+                                        <!--#include virtual="../../includes/containers/share-price-feed-tabs.html"-->
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

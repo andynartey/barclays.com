@@ -1,0 +1,75 @@
+<section class="image-gallery">
+    <div class="row">
+        <div class="image-gallery__container">
+            <div class="image-gallery__heading">
+                <h3>Image gallery:</h3>
+                <h2>Step into the night 2013</h2>
+            </div>
+
+            <div class="image-gallery__body">
+                <ul class="slides">
+                    <li class="image-gallery__body__item">
+                        <div class="image-gallery__image">
+                            <img src="http://placehold.it/770x433" data-interchange="
+                                [http://placehold.it/435x245, (default)],
+                                [http://placehold.it/600x338, (medium)],
+                                [http://placehold.it/770x433, (large)]" alt="hero">
+                        </div>
+                        <div class="image-gallery__caption">
+                            <p>Full Effect in full voice to support the walkers</p>
+                            <a href="" class="image-gallery__fullscreen-link">Full screen</a>
+                        </div>
+                    </li>
+                    <li class="image-gallery__body__item">
+                        <div class="image-gallery__image">
+                            <img src="http://placehold.it/770x433" data-interchange="
+                                [http://placehold.it/435x245, (default)],
+                                [http://placehold.it/600x338, (medium)],
+                                [http://placehold.it/770x433, (large)]" alt="hero">
+                        </div>
+                        <div class="image-gallery__caption">
+                            <p>Full Effect in full voice to support the walkers</p>
+                            <a href="" class="image-gallery__fullscreen-link">Full screen</a>
+                        </div>
+                    </li>
+                    <li class="image-gallery__body__item">
+                        <div class="image-gallery__image">
+                            <img src="http://placehold.it/770x433" data-interchange="
+                                [http://placehold.it/435x245, (default)],
+                                [http://placehold.it/600x338, (medium)],
+                                [http://placehold.it/770x433, (large)]" alt="hero">
+                        </div>
+                        <div class="image-gallery__caption">
+                            <p>Full Effect in full voice to support the walkers</p>
+                            <a href="" class="image-gallery__fullscreen-link">Full screen</a>
+                        </div>
+                    </li>
+                    <li class="image-gallery__body__item">
+                        <div class="image-gallery__image">
+                            <img src="http://placehold.it/770x433" data-interchange="
+                                [http://placehold.it/435x245, (default)],
+                                [http://placehold.it/600x338, (medium)],
+                                [http://placehold.it/770x433, (large)]" alt="hero">
+                        </div>
+                        <div class="image-gallery__caption">
+                            <p>Full Effect in full voice to support the walkers</p>
+                            <a href="" class="image-gallery__fullscreen-link">Full screen</a>
+                        </div>
+                    </li>
+                    <li class="image-gallery__body__item">
+                        <div class="image-gallery__image">
+                            <img src="http://placehold.it/770x433" data-interchange="
+                                [http://placehold.it/435x245, (default)],
+                                [http://placehold.it/600x338, (medium)],
+                                [http://placehold.it/770x433, (large)]" alt="hero">
+                        </div>
+                        <div class="image-gallery__caption">
+                            <p>Full Effect in full voice to support the walkers</p>
+                            <a href="" class="image-gallery__fullscreen-link">Full screen</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

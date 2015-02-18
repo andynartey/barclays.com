@@ -1,0 +1,215 @@
+//Contact switcher
+.content-switcher {
+	@include grid-row();
+    @include grid-column(12);
+    padding-left: 0;
+    padding-right: 0;
+    clear: both;
+	float: none;
+	margin-bottom: 0 !important;
+	@media #{$small} {
+		border-top: none;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	address {
+		font-size: em-calc(14);
+	}
+	.contact-us__title {
+		font-size: em-calc(18);
+		margin-bottom: em-calc(15);
+		font-family: $header-font-family-regular;
+		color: $blue-darker;
+		@media #{$small} {
+			font-size: em-calc(24);
+		}
+	}
+	.content-switcher__description {
+		@include grid-column(12);
+		padding-left: 0;
+		@media #{$small} {
+			@include grid-column(6);
+			padding-left: 0;
+		}
+		@media #{$medium} {
+			padding-right: em-calc(20);
+		}
+	}
+	@media #{$small} {
+		clear: both;
+		float: none;
+		margin-bottom: em-calc(40);
+		form {
+			@include grid-row();
+			@include grid-column(12);
+			padding-left: 0;
+			clear: left;
+		}
+	}
+	@media #{$medium} {
+		padding-left: 0;
+		padding-right: 0;
+		clear: both;
+		float: none;
+		form {
+			@include grid-column(6);
+			padding-left: 0;
+		}
+		.js-contentSwitcher {
+			@include grid-column(6);
+			padding-left: 0;
+			clear: right;
+		}
+	}
+	form.custom {
+		.custom.dropdown.button-container {
+			border-radius: 4px;
+			&.medium {
+				@include grid-column(12);
+				padding-left: 0;
+				// max-width: 100%;
+				@media #{$small} {
+					// width: 225px;
+					// max-width: 254px;
+					padding-left: em-calc(10);
+				}
+			}
+			&.open.medium ul {
+				@include grid-column(12);
+				max-width: 100%;
+				padding-left: 0;
+				padding-right: 0;
+			}
+			&.open.medium li {
+				padding-top: em-calc(10);
+				padding-bottom: em-calc(10);
+			}
+
+			&:hover {
+				a {
+					color: $blue-lighter;
+				}
+			}
+			.current, 
+			.selector {
+				color: $gray;
+			    font-family: $header-font-family;
+			    font-size: em-calc(14);
+				&:after {
+					font-size: em-calc(16);
+				}
+			}
+			.current {
+				padding-left: em-calc(10);
+				@media #{$small} {
+					padding-left: 0;
+				}
+			}
+		}
+	}
+	.js-contentSwitcher {
+		@include grid-column(12);
+		padding-left: 0;
+		padding-right: 0;
+		margin-top: 0;
+		margin-bottom: em-calc(10);
+		@media #{$small} {
+			@include grid-row();
+			@include grid-column(12);
+			line-height: 1.4;
+			padding-left: 0;
+			padding-right: 0;
+			margin-top: 0;
+			float: right;
+			clear: right;
+			// inside accordion
+			address {
+				// margin-top: em-calc(-200);
+			}
+		}
+		@media #{$medium} {
+			@include grid-row();
+			@include grid-column(12);
+			margin-top: 0;
+			padding-left: 0;
+			padding-right: 0;
+			address {
+				// margin-top: em-calc(-90);
+			}
+		}
+	}
+}
+
+//Editorial sidebar container tweaks
+.col__editorial--sidebar {
+	.content-switcher {
+		.js-contentSwitcher {
+			@include grid-column(12);
+			padding-left: 0;
+			padding-right: 0;
+			margin-bottom: em-calc(20);
+			.btn {
+				@include grid-column(12);
+				padding-right: 0;
+				.icon {
+					position: absolute;
+					right: em-calc(7);
+				}
+			}
+		}
+	}
+}
+
+// Accordion overides
+
+.accordion, .accordion-mini {
+	.content-switcher {
+		address {
+			font-size: em-calc(16);
+		}
+		form.custom {
+			.custom.dropdown.button-container {
+				.current, 
+				.selector {
+				    font-size: em-calc(18);
+					&:after {
+						font-size: em-calc(18);
+					}
+				}
+			}
+		}
+	}
+	.accordion__content_frame {
+		.js-contentSwitcher {
+			@include grid-column(12);
+			padding-left: 0;
+			padding-right: 0;
+			margin-top: 0;
+			margin-bottom: em-calc(10);
+			@media #{$small} {
+				@include grid-row();
+				@include grid-column(6);
+				padding-left: 0;
+				padding-right: 0;
+				margin-top: 0;
+				float: right;
+				clear: right;
+				// inside accordion
+				address {
+					margin-top: em-calc(-200);
+				}
+			}
+			@media #{$medium} {
+				@include grid-row();
+				@include grid-column(6);
+				margin-top: 0;
+				padding-left: em-calc(10);
+				padding-right: 0;
+				address {
+					margin-top: em-calc(-90);
+				}
+			}
+		}
+	}
+}

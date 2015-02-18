@@ -1,0 +1,114 @@
+// ====================================================
+// IMAGE GALLERY MODULE
+// ====================================================
+.image-gallery {
+    background: #f5f5f5;
+    border-top: $border-style;
+    border-bottom: $border-style;
+    padding: em-calc(15 0);
+    margin-bottom: em-calc(15);
+
+    @media #{$small} {
+
+    }
+
+    @media #{$medium} {
+        padding: em-calc(30 0);
+    }
+}
+
+.image-gallery__container {
+    @include grid-row();
+}
+
+
+// IMAGE GALLERY -- HEADING
+// ====================================================
+.image-gallery__heading {
+    @include grid-column(12);
+    h2, h3 {
+        font-family: $header-font-family-regular;
+        color: $blue-darker;
+    }
+    h2 {
+        font-size: em-calc(22);
+        margin-bottom: em-calc(15);
+    }
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(8);
+
+        h3 {
+            text-transform: uppercase;
+            font-size: em-calc(18);
+        }
+
+        h2 {
+            font-size: em-calc(26);
+            font-family: $header-font-family;
+        }
+    }
+}
+
+// IMAGE GALLERY -- BODY
+// ====================================================
+.image-gallery__body {
+    @include grid-column(12);
+    position: relative;
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(8);
+    }
+}
+
+// IMAGE GALLERY -- CAPTION
+// ====================================================
+.image-gallery__caption {
+    background: #fff;
+    padding: em-calc(10 50 10 10);
+    margin-bottom: em-calc(20);
+    position: relative;
+
+    p {
+        color: $blue-darker;
+        font-size: em-calc(16);
+        margin-bottom: 0;
+    }
+}
+
+// IMAGE GALLERY -- FULLSCREEN LINK
+// ====================================================
+.image-gallery__fullscreen-link {
+    display: block;
+    text-indent: -9999px;
+    background: url(../images/icon-fullscreen.png) no-repeat;
+    width: em(28);
+    height: em-calc(22);
+    position: absolute;
+    right: em-calc(10);
+    top: em-calc(10);
+}
+
+// IMAGE GALLERY -- CAROUSEL NAV ARROWS
+// ====================================================
+.image-gallery__body {
+    .flex-direction-nav {
+        a {
+            top: 35%;
+        }
+        .flex-prev {
+            left: 0;
+        }
+        .flex-next {
+            right: 0;
+        }
+    }
+}

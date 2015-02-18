@@ -1,0 +1,191 @@
+<section class="image-gallery">
+
+    <div class="image-gallery__heading">
+        <h2>Step into the night 2013</h2>
+    </div>
+
+    <div class="image-gallery__body">
+        <ul class="slides">
+            <li class="image-gallery__body__item">
+                <div class="image-gallery__image">
+                    <img src="http://placehold.it/770x433" data-interchange="
+                        [http://placehold.it/435x245, (default)],
+                        [http://placehold.it/600x338, (medium)],
+                        [http://placehold.it/770x433, (large)]" alt="hero">
+                </div>
+                <div class="image-gallery__caption">
+                    <!-- integration note:
+                    the 1/9 count is a generated number
+                    the text before and after is editable -->
+                    <p>
+                        <strong>Image</strong>
+                        <span class="image-gallery__count">1/9</span>
+                        Full Effect in full voice to support the walkers
+                    </p>
+                    <a href="" class="image-gallery__fullscreen-link"><i class="icon icon__maximise"></i></a>
+                </div>
+            </li>
+            <li class="image-gallery__body__item">
+                <div class="image-gallery__image">
+                    <img src="http://placehold.it/770x433" data-interchange="
+                        [http://placehold.it/435x245, (default)],
+                        [http://placehold.it/600x338, (medium)],
+                        [http://placehold.it/770x433, (large)]" alt="hero">
+                </div>
+                <div class="image-gallery__caption">
+                    <p>
+                        <strong>Image</strong>
+                        <span class="image-gallery__count">2/9</span>
+                        Full Effect in full voice to support the walkers
+                    </p>
+                    <a href="" class="image-gallery__fullscreen-link image-gallery__fullscreen-link--inactive"><i class="icon icon__maximise"></i></a>
+                </div>
+            </li>
+            <li class="image-gallery__body__item">
+                <div class="image-gallery__image">
+                    <img src="http://placehold.it/770x433" data-interchange="
+                        [http://placehold.it/435x245, (default)],
+                        [http://placehold.it/600x338, (medium)],
+                        [http://placehold.it/770x433, (large)]" alt="hero">
+                </div>
+                <div class="image-gallery__caption">
+                    <p>
+                        <strong>Image</strong>
+                        <span class="image-gallery__count">3/9</span>
+                        Full Effect in full voice to support the walkers
+                    </p>
+                    <a href="" class="image-gallery__fullscreen-link"><i class="icon icon__maximise"></i></a>
+                </div>
+            </li>
+            <li class="image-gallery__body__item">
+                <div class="image-gallery__image">
+                    <img src="http://placehold.it/770x433" data-interchange="
+                        [http://placehold.it/435x245, (default)],
+                        [http://placehold.it/600x338, (medium)],
+                        [http://placehold.it/770x433, (large)]" alt="hero">
+                </div>
+                <div class="image-gallery__caption">
+                    <p>
+                        <strong>Image</strong>
+                        <span class="image-gallery__count">4/9</span>
+                        Full Effect in full voice to support the walkers
+                    </p>
+                    <a href="" class="image-gallery__fullscreen-link"><i class="icon icon__maximise"></i></a>
+                </div>
+            </li>
+            <li class="image-gallery__body__item">
+                <div class="image-gallery__image">
+                    <img src="http://placehold.it/770x433" data-interchange="
+                        [http://placehold.it/435x245, (default)],
+                        [http://placehold.it/600x338, (medium)],
+                        [http://placehold.it/770x433, (large)]" alt="hero">
+                </div>
+                <div class="image-gallery__caption">
+                    <p>
+                        <strong>Image</strong>
+                        <span class="image-gallery__count">5/9</span>
+                        Full Effect in full voice to support the walkers
+                    </p>
+                    <a href="" class="image-gallery__fullscreen-link"><i class="icon icon__maximise"></i></a>
+                </div>
+            </li>
+            <li class="image-gallery__body__item">
+                <div class="image-gallery__image">
+                    <img src="http://placehold.it/770x433" data-interchange="
+                        [http://placehold.it/435x245, (default)],
+                        [http://placehold.it/600x338, (medium)],
+                        [http://placehold.it/770x433, (large)]" alt="hero">
+                </div>
+                <div class="image-gallery__caption">
+                    <p>
+                        <strong>Image</strong>
+                        <span class="image-gallery__count">6/9</span>
+                        Full Effect in full voice to support the walkers
+                    </p>
+                    <a href="" class="image-gallery__fullscreen-link"><i class="icon icon__maximise"></i></a>
+                </div>
+            </li>
+            <li class="image-gallery__body__item">
+                <div class="image-gallery__image">
+                    <img src="http://placehold.it/770x433" data-interchange="
+                        [http://placehold.it/435x245, (default)],
+                        [http://placehold.it/600x338, (medium)],
+                        [http://placehold.it/770x433, (large)]" alt="hero">
+                </div>
+                <div class="image-gallery__caption">
+                    <p>
+                        <strong>Image</strong>
+                        <span class="image-gallery__count">7/9</span>
+                        Full Effect in full voice to support the walkers
+                    </p>
+                    <a href="" class="image-gallery__fullscreen-link"><i class="icon icon__maximise"></i></a>
+                </div>
+            </li>
+            <li class="image-gallery__body__item">
+                <div class="image-gallery__image">
+                    <img src="http://placehold.it/770x433" data-interchange="
+                        [http://placehold.it/435x245, (default)],
+                        [http://placehold.it/600x338, (medium)],
+                        [http://placehold.it/770x433, (large)]" alt="hero">
+                </div>
+                <div class="image-gallery__caption">
+                    <p>
+                        <strong>Image</strong>
+                        <span class="image-gallery__count">8/9</span>
+                        Full Effect in full voice to support the walkers
+                    </p>
+                    <a href="" class="image-gallery__fullscreen-link"><i class="icon icon__maximise"></i></a>
+                </div>
+            </li>
+            <li class="image-gallery__body__item">
+                <div class="image-gallery__image">
+                    <img src="http://placehold.it/770x433" data-interchange="
+                        [http://placehold.it/435x245, (default)],
+                        [http://placehold.it/600x338, (medium)],
+                        [http://placehold.it/770x433, (large)]" alt="hero">
+                </div>
+                <div class="image-gallery__caption">
+                    <p>
+                        <strong>Image</strong>
+                        <span class="image-gallery__count">9/9</span>
+                        Full Effect in full voice to support the walkers
+                    </p>
+                    <a href="" class="image-gallery__fullscreen-link"><i class="icon icon__maximise"></i></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="image-gallery__thumb-slider">
+        <ul class="slides">
+            <li>
+                <img data-interchange="[http://placehold.it/130x73, (large)]" alt="">
+            </li>
+            <li>
+                <img data-interchange="[http://placehold.it/130x73, (large)]" alt="">
+            </li>
+            <li>
+                <img data-interchange="[http://placehold.it/130x73, (large)]" alt="">
+            </li>
+            <li>
+                <img data-interchange="[http://placehold.it/130x73, (large)]" alt="">
+            </li>
+            <li>
+                <img data-interchange="[http://placehold.it/130x73, (large)]" alt="">
+            </li>
+            <li>
+                <img data-interchange="[http://placehold.it/130x73, (large)]" alt="">
+            </li>
+            <li>
+                <img data-interchange="[http://placehold.it/130x73, (large)]" alt="">
+            </li>
+            <li>
+                <img data-interchange="[http://placehold.it/130x73, (large)]" alt="">
+            </li>
+            <li>
+                <img data-interchange="[http://placehold.it/130x73, (large)]" alt="">
+            </li>
+        </ul>
+    </div>
+
+</section>

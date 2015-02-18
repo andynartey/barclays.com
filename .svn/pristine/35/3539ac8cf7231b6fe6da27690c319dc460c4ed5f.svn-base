@@ -1,0 +1,155 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__editorial">
+
+        <!--#include virtual="../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../includes/site-chrome/main-navigation.html"-->
+
+        <div class="row__full-bleed">
+
+            <!-- parsys 1: modules start here -->
+            <div class="dummy-module dummy-module__example">
+                <div class="dummy-module__content">
+                    <p><strong>Parsys 1.</strong></p>
+                    <img src="http://placehold.it/1170x350" data-interchange="
+                        [http://placehold.it/480x144, (default)],
+                        [http://placehold.it/768x230, (medium)],
+                        [http://placehold.it/1170x350, (large)]" alt="" />
+                </div>
+            </div>
+            <!-- modules end here -->
+
+        </div>
+
+        <div class="row">
+            <div class="col__editorial--header">
+
+                <!-- link to page above -->
+                <a href="#" class="link__page-parent"><i class="icon icon__chevron icon__chevron-left"></i>Link to parent page</a>
+
+                <!-- page title -->
+                <h1>Editorial template</h1>
+
+            </div>
+        </div>
+
+        <div class="row" data-sticky="start">
+
+            <div class="col__social">
+
+                <!-- share links 1 -->
+                <div class="share-tools-1">
+                    <!--#include virtual="../includes/story-chrome/share-tools.html"-->
+                </div>
+
+            </div>
+            <div class="col__editorial--top__content">
+
+                <!-- parsys 2: modules start here -->
+                <p>
+                    <strong>Parsys 2.</strong>
+                </p>
+                <img src="http://placehold.it/1170x350" data-interchange="
+                    [http://placehold.it/480x144, (default)],
+                    [http://placehold.it/768x230, (medium)],
+                    [http://placehold.it/1170x350, (large)]" alt="" />
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col__editorial--main__content">
+
+                <!-- parsys 3: modules start here -->
+                <p>
+                    <strong>Parsys 3.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <img src="http://placehold.it/1170x350" data-interchange="
+                    [http://placehold.it/480x144, (default)],
+                    [http://placehold.it/768x230, (medium)],
+                    [http://placehold.it/1170x350, (large)]" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+
+            <div class="col__editorial--sidebar">
+
+                <!-- parsys 4: modules start here -->
+                <p>
+                    <strong>Parsys 4.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <img src="http://placehold.it/768x230" data-interchange="
+                    [http://placehold.it/480x144, (default)],
+                    [http://placehold.it/768x230, (medium)]" alt="" />
+                <p>
+                    Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+
+        </div>
+
+        <div class="row" data-sticky="end"><!-- the data attribute needs to be on the first full with row or footer -->
+            <div class="col__full-width">
+
+                <!-- topics -->
+                <!--#include file="includes/story-chrome/tags.html"-->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- share links 2 -->
+                <div class="share-tools-2">
+                    <!--#include virtual="../includes/story-chrome/share-tools.html"-->
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- parsys 5: modules start here -->
+                <p>
+                    <strong>Parsys 5.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row__full-bleed">
+
+            <!-- parsys 6: modules start here -->
+            <div class="dummy-module dummy-module__example">
+                <div class="dummy-module__content">
+                    <p>
+                        <strong>Parsys 6.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                    </p>
+                </div>
+            </div>
+            <!-- modules end here -->
+
+        </div>
+
+
+        <!--#include virtual="../includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .site-container -->
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

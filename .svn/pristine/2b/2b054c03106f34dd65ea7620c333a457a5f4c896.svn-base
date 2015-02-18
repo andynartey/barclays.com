@@ -1,0 +1,264 @@
+// ====================================================
+// IMAGE GALLERY MODULE
+// ====================================================
+
+.image-gallery {
+    padding: em-calc(30 0);
+}
+
+// IMAGE GALLERY -- HEADING
+// ====================================================
+.image-gallery__heading {
+
+    h2, h3 {
+        font-family: $header-font-family-regular;
+        color: $blue-darker;
+    }
+    h2 {
+        font-size: em-calc(22);
+        margin-bottom: em-calc(15);
+    }
+
+
+    @media #{$medium} {
+        h3 {
+            text-transform: uppercase;
+            font-size: em-calc(18);
+        }
+
+        h2 {
+            font-size: em-calc(28);
+            font-family: $header-font-family;
+        }
+    }
+}
+
+// IMAGE GALLERY -- BODY
+// ====================================================
+.image-gallery__body {
+    position: relative;
+}
+
+// IMAGE GALLERY -- CAPTION
+// ====================================================
+.image-gallery__caption {
+    background: #fff;
+    padding: em-calc(10 30 10 10);
+    margin-bottom: em-calc(20);
+    position: relative;
+
+    p {
+        color: $blue-darker;
+        font-size: em-calc(16);
+        margin-bottom: 0;
+    }
+}
+.image-gallery__count {
+    font-weight: bold;
+}
+
+// IMAGE GALLERY -- FULLSCREEN LINK
+// ====================================================
+.image-gallery__fullscreen-link {
+    display: block;
+    // text-indent: -9999px;
+    // background: url(../images/icon-fullscreen.png) no-repeat;
+    width: em(28);
+    height: em-calc(22);
+    position: absolute;
+    right: em-calc(10);
+    top: em-calc(10);
+    color: #999;
+    &:hover, &:focus {
+        color: #666;
+    }
+}
+.image-gallery__fullscreen-link--inactive {
+    color: #e1e1e1;
+    &:hover, &:focus {
+        color: #e1e1e1;
+        cursor: default;
+    }
+}
+
+// IMAGE GALLERY -- CAROUSEL NAV ARROWS
+// ====================================================
+.image-gallery__body {
+    .flex-direction-nav {
+        a {
+            // top: 45%;
+            top: 42%;
+            margin-top: -9px;
+            @media #{$medium} {
+                top: 42%;
+                margin-top: -5px;
+            }
+            &:before {
+                font-size: 2em;
+                color: #fff;
+                margin-top: 0.45em;
+                @media #{$medium} {
+                    margin-top: 0.3em;
+                }
+            }
+        }
+        .flex-prev {
+            left: 0;
+        }
+        .flex-next {
+            right: 0;
+        }
+        .flex-prev__container:before,
+        .flex-next__container:before {
+            font-family: "Icons";
+            font-size: 2em;
+            display: inline-block;
+            background: #00395d;
+            background: rgba(0, 57, 93, 0.8);
+            padding: 8px 0 7px;
+            top: 42%;
+            color: $gray-carousel-arrow;
+            margin: -5px 0 0;
+            position: absolute;
+            z-index: 10;
+        }
+        .flex-prev__container:before {
+            content: $icon-chevron-left;
+            left: 0;
+        }
+        .flex-next__container:before {
+            content: $icon-chevron-right;
+            right: 0;
+        }
+    }
+    @media #{$medium} {
+        .flex-control-paging {
+            display: none;
+        }
+    }
+}
+
+.image-gallery__body {
+    .flex-direction-nav .flex-prev__container,
+    .flex-direction-nav .flex-next__container {
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s;
+        opacity: 0;
+        visibility: hidden;
+        &.flex-direction-nav--mobile {
+        opacity: 1;
+        visibility: visible;
+        }
+    }
+}
+            
+.image-gallery__hover {
+    .flex-direction-nav .flex-prev__container,
+    .flex-direction-nav .flex-next__container {
+        opacity: 1;
+        visibility: visible;
+        .flex-disabled {
+            visibility: hidden;
+        }
+    }
+
+}
+
+// IMAGE GALLERY -- THUMNBNAIL SLIDER
+// ====================================================
+.image-gallery__thumb-slider {
+    @extend .show-for-large-up;
+    position: relative;
+    @include grid-column(12, false, false, false, false, false, false, false);
+    margin-left: auto;
+    margin-right: auto;
+
+    li {
+        margin: em-calc(0 4);
+        padding: 4px;
+
+        &.flex-active-slide {
+            position: relative;
+            &:after {
+                content: " ";
+                width: 94%;
+                height: 90%;
+                border: solid 4px $primary-color;
+                display: block;
+                position: absolute;
+                top: 0;
+                margin: 4px 0;
+            }
+        }
+    }
+
+    .flex-direction-nav {
+        .flex-prev, .flex-next {
+            opacity: 1;
+            visibility: visible;
+            top: 40%;
+            &.flex-disabled {
+                visibility: hidden;
+            }
+        }
+
+        .flex-prev {
+            left: -0.45em;
+        }
+
+        .flex-next {
+            right: -0.45em;
+        }
+
+        .flex-prev__container:before,
+        .flex-next__container:before {
+            font-family: "Icons";
+            font-size: em-calc(25);
+            display: inline-block;
+            top: 36%;
+            // color: $gray-carousel-arrow;
+            color: #e1e1e1;
+            margin: -5px 0 0;
+            position: absolute;
+            z-index: 10;
+        }
+        .flex-prev__container:before {
+            content: $icon-chevron-left;
+            left: -0.29em;
+        }
+        .flex-next__container:before {
+            content: $icon-chevron-right;
+            right: -0.3em;
+        }
+    }
+}
+.image-gallery__container {
+    .flex-control-nav li {
+        margin: 0 2px;
+        @media #{$small} {
+            margin: 0 6px;
+        }
+    }
+}
+
+.no-js .image-gallery__thumb-slider {
+    display: none !important;
+}
+
+// IMAGE with CAPTION
+// ====================================================
+.image__with-caption {
+    margin-bottom: em-calc(20);
+
+    img {
+        margin-bottom: 0;
+    }
+
+    p {
+        background: $blue-bkgnd;
+        padding: em-calc(15 10);
+        color: $gray;
+        font-size: em-calc(14);
+        margin-bottom: 0;
+    }
+}

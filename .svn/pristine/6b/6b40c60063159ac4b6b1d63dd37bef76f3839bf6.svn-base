@@ -1,0 +1,74 @@
+<!-- Mobile Hamburger Navigation -->
+<div class="row">
+    <nav class="hamburger js-hamburger">
+
+        <ul class="hamburger__first-level js-ham-first-level side-nav">
+            <li class="location"><a href="">UK</a></li>
+            <li class="has-slide-menu">
+                <a href="" class="js-ham-sub-link">News</a>
+                <ul class="hamburger__second-level js-ham-second-level side-nav">
+                    <li class="js-ham-sub-back ham-sub-back"><a href="">Back</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Growth</a></li>
+                    <li><a href="">Supporting individuals</a></li>
+                    <li><a href="">Increasing access</a></li>
+                    <li><a href="">Supporing businesses</a></li>
+                    <li><a href="">Helping institutions</a></li>
+                </ul>
+            </li>
+            <li class="has-slide-menu">
+                <a href="" class="js-ham-sub-link">About us</a>
+                <ul class="hamburger__second-level js-ham-second-level side-nav">
+                    <li class="js-ham-sub-back ham-sub-back"><a href="">Back</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Growth</a></li>
+                    <li><a href="">Supporting individuals</a></li>
+                    <li><a href="">Increasing access</a></li>
+                    <li><a href="">Supporing businesses</a></li>
+                    <li><a href="">Helping institutions</a></li>
+                </ul>
+            </li>
+            <li><a href="">Product &amp; Services</a></li>
+            <li class="has-slide-menu">
+                <a href="" class="js-ham-sub-link">Investor Relations</a>
+                <ul class="hamburger__second-level js-ham-second-level side-nav">
+                    <li class="js-ham-sub-back ham-sub-back"><a href="">Back</a></li>
+                    <li><a href="">Investor Relations</a></li>
+                    <li><a href="">Growth</a></li>
+                    <li><a href="">Supporting individuals</a></li>
+                    <li><a href="">Increasing access</a></li>
+                    <li><a href="">Supporing businesses</a></li>
+                    <li><a href="">Helping institutions</a></li>
+                </ul>
+            </li>
+            <li class="has-slide-menu">
+                <a href="" class="js-ham-sub-link">Citizenship</a>
+                <ul class="hamburger__second-level js-ham-second-level side-nav">
+                    <li class="js-ham-sub-back ham-sub-back"><a href="">Back</a></li>
+                    <li><a href="">Citizenship</a></li>
+                    <li><a href="">Growth</a></li>
+                    <li><a href="">Supporting individuals</a></li>
+                    <li><a href="">Increasing access</a></li>
+                    <li><a href="">Supporing businesses</a></li>
+                    <li><a href="">Helping institutions</a></li>
+                </ul>
+            </li>
+            <li class="has-slide-menu">
+                <a href="" class="js-ham-sub-link">Careers</a>
+                <ul class="hamburger__second-level js-ham-second-level side-nav">
+                    <li class="js-ham-sub-back ham-sub-back"><a href="">Back</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Growth</a></li>
+                    <li><a href="">Supporting individuals</a></li>
+                    <li><a href="">Increasing access</a></li>
+                    <li><a href="">Supporing businesses</a></li>
+                    <li><a href="">Helping institutions</a></li>
+                </ul>
+            </li>
+            <li><a href="">Other Barclays websites</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Online Banking</a></li>
+        </ul>
+
+    </nav>
+</div>

@@ -1,0 +1,110 @@
+// ====================================================
+// LINK BLOCKS MODULE
+// ====================================================
+
+.link-blocks {
+    @include clearfix;
+    padding-bottom: em-calc(20);
+    .first {
+        border-top: $border-style;
+    }
+
+    &.our-products {
+        background: transparent;
+    }
+
+    @media #{$small} {
+        background: $gray-bkgnd;
+        padding-top: em-calc(20);
+        padding-bottom: em-calc(30);
+        .first {
+            border-top: none;
+        }
+    }
+}
+
+.link-blocks__wrapper {
+    max-width: 75em;
+    margin-left: auto;    
+    margin-right: auto;    
+}
+
+.link-blocks__item {
+    &:before {      
+        @include icon-font($icon-chevron-right);
+            color: $primary-color;
+            position: absolute;
+            right: em-calc(0);
+            bottom: em-calc(10);
+            font-size: em-calc(22);
+            @media #{$small} {
+                display: none;
+            }
+        }
+    @include grid-column(12);
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    @media #{$small} {
+        margin-bottom: em-calc(20);
+        @include grid-column(4);
+        p {
+            font-size: em-calc(13);
+        }
+    }
+    @media #{$medium} {
+        @include grid-column(4);
+        content: none;
+    }
+    
+}
+
+.link-blocks__content {
+    background: #fefefe;
+    @media #{$small} {
+        img {
+            width: 100%;
+        }
+    }
+    @media #{$medium} {
+        img {
+            width: 100%;
+        }
+        &.link-blocks__content:hover {
+            h2 {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.link-blocks__link {
+    @extend .hide-for-small;
+}
+
+.link-blocks__heading {
+    margin-bottom: 0;
+    border-bottom: $border-style;
+    font-size: em-calc(16);
+    a {
+        display: block;
+        padding: em-calc(15 0);
+    }
+
+    @media #{$small} {
+        border: none;
+        font-size: em-calc(24);
+        a {
+            padding: em-calc(10 15);
+        }
+    }
+    @media #{$medium} {
+        font-size: em-calc(24);
+    }
+}
+
+.link-blocks__paragraph {
+    @extend .hide-for-small;
+    padding: em-calc(0 30 20);
+    margin-bottom: 0;
+}

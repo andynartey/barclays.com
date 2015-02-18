@@ -1,0 +1,188 @@
+// ====================================================
+// SHARE PRICE FEED
+// ====================================================
+
+.share-price-feed {
+	background: $blue-bkgnd;
+	//border-top: 6px solid $blue-border;
+	padding: em-calc(25 15);
+	min-height: em-calc(330);
+	position: relative;
+	margin-bottom: em-calc(15);
+
+	@media #{$small} {
+		margin-bottom: 0;
+	}
+
+	h3 {
+		font-family: $header-font-family-regular;
+		font-size: em-calc(20);
+		color: $blue-darker;
+		margin-bottom: em-calc(20);
+		line-height: 1.2;
+
+		@media #{$small} {
+			font-size: em-calc(22);
+			line-height: 1.181818;
+		}
+	}
+}
+
+.share-price-feed__price {
+	color: $primary-color;
+	margin-bottom: em-calc(15);
+
+	.value {
+		font-family: $header-font-family;
+		font-size: em-calc(44);
+		line-height: 1.18;
+		-webkit-backface-visibility: hidden;
+
+		@media #{$medium} {
+	        font-size: em-calc(59);
+			line-height: 1;
+			margin-right: em-calc(5);
+	    }
+	}
+
+	.change {
+		font-family: $header-font-family;
+		font-size: em-calc(20);
+		-webkit-backface-visibility: hidden;
+
+		&:before {
+			font-size: em-calc(14);
+			margin-right: em-calc(10);
+			position: relative;
+			top: 0;
+		}
+
+		&.up {
+			&:before {
+				@include icon-font($icon-arrow-up);
+			}
+		}
+
+		&.down {
+			&:before {
+				@include icon-font($icon-arrow-down);
+			}
+		}
+
+		@media #{$medium} {
+			font-size: em-calc(27);
+		}
+	}
+}
+
+.share-price-feed__date {
+	font-family: $header-font-family-regular;
+	color: $primary-color;
+	font-size: em-calc(14);
+
+	@media #{$small} {
+		font-size: em-calc(12);
+	}
+}
+
+.share-price-feed__info {
+	font-family: $header-font-family-regular;
+	font-size: em-calc(10);
+	color: $gray-info;
+	margin-bottom: em-calc(45);
+}
+
+.share-price-feed__links {
+	position: absolute;
+	bottom: em-calc(15);
+
+	a {
+		font-size: em-calc(14);
+		line-height: 2.1428;
+		margin-bottom: 0;
+		-webkit-backface-visibility: hidden;
+
+		@media #{$small} {
+			font-size: em-calc(16);
+			//line-height: 1.875;
+			line-height: 1.125;
+			margin-bottom: em-calc(12);
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		&:after {
+			font-size: em-calc(14);
+		}
+	}
+
+}
+
+
+// TAB BASIC
+// ====================================================
+
+.tabs-basic {
+
+	&.no-tabs-mode {
+
+		.tabs-basic__menu {
+			border: none;
+		}
+
+		.tabs-basic__menu a {
+			font-family: $header-font-family-regular;
+			font-size: em-calc(24);
+			color: $blue-darker;
+			margin-bottom: em-calc(10);
+
+			@media #{$small} {
+				font-size: em-calc(27);
+				line-height: 1.21;
+			}
+
+			&:hover {
+				cursor: default;
+			}
+		}
+
+	}
+
+}
+
+
+
+.tabs-basic__menu {
+	list-style: none !important;
+	margin: em-calc(0 0 20);
+	border-bottom: 1px solid $blue-border;
+	@include clearfix;
+
+	li {
+		float: left;
+		margin-right: em-calc(30);
+
+		@media #{$small} {
+			margin-right: em-calc(15);
+		}
+
+		@media #{$medium} {
+			margin-right: em-calc(20);
+		}
+	}
+
+	a {
+		font-family: $header-font-family-regular;
+		font-size: em-calc(20);
+		line-height: 1.375;
+		display: inline-block;
+		padding-bottom: 0.25em;
+
+		&.active {
+			color: $blue-darker;
+			border-bottom: 4px solid $blue-darker;
+		}
+	}
+}

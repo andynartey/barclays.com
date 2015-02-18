@@ -1,0 +1,10 @@
+<!-- <iframe frameborder="0" height="440" width="1200" src="http://example.com/"></iframe> -->
+<!-- the height and the width prevents scrolling within the iframe and should be configureable -->
+<!-- it also help maintain the aspect ratio for the iframe in smaller screen sizes -->
+
+<div id="iframe" class="external-web">
+<script language="javascript" type="text/javascript">var _iframeURL = 'http://qfx.quartalflife.com/Clients/%28S%28bcwgo1r4e1jefu55d2fvyejq%29%29/ch/swisscom3/SM6m/Default.aspx?culture=en-US';</script>
+<noscript>
+<iframe frameborder="0" width="100%" allowtransparency="true" marginheight="0" marginwidth="0" class="externalwebIFrame" id="ExternalWebContentExternalIFrame" height="1000" src="http://qfx.quartalflife.com/Clients/%28S%28bcwgo1r4e1jefu55d2fvyejq%29%29/ch/swisscom3/SM6m/Default.aspx?culture=en-US" ></iframe>
+</noscript>
+</div>

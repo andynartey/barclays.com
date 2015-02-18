@@ -1,0 +1,69 @@
+<!-- First Office Filter -->
+<div class="content-switcher content-switcher__multi-office">
+  <div class="content-switcher__description">
+    <h2 class="contact-us__title">Choose an office</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus lacus sed sem luctus, vel.</p>
+  </div>
+  <form action="" class="custom">
+      <!-- KeyLinksCombo function -->
+      <select class="officeFilter-1 button-container custom-forms medium officeFilter1">
+          <option>Filter by location</option>
+          <option value="Chicago">Chicago</option>
+          <option value="London">London</option>
+          <option value="HongKong">Hong Kong</option>
+          <option value="NewYork">New York</option>
+      </select>
+  </form>
+
+  <div id="Chicago" class="js-officeFilter">
+    <address itemscope>
+          <div><a href="mailto:contact@barclays.com" title="" class="contact-us__email">contact@barclays.com</a></div><br/>
+          <div><a href="#" title="" class="contact-us__link">Contact form <i class="icon icon__external-link"></i></a></div><br/>
+          <div class="contact-us__address" itemprop="address" itemscope>
+            <span class="contact-us__street-address" itemprop="street-address">1 Churchill Place,</span> 
+            <span class="contact-us__locality" itemprop="locality">Chicago</span> 
+            <span class="contact-us__country-name" itemprop="country">United States,</span> 
+            <span class="contact-us__postcode" itemprop="postcode">E14 9PP</span>
+          </div>
+        </address>
+  </div>
+  <div id="London" class="js-officeFilter">
+    <address itemscope>
+          <div class="contact-us__telephone"><a href="tel:0845 233 454">0845 233 454</a> <span>(from UK)</span></div><br/>
+          <div class="contact-us__telephone"><a href="tel:+44 (0)971 431 4247">+44 (0)971 431 4247</a> <span>(from abroad)</span></div><br/>
+          <div><a href="mailto:contact@barclays.com" title="" class="contact-us__email">contact@barclays.com</a></div><br/>
+          <div><a href="#" title="" class="contact-us__link">Contact form <i class="icon icon__external-link"></i></a></div><br/>
+          <div class="contact-us__address" itemprop="address" itemscope>
+            <span class="contact-us__street-address" itemprop="street-address">1 Churchill Place,</span> 
+            <span class="contact-us__locality" itemprop="locality">London</span> 
+            <span class="contact-us__country-name" itemprop="country">United Kingdom,</span> 
+            <span class="contact-us__postcode" itemprop="postcode">E14 9PP</span>
+          </div>
+        </address>
+  </div>
+  <div id="HongKong" class="js-officeFilter">
+    <address itemscope>
+          <div><a href="mailto:contact@barclays.com" title="" class="contact-us__email">contact@barclays.com</a></div><br/>
+          <div><a href="#" title="" class="contact-us__link">Contact form <i class="icon icon__external-link"></i></a></div><br/>
+          <div class="contact-us__address" itemprop="address" itemscope>
+            <span class="contact-us__street-address" itemprop="street-address">1 Churchill Place,</span> 
+            <span class="contact-us__locality" itemprop="locality">Hong Kong</span> 
+            <span class="contact-us__country-name" itemprop="country">China,</span> 
+            <span class="contact-us__postcode" itemprop="postcode">E14 9PP</span>
+          </div>
+        </address>
+  </div>
+  <div id="NewYork" class="js-officeFilter">
+    <address itemscope>
+          <div class="contact-us__telephone"><a href="tel:+1 (0)971 431 4247">+1 (0)971 431 4247</a> <span>(from abroad)</span></div><br/>
+          <div><a href="mailto:contact@barclays.com" title="" class="contact-us__email">contact@barclays.com</a></div><br/>
+          <div><a href="#" title="" class="contact-us__link">Contact form <i class="icon icon__external-link"></i></a></div><br/>
+          <div class="contact-us__address" itemprop="address" itemscope>
+            <span class="contact-us__street-address" itemprop="street-address">1 Churchill Place,</span> 
+            <span class="contact-us__locality" itemprop="locality">New York</span> 
+            <span class="contact-us__country-name" itemprop="country">United States,</span> 
+            <span class="contact-us__postcode" itemprop="postcode">E14 9PP</span>
+          </div>
+        </address>
+  </div>
+</div>

@@ -1,0 +1,132 @@
+.site-container {
+    background: #fff;
+    position: relative;
+    padding: 0;
+    z-index: 2010;
+    //-webkit-backface-visibility: hidden;
+    //-webkit-transition: translate3d(0,0,0);
+}
+
+.content {
+    position: relative;
+}
+
+
+// TYPOGRAPHY
+// ====================================================
+
+h1 {
+	color: $blue-darker;
+    line-height: 1.29;
+    font-size: em-calc(28);
+
+    @media #{$small} {
+        line-height: 1.16;
+        font-size: em-calc(38);
+    }
+
+    @media #{$medium} {
+        line-height: 1.17;
+        font-size: em-calc(48);
+    }
+
+	.lt-ie9 & {
+		color: $blue-darker;
+	}
+}
+blockquote {
+    font-family: $header-font-family;
+    font-size: em-calc(20);
+    quotes: "\201C""\201D""\2018""\2019";
+    display: block;
+    margin-bottom: 1.5em;
+    &:before, &:after {
+        color: #ccc;
+        font-size: em-calc(40);
+        line-height: 0.1em;
+    }
+    &:before {
+        content: open-quote;
+        margin-right: em-calc(2);
+        vertical-align: -0.4em;
+    }
+    &:after {
+        content: close-quote;
+        bottom: -22px;
+        margin-left: em-calc(2);
+        position: relative;
+    }
+
+    @media #{$medium} {
+        font-size: em-calc(24);
+        line-height: 1.6;
+    }
+}
+textarea {
+    resize: vertical;
+}
+a {
+    outline: 0;
+
+    &:focus {
+        outline: 0;
+    }
+}
+// TEMPLATE COMMON
+// ====================================================
+
+.link__page_holder {
+    min-height: em-calc(45);
+}
+
+iframe {
+    width: 100%;
+	height: 100%;
+}
+
+// LINK MODULE
+// ====================================================
+.link-module {
+    margin-bottom: em-calc(30);
+
+    a {
+        font-family: $header-font-family-regular;
+        font-size: em-calc(18);
+
+        &:after {
+            @include icon-font($icon-chevron-right);
+            font-size: em-calc(12);
+            padding-left: em-calc(10);
+        }
+    }
+    &.link-module--external,
+    // a[href^="http"]:not([href*="barclays.com"]) // use this if the host url is known
+    a[href^="http"] {
+        &:after {
+            @include icon-font($icon-external-link);
+            margin-left: 6px;
+            margin-top: 6px;
+            font-size: 16px;
+        }
+    }
+}
+.list-item {
+    margin-bottom: em-calc(20);
+}
+
+.button-filter {
+    .btn {
+        margin-right: 0;
+        padding-right: em-calc(5);
+        .icon {
+            position: absolute;
+            right: 0px;
+            @media #{$small} {
+                position: relative;
+            }
+        }
+        @media #{$small} {
+            margin-right: 0.625em;
+        }
+    }
+}

@@ -1,0 +1,221 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+
+    <!--#include file="includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container">
+
+        <!--#include file="includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include file="includes/site-chrome/logo-banner.html"-->
+
+        <!--#include file="includes/site-chrome/main-navigation.html"-->
+
+        <div class="row">
+
+            <nav class="jump-to-nav--mobile" data-magellan-expedition="fixed">
+
+                <div class="jump-to-nav__links">
+                    <a href="" class="jump-to-nav-toggle">Introduction</a>
+                    <a href="" class="jump-to-nav-bkToTop">&nbsp;</a>
+                </div>
+
+                <ul class="jump-to-nav__items">
+                    <li class="jump-to-nav__item" data-magellan-arrival="intro">
+                        <a href="#intro">Introduction</a>
+                    </li>
+                    <li class="jump-to-nav__item" data-magellan-arrival="gallery">
+                        <a href="#gallery">Image gallery</a>
+                    </li>
+                    <li class="jump-to-nav__item" data-magellan-arrival="background">
+                        <a href="#background">Project background</a>
+                    </li>
+                    <li class="jump-to-nav__item" data-magellan-arrival="stats">
+                        <a href="#stats">Key stats and results</a>
+                    </li>
+                    <li class="jump-to-nav__item" data-magellan-arrival="difference">
+                        <a href="#difference">Making a difference</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <div class="full-width">
+                <div class="hero-wide">
+                    <img src="http://placehold.it/1170x390" data-interchange="
+                        [http://placehold.it/480x160, (default)],
+                        [http://placehold.it/768x256, (medium)],
+                        [http://placehold.it/1170x390, (large)]" alt="hero">
+                </div>
+            </div>
+
+            <section class="detail-9">
+                <article class="news-feature" data-magellan-destination="intro">
+
+                    <div class="row">
+
+                        <div class="news-feature__title">
+                            <h3><a href="">Community</a></h3>
+                            <h1>Small steps into the night with Unicef make a big difference to education in Rwanda</h1>
+                            <p class="date">30 Jul 2013, 15:30 BST</p>
+                        </div>
+
+                        <div class="news-feature__body">
+                            <p class="news-feature__standfirst">It’s 6:51pm and the light is fading over London’s icon Tower Bridge as 2000 Barclays staff and customers eagerly wait to step into the night for charity. </p>
+
+                            <p class="news-feature__paragraph">Meanwhile, 3000 miles away in central Rwanda, Clémentine Makuzu arrives home from school after walking the 10 mile route that she treks lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                            <p class="news-feature__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend.</p>
+
+                            <div class="news-feature__aperture">
+                                <div class="aperture__content">
+                                    <blockquote class="news-feature__blockquote--aperture">The scale of the turnout for this years walk was truly amazing. To see so many staff and customers getting behind such a worthy cause underlines our shared. </blockquote>
+                                    <cite class="news-feature__cite"><strong>Ashok Vaswani</strong>, COO Barclays UK</cite>
+                                </div>
+                            </div>
+
+                            <p class="news-feature__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend.</p>
+
+                        </div>
+                    </div>
+
+                </article>
+            </section>
+
+            <section class="sub-content-3">
+
+                <nav class="jump-to-nav--desktop" data-magellan-expedition="fixed">
+                    <div class="jump-to-nav__links">
+                        <a href="" class="jump-to-nav-toggle">Introduction</a>
+                        <a href="" class="jump-to-nav-bkToTop">&nbsp;</a>
+                    </div>
+
+                    <ul class="jump-to-nav__items">
+                        <li class="jump-to-nav__item" data-magellan-arrival="intro">
+                            <a href="#intro">Introduction</a>
+                        </li>
+                        <li class="jump-to-nav__item" data-magellan-arrival="gallery">
+                            <a href="#gallery">Image gallery</a>
+                        </li>
+                        <li class="jump-to-nav__item" data-magellan-arrival="background">
+                            <a href="#background">Project background</a>
+                        </li>
+                        <li class="jump-to-nav__item" data-magellan-arrival="stats">
+                            <a href="#stats">Key stats and results</a>
+                        </li>
+                        <li class="jump-to-nav__item" data-magellan-arrival="difference">
+                            <a href="#difference">Making a difference</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--#include file="includes/story-chrome/tags.html"-->
+
+            </section>
+
+        </div>
+
+        <span data-magellan-destination="gallery"></span>
+        <!--#include file="includes/containers/image-gallery.html"-->
+
+        <div class="row">
+
+            <section class="detail-9">
+
+                <article class="news-feature" data-magellan-destination="background">
+
+                    <div class="row">
+
+                        <div class="news-feature__body">
+                            <h2 class="news-feature__heading2">Project background</h2>
+
+                            <p class="news-feature__paragraph">The <a href="">Take One Small Step Into The Night</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus. </p>
+
+                            <p class="news-feature__paragraph">Pellentesque placerat eros vel consequat vehicula. Ut tempor elementum venenatis. Pellentesque posuere elit sit amet diam tempus, vitae vulputate ligula dapibus.</p>
+
+                            <div class="article-item--left">
+                                <!--#include file="includes/containers/key-stats.html"-->
+                            </div>
+
+                            <p class="news-feature__paragraph">Funds raised from the walk will go towards transforming the lives of children in the UK and around the world by providing education and improving healthcare.</p>
+
+                            <p class="news-feature__paragraph">Lorem ipsum dolor sit took part in the walk, following a 10-kilometre route across central London past some of the city's iconic landmarks.</p>
+
+                            <p class="news-feature__paragraph">Participants raised more than £60,000, which went towards healthcare and education projects for children in London and Rwanda.</p>
+
+                            <p class="news-feature__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend.</p>
+
+                            <p class="news-feature__paragraph"><a href="">Read more about the Building Young Futures program</a></p>
+
+                        </div>
+                    </div>
+
+                </article>
+
+            </section>
+
+
+            <section class="sub-content-3">
+
+                <aside class="supplementry-info">
+                    <h2 class="supplementry-info__heading">Education in Rwanda</h2>
+                    <div class="supplementry-info__body">
+                        <img src="images/news-feature/chart.png" alt="">
+                        <p>Literacy rates in the region have increased by 14% since 2010.</p>
+                    </div>
+                </aside>
+
+            </section>
+        </div>
+
+        <span data-magellan-destination="stats"></span>
+        <!--#include file="includes/containers/stats-block.html"-->
+
+        <div class="row">
+
+            <section class="detail-9">
+                <article class="news-feature" data-magellan-destination="difference">
+
+                    <div class="row">
+
+                        <div class="news-feature__body">
+                            <h2 class="news-feature__heading2">Making a difference</h2>
+
+                            <p class="news-feature__paragraph">Since last years event, lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend.</p>
+
+                            <blockquote class="news-feature__blockquote--narrow">Since 2012, the project has grown into praesent mattis magna et dolor mattis.</blockquote>
+
+                            <p class="news-feature__paragraph">In 2012, 800 people took part in the walk, following a 10-kilometre route across central London past some of the city's iconic landmarks. Participants raised more than £60,000, which went towards healthcare and education projects for children in London and Rwanda.</p>
+
+                            <p class="news-feature__paragraph">Participants raised more than £60,000, which went towards healthcare and education projects for children in London and Rwanda.</p>
+
+                            <!--#include file="includes/selected-tweet.html"-->
+
+                        </div>
+                    </div>
+
+                </article>
+            </section>
+
+        </div>
+
+        <div class="row">
+
+            <!--#include file="includes/story-chrome/share-tools.html"-->
+
+            <section class="detail-9">
+
+                <!--#include file="includes/story-chrome/related-content.html"-->
+
+            </section>
+
+        </div>
+
+        <!--#include file="includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include file="includes/javascripts.html"-->
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+// SHARE, EMAIL, PRINT MODULE
+/* --------------------------------------*/
+.share-tools {
+    @include grid-column(12);
+    padding-top: em-calc(15);
+    padding-bottom: em-calc(10);
+    border-bottom: 4px solid #e5e5e5;
+}
+.share-tools__heading {
+    @extend .hide-for-medium-up;
+    @include grid-column(12);
+    h2 {
+        color: $gray;
+        font-size: em-calc(22);
+        margin-bottom: em-calc(10);
+    }
+}
+.share-tools__body {
+    @include grid-column(12);
+    &.fixed {
+        top: 100px;
+    }
+    &.absolute {
+        position: absolute;
+    }
+    ul {
+        @include block-grid(3);
+    }
+    a {
+        display: block;
+        color: #8c8c8c;
+        img, span {
+            display: block;
+            margin: 0 auto;
+        }
+        span {
+            text-align: center;
+        }
+    }
+}
+.share-tools__list {
+    list-style: none;
+    margin-left: -4px;
+}
+@media #{$small} {
+    .share-tools {
+        @include grid-column(1);
+        // position: absolute;
+        // left: em-calc(10);
+        border: none;
+        // top: 320px;
+    }
+    .share-tools__body {
+        ul {
+            @include block-grid(1);
+        }
+    }
+}

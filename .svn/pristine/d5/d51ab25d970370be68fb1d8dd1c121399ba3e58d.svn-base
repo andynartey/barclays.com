@@ -1,0 +1,18 @@
+<div class="bc-textimage">
+    <div class="textimage_text">
+        <div class="text">
+            <h2>Citizenship around the world</h2>
+            <p><span class="intro">Intro paragraph: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui.</span></p>
+        </div>
+    </div>
+</div>
+
+<div id="map" data-mobile="/javascripts/data/data.map-mobile.js" data-desktop="/javascripts/data/data.map.js">
+	<div class="map__links">
+		<a class="map__links--africa" href="" data-hover="africa">Africa &amp; Middle East</a>
+		<a class="map__links--americas" href="" data-hover="americas">Americas</a>
+		<a class="map__links--asia" href="" data-hover="asia">Asia Pacific</a>
+		<a class="map__links--europe" href="" data-hover="europe">Europe</a>
+	</div>
+</div>
+

@@ -1,0 +1,697 @@
+// ====================================================
+// NEWS STORYTELLER MODULE
+// ====================================================
+
+
+// STORYTELLER FILTER -- For use in Mobile
+// ====================================================
+
+.storyteller__filter--mobile {
+    @extend .show-for-medium-down;
+    margin: em-calc(0 -15);
+
+    .section-container.accordion {
+        margin-bottom: 0;
+
+        .title {
+            background: none;
+            border-bottom: $border-style;
+            &:hover {
+                background: none;
+            }
+            a {
+                font-family: $header-font-family;
+                color: $primary-color;
+                font-size: em-calc(22);
+                text-align: center;
+                padding: em-calc(10);
+            }
+        }
+
+        .active {
+            .title {
+                background: none;
+                a {
+                    color: $primary-color;
+                }
+            }
+        }
+
+        .content {
+            padding: 0;
+        }
+    }
+
+    form.custom {
+        .custom {
+            margin-bottom: 0;
+            border: none;
+            border-bottom: $border-style;
+            background: none;
+            font-family: $header-font-family-regular;
+            font-size: em-calc(16);
+
+            .current {
+                margin-left: em-calc(15);
+                color: #8c8c8c;
+            }
+
+            .selector {
+                right: em-calc(5);
+            }
+
+            ul li {
+                padding: em-calc(10 15);
+                font-size: em-calc(14);
+                color: $primary-color;
+
+                &:before {
+
+                }
+
+                &:hover {
+                    background: $primary-color;
+                    color: $white;
+                }
+
+                &.selected {
+                    background: $primary-color;
+                    color: $white;
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// STORYTELLER FILTER -- For use in DESKTOP
+// ====================================================
+
+.storyteller__filter {
+}
+
+.storyteller__filter__toggle {
+    @extend .hide-for-large;
+    display: block;
+    text-align: center;
+    font-family: $header-font-family;
+    font-size: em-calc(20);
+    padding: em-calc(10 0);
+
+    &:after {
+        @include icon-font($icon-plus);
+        font-size: em-calc(10);
+        display: inline-block;
+        margin-left: em-calc(5);
+    }
+
+    &.filter-active {
+        &:after {
+            @include icon-font($icon-minus);
+        }
+    }
+}
+
+.storyteller__filter__holder {
+    @include grid-row($behavior: nest);
+    border-top: $border-style;
+
+    @media #{$medium} {
+        border-top: none;
+    }
+}
+
+.storyteller__filter__col {
+    border-bottom: $border-style;
+    position: relative;
+
+    &:last-child {
+        display: none;
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+        padding-top: em-calc(10);
+        padding-bottom: em-calc(10);
+        position: relative;
+        border: none;
+
+        &:last-child {
+            display: block;
+        }
+    }
+}
+
+.storyteller__filter__link {
+    display: block;
+    color: $gray-info;
+    font-size: em-calc(16);
+    position: relative;
+    font-family: $header-font-family-regular;
+    padding: em-calc(10 15);
+
+    &:after {
+        @include icon-font($icon-chevron-down);
+        position: absolute;
+        right: em-calc(15);
+    }
+
+    &.active {
+        &:after {
+            @include icon-font($icon-chevron-up);
+        }
+    }
+
+    @media #{$medium} {
+        padding: em-calc(10 10);
+        border: 1px solid #fff;
+        border-bottom: none;
+
+        &:after {
+            right: em-calc(10);
+        }
+
+        &.active {
+            border: $border-style;
+            border-bottom: none;
+        }
+    }
+}
+
+.storyteller__filter__list {
+    list-style: none;
+    margin: 0;
+    display: none;
+    position: absolute;
+    background: $white;
+    z-index: 30;
+    border-bottom: $border-style;
+
+    @media #{$medium} {
+        border: $border-style;
+        border-top: none;
+        z-index: 10;
+    }
+}
+
+.storyteller__filter__item {
+    a {
+        display: block;
+        padding: em-calc(5 15 10);
+        font-family: $header-font-family-regular;
+        font-size: em-calc(18);
+
+        span {
+            color: $gray-info;
+        }
+    }
+
+    @media #{$medium} {
+        a {
+            padding: em-calc(5 10 10);
+        }
+
+    }
+}
+
+.storyteller__view-toggle {
+    @extend .show-for-large;
+    float: right;
+    margin-top: em-calc(13);
+    color: $gray-info;
+    font-size: em-calc(14);
+
+    &:before {
+        @include icon-font($icon-list);
+    }
+
+    &.grid-view {
+        &:before {
+            @include icon-font($icon-grid-view);
+        }
+    }
+}
+
+.storyteller-filter-label {
+    position: absolute;
+    z-index: 20;
+    background: $primary-color;
+    font-family: $header-font-family-regular;
+
+    a {
+        color: $white;
+        display: block;
+        padding: em-calc(11 15);
+        position: relative;
+        font-size: em-calc(15);
+
+        &:after {
+            position: absolute;
+            right: em-calc(20);
+            font-size: em-calc(14);
+            margin-top: em-calc(2);
+            @include icon-font($icon-cross);
+        }
+    }
+
+    @media #{$medium} {
+        border-radius: 15px;
+
+        a {
+            padding: em-calc(10 15);
+
+            &:after {
+                right: em-calc(15);
+            }
+        }
+    }
+}
+
+
+
+// STORYTELLER
+// ====================================================
+
+.storyteller {
+    margin-bottom: em-calc(20);
+}
+
+.storyteller__content {
+
+    @media #{$medium} {
+        border-top: $border-style;
+    }
+}
+
+
+// STORYTELLER -- ITEM
+// ====================================================
+
+.storyteller__item {
+    @include grid-column(12);
+    border-bottom: 1px solid #e1e1e1;
+    padding: em-calc(20 15);
+
+    h3 {
+        text-transform: uppercase;
+        font-size: em-calc(13);
+        color: $blue-darker;
+        font-family: $header-font-family-bold;
+    }
+
+    @media #{$small} {
+        @include grid-column(6);
+        min-height: 300px;
+        border: none;
+        padding: em-calc(20 15);
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+        min-height: 420px;
+        padding: em-calc(0 15);
+
+        .bdrTop {
+            border-top: 4px solid #e1e1e1;
+            padding-top: em-calc(20);
+        }
+    }
+}
+
+// STORYTELLER ITEM -- LIST VIEW
+
+.storyteller-list-view {
+    .storyteller__item {
+        margin-bottom: 0;
+        .bdrTop {
+            border-top: none;
+            padding-top: 0;
+        }
+
+        @media #{$small} {
+            @include grid-column(12);
+            min-height: inherit;
+        }
+
+        @media #{$medium} {
+            @include grid-column(9);
+            min-height: inherit !important;
+            padding: em-calc(20 15);
+            margin-bottom: 0;
+            border-bottom: 1px solid #e1e1e1;
+            .standfirst, .topics {
+                display: block;
+            }
+            .bdrTop {
+                .storyteller__item__copy {
+                    padding-right: em-calc(30);
+                    padding-left: em-calc(15);
+                    width: 69%;
+                }
+            }
+        }
+    }
+}
+
+// STORYTELLER -- FEATURE
+// ====================================================
+
+.storyteller__item--feature {
+    @extend .storyteller__item;
+
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+
+    @media #{$medium} {
+        @include grid-column(6);
+    }
+}
+
+// STORYTELLER -- IMAGE
+// ====================================================
+
+.storyteller__item__image {
+    @include grid-column(4);
+    float: right;
+
+    @media #{$small} {
+        @include grid-column(12);
+        float: none;
+
+        img {
+            margin-bottom: em-calc(15);
+        }
+    }
+
+    @media #{$medium} {
+        @include grid-column(12);
+        margin-bottom: em-calc(10);
+
+        img {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.storyteller__item--feature {
+    .storyteller__item__image {
+        @include grid-column(12);
+        padding: 0;
+        position: relative;
+        margin-bottom: em-calc(15);
+        h3 {
+            @include image-label(em-calc(12), em-calc(10 15));
+            line-height: 0.8;
+            opacity: 0.9;
+        }
+
+        @media #{$small} {
+            @include grid-column(12);
+            padding: 0;
+        }
+
+        @media #{$medium} {
+            @include grid-column(12);
+            padding: 0;
+        }
+    }
+}
+
+// STORYTELLER IMAGE -- LIST VIEW
+
+.storyteller-list-view {
+    .storyteller__item__image {
+        float: right;
+
+        @media #{$small} {
+            @include grid-column(4);
+            float: right;
+        }
+
+        @media #{$medium} {
+            @include grid-column(4);
+            float: right;
+            img {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+// STORYTELLER -- COPY
+// ====================================================
+
+.storyteller__item__copy {
+    @include grid-column(8);
+    float: left;
+
+    h2 {
+        font-size: em-calc(18);
+        line-height: 1.3;
+    }
+    p {
+        font-size: em-calc(13);
+        margin-bottom: em-calc(15);
+        &.date, &.topics {
+            color: #b2b2b2;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .standfirst, .topics {
+        display: none;
+    }
+
+    @media #{$small} {
+        @include grid-column(12);
+        float: none;
+    }
+
+    @media #{$medium} {
+        @include grid-column(12);
+    }
+}
+
+.storyteller__item--feature {
+    .storyteller__item__copy {
+        @include grid-column(12);
+        padding: 0;
+
+        @media #{$small} {
+            @include grid-column(12);
+            padding: 0;
+        }
+
+        @media #{$medium} {
+            @include grid-column(12);
+            padding: 0;
+        }
+    }
+}
+
+.storyteller-list-view {
+    .storyteller__item__copy {
+        float: left;
+
+        @media #{$small} {
+            @include grid-column(8);
+        }
+
+        @media #{$medium} {
+            @include grid-column(8);
+        }
+    }
+}
+
+// STORYTELLER -- SINGLE TWEET
+// ====================================================
+
+.twitter__single {
+
+    .storyteller__item__copy {
+        float: none;
+
+        @media #{$medium} {
+            padding: em-calc(15 0 0);
+        }
+    }
+
+    .single {
+        background: #f2f8fb;
+        border-top: 5px solid #c2e0ee;
+        padding: em-calc(15);
+        position: relative;
+    }
+}
+
+.twitter__single__title {
+    padding-left: em-calc(40);
+    background: url(../images/icon-twitter2.png) no-repeat left top;
+    margin-bottom: em-calc(10);
+    h3 {
+        text-transform: none;
+        font-size: em-calc(18);
+        font-family: $header-font-family;
+    }
+    a {
+        display: block;
+        font-size: em-calc(12);
+    }
+}
+
+.twitter__single__feed {
+    margin-bottom: em-calc(15);
+    p {
+        font-family: $header-font-family;
+        font-size: em-calc(16);
+    }
+    .time {
+        font-size: em-calc(13);
+        font-family: $body-font-family;
+        color: #b2b2b2;
+    }
+
+    @media #{$medium} {
+        margin-bottom: em-calc(15);
+
+        p {
+            font-size: em-calc(16);
+        }
+    }
+}
+
+.twitter__single__more {
+    border-top: 1px solid #c2e0ee;
+    padding: em-calc(15 0 0);
+    width: 100%;
+    a {
+        font-size: em-calc(13);
+    }
+
+    @media #{$medium} {
+        padding: em-calc(10 0 0);
+    }
+}
+
+.storyteller-list-view {
+    .twitter__single {
+        .single {
+            min-height: inherit;
+            padding-top: em-calc(15);
+        }
+        .storyteller__item__copy {
+            padding: em-calc(0);
+        }
+        .twitter__single__more {
+            position: static;
+        }
+    }
+}
+
+// STORYTELLER FEATURE -- LIST VIEW
+// ====================================================
+
+.storyteller-list-view {
+
+    .storyteller__item--feature {
+        @include grid-row();
+
+        @media #{$medium} {
+            @include grid-column(9);
+        }
+
+        .storyteller__item__image {
+            @media #{$small} {
+                @include grid-column(7);
+                padding-right: 0;
+                float: right;
+            }
+
+            @media #{$medium} {
+                @include grid-column(7);
+                padding-right: 0;
+                float: right;
+            }
+        }
+
+        .storyteller__item__copy {
+            @media #{$small} {
+                @include grid-column(5);
+                padding-left: 0;
+            }
+
+            @media #{$medium} {
+                @include grid-column(5);
+                padding-left: 0;
+            }
+        }
+
+    }
+
+}
+
+
+
+// STORYTELLER -- MORE STORIES
+// ====================================================
+
+.storyteller__more-stories {
+    @include grid-column(12);
+    margin-top: em-calc(15);
+    padding: 0;
+
+    p {
+        text-align: center;
+        background: $gray-bkgnd;
+        border: $border-style;
+        margin: em-calc(0 15);
+    }
+
+    a {
+        color: $gray-info;
+        font-family: $header-font-family-regular;
+        font-size: em-calc(18);
+        padding: em-calc(15 0);
+        display: block;
+
+        &:before {
+            @include icon-font($icon-plus);
+            font-size: em-calc(14);
+            margin-right: em-calc(10);
+            position: relative;
+            top: 0;
+        }
+    }
+}
+
+// STORYTELLER -- ARCHIVE LINK
+// ====================================================
+
+.storyteller__archive {
+    @extend .storyteller__more-stories;
+    display: none;
+
+    a {
+        color: $blue-link-quote;
+
+        &:before {
+            display: none;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+<div class="cross-promo columns">
+    <!-- CROSS PROMO IMAGE LEFT -->
+    <div class="cross-promo__container cross-left">
+        <div class="cross-promo__image">
+            <a href="">
+                    <img src="http://placehold.it/270x152" data-interchange="
+                        [http://placehold.it/270x152, (large)]" 
+                        alt="Step into the Night">
+                </a>
+        </div>
+        <div class="cross-promo__body">
+            <h3 class="cross-promo__label">Partners</h3>
+                <h2 class="cross-promo__title">
+                    <a href="">UNICEF and Barclays</a></h2>
+                <p class="cross-promo__description">Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, praesent mattis magna.</p>
+                <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</div>

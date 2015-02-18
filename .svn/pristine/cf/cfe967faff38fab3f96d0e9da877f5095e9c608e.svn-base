@@ -1,0 +1,65 @@
+// NEWS TOPICS
+/* --------------------------------------*/
+
+.topics-1 {
+    border-top: $border-style;
+}
+
+.tags {
+    @include grid-column(12);
+    padding-top: em-calc(15);
+    padding-bottom: em-calc(10);
+    border-bottom: $border-style;
+    float: none;
+
+    @media #{$medium} {
+        border-top: 5px solid $gray-rule;
+        border-bottom: 5px solid $gray-rule;
+        margin: 0;
+    }
+}
+
+.tags__heading {
+    h2 {
+        color: $blue-darker;
+        font-size: em-calc(22);
+        margin-bottom: em-calc(10);
+    }
+
+    @media #{$small} {
+        @include grid-column(11, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(12, false, false, 0);
+        padding: 0;
+
+        h2 {
+            font-size: em-calc(24);
+        }
+    }
+}
+
+.tags__body {
+    padding-bottom: em-calc(10);
+
+    a {
+        display: inline-block;
+        background: $gray-bkgnd;
+        font-size: em-calc(14);
+        padding: em-calc(10);
+        border-radius: 15px;
+        color: $blue-link-quote;
+        margin-right: em-calc(5);
+        margin-bottom: em-calc(10);
+    }
+
+    @media #{$small} {
+        @include grid-column(11, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(12, false, false, 0);
+        padding: 0;
+    }
+}

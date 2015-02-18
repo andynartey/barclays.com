@@ -1,0 +1,74 @@
+<div class="tabs__controls">
+                                <div class="tabs__mobile">
+                                    <a href="" class="tabs__mobile__trigger" data-tabs-mobile-trigger>
+                                        UK and Ireland
+                                    </a>
+
+                                    <ul class="tabs__mobile__dropdown" data-tabs-mobile-dropdown>
+                                        <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                            <a href="">UK and Ireland</a>
+                                        </li>
+                                        <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                            <a href="">Africa</a>
+                                        </li>
+                                        <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                            <a href="">Asia</a>
+                                        </li>
+                                        <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                            <a href="">North America</a>
+                                        </li>
+                                        <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                            <a href="">Europe</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <ul class="tabs__desktop">
+                                    <li class="tabs__desktop__item active" data-tabs-desktop-item>
+                                        <a href="">UK and Ireland</a>
+                                    </li>
+                                    <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                        <a href="">Africa</a>
+                                    </li>
+                                    <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                        <a href="">Asia</a>
+                                    </li>
+                                    <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                        <a href="">North America</a>
+                                    </li>
+                                    <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                        <a href="">Europe</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="tabs__contentHolder">
+                                <div class="tabs__content" data-tabs-content>
+                                    <div class="accordion__content_frame">
+                                    <!-- IMAGE LEFT -->
+                                    <!--#include virtual="/includes/products-services/highlighted-story-module.html"-->
+                                    </div>
+                                    <div class="accordion__content_frame">
+                                    <!-- IMAGE RIGHT -->
+                                    <!--#include virtual="/includes/products-services/highlighted-story-module-right.html"-->
+                                    </div>
+                                </div>
+
+                                <div class="tabs__content" data-tabs-content>
+                                    <h1>Africa</h1>
+                                </div>
+
+                                <div class="tabs__content" data-tabs-content>
+                                    <h1>Asia</h1>
+                                </div>
+
+                                <div class="tabs__content" data-tabs-content>
+                                    <h1>North America</h1>
+                                </div>
+
+                                <div class="tabs__content" data-tabs-content>
+                                    <h1>Europe</h1>
+                                </div>
+                            </div>
+                        </div>

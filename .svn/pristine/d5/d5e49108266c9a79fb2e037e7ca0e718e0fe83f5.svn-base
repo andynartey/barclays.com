@@ -1,0 +1,127 @@
+// ====================================================
+// SHARE PRICE FEED
+// ====================================================
+
+.share-price-feed {
+	background: $blue-bkgnd;
+	border-top: 6px solid $blue-border;
+	padding: em-calc(25 15);
+	min-height: em-calc(300);
+	position: relative;
+	margin-bottom: em-calc(15);
+
+	@media #{$small} {
+		margin-bottom: 0;
+	}
+
+	h3 {
+		font-family: $header-font-family-regular;
+		font-size: em-calc(22);
+		color: $blue-darker;
+		margin-bottom: em-calc(20);
+	}
+
+	.links-list {
+		margin: 0;
+		position: absolute;
+		bottom: em-calc(20);
+		border: none;
+
+		li {
+			border: none;
+		}
+
+		a {
+			padding-top: 0;
+			padding-bottom: 0;
+			display: inline-block;
+
+			&:before {
+				top: em-calc(3);
+			}
+		}
+
+		.link-list-external {
+			a {
+				&:before {
+					right: em-calc(-7);
+				}
+			}
+		}
+	}
+}
+
+.share-price-feed__price {
+	color: $primary-color;
+	margin-bottom: em-calc(15);
+
+	.value {
+		font-family: $header-font-family;
+		font-size: em-calc(44);
+		line-height: 1.18;
+		margin-right: em-calc(5);
+
+		@media #{$medium} {
+	        font-size: em-calc(59);
+			line-height: 1;
+	    }
+	}
+
+	.change {
+		font-family: $header-font-family;
+		font-size: em-calc(20);
+
+		&.up {
+			&:before {
+				@include icon-font($icon-arrow-up);
+				font-size: em-calc(10);
+				margin-right: em-calc(10);
+				position: relative;
+				top: -2px;
+			}
+		}
+
+		@media #{$medium} {
+			font-size: em-calc(27);
+		}
+	}
+}
+
+.share-price-feed__date {
+	font-family: $header-font-family-regular;
+	color: $primary-color;
+	font-size: em-calc(14);
+}
+
+.share-price-feed__info {
+	font-family: $header-font-family-regular;
+	font-size: em-calc(10);
+	color: $gray-info;
+	margin-bottom: em-calc(45);
+}
+
+
+// TAB BASIC
+// ====================================================
+.tabs-basic__menu {
+	list-style: none !important;
+	margin: em-calc(0 0 20);
+	border-bottom: 1px solid $blue-border;
+	@include clearfix;
+
+	li {
+		float: left;
+		margin-right: em-calc(30);
+	}
+
+	a {
+		font-family: $header-font-family-regular;
+		font-size: em-calc(22);
+		display: inline-block;
+
+		&.active {
+			color: $blue-darker;
+			border-bottom: 4px solid $blue-darker;
+		}
+	}
+}

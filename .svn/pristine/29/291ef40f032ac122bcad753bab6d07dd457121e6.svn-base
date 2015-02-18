@@ -1,0 +1,15 @@
+<section class="main-content small-12 medium-12 large-12 columns">
+    <div class="hero__imageFullApertureLeft">
+        <div class="aperture__content">
+            <img data-interchange=" [images/products-services/graduate-medium.jpg, (default)], 
+                                    [images/products-services/graduate-large.jpg, (large)]" src="" alt="" >
+        </div>
+        <div class="hero__imageFullApertureLeft_text">
+            <h1>Products and services</h1>
+
+            <p>
+                Barclays is a major global financial services provider engaged in personal banking, credit cards, corporate and investment banking and wealth management
+            </p>
+        </div>
+    </div>
+</section>

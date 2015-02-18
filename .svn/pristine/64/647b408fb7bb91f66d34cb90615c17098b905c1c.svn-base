@@ -1,0 +1,30 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+
+    <div class="site-container">
+
+
+        <div class="content row">
+
+            <div class="small-12 medium-7 large-4 columns">
+
+                <br><br>
+
+                <!--#include virtual="../../includes/containers/story-highlights.html"-->
+
+                <br><br>
+
+                <!--#include virtual="../../includes/containers/story-highlights2.html"-->
+
+            </div>
+
+        </div>
+
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

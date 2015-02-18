@@ -1,0 +1,352 @@
+<section class="storyteller">
+
+    <div class="storyteller__dropdown">
+        <form action="" class="custom">
+            <select class="custom-forms">
+                <option value="">Latest news</option>
+                <option value="">Community</option>
+                <option value="">Products</option>
+                <option value="">Economy</option>
+            </select>
+        </form>
+    </div>
+
+    <ul class="storyteller__tabs">
+        <li class="active"><a href="">Latest news</a></li>
+        <li><a href="">Community</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Economy</a></li>
+    </ul>
+
+    <div class="storyteller__content">
+
+        <div class="storyteller__filter--mobile">
+            <div class="section-container accordion" data-section="accordion">
+                <section>
+                    <p class="title" data-section-title>
+                        <a href="#">Filters</a>
+                    </p>
+                    <div class="content" data-section-content>
+                        <form class="custom">
+                            <select class="custom-forms">
+                                <option>Filter by country</option>
+                                <option value="">Africa &amp; Middle East (11)</option>
+                                <option value="">Americas (7)</option>
+                                <option value="">Asia Pacific (9)</option>
+                                <option value="">Europe (23)</option>
+                            </select>
+
+                            <select class="custom-forms">
+                                <option>Filter by date</option>
+                                <option value="">Day</option>
+                                <option value="">Month</option>
+                                <option value="">Year</option>
+                            </select>
+
+                            <select class="custom-forms">
+                                <option>Filter by division</option>
+                                <option value="">Barclays Africa</option>
+                                <option value="">Barclays UK</option>
+                            </select>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="storyteller__filter--desktop">
+            <form class="custom">
+                <ul>
+                    <li>
+                        <select class="custom-forms">
+                            <option>Filter by country</option>
+                            <option value="">Africa &amp; Middle East (11)</option>
+                            <option value="">Americas (7)</option>
+                            <option value="">Asia Pacific (9)</option>
+                            <option value="">Europe (23)</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="custom-forms">
+                            <option>Filter by date</option>
+                            <option value="">Day</option>
+                            <option value="">Month</option>
+                            <option value="">Year</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="custom-forms">
+                            <option>Filter by division</option>
+                            <option value="">Barclays Africa</option>
+                            <option value="">Barclays UK</option>
+                        </select>
+                    </li>
+                    <li class="filter-buttons">
+                        <a href="" class="clear-filter"><img src="/images/icon-clear-filter.png" alt=""></a>
+                        <a href="" class="view-toggle">Toogle view</a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+        <div class="storyteller__body">
+            <div class="row">
+
+                <article class="storyteller__item js-item">
+                    <div class="row">
+                        <div class="storyteller__item__image">
+                            <img src="http://placehold.it/270x150" data-interchange="
+                                [http://placehold.it/125x125, (default)],
+                                [http://placehold.it/350x190, (medium)],
+                                [http://placehold.it/270x150, (large)]" alt="">
+                        </div>
+                        <div class="storyteller__item__copy">
+                            <h3>Banking on change</h3>
+                            <h2>Barclays recognised for social responsibility</h2>
+                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="storyteller__item js-item">
+                    <div class="row">
+                        <div class="storyteller__item__image">
+                            <img src="http://placehold.it/270x150" data-interchange="
+                                [http://placehold.it/125x125, (default)],
+                                [http://placehold.it/350x190, (medium)],
+                                [http://placehold.it/270x150, (large)]" alt="">
+                        </div>
+                        <div class="storyteller__item__copy">
+                            <h3>Banking on change</h3>
+                            <h2>Barclays recognised for social responsibility</h2>
+                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="storyteller__item--feature js-item">
+                    <div class="storyteller__item__image">
+                        <h3>Campaign</h3>
+                        <img src="http://placehold.it/570x315" data-interchange="
+                            [http://placehold.it/435x240, (default)],
+                            [http://placehold.it/725x400, (medium)],
+                            [http://placehold.it/570x315, (large)]" alt="">
+                    </div>
+                    <div class="storyteller__item__copy">
+                        <h3>Banking on change</h3>
+                        <h2>Barclays recognised for social responsibility</h2>
+                        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+                        <p class="topics"><strong>Topics:</strong> Banking, Economy, Social Responsibility</p>
+                    </div>
+                </article>
+
+
+                <article class="storyteller__item--feature js-item">
+                    <div class="storyteller__item__image">
+                        <h3>Case study</h3>
+                        <img src="http://placehold.it/570x315" data-interchange="
+                            [http://placehold.it/435x240, (default)],
+                            [http://placehold.it/725x400, (medium)],
+                            [http://placehold.it/570x315, (large)]" alt="">
+                    </div>
+                    <div class="storyteller__item__copy">
+                        <h3>Banking on change</h3>
+                        <h2>Barclays recognised for social responsibility</h2>
+                        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+                        <p class="topics"><strong>Topics:</strong> Banking, Economy, Social Responsibility</p>
+                    </div>
+                </article>
+
+                <article class="storyteller__item twitter__single js-item">
+                    <div class="single">
+                        <div class="storyteller__item__copy">
+                            <div class="twitter__single__title">
+                                <h3>Barclays UK News <a href="">@Barclays</a></h3>
+                            </div>
+                            <div class="twitter__single__feed">
+                                <p>We are pleased to confirm that Barclays will participate in the Help to Buy mortgage guarantee scheme <a href="">#helptobuy</a> <a href="">#mortgage</a></p>
+                                <p class="time">11 mins ago</p>
+                            </div>
+                            <div class="twitter__single__more">
+                                <a href="">See more tweets from Barclays UK News ></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="storyteller__item js-item">
+                    <div class="row">
+                        <div class="storyteller__item__image">
+                            <img src="http://placehold.it/270x150" data-interchange="
+                                [http://placehold.it/125x125, (default)],
+                                [http://placehold.it/350x190, (medium)],
+                                [http://placehold.it/270x150, (large)]" alt="">
+                        </div>
+                        <div class="storyteller__item__copy">
+                            <h3>Banking on change</h3>
+                            <h2>Barclays recognised for social responsibility</h2>
+                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="storyteller__item js-item">
+                    <div class="row">
+                        <div class="storyteller__item__image">
+                            <img src="http://placehold.it/270x150" data-interchange="
+                                [http://placehold.it/125x125, (default)],
+                                [http://placehold.it/350x190, (medium)],
+                                [http://placehold.it/270x150, (large)]" alt="">
+                        </div>
+                        <div class="storyteller__item__copy">
+                            <h3>Banking on change</h3>
+                            <h2>Barclays recognised for social responsibility</h2>
+                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="storyteller__item js-item">
+                    <div class="row">
+                        <div class="storyteller__item__image">
+                            <img src="http://placehold.it/270x150" data-interchange="
+                                [http://placehold.it/125x125, (default)],
+                                [http://placehold.it/350x190, (medium)],
+                                [http://placehold.it/270x150, (large)]" alt="">
+                        </div>
+                        <div class="storyteller__item__copy">
+                            <h3>Banking on change</h3>
+                            <h2>Barclays recognised for social responsibility</h2>
+                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>-->
+                        </div>
+                    </div>
+                </article>
+
+                <article class="storyteller__item--feature js-item">
+                    <div class="storyteller__item__image">
+                        <h3>Feature</h3>
+                        <img src="http://placehold.it/570x315" data-interchange="
+                            [http://placehold.it/435x240, (default)],
+                            [http://placehold.it/725x400, (medium)],
+                            [http://placehold.it/570x315, (large)]" alt="">
+                    </div>
+                    <div class="storyteller__item__copy">
+                        <h3>Banking on change</h3>
+                        <h2>Barclays recognised for social responsibility</h2>
+                        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+                        <p class="topics"><strong>Topics:</strong> Banking, Economy, Social Responsibility</p>
+                    </div>
+                </article>
+
+
+                <article class="storyteller__item--feature js-item">
+                    <div class="storyteller__item__image">
+                        <h3>Feature</h3>
+                        <img src="http://placehold.it/570x315" data-interchange="
+                            [http://placehold.it/435x240, (default)],
+                            [http://placehold.it/725x400, (medium)],
+                            [http://placehold.it/570x315, (large)]" alt="">
+                    </div>
+                    <div class="storyteller__item__copy">
+                        <h3>Banking on change</h3>
+                        <h2>Barclays recognised for social responsibility</h2>
+                        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+                        <p class="topics"><strong>Topics:</strong> Banking, Economy, Social Responsibility</p>
+                    </div>
+                </article>
+
+                <article class="storyteller__item js-item">
+                    <div class="row">
+                        <div class="storyteller__item__image">
+                            <img src="http://placehold.it/270x150" data-interchange="
+                                [http://placehold.it/125x125, (default)],
+                                [http://placehold.it/350x190, (medium)],
+                                [http://placehold.it/270x150, (large)]" alt="">
+                        </div>
+                        <div class="storyteller__item__copy">
+                            <h3>Banking on change</h3>
+                            <h2>Barclays recognised for social responsibility</h2>
+                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="storyteller__item js-item">
+                    <div class="row">
+                        <div class="storyteller__item__image">
+                            <img src="http://placehold.it/270x150" data-interchange="
+                                [http://placehold.it/125x125, (default)],
+                                [http://placehold.it/350x190, (medium)],
+                                [http://placehold.it/270x150, (large)]" alt="">
+                        </div>
+                        <div class="storyteller__item__copy">
+                            <h3>Banking on change</h3>
+                            <h2>Barclays recognised for social responsibility</h2>
+                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>-->
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="storyteller__item js-item">
+                    <div class="row">
+                        <div class="storyteller__item__image">
+                            <img src="http://placehold.it/270x150" data-interchange="
+                                [http://placehold.it/125x125, (default)],
+                                [http://placehold.it/350x190, (medium)],
+                                [http://placehold.it/270x150, (large)]" alt="">
+                        </div>
+                        <div class="storyteller__item__copy">
+                            <h3>Banking on change</h3>
+                            <h2>Barclays recognised for social responsibility</h2>
+                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>-->
+                        </div>
+                    </div>
+                </article>
+
+                <article class="storyteller__item js-item">
+                    <div class="row">
+                        <div class="storyteller__item__image">
+                            <img src="http://placehold.it/270x150" data-interchange="
+                                [http://placehold.it/125x125, (default)],
+                                [http://placehold.it/350x190, (medium)],
+                                [http://placehold.it/270x150, (large)]" alt="">
+                        </div>
+                        <div class="storyteller__item__copy">
+                            <h3>Banking on change</h3>
+                            <h2>Barclays recognised for social responsibility</h2>
+                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="storyteller__item--feature js-item">
+                    <div class="storyteller__item__image">
+                        <h3>Feature</h3>
+                        <img src="http://placehold.it/570x315" data-interchange="
+                            [http://placehold.it/435x240, (default)],
+                            [http://placehold.it/725x400, (medium)],
+                            [http://placehold.it/570x315, (large)]" alt="">
+                    </div>
+                    <div class="storyteller__item__copy">
+                        <h3>Banking on change</h3>
+                        <h2>Barclays recognised for social responsibility</h2>
+                        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+                        <p class="topics"><strong>Topics:</strong> Banking, Economy, Social Responsibility</p>
+                    </div>
+                </article>
+
+
+                <div class="storyteller__more-stories">
+                    <p><a href="" class="js-showMore">More stories</a></p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>

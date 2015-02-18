@@ -1,0 +1,60 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="content row">
+        <br>
+        <div class="detail-wide">
+            <h1>Hub Hero</h1>
+            <!--#set var="hubHeading" value="Products and services" -->
+            <!--#include virtual="../../includes/containers/hero-hub.html"-->
+        </div>
+        <br><br>
+        <div class="detail-wide">
+            <h1>Hub Hero - with button (Careers)</h1>
+            <!--#set var="hubHeading" value="Products and services" -->
+            <!--#include virtual="../../includes/containers/hero-hub-careers-button.html"-->
+        </div>
+        <br><br>
+        <div class="detail-wide">
+            <h1>Hub Hero with dark text (Contact us)</h1>
+            <!--#set var="hubHeading" value="Products and services" -->
+            <!--#include virtual="../../includes/containers/hero-hub-dark-text.html"-->
+        </div>
+        <br>
+
+    </div>
+
+    <div class="content row">
+        <br><br>
+        <div class="detail-wide">
+            <h1>Hub Hero - Sub-hub</h1>
+            <!--#include virtual="../../includes/containers/hero-sub-hub-minus-button.html"-->
+        </div>
+        <br><br>
+        <br><br>
+        <div class="detail-wide">
+            <h1>Hub Hero - Sub-hub with button</h1>
+            <!--#include virtual="../../includes/containers/hero-sub-hub.html"-->
+        </div>
+        <br><br>
+    </div>
+
+    <div class="content row">
+        <br><br>
+        <div class="detail-wide">
+            <h1>Level 3 - Header</h1>
+            <!--#include virtual="../../includes/containers/level-3-header-minus-button.html"-->
+        </div>
+        <br><br>
+        <br><br>
+        <div class="detail-wide">
+            <h1>Level 3 - Header with button</h1>
+            <!--#include virtual="../../includes/containers/level-3-header.html"-->
+        </div>
+        <br><br>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

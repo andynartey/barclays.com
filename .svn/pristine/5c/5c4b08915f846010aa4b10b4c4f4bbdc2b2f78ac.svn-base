@@ -1,0 +1,31 @@
+
+<h2>Thick line</h2>
+<!-- Thick line -->
+<div class="thickline"></div>
+<!-- End -->
+
+<h2>Thin line</h2>
+<!-- Thin line -->
+<div class="thinline"></div>
+<!-- End -->
+
+<h2>White space 20</h2>
+<div style="border: 1px solid #007eb6;">
+	
+	<!-- White space 20 -->
+	<div class="whitespace20"></div>
+	<!-- End -->
+
+	<br/>
+</div>
+<br/>
+<!--SPACER CONTAINER-->
+<h2>White space 10</h2>
+<div style="border: 1px solid #007eb6;">
+	
+	<!-- White space 10 -->
+	<div class="whitespace10"></div>
+	<!-- End -->
+
+	<br/>
+</div>

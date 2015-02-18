@@ -1,0 +1,40 @@
+// ====================================================
+// CAROUSEL
+// ====================================================
+
+.carousel {
+    @include grid-column(12);
+    padding: 0;
+}
+
+.carousel__item__image {
+    position: relative;
+    margin-bottom: em-calc(15);
+    .image__caption {
+        @include image-label(em-calc(16), em-calc(10 15));
+        line-height: 0.8;
+    }
+}
+
+.carousel__item__copy {
+    h2 {
+        text-transform: uppercase;
+        font-size: em-calc(16);
+        color: $blue-darker;
+        font-family: $header-font-family-bold;
+    }
+    h1 {
+        font-size: em-calc(30);
+        line-height: 1.2;
+    }
+    .date {
+        font-size: em-calc(16);
+        color: #8c8c8c;
+    }
+
+    @media #{$medium} {
+        .date {
+            display: none;
+        }
+    }
+}

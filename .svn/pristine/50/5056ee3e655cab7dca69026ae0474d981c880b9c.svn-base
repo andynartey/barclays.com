@@ -1,0 +1,5 @@
+<div class="document-download"> <!-- this is the wrapper for all downloads (even if only 1) -->
+
+    <!--#include virtual="../../includes/story-chrome/download-strip.html"-->
+
+</div>

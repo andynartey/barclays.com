@@ -1,0 +1,10 @@
+<script src="/javascripts/vendor/jquery-1.10.2.min.js"></script>
+<script src="/javascripts/plugins.js"></script>
+<script src="/highcharts/highcharts.js"></script>
+<script src="/javascripts/navigation.js"></script>
+<script src="/javascripts/storyteller.js"></script>
+<script src="/javascripts/topic-results.js"></script>
+<script src="/javascripts/search-results.js"></script>
+<script src="/javascripts/main.js?ewrwqerwqer"></script>
+<script src="/javascripts/iframe.js"></script>
+<!-- <div class="debug" style="position: fixed;color: red;top:0;right:0;z-index: 5000"></div> -->

@@ -1,0 +1,111 @@
+// ====================================================
+// LOGO BANNER
+// ====================================================
+
+.logo-banner {
+    border-bottom: $border-style;
+    font-family: $header-font-family;
+    padding: em-calc(15 0 10);
+
+    @media #{$small} {
+
+    }
+
+    @media #{$medium} {
+        padding: em-calc(30 0 15);
+    }
+}
+
+// LOGO BANNER -- HAMBURGER
+// ====================================================
+.logo-banner__hamburger {
+    @include grid-column(3);
+    @extend .show-for-medium-down;
+
+    @media #{$small} {
+        @include grid-column(3);
+    }
+}
+
+
+
+// LOGO BANNER -- LOGO
+// ====================================================
+.logo-banner__logo {
+    @include grid-column(6);
+
+    @media #{$small} {
+        @include grid-column(6);
+    }
+
+    @media #{$medium} {
+        @include grid-column(8);
+    }
+}
+
+
+
+// LOGO BANNER -- SEARCH
+// ====================================================
+.logo-banner__search {
+    @include grid-column(3);
+
+    @media #{$small} {
+        @include grid-column(3);
+    }
+
+    @media #{$medium} {
+        @include grid-column(4);
+    }
+}
+
+.logo-banner__search__toggle {
+    width: em-calc(22);
+    height: em-calc(37);
+    text-indent: -9999px;
+    background: url(../images/icon-search.png) no-repeat center center;
+    float: right;
+}
+
+.logo-banner__search__form {
+    margin: 0;
+    display: none;
+    @include clearfix;
+}
+
+.logo-banner__search-btn {
+    @extend .logo-banner__search__toggle;
+    border: $border-style;
+    width: 15%;
+    float: left;
+    height: em-calc(37);
+}
+
+.logo-banner__search .logo-banner__search-field {
+    margin: 0;
+    width: 85%;
+    float: right;
+    font-size: em-calc(20);
+    padding: em-calc(0 5);
+    height: em-calc(30);
+    font-family: $header-font-family;
+    border: $border-style;
+    border-left: none;
+    box-shadow: none;
+    outline: none;
+    &:focus {
+        box-shadow: none;
+        border: $border-style;
+        outline: none;
+    }
+}
+
+
+// LOGO BANNER -- STICKY (MOBILE ONLY)
+// ====================================================
+.banner-sticky {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    background: #fff;
+}

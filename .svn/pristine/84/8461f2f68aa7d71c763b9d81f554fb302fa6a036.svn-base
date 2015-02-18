@@ -1,0 +1,198 @@
+// ====================================================
+// MAIN GLOBAL NAVIGATION -- Mobile and portrait tablet
+// ====================================================
+
+body {
+    overflow-x: hidden;     // For hamburger navigation
+}
+
+.off-canvas-menu {
+    @include grid-column(10);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2000;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    //@include linear-gradient(to right, #fafafa 50%, #e4e4e4);
+    box-shadow: inset -5px -10px 10px -5px #cfcfcf;
+    background: #fafafa;
+
+    @media #{$small} {
+        @include grid-column(6);
+        padding: 0;
+    }
+
+    .active {
+        @include linear-gradient(#14a0db, $primary-color);
+        > a {
+            color: #fff;
+
+            &:after {
+                color: $white;
+            }
+        }
+    }
+}
+
+.off-canvas-menu__top-level {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    font-size: 1em;
+    list-style: none;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: translate3d(0,0,0);
+}
+
+.off-canvas-menu__item {
+    border-bottom: $border-style;
+    font-family: $header-font-family;
+    margin: 0;
+
+    a {
+        padding: em-calc(13 17);
+        font-size: em-calc(16);
+        display: block;
+        &:hover {
+            //@include linear-gradient(#14a0db, $primary-color);
+            //background: #f5f5f5;
+
+            &:after {
+                color: $blue-darker;
+            }
+        }
+    }
+}
+
+.off-canvas-menu__has-menu {
+    > a {
+        position: relative;
+
+        &:after {
+            position: absolute;
+            right: em-calc(13);
+            @include icon-font($icon-chevron-right);
+            color: $gray-carousel-arrow;
+            margin-top: 3px;
+        }
+
+        &:hover {
+            &:after {
+                //color: $white;
+            }
+        }
+    }
+}
+
+.off-canvas-menu__second-level {
+    @include grid-column(12);
+    float: none;
+    padding: 0;
+    display: block;
+    position: absolute !important;
+    top: 0;
+    left: 100%;
+    z-index: 0;
+    font-size: 1em;
+    list-style: none;
+    margin: 0;
+    //@include linear-gradient(to right, #fafafa 90%, #e4e4e4);
+    box-shadow: inset 0px -10px 10px 0px #cfcfcf;
+    background: #fafafa;
+}
+
+.off-canvas-menu__second-level__item {
+    border-bottom: $border-style;
+    font-size: 1em !important;
+
+    a {
+        padding: em-calc(13 25);
+    }
+}
+
+.off-canvas-menu__second-level__item--back {
+    @extend .off-canvas-menu__second-level__item;
+
+    a {
+        color: $blue-darker;
+        font-family: $header-font-family;
+        position: relative;
+
+        &:before {
+            position: absolute;
+            left: em-calc(7);
+            top: em-calc(18);
+            @include icon-font($icon-chevron-left);
+            font-size: em-calc(14);
+        }
+
+        &:hover {
+            color: $blue-darker;
+
+            &:before {
+                //color: $gray-lighter;
+            }
+        }
+    }
+}
+
+
+
+.off-canvas-menu__heading {
+    font-family: $header-font-family-bold;
+}
+
+.off-canvas-menu__third-level {
+    @extend .off-canvas-menu__second-level;
+    left: 100%;
+}
+
+.off-canvas-menu__third-level__item {
+    @extend .off-canvas-menu__second-level__item;
+
+    &:first-child {
+        a {
+            color: $blue-darker;
+            position: relative;
+
+            &:before {
+                position: absolute;
+                left: em-calc(7);
+                top: em-calc(18);
+                @include icon-font($icon-chevron-left);
+                font-size: em-calc(14);
+            }
+        }
+    }
+}
+
+.off-canvas-menu-content-layer {
+    display: none;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 17%;
+    z-index: 5000;
+    min-height: 1062px;
+
+    @media #{$small} {
+        width: 50%;
+    }
+}
+
+.second-level-active {
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: translate3d(0,0,0);
+}
+
+.third-level-active {
+    z-index: 150;
+}

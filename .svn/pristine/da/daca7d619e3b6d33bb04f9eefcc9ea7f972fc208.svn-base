@@ -1,0 +1,204 @@
+ // CREATE BARCLAYS NAMESPACE
+var BAR = BAR || {};
+
+$(function(){
+
+    // ====================================================
+    // TOPIC RESULTS FILTERS
+    // ====================================================
+
+    BAR.TopicFilter = function(selector) {
+        this.topicContainer = $(selector);
+        this.topicFilterLink = this.topicContainer.find('[data-topicresults-filter-link]');
+        this.topicFilterToggle = this.topicContainer.find('[data-topicresults-filter-toggle]');
+        this.topicFilterHolder = this.topicContainer.find('[data-topicresults-filter-holder]');
+
+        this.init();
+    }
+
+    BAR.TopicFilter.prototype = {
+
+        init: function() {
+            var self = this;
+
+            this.mediaDetection(self);
+
+            this.topicFilterLink.on('click', function(e) {
+                if ( !$(this).hasClass('inactive') ) {
+                    self.checkState(this);
+                }
+                e.preventDefault();
+            });
+
+            this.topicFilterToggle.on('click', function(e) {
+                self.mobileToggleFilters(this);
+                e.preventDefault();
+            });
+        },
+
+        checkState: function(link) {
+            var $link = $(link);
+
+            if ( $link.hasClass('active') ) {
+                this.hideDropdown($link);
+            } else {
+                this.showDropdown($link);
+            }
+        },
+
+        showDropdown: function($link) {
+            var getLinkWidth = $link.outerWidth(),
+                getLinkPos = $link.position(),
+                getLinkHeight = $link.height(),
+                self = this;
+
+            self.topicContainer.find('[data-topicresults-filter-list]').hide();
+            self.topicFilterLink.removeClass('active');
+
+            $link.addClass('active');
+            $link.next('[data-topicresults-filter-list]')
+                .css({
+                    'width': getLinkWidth,
+                    'top': getLinkPos.top + getLinkHeight + 20
+                }).show();
+
+            $link.next('[data-topicresults-filter-list]')
+                .find('[data-topicresults-filter-item]')
+                    .on('click', function(e) {
+                        self.addSelectedItem(this);
+                        e.preventDefault();
+                    });
+        },
+
+        hideDropdown: function($link) {
+            var self = this;
+
+            $link.removeClass('active');
+            $link.next('[data-topicresults-filter-list]').hide()
+                .find('[data-topicresults-filter-item]')
+                    .off('click', function(e) {
+                        self.addSelectedItem(this);
+                        e.preventDefault();
+                    });
+        },
+
+        addSelectedItem: function(selectedItem) {
+
+            var topicFilter = this,
+                txt = $(selectedItem).find('a').text(),
+                labelHolder = '<div class="topic-results-filter-label"><a href="">' + txt + '</a></div>',
+                $self = this.topicFilterLink.filter('.active'),
+                getLinkWidth = $self.outerWidth(),
+                getLinkPos = $self.position();
+
+            topicFilter.hideDropdown($self);
+
+            $self.after(labelHolder);
+
+            this.topicContainer.find('.topic-results-filter-label').css({
+                'width': getLinkWidth,
+                'top': getLinkPos.top
+            });
+
+            this.topicContainer.find('.topic-results-filter-label').on('click', function(e) {
+                topicFilter.removeSelectedItem(this);
+                e.preventDefault();
+            });
+        },
+
+        removeSelectedItem: function(self) {
+            $(self)
+                .hide()
+                .off('click')
+                .remove();
+        },
+
+        mediaDetection: function(self) {
+            enquire
+                .register( "screen and (max-width: 768px)", {
+                    match: function() {
+                        self.topicFilterHolder.hide();
+                    }
+                })
+                .register( "screen and (min-width: 769px)", {
+                    match: function() {
+                        self.topicFilterHolder.show();
+                    }
+                }, true);
+        },
+
+        mobileToggleFilters: function(self) {
+            $(self).toggleClass('filter-active');
+            this.topicFilterHolder.slideToggle('fast');
+        }
+    }
+
+    // ====================================================
+    // TOPIC LAZY LOAD
+    // ====================================================
+
+    BAR.TopicLazyLoad = function(selector, itemCount) {
+        this.topicContainer = $(selector);
+        this.showMoreBtn = this.topicContainer.find('[data-topics-showmore]');
+        this.storyItem = this.topicContainer.find('[data-topics-item]');
+        this.topicItemCount = itemCount;
+
+        this.init();
+        //BAR.topicsRowHeights.init();
+    }
+
+    BAR.TopicLazyLoad.prototype = {
+
+        init: function() {
+            var self = this;
+
+            this.hideContent();
+
+            this.showMoreBtn.on('click', function(e) {
+                self.showMore();
+                e.preventDefault();
+            });
+        },
+
+        hideContent: function() {
+            this.storyItem.hide().addClass('js-itemHidden');
+
+            for ( var i = 0; i < this.topicItemCount; i++ ) {
+                this.storyItem.eq(i).show().removeClass('js-itemHidden');
+            }
+        },
+
+        showMore: function() {
+            var $hiddenItems = this.topicContainer.find('.js-itemHidden');
+
+            for ( var i = 0; i < this.topicItemCount; i++ ) {
+                $hiddenItems.eq(i).fadeIn().removeClass('js-itemHidden');
+            }
+
+            var firstItemPos = $hiddenItems.first().offset().top;
+
+            this.scrollToRow(firstItemPos);
+
+            this.hideBtn();
+        },
+
+        scrollToRow: function(firstItemPos) {
+            var scrollTarget = firstItemPos,
+                headerScrollOffset = $('.main-nav').height();
+
+            $('html, body').animate({
+                scrollTop: scrollTarget - headerScrollOffset - 20
+            }, 'slow');
+        },
+
+        hideBtn: function() {
+            var hiddenItemCount = this.topicContainer.find('.js-itemHidden').length;
+
+            if ( hiddenItemCount === 0 ) {
+                this.topicContainer.find('.topic-results__more-stories').hide();
+            }
+        }
+    }
+
+}());
+

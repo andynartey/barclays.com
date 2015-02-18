@@ -1,0 +1,210 @@
+// Note: the positioning of the logo is reliant on the logo being small up to the medium viewport
+
+.aperture {
+	overflow: hidden;
+	position: relative;
+	margin-bottom: em-calc(20);
+	&.aperture__withLogo {
+		@include clearfix;
+		.aperture__content,
+		.aperture__logo {
+			width: 50%;
+			float: left;
+		}
+	}
+}
+
+/*@group breakpoint from small*/
+	@media #{$small} {
+		.aperture {
+			&.aperture__withLogo {
+				.aperture__content {
+					width: 60%;
+				}
+				.aperture__logo {
+					width: 40%;
+				}
+			}
+		}
+	}
+/*endgroup*/
+
+/*@group breakpoint from large*/
+	@media #{$medium} {
+		.aperture {
+			margin-bottom: 0;
+		}
+	}
+/*endgroup*/
+
+.aperture__content {
+	position: relative;
+	z-index: 1;
+	padding: em-calc(25 30); 
+	&:before,
+	&:after {
+		content: "";
+		border: solid 3.5px $blue-lighter;
+		background: $blue-lighter;
+		position: absolute;
+		height: 100%;
+		width: 0;
+		top: 0;
+		border-radius: 10px;
+		z-index: 2;
+	}
+	&:before,{
+		left: 0;
+	}
+	&:after {
+		right: 0;
+	}
+}
+
+/*@group breakpoint from small*/
+	@media #{$small} {
+		.aperture__content {
+			&:before,
+			&:after {
+				border-width: 4.5px;
+			}
+		}
+	}
+/*endgroup*/
+
+/*@group breakpoint from medium*/
+	@media #{$medium} {
+		.aperture__content {
+			padding: em-calc(56 50); 
+		}
+	}
+/*endgroup*/
+
+// aperture with image
+.aperture.has-image {
+	.aperture__content {
+		// image starts 1/2 B from top
+		padding: 7.5px 5px;
+	}
+	img {
+		width: 100%;
+		position: relative;
+		z-index: -1;
+	}
+}
+/*@group breakpoint from small*/
+	@media #{$small} {
+		.aperture.has-image {
+			.aperture__content {
+				padding-left: 7px;
+				padding-right: 7px;
+			}
+		}
+	}
+/*endgroup*/
+/*@group breakpoint from medium*/
+	@media #{$medium} {
+		.aperture.has-image {
+			.aperture__content {
+				padding: 14px 10px;
+			}
+		}
+	}
+/*endgroup*/
+
+.aperture__logo {
+	padding: 26px 9px;
+	position: absolute;
+	top: 50%;
+	margin-top: -38px; // half of logo block
+	right: 0;
+}
+/*@group breakpoint from medium*/
+	@media #{$medium} {
+		.aperture__logo {
+			padding: 56px 20px;
+			margin-top: -75px;
+		}
+	}
+/*endgroup*/
+
+
+// Copy styles
+.aperture__subtitle {
+	text-transform: uppercase;
+	font-size: em-calc(18);
+	font-family: "Expert-Sans-Regular";
+	margin-bottom: 0.5em;
+	display: inline-block;
+}
+.aperture__title {
+	font-size: em-calc(30);
+	color: $blue-darker;
+}
+/*@group breakpoint from medium*/
+	@media #{$medium} {
+		.aperture__title {
+			font-size: em-calc(48);
+		}
+	}
+/*endgroup*/
+/*@group breakpoint from small*/
+	@media #{$small} {
+		.aperture__title {
+			font-size: em-calc(48);
+		}
+	}
+/*endgroup*/
+.aperture__lead {
+	font-size: em-calc(16);
+	font-family: "Expert-Sans-Regular";
+}
+/*@group breakpoint from small*/
+	@media #{$small} {
+		.aperture__lead {
+			font-size: em-calc(22);
+		}
+	}
+/*endgroup*/
+/*@group breakpoint from medium*/
+	@media #{$medium} {
+		.aperture__lead {
+			font-size: em-calc(22);
+		}
+	}
+/*endgroup*/
+
+
+
+
+
+// IE8 bars
+.lt-ie9 {
+	.aperture {
+		.edge {
+			background: url(../images/ie/edge-bot.gif) no-repeat bottom left $blue-lighter;
+			position: absolute;
+			top: 0;
+			height: 100%;
+			width: 8px;
+		}
+		.edge-top {
+			background: url(../images/ie/edge-top.gif) no-repeat 0 0;
+			width: 8px;
+			height: 6px;
+			display: block;
+		}
+		.edge-right {
+			right: 0;
+		}
+		.edge-left {
+			left: 0;
+		}
+		.aperture__content {
+			&:before,
+			&:after {
+				display: none;
+			}
+		}
+	}
+}

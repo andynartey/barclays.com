@@ -1,0 +1,22 @@
+<div class="latest-news">
+    <h2 class="latest-news__heading">Latest news</h2>
+
+    <div class="latest-news__item">
+        <h3 class="latest-news__heading2">Citizenship</h3>
+        <h2 class="latest-news__heading1"><a href="">Barclays recognised for social responsibility</a></h2>
+        <p class="latest-news__date">30 July 2013, 15:30 BST</p>
+    </div>
+
+    <div class="latest-news__item">
+        <h3 class="latest-news__heading2">Citizenship</h3>
+        <h2 class="latest-news__heading1"><a href="">Barclays recognised for social responsibility</a></h2>
+        <p class="latest-news__date">30 July 2013, 15:30 BST</p>
+    </div>
+
+    <div class="latest-news__item">
+        <h3 class="latest-news__heading2">Citizenship</h3>
+        <h2 class="latest-news__heading1"><a href="">Barclays recognised for social responsibility</a></h2>
+        <p class="latest-news__date">30 July 2013, 15:30 BST</p>
+    </div>
+
+</div>

@@ -1,0 +1,13 @@
+<script src="/javascripts/vendor/jquery-1.10.2.min.js"></script>
+<script src="/javascripts/plugins.js"></script>
+<script src="/highcharts/highcharts.js"></script>
+<script src="/javascripts/navigation.js"></script>
+<script src="/javascripts/header-search.js"></script>
+<script src="/javascripts/storyteller.js"></script>
+<script src="/javascripts/topic-results.js"></script>
+<script src="/javascripts/search-results.js"></script>
+<script src="/javascripts/main.js?ewrwqerwqer"></script>
+<script src="/javascripts/iframe.js"></script>
+<!-- <div class="debug" style="position: fixed;color: red;top:0;right:0;z-index: 5000"></div> -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52dd53871ddd5d1f"></script>
+<!--<script src="/javascripts/location-test.js"></script>-->

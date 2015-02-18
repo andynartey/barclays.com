@@ -1,0 +1,9 @@
+{
+    "title": "Education in Rwanda",
+    "name": "Literacy rates",
+    "sample": [
+        ["Lorem ipsum", 10.0],
+        ["Dolor sit amet", 34.0],
+        ["Mattis magma", 56.0]
+    ]
+}

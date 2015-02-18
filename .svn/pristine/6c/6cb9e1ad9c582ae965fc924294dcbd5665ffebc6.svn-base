@@ -1,0 +1,47 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <!--#include virtual="../../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container">
+
+        <!--#include virtual="../../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../../includes/site-chrome/main-navigation.html"-->
+        
+        <div class="row">
+            <div class="col__full-width">
+
+		        <h1>Grid container module</h1>
+
+                <h1>1 column</h1>
+                <!--#include virtual="../../includes/containers/grid-container-1.html"-->
+
+                <h1>2 column</h1>
+                <!--#include virtual="../../includes/containers/grid-container-2.html"-->
+
+                <h1>2 column desktop and tablet</h1>
+                <!--#include virtual="../../includes/containers/grid-container-2-2.html"-->
+                
+                <h1>3 column</h1>
+                <!--#include virtual="../../includes/containers/grid-container-3.html"-->
+                
+                <h1>3 column desktop and tablet</h1>
+                <!--#include virtual="../../includes/containers/grid-container-3-3.html"-->
+                
+                <h1>4 column</h1>
+                <!--#include virtual="../../includes/containers/grid-container-4.html"-->
+                
+                <h1>4 column desktop, 2 column tablet</h1>
+                <!--#include virtual="../../includes/containers/grid-container-4-2.html"-->
+
+	        </div>
+        </div>
+    </div> <!-- END .siteContainer -->
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

@@ -1,0 +1,516 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Barclays.com</title>
+
+    <!--[if (gt IE 9)]><!-->
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <!--<![endif]-->
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="stylesheets/app-ie.css">
+    <![endif]-->
+
+    <script src="javascripts/vendor/custom.modernizr.js"></script>
+
+    <!--[if lt IE 9]>
+        <script src="javascripts/vendor/jquery-1.10.2.min.js"></script>
+        <script src="javascripts/vendor/nwmatcher-1.2.5-min.js"></script>
+        <link rel="stylesheet" href="stylesheets/ie.css" />
+    <![endif]-->
+</head>
+
+<body>
+    <div class="cookie">
+    <div class="cookie__wrapper">
+        <div class="cookie__content">
+            <!-- rich text editor content -->
+            <p>
+                Barclays uses cookies on this website. They help us to know a little bit about you and how you use our website, 
+                which improves the browsing experience and marketing – both for you and for others. They are stored locally on 
+                your computer or mobile device. To accept cookies continue browsing as normal. For more information and 
+                preferences go to the <a href="">cookie policy</a>. You will see this message only once.
+            </p>
+        </div>
+        <a href="#" class="cookie__close"><span class="visuallyhidden">Close</span></a>
+    </div>
+</div>
+
+
+    <!-- Mobile Off-Canvas Navigation -->
+<nav class="off-canvas-menu" data-offcanvas-menu-left>
+
+    <ul class="off-canvas-menu__top-level" data-offcanvas-menu-top-level>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/">Home</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/news/" data-offcanvas-menu-second-link>News</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/aboutus/" data-offcanvas-menu-second-link>About us</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/investorrelations" data-offcanvas-menu-second-link>Investor relations</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/citizenship" data-offcanvas-menu-second-link>Citizenship</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/careers" data-offcanvas-menu-second-link>Careers</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/contactus">Contact us</a>
+        </li>
+    </ul>
+
+</nav>
+
+<!--The Layer that will be layed over the content
+    so that the content is unclickable while menu is shown-->
+<div class="off-canvas-menu-content-layer" data-offcanvas-menu-content-layer></div>
+
+
+    <div class="site-container template__news-article">
+
+        <!-- Top Nav Bar -->
+<nav class="top-nav-bar">
+    <div class="row" style="height: 43px;">
+        <!-- placeholder to avoid share price jump -->
+    </div>
+</nav>
+
+        <!-- Logo banner -->
+<section class="logo-banner" data-logo-banner>
+    <div class="row" style="min-height: 37px;">
+        <div class="logo-banner__hamburger">
+            <a href="" data-offcanvas-menu-toggle>
+                <i class="icon icon__hamburger"></i>
+            </a>
+        </div>
+        <div class="logo-banner__logo">
+            <a href="">
+                <img src="images/logo.png" data-interchange="
+                    [images/logo-tab-mob.png, (default)],
+                    [images/logo-tab-mob.png, (medium)],
+                    [images/logo.png, (large)]" alt="Barclays">
+            </a>
+        </div>
+    </div>
+</section>
+
+        <!-- Main Navigation -->
+<nav class="main-nav">
+    <div class="row">
+        <div class="mega-menu">
+            <ul class="mega-menu__list" data-mega-menu-list>
+
+                <li class="mega-menu__item--news" data-mega-menu-item>
+
+                    <a href="http://www.barclays.com/news" class="mega-menu__top-link" data-mega-top-link>
+                        News
+                    </a>
+
+                </li>
+
+                <li class="mega-menu__item--about-us" data-mega-menu-item>
+
+                    <a href="http://www.barclays.com/aboutus" class="mega-menu__top-link" data-mega-top-link>
+                        About us
+                    </a>
+
+                </li>
+
+                <li class="mega-menu__item--ir" data-mega-menu-item>
+
+                    <a href="http://www.barclays.com/investorrelations" class="mega-menu__top-link" data-mega-top-link>
+                        Investor relations
+                    </a>
+                </li>
+
+                <li class="mega-menu__item--citizenship" data-mega-menu-item>
+
+                    <a href="http://www.barclays.com/citizenship" class="mega-menu__top-link" data-mega-top-link>
+                        Citizenship
+                    </a>
+
+                </li>
+
+                <li class="mega-menu__item--careers" data-mega-menu-item>
+
+                    <a href="http://www.barclays.com/careers" class="mega-menu__top-link" data-mega-top-link>
+                        Careers
+                    </a>
+
+                </li>
+
+                <li class="mega-menu__item--products-services" data-mega-menu-item>
+
+                    <a href="http://www.barclays.com/contactus" class="mega-menu__top-link" data-mega-top-link>
+                        Contact us
+                    </a>
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+        <div class="row__full-bleed">
+
+            <!-- parsys 1: modules start here -->
+
+            <!-- modules end here -->
+
+        </div>
+
+
+        <div class="row">
+            <div class="template_col-1">
+
+                <div class="col__social">
+                    <!-- share links 1 -->
+                    <div class="share-tools-1">
+                        <aside class="share-tools">
+    <div class="row">
+        <div class="share-tools__heading">
+            <h2>Share, email or print</h2>
+        </div>
+        <div class="share-tools__body">
+            <ul class="share-tools__list">
+                <li class="share-tools__list-item">
+                    <!-- <a href="#" class="btn__social ">Share <i class="icon icon__share"></i></a> -->
+
+                    <script type="text/javascript">
+                        var addthis_config = {
+                            services_compact: 'facebook, twitter, linkedin',
+                            services_expanded: 'facebook, twitter, linkedin',
+                            ui_email_subject: ''
+                        }
+                    </script>
+
+                    <a class="addthis_button_compact btn__social"> Share <i class="icon icon__share"></i></a>
+
+
+
+                </li>
+                <li class="share-tools__list-item">
+                    <a href="#" class="addthis_button_email btn__social ">Email <i class="icon icon__email"></i></a>
+                </li>
+                <li class="share-tools__list-item">
+                    <a href="javascript:window.print();return false;" class="btn__social ">Print <i class="icon icon__print"></i></a>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+</aside>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="template_col-8">
+                <div class="row">
+                    <div class="col__news-article--header share-ignore">
+
+                        <div class="link__page_holder">
+                            <!-- link to page above -->
+                            <a href="#" class="link__page-parent">News</a>
+                        </div>
+
+                        <!-- page title -->
+                        <h1>NASDAQ template</h1>
+
+                        <!-- date -->
+                        <p class="news-article-date">30 Jul 2013, 15:30 BST</p>
+                    </div>
+
+                    <div class="col__news-article--content">
+
+                        <!-- parsys 2: modules start here -->
+                        <div class="image__with-caption">
+                            <img src="http://placehold.it/770x433" data-interchange="
+                                [http://placehold.it/435x245, (default)],
+                                [http://placehold.it/600x338, (medium)],
+                                [http://placehold.it/770x433, (large)]" alt="hero">
+
+                            <!-- <p>The walk started and finished at Tower Bridge</p> -->
+                        </div>
+
+                        <p class="news-article__standfirst">Barclays, UNICEF and UK broadcaster Heart radio’s Have a Heart charity are inviting Barclays staff and customers to join a sponsored night walk in London on Wednesday, 21 September.</p>
+
+                        <p class="news-article__paragraph">Barclays, UNICEF and UK broadcaster Heart radio’s Have a Heart charity are inviting Barclays customers to join a sponsored night walk in London on Wednesday, 21 September.</p>
+
+                        <blockquote class="news-article__blockquote">In 2012, 800 people took part in the walk, following a 10km route across central London past some of the city's iconic landmarks.</blockquote>
+
+                        <p class="news-article__paragraph">Online registration for the <a href="">Take One Small Step Into The Night</a> event opens on Monday, 18 July for Barclays customers, employees and their friends and family.</p>
+
+                        <p class="news-article__paragraph">Funds raised from the walk will go towards transforming the lives of children in the UK and around the world by providing education and improving. </p>
+
+
+
+                        <p class="news-article__paragraph">In 2012, 800 people took part in the walk, following a 10-kilometre route across central London past some of the city's iconic landmarks.</p>
+
+                        <p class="news-article__paragraph">Participants raised more than £60,000, which went towards healthcare and education projects for children in London and Rwanda. Take One Small Step Into from Potters Fields Park by Tower Bridge. Refreshments and entertainment will be provided along the route. Funds raised from the walk will go towards transforming the lives of children in the UK and around the world by providing education and improving.</p>
+
+                        <a href="#footer" class="link">Link with no icon</a>
+
+                        <a href="#" class="link--internal">Link with arrow (internal link)</a>
+
+                        <a href="#" class="link--external">Link with external link icon</a>
+
+                        
+                        <!-- modules end here -->
+
+                    </div>
+
+                    <div class="col__news-article--full__width">
+
+                        <!-- parsys 3: modules start here -->
+
+                        <!-- modules end here -->
+
+                    </div>
+
+                    <div class="col__news-article--content">
+
+                        <!-- parsys 4: modules start here -->
+
+                        <!-- modules end here -->
+
+                    </div>
+
+                    <div class="col__news-article--full__width">
+
+                        <!-- parsys 5: modules start here -->
+
+                        <!-- modules end here -->
+
+                    </div>
+
+                    <div class="col__news-article--content">
+
+                        <!-- parsys 6: modules start here -->
+
+                        <!-- modules end here -->
+
+                    </div>
+
+                    <div class="col__news-article--full__width">
+
+
+                    </div>
+
+                    <div class="col__news-article--content">
+
+                        <!-- share links 2 -->
+                        <div class="share-tools-2">
+                            <aside class="share-tools">
+    <div class="row">
+        <div class="share-tools__heading">
+            <h2>Share, email or print</h2>
+        </div>
+        <div class="share-tools__body">
+            <ul class="share-tools__list">
+                <li class="share-tools__list-item">
+                    <!-- <a href="#" class="btn__social ">Share <i class="icon icon__share"></i></a> -->
+
+                    <script type="text/javascript">
+                        var addthis_config = {
+                            services_compact: 'facebook, twitter, linkedin',
+                            services_expanded: 'facebook, twitter, linkedin',
+                            ui_email_subject: ''
+                        }
+                    </script>
+
+                    <a class="addthis_button_compact btn__social"> Share <i class="icon icon__share"></i></a>
+
+                    <!-- ideally we'd add this script to the bottom of the page on the template -->
+                    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52dd53871ddd5d1f"></script>
+
+
+                </li>
+                <li class="share-tools__list-item">
+                    <a href="#" class="addthis_button_email btn__social ">Email <i class="icon icon__email"></i></a>
+                </li>
+                <li class="share-tools__list-item">
+                    <a href="javascript:window.print();return false;" class="btn__social ">Print <i class="icon icon__print"></i></a>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+</aside>
+                        </div>
+
+                    </div>
+
+                    <div class="col__news-article--full__width">
+
+                        <!-- parsys 7: modules start here -->
+                        <!-- modules end here -->
+
+                    </div>
+
+                    <div class="col__news-article--full__width">
+
+                        <!-- Related stories -->
+                        <section class="related-content">
+
+    <h2 class="related-content__heading">Related Stories</h2>
+
+    <div class="related-content__items">
+        <div class="related-content__item">
+            <div class="row">
+                <div class="related-content__item__info">
+                    <!-- <h3>Spaces for sport</h3> -->
+                    <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                    <p class="date">30 July 2013, 15:30 BST</p>
+                </div>
+                <div class="related-content__item__image">
+                    <a href=""><img src="http://placehold.it/250x141" data-interchange="
+                        [http://placehold.it/140x79, (default)],
+                        [http://placehold.it/250x141, (medium)]" alt="Step into the Night" class="right"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="related-content__item">
+            <div class="row">
+                <div class="related-content__item__info">
+                    <!-- <h3>Spaces for sport</h3> -->
+                    <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                    <p class="date">30 July 2013, 15:30 BST</p>
+                </div>
+                <div class="related-content__item__image">
+                    <a href=""><img src="http://placehold.it/250x141" data-interchange="
+                        [http://placehold.it/140x79, (default)],
+                        [http://placehold.it/250x141, (medium)]" alt="Step into the Night" class="right"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="related-content__item">
+            <div class="row">
+                <div class="related-content__item__info">
+                    <!-- <h3>Spaces for sport</h3> -->
+                    <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                    <p class="date">30 July 2013, 15:30 BST</p>
+                </div>
+                <div class="related-content__item__image">
+                    <a href=""><img src="http://placehold.it/250x141" data-interchange="
+                        [http://placehold.it/140x79, (default)],
+                        [http://placehold.it/250x141, (medium)]" alt="Step into the Night" class="right"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="template_col-3">
+
+                <div class="latest-news">
+    <h2 class="latest-news__heading">Latest news</h2>
+
+    <div class="latest-news__item">
+        <!-- <h3 class="latest-news__heading2">Citizenship</h3> -->
+        <h2 class="latest-news__heading1"><a href="">Barclays recognised for social responsibility</a></h2>
+        <p class="latest-news__date">30 July 2013, 15:30 BST</p>
+    </div>
+
+    <div class="latest-news__item">
+        <!-- <h3 class="latest-news__heading2">Citizenship</h3> -->
+        <h2 class="latest-news__heading1"><a href="">Barclays recognised for social responsibility</a></h2>
+        <p class="latest-news__date">30 July 2013, 15:30 BST</p>
+    </div>
+
+    <div class="latest-news__item">
+        <!-- <h3 class="latest-news__heading2">Citizenship</h3> -->
+        <h2 class="latest-news__heading1"><a href="">Barclays recognised for social responsibility</a></h2>
+        <p class="latest-news__date">30 July 2013, 15:30 BST</p>
+    </div>
+
+</div>
+
+                <!-- CROSS PROMO IMAGE TOP -->
+
+                <div class="links-list__container">
+                    <h2 class="links-list__heading">Quick links</h2>
+                    <ul class="links-list">
+                        <li class="link-list-external">
+                            <a href="">Personal banking</a>
+                        </li>
+                        <li class="link-list-external">
+                            <a href="">Business banking</a>
+                        </li>
+                        <li class="link-list-arrow">
+                            <a href="">Online banking</a>
+                        </li>
+                        <li class="link-list-arrow">
+                            <a href="">Online banking</a>
+                        </li>
+                        <li>
+                            <a href="">Online banking</a>
+                        </li>
+                        <li>
+                            <a href="">Online banking</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- modules end here -->
+            </div>
+        </div>
+
+
+        <!-- Site Footer -->
+        <footer class="mega-footer" data-sticky="end"></footer>
+
+<footer id="footer" class="bottom-footer">
+    <div class="row">
+
+        <nav class="bottom-footer__links">
+            <ul class="links-list">
+                <li><a href="http://group.barclays.com/privacy-policy">Privacy policy</a></li>
+                <li><a href="http://www.accessibility.barclays.com">Accessibility</a></li>
+                <li><a href="http://www.barclays.com/importantinformation">Important information</a></li>
+                <li><a href="http://group.barclays.com/terms-of-use">Terms of use</a></li>
+                <li><a href="http://www.barclays.com/sitemap">Site map</a></li>
+                <li><a href="http://group.barclays.com/cookie-policy">Cookie policy</a></li>
+            </ul>
+        </nav>
+
+        <div class="bottom-footer__copyright">
+            <p>&copy; Barclays 2013</p>
+        </div>
+
+    </div>
+</footer>
+
+    </div> <!-- END .site-container -->
+
+<script src="javascripts/vendor/jquery-1.10.2.min.js"></script>
+<script src="javascripts/plugins.js"></script>
+<script src="javascripts/main.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52dd53871ddd5d1f"></script>
+</body>
+</html>

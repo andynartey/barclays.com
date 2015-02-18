@@ -1,0 +1,296 @@
+// GRID CONTAINER
+// ====================================================
+
+.grid-container {
+    padding-top: em-calc(20);
+}
+
+.grid-container-wrapper {
+    list-style: none;
+    overflow: hidden;
+    @include grid-row(nest);
+    font-size: 1em;
+    line-height: 1;
+    //padding-top: 1em;
+    margin-bottom: 0;
+}
+
+.grid-container-item {
+    float: left;
+    width: 100%;
+    padding: 0 1.5%;
+    //margin-bottom: 1.25em;
+    // remove layout styles from cross promo
+    .columns {
+        padding: 0;
+        width: auto;
+        float: none;
+    }
+    h1:first-child, h2:first-child, h3:first-child, h4:first-child, p:first-child {
+        margin-top: 0;
+    }
+    // style adjustments for modules within grid container
+    //    /\___/\
+    //   /       \
+    //  |  #    # |
+    //  \     @   |
+    //   \   _|_ /
+    //   /       \______
+    //  / _______ ___   \
+    //  |_____   \   \__/
+    //   |    \__/
+    //   |       |
+    //   |       |
+    > p {
+        font-size: 0.9em;
+    }
+
+    ul {
+        font-size: 0.8em;
+        list-style: disc;
+        ul {
+            font-size: 1em;
+        }
+    }
+    .links-list {
+        list-style: none;
+    }
+    .list-item {
+        ul {
+            font-size: 0.9em;
+        }
+    }
+    .bc-textimage, .textimage_text {
+        font-size: 100%;
+    }
+    //   |       |
+    //   |       |
+    //   |       |
+    //   |       |
+    //   /        \
+    //  /   ____   \
+    //  |  /    \  |
+    //  | |      | |
+    // /  |      |  \
+    // \__/      \__/
+}
+@media #{$small} {
+    .grid-container-2-2 {
+        .grid-container-item {
+            width: 50%;
+        }
+    }
+    .grid-container-3-3 {
+        .grid-container-item {
+             width: 33.33333%;
+        }
+    }
+    .grid-container-4-2 {
+        .grid-container-item {
+            width: 50%;
+        }
+    }
+}
+@media #{$medium} {
+    .grid-container-2 {
+        .grid-container-item {
+            width: 50%;
+        }
+    }
+    .grid-container-3 {
+        .grid-container-item {
+             width: 33.33333%;
+        }
+    }
+    .grid-container-4,
+    .grid-container-4-2 {
+        .grid-container-item {
+            width: 25%;
+        }
+    }
+}
+
+
+// GRID CONTAINER FILTER
+// ====================================================
+.grid-container__filter {
+    margin-bottom: 1em;
+    border-bottom: $border-style;
+}
+
+.grid-container__filter__toggle {
+    @extend .hide-for-large-up;
+    display: block;
+    text-align: center;
+    font-family: $header-font-family;
+    font-size: em-calc(20);
+    padding: em-calc(10 0);
+
+    &:after {
+        @include icon-font($icon-plus);
+        font-size: em-calc(10);
+        display: inline-block;
+        margin-left: em-calc(5);
+    }
+
+    &.filter-active {
+        &:after {
+            @include icon-font($icon-minus);
+        }
+    }
+}
+
+.grid-container__filter__holder {
+    // @include grid-row($behavior: nest);
+    @include clearfix;
+    border-top: $border-style;
+    @media #{$medium} {
+        border-top: none;
+    }
+}
+
+.no-js .grid-container__filter__holder {
+    display: none;
+}
+
+.grid-container__filter__col {
+    border-bottom: $border-style;
+    position: relative;
+
+    @media #{$medium} {
+        @include grid-column(3);
+        padding-top: em-calc(10);
+        padding-bottom: em-calc(10);
+        padding-left: 0;
+        // padding-right: 0;
+        position: relative;
+        border: none;
+    }
+}
+
+.grid-container__filter__link {
+    display: block;
+    color: $gray-info;
+    font-size: em-calc(16);
+    position: relative;
+    font-family: $header-font-family-regular;
+    padding: em-calc(10 0);
+
+    &:after {
+        @include icon-font($icon-chevron-down);
+        position: absolute;
+        right: em-calc(15);
+    }
+
+    &.active {
+        &:after {
+            @include icon-font($icon-chevron-up);
+        }
+    }
+
+    @media #{$medium} {
+        padding: em-calc(10 10);
+        border: 1px solid $white;
+        border-bottom: none;
+
+        &:after {
+            right: em-calc(10);
+        }
+
+        &.active {
+            border: $border-style;
+            border-bottom: none;
+        }
+    }
+}
+
+.grid-container__filter__list {
+    list-style: none;
+    margin: 0;
+    display: none;
+    position: absolute;
+    background: $white;
+    z-index: 30;
+    border-bottom: $border-style;
+
+    @media #{$medium} {
+        border: $border-style;
+        border-top: none;
+        z-index: 10;
+    }
+}
+
+.grid-container__filter__item {
+    a {
+        display: block;
+        padding: em-calc(5 15 10 0);
+        font-family: $header-font-family-regular;
+        font-size: em-calc(18);
+
+        span {
+            color: $gray-info;
+        }
+    }
+
+    @media #{$medium} {
+        a {
+            padding: em-calc(5 10 10);
+        }
+
+    }
+}
+
+.grid-container__view-toggle {
+    @extend .show-for-medium-up;
+
+    display: none;
+    float: right;
+    margin-top: em-calc(13);
+    color: $gray-info;
+    font-size: em-calc(14);
+
+    &:before {
+        @include icon-font($icon-list);
+    }
+
+    &.grid-view {
+        &:before {
+            @include icon-font($icon-grid-view);
+        }
+    }
+}
+
+.grid-container-filter-label {
+    position: absolute;
+    z-index: 20;
+    background: $primary-color;
+    font-family: $header-font-family-regular;
+
+    a {
+        color: $white;
+        display: block;
+        padding: em-calc(11 15);
+        position: relative;
+        font-size: em-calc(15);
+
+        &:after {
+            position: absolute;
+            right: em-calc(20);
+            font-size: em-calc(14);
+            margin-top: em-calc(2);
+            @include icon-font($icon-cross);
+        }
+    }
+
+    @media #{$medium} {
+        border-radius: 15px;
+
+        a {
+            padding: em-calc(10 15);
+
+            &:after {
+                right: em-calc(15);
+            }
+        }
+    }
+}

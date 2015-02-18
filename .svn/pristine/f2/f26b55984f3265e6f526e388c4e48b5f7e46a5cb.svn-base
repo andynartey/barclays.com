@@ -1,0 +1,28 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+
+	<div class="row">
+
+        <div class="small-12 medium-12 large-12 columns">
+            <br />
+            <img src="/images/logo.png" alt="Barclays">
+
+            <hr />
+        </div>
+
+		
+        <div class="medium-11 large-11 columns large-offset-1">
+            <h2>Pages</h2>
+            <ul class="square">
+                
+                <li><a href="/news-article.html">News Article</a> (S1)</li>
+                <li><a href="/products-and-services.html">Products and services</a> (S2)</li>
+                <li><a href="/products-and-services-individuals.html">Products and services level 2</a> (S2)</li>
+                <li><a href="/contact-us.html">Contact us</a> (S2)</li>
+            </ul>
+        </div>
+
+	</div>
+
+</body>
+</html>

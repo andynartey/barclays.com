@@ -1,0 +1,82 @@
+// ====================================================
+// RELATED CONTENT MODULE
+// ====================================================
+
+
+.related-content {
+    padding-top: em-calc(20);
+    padding-bottom: em-calc(10);
+    @include clearfix;
+
+    @media #{$small} {
+        padding: em-calc(20 0 10);
+    }
+}
+
+// RELATED CONTENT -- HEADING
+/* --------------------------------------*/
+.related-content__heading {
+    @include grid-column(12);
+    h2 {
+        color: $blue-darker;
+        font-size: em-calc(22);
+    }
+
+    @media #{$small} {
+        h2 {
+            font-size: em-calc(34);
+        }
+    }
+}
+
+// RELATED CONTENT -- ITEM
+/* --------------------------------------*/
+.related-content__item {
+    @include grid-column(12);
+    border-bottom: $border-style;
+    padding-top: em-calc(20);
+    &:last-child {
+        border-bottom: none;
+    }
+
+    @media #{$small} {
+        padding-bottom: em-calc(15);
+    }
+}
+
+// RELATED CONTENT -- INFO
+/* --------------------------------------*/
+.related-content__item__info {
+    @include grid-column(8);
+    h3 {
+        color: $blue-darker;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-size: em-calc(16);
+        line-height: 1.4;
+    }
+    .date {
+        color: #8c8c8c;
+    }
+
+    @media #{$small} {
+        h3 {
+            font-size: em-calc(14);
+        }
+        h2 {
+            font-size: em-calc(18);
+        }
+    }
+}
+
+// RELATED CONTENT -- IMAGE
+/* --------------------------------------*/
+.related-content__item__image {
+    @include grid-column(4);
+    padding-left: 0;
+
+    @media #{$small} {
+
+    }
+}

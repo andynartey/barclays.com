@@ -1,0 +1,102 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+                <h1>Tabs</h1>
+                <!--#include virtual="/includes/contact-us/tabbed-content-example.html"-->
+
+                <div class="resTab2">
+                    <div class="tabs__controls">
+                        <div class="tabs__mobile">
+                            <a href="" class="tabs__mobile__trigger" data-tabs-mobile-trigger>
+                                Make a selection
+                            </a>
+
+                            <ul class="tabs__mobile__dropdown" data-tabs-mobile-dropdown>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 3</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 4</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 5</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="tabs__desktop">
+                            <li class="tabs__desktop__item active" data-tabs-desktop-item>
+                                <a href="">Tab 3</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 4</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 5</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tabs__contentHolder">
+                        <div class="tabs__content" data-tabs-content>
+                            <h1>Basic Tab within Tab</h1>
+
+                            <div class="share-price-feed">
+
+                                <div class="tabs-basic tab1">
+                                    <ul class="tabs-basic__menu">
+                                        <li><a href="">Q3 Divident</a></li>
+                                        <li><a href="">Q3 ADR</a></li>
+                                    </ul>
+
+                                    <div class="tabs-basic__item">
+                                        <p class="share-price-feed__price">
+                                            <span class="value">1.00p</span>
+                                        </p>
+
+                                        <p class="share-price-feed__date">12 September 2014</p>
+
+                                        <ul class="share-price-feed__links">
+                                            <li><a href="">Dividend details and tools</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="tabs-basic__item">
+                                        <p class="share-price-feed__price">
+                                            <span class="value">5.00p</span>
+                                        </p>
+
+                                        <p class="share-price-feed__date">15 September 2014</p>
+
+                                        <ul class="share-price-feed__links">
+                                            <li><a href="">Dividend details and tools</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <h1>Tab 4 content title</h1>
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <h1>Tab 5 content title</h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

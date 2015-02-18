@@ -1,0 +1,68 @@
+<ul class="contact-us__primary-contacts">
+  <li>
+    <div class="contact-us__primary-contacts-container">
+        <h3 class="contact-us__title">Existing customers </h3>
+        <address itemscope>
+          <div class="contact-us__telephone"><a href="tel:0845 233 454">0845 233 454</a> <span>(from UK)</span></div><br/>
+          <div class="contact-us__telephone"><a href="tel:+44 (0)971 431 4247">+44 (0)971 431 4247</a> <span>(from abroad)</span></div><br/>
+          <div><a href="mailto:contact@barclays.com" title="" class="contact-us__email">contact@barclays.com</a></div><br/>
+          <div><a href="#" title="" class="contact-us__link">Contact form <i class="icon icon__external-link"></i></a></div><br/>
+          <div class="contact-us__address" itemprop="address" itemscope>
+            <span class="contact-us__street-address" itemprop="street-address">1 Churchill Place,</span> 
+            <span class="contact-us__locality" itemprop="locality">London</span> 
+            <span class="contact-us__country-name" itemprop="country">United Kingdom,</span> 
+            <span class="contact-us__postcode" itemprop="postcode">E14 9PP</span>
+          </div>
+          <div class="contact-us__tooltip">
+            <p><span data-tooltip class="has-tip" title="Calls to this number are charged at 8p per minute if using a BT landline. Call charges may vary if using other telephone providers. Lines open 8am – 9pm mon-fri and 10am – 2pm Sat-Sun"><i class="icon icon__info"></i>  Info</span></p>
+          </div>
+        </address>
+    </div>
+    <div class="contact-us__primary-contacts-container">
+        <h3 class="contact-us__title">Online banking helpdesk </h3>
+        <address itemscope>
+          <div class="contact-us__telephone"><a href="tel:0845 233 454">0845 233 454</a> <span>(from UK)</span></div><br/>
+          <div class="contact-us__telephone"><a href="tel:+44 (0)971 431 4247">+44 (0)971 431 4247</a> <span>(from abroad)</span></div><br/>
+          <div><a href="mailto:contact@barclays.com" title="" class="contact-us__email">contact@barclays.com</a></div><br/>
+          <div><a href="#" title="" class="contact-us__link">Contact form</a></div><br/>
+          <div class="contact-us__address" itemprop="address" itemscope>
+            <span class="contact-us__street-address" itemprop="street-address">1 Churchill Place,</span> 
+            <span class="contact-us__locality" itemprop="locality">London</span> 
+            <span class="contact-us__country-name" itemprop="country">United Kingdom,</span> 
+            <span class="contact-us__postcode" itemprop="postcode">E14 9PP</span>
+          </div>
+          <div class="contact-us__tooltip">
+            <p><span data-tooltip class="has-tip" title="Calls to this number are charged at 8p per minute if using a BT landline. Call charges may vary if using other telephone providers. Lines open 8am – 9pm mon-fri and 10am – 2pm Sat-Sun"><i class="icon icon__info"></i>  Info</span></p>
+          </div>
+        </address>
+    </div>
+  </li>
+  <li>
+    <div class="contact-us__primary-contacts-container">
+        <h3 class="contact-us__title">Complaints </h3>
+        <address itemscope>
+          <div class="contact-us__telephone"><a href="tel:0845 233 454">0845 233 454</a> <span>(from UK)</span></div><br/>
+          <div class="contact-us__telephone"><a href="tel:+44 (0)971 431 4247">+44 (0)971 431 4247</a> <span>(from abroad)</span></div><br/>
+          <div><a href="mailto:contact@barclays.com" title="" class="contact-us__email">contact@barclays.com</a></div><br/>
+          <div class="contact-us__address" itemprop="address" itemscope>
+            <span class="contact-us__street-address" itemprop="street-address">1 Churchill Place,</span> 
+            <span class="contact-us__locality" itemprop="locality">London</span> 
+            <span class="contact-us__country-name" itemprop="country">United Kingdom,</span> 
+            <span class="contact-us__postcode" itemprop="postcode">E14 9PP</span>
+          </div>
+        </address>
+    </div>
+    <div class="contact-us__primary-contacts-container">
+        <h3 class="contact-us__title">Other team </h3>
+        <address itemscope>
+          <div><a href="#" title="" class="contact-us__link">Contact form</a></div><br/>
+          <div class="contact-us__address" itemprop="address" itemscope>
+            <span class="contact-us__street-address" itemprop="street-address">1 Churchill Place,</span> 
+            <span class="contact-us__locality" itemprop="locality">London</span> 
+            <span class="contact-us__country-name" itemprop="country">United Kingdom,</span> 
+            <span class="contact-us__postcode" itemprop="postcode">E14 9PP</span>
+          </div>
+        </address>
+    </div>
+  </li>
+</ul>

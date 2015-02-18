@@ -1,0 +1,14 @@
+<div class="cookie">
+	<div class="cookie__wrapper">
+		<div class="cookie__content">
+			<!-- rich text editor content -->
+			<p>
+				Barclays uses cookies on this website. They help us to know a little bit about you and how you use our website, 
+				which improves the browsing experience and marketing – both for you and for others. They are stored locally on 
+				your computer or mobile device. To accept cookies continue browsing as normal. For more information and 
+				preferences go to the <a href="">cookie policy</a>. You will see this message only once.
+			</p>
+		</div>
+		<a href="#" class="cookie__close"><span class="visuallyhidden">Close</span><i class="icon icon__close"></i></a>
+	</div>
+</div>

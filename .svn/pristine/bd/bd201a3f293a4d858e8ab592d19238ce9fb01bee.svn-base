@@ -1,0 +1,70 @@
+<!-- Site Footer -->
+<footer class="mega-footer" data-sticky="end">
+    <div class="row">
+
+        <nav class="mega-footer__column">
+            <div class="mega-footer__first-level">
+                <ul class="links-list">
+                    <li><a href="">News</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Investor relations</a></li>
+                    <li><a href="">Citizenship</a></li>
+                    <li><a href="">Careers</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="mega-footer__column">
+            <h2 class="mega-footer__heading">Results and reports</h2>
+
+            <ul class="links-list">
+                <li><a href="">Barclays PLC Annual Report 2012 (PDF 2.1 MB)</a></li>
+                <li><a href="">2013 Interim Results and Leverage Plan</a></li>
+                <li><a href="">All financial reports</a></li>
+            </ul>
+        </nav>
+
+        <nav class="mega-footer__column">
+            <h2 class="mega-footer__heading">Press and media</h2>
+
+            <ul class="links-list">
+                <li><a href="">Media centre</a></li>
+                <li><a href="">Press releases</a></li>
+                <li><a href="">RSS feeds</a></li>
+                <li><a href="">Barclays on social media</a></li>
+            </ul>
+        </nav>
+
+        <nav class="mega-footer__column">
+            <h2 class="mega-footer__heading">Other links</h2>
+
+            <ul class="links-list">
+                <li><a href="">Online banking</a></li>
+                <li><a href="">Products and services</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</footer>
+
+<footer class="bottom-footer">
+    <div class="row">
+
+        <nav class="bottom-footer__links">
+            <ul class="links-list">
+                <li><a href="">Media centre</a></li>
+                <li><a href="">Sitemap</a></li>
+                <li><a href="">Terms &amp; Conditions</a></li>
+                <li><a href="">Important information</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Cookie policy</a></li>
+            </ul>
+        </nav>
+
+        <div class="bottom-footer__copyright">
+            <p>&copy; Barclays 2013</p>
+        </div>
+
+    </div>
+</footer>

@@ -1,0 +1,125 @@
+// ====================================================
+// LAZY LOAD
+// ====================================================
+
+$(function(){
+
+    // ====================================================
+    // STORYTELLER LAZY LOAD
+    // ====================================================
+
+    var storyTellerItemStoryRule = 9;
+
+    var storyTellerLazyLoad = {
+
+        init: function() {
+            this.hideContent();
+            $showMoreBtn.on('click', this.showMore);
+        },
+
+        hideContent: function() {
+            $storyItem.hide().addClass('js-itemHidden');
+
+            for ( var i = 0; i < storyTellerItemStoryRule; i++ ) {
+                $storyItem.eq(i).show().removeClass('js-itemHidden');
+            }
+        },
+
+        showMore: function(e) {
+            var $hiddenItems = $('.js-itemHidden');
+
+            for ( var i = 0; i < storyTellerItemStoryRule; i++ ) {
+                $hiddenItems.eq(i).fadeIn().removeClass('js-itemHidden');
+            }
+
+            var firstItemPos = $hiddenItems.first().offset().top;
+
+            storyTellerLazyLoad.scrollTo(firstItemPos);
+
+            storyTellerLazyLoad.hideBtn();
+
+            e.preventDefault();
+        },
+
+        scrollTo: function(firstItemPos) {
+            var scrollTarget = firstItemPos;
+
+            $('html, body').animate({
+                scrollTop: scrollTarget-10
+            }, 'slow');
+        },
+
+        hideBtn: function() {
+            var hiddenItemCount = $('.js-itemHidden').length;
+
+            if ( hiddenItemCount === 0 ) {
+                $('.storyteller__more-stories').hide();
+                $('[data-storyteller-archive]').show();
+            }
+        }
+
+    };
+
+
+    // ====================================================
+    // TOPIC LAZY LOAD
+    // ====================================================
+
+    var topicsItemStoryRule = 12,
+        headerScrollOffset = $('.main-nav').height(),
+        $topicMoreBtn = $('[data-topics-showmore]'),
+        $topicItem = $('[data-topics-item]');
+
+    var topicsLazyLoad = {
+
+        init: function() {
+            this.hideContent();
+            $topicMoreBtn.on('click', this.showMore);
+        },
+
+        hideContent: function() {
+            $topicItem.hide().addClass('js-topicHidden');
+
+            for ( var i = 0; i < topicsItemStoryRule; i++ ) {
+                $topicItem.eq(i).show().removeClass('js-topicHidden');
+            }
+        },
+
+        showMore: function(e) {
+            var $hiddenItems = $('.js-topicHidden');
+
+            for ( var i = 0; i < topicsItemStoryRule; i++ ) {
+                $hiddenItems.eq(i).fadeIn().removeClass('js-topicHidden');
+            }
+
+            var firstItemPos = $hiddenItems.first().offset().top;
+            topicsLazyLoad.scrollTo(firstItemPos);
+
+            topicsLazyLoad.hideBtn();
+
+            e.preventDefault();
+        },
+
+        scrollTo: function(firstItemPos) {
+            var scrollTarget = firstItemPos;
+            console.log(scrollTarget);
+
+            $('html, body').animate({
+                scrollTop: scrollTarget - headerScrollOffset - 20
+            }, 'slow');
+        },
+
+        hideBtn: function() {
+            var hiddenItemCount = $('.js-topicHidden').length;
+
+            if ( hiddenItemCount === 0 ) {
+                $('.topic-results__more-stories').hide();
+                //$('[data-storyteller-archive]').show();
+            }
+        }
+
+    };
+
+
+
+}());

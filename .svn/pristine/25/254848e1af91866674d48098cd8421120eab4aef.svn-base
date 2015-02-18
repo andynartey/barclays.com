@@ -1,0 +1,46 @@
+// ====================================================
+// TABS BASIC
+// ====================================================
+
+$(function(){
+
+    function TabBasic( selector ) {
+        this.tabContainer = $(selector);
+        this.tabLinks = this.tabContainer.find('.tabs-basic__menu a');
+        this.tabContent = this.tabContainer.find('.tabs-basic__item');
+
+        this.init();
+        this.bindClickHandler();
+    }
+
+    TabBasic.prototype.init = function() {
+        this.tabContent
+            .hide()
+            .first()
+                .show();
+
+        this.tabLinks
+            .first()
+                .addClass('active');
+    }
+
+    TabBasic.prototype.bindClickHandler = function() {
+        var self = this;
+
+        this.tabLinks.on('click', function(e) {
+            var tabIndex = $(this).parent().index();
+            self.tabLinks.removeClass('active');
+            $(this).addClass('active');
+            self.toggleTab(tabIndex)
+            e.preventDefault();
+        });
+    }
+
+    TabBasic.prototype.toggleTab = function(tabIndex) {
+        this.tabContent
+            .hide()
+            .eq(tabIndex)
+                .show();
+    }
+
+}());

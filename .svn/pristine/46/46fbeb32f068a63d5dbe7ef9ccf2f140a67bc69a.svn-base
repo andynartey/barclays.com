@@ -1,0 +1,56 @@
+<aside class="related-content">
+
+    <div class="row">
+
+        <div class="related-content__heading">
+            <h2>Related Stories</h2>
+        </div>
+
+        <div class="related-content__item">
+            <div class="row">
+                <div class="related-content__item__info">
+                    <h3>Spaces for sport</h3>
+                    <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                    <p class="date">30 July 2013</p>
+                </div>
+                <div class="related-content__item__image">
+                    <a href=""><img data-interchange="
+                        [/images/news-article/partners-small.jpg, (default)],
+                        [/images/news-article/partners-medium.jpg, (medium)]" alt="Step into the Night" class="right"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="related-content__item">
+            <div class="row">
+                <div class="related-content__item__info">
+                    <h3>Spaces for sport</h3>
+                    <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                    <p class="date">30 July 2013</p>
+                </div>
+                <div class="related-content__item__image">
+                    <a href=""><img data-interchange="
+                        [/images/news-article/partners-small.jpg, (default)],
+                        [/images/news-article/partners-medium.jpg, (medium)]" alt="Step into the Night" class="right"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="related-content__item">
+            <div class="row">
+                <div class="related-content__item__info">
+                    <h3>Spaces for sport</h3>
+                    <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                    <p class="date">30 July 2013</p>
+                </div>
+                <div class="related-content__item__image">
+                    <a href=""><img data-interchange="
+                        [/images/news-article/partners-small.jpg, (default)],
+                        [/images/news-article/partners-medium.jpg, (medium)]" alt="Step into the Night" class="right"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</aside>

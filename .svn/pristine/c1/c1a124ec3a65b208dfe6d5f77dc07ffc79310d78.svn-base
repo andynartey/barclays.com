@@ -1,0 +1,163 @@
+
+// Global Foundation Settings
+@import "base/settings";
+
+// Comment out this import if you are customizing you imports below
+@import "foundation/components/global";
+
+@import "foundation/components/grid-5";
+@import "base/block-grid-5";
+
+@import "base/lt-ie9-foundation-grid";
+
+
+
+
+.lt-ie9 {
+    // SITE CONTAINER
+
+    body {
+        overflow: auto;
+        min-width: 768px;
+    }
+
+    // MEGA MENU
+    .mega-menu__top-link {
+        &:focus {
+            outline: none;
+            color: $primary-color;
+        }
+    }
+
+    .menu-intro__heading {
+        color: $primary-color !important;
+    }
+
+    .mega-content .row {
+        width: 100%;
+        max-width: 75em;
+        margin: 0 auto;
+    }
+
+    .logo-banner__search .logo-banner__search-field {
+        line-height: 2.4;
+    }
+
+    // FOOTER
+    .bottom-footer__links .links-list li {
+        padding-right: em-calc(10);
+    }
+
+    .bottom-footer__links .links-list li.last a {
+        border-right: none;
+    }
+
+    // HOVER BLOCKS
+    .hover-block__desc {
+        // width: 92.55%;
+        p {
+            color: $white;
+        }
+    }
+    .hover-block__four_up {
+        .hover-block__desc {
+            // width: 90.3%;
+        }
+    }
+
+    .storyteller__filter__col.last {
+        float: right;
+    }
+
+    .storyteller__item .row {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .related-content__item.last {
+        border-bottom: none;
+    }
+
+    .link-blocks.last {
+        border-bottom: none;
+    }
+
+    // ACCORDION CONTENT
+    .accordion_mini li.accordion__item .accordion__content_frame {
+        margin-left: 70px;
+    }
+
+    .accordion li.accordion__item .accordion__content_frame .accordion__content_frame,
+    .accordion_mini li.accordion__item .accordion__content_frame .accordion__content_frame {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .accordion__content_frame.last {
+        border-bottom: none;
+    }
+
+    .accordion li.accordion__item.accordion__closed .accordion__title,
+    .accordion li.accordion__item .accordion__title {
+        padding-left: 71px;
+    }
+    .accordion_mini li.accordion__item.accordion__closed .accordion__title,
+    .accordion_mini li.accordion__item .accordion__title {
+        padding-left: 30px;
+    }
+    .accordion li.accordion__item.accordion__item.accordion__closed .accordion__intro p {
+        padding-left: 70px;
+    }
+    .accordion li.accordion__item.accordion__item .accordion__intro p {
+        padding-left: 70px;
+    }
+    .accordion .js-mobile-link, .accordion_mini .js-mobile-link {
+        display: inherit !important;
+    }
+
+    .search-results__input {
+        line-height: 1.6;
+    }
+
+    // CONTACT PAIR
+    .contact-us__primary-contacts li.last {
+        border-bottom: none;
+    }
+
+    .cross-promo div.last {
+         border-bottom: none;
+    }
+
+    // COUNTRY SELECTOR
+    h2.country-selector__title,
+    .js-country-selector .country-selector__title {
+        background: #ffffff !important;
+        background-color: #ffffff !important;
+        background-image: none !important;
+        filter: none !important;
+        -ms-filter: none !important;
+    }
+
+    // DOCUMENT GROUP
+
+    .document-group .document-group__info .meta {
+        max-width: inherit;
+    }
+
+    .content-switcher form.custom .custom.dropdown.button-container .selector {
+        outline: none;
+    }
+
+    .latest-news__item.last {
+        border-bottom: none;
+    }
+    .row {
+        width: auto;
+    }
+
+    .storyteller__filter__link:after, .topic-results__filter__link:after, .storyteller-filter-label a:after, .search-results-filter-label a:after, .topic-results-filter-label a:after
+    {
+        top: 10px;
+    }
+}
+

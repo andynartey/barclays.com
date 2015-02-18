@@ -1,0 +1,29 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="row">
+        <div class="full-width">
+
+            <br /><br />
+            <h2>Magazine</h2>
+            <code>.full-width</code>
+
+            <hr>
+
+            <img src="http://placehold.it/1170x250" data-interchange="
+                [http://placehold.it/480x144, (default)],
+                [http://placehold.it/768x230, (medium)],
+                [http://placehold.it/1170x350, (large)]" alt="" class="">
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+
+        </div>
+    </div>
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

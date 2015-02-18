@@ -1,0 +1,15 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+    <!-- added into the 'header' after the opening body tag -->
+    <!--#include virtual="../../includes/containers/cookie-message.html"-->
+
+    <div class="content row">
+        <h1>Cookie Disclaimer</h1>
+        <p><a href="javascript:eraseCookie('barclayscookiepolicy');document.location = document.location;">Show cookie disclaimer</a> (auto refresh)</p>
+        <p><a href="javascript:eraseCookie('barclayscookiepolicy');">Remove cookie</a> when testing other pages (refresh after))</p>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

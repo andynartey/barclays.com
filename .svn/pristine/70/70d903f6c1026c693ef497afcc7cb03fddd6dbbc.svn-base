@@ -1,0 +1,94 @@
+//TODO: should this be the default styling for pgae headings?
+
+.products-services {
+	h1 {
+		font-size: 1.9em;
+		margin-bottom: 0.6em;
+		color: $blue-darker;
+	}
+	p {
+		font-size: 0.9em;
+		line-height: 1.75;
+	}
+	margin-bottom: em-calc(20);
+}
+
+@media #{$medium} {
+	.products-services {
+		h1 {
+			font-size: 3em;
+			margin-bottom: 0.4em;
+		}
+		p {
+			font-size: 1em;
+		}
+	}
+}
+
+.product-services__banner {
+	// min-height: 150px;
+	// min-height: 8em;
+	// height: 30%;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+@media #{$small} {
+	.product-services__banner {
+		// min-height: 300px;
+		margin-bottom: 0;
+	}
+}
+@media #{$medium} {
+	.product-services__banner {
+		// min-height: 300px;
+		margin-bottom: em-calc(40);
+	}
+}
+
+.product-services__imageBackground {
+	// position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	width: 100%;
+	img {
+		min-width: 26em;
+		margin: 0 auto;
+	}
+}
+.product-services__bannerContent {
+	// position: absolute;
+	// width: 41%;
+	// right: 8.5%;
+	// top: 15%;
+	// min-height: 3em;
+	// border: solid 1px green;
+	padding: 1em 1em 0 1em;
+}
+/*@group breakpoint from small*/
+	@media #{$small} {
+		.product-services__bannerContent {
+				padding: 1em;
+			}
+	}
+/*endgroup*/
+/*@group breakpoint from medium*/
+	@media #{$medium} {
+		.product-services__bannerContent {
+				padding: 1em;
+			}
+	}
+/*endgroup*/
+/*@group breakpoint from medium*/
+	@media #{$medium} {
+		.product-services__imageBackground {
+			position: absolute;
+		}
+		.product-services__bannerContent {
+			width: 43%;
+			float: right;
+			margin: 3% 8% 2% 0;
+		}
+	}
+/*endgroup*/

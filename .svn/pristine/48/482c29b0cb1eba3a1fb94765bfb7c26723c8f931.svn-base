@@ -1,0 +1,143 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="../../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__news-article">
+
+        <!--#include virtual="../../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../../includes/site-chrome/main-navigation.html"-->
+
+        <div class="row">
+            <div class="template_col-1">
+
+                <div class="col__social">
+                    <!-- share links 1 -->
+                    <div class="share-tools-1">
+                        <!--#include virtual="../../includes/story-chrome/share-tools.html"-->
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="template_col-8">
+                <div class="row">
+                    <div class="col__news-article--header share-ignore">
+
+                        <div class="link__page_holder">
+                            <!-- link to page above -->
+                            <a href="#" class="link__page-parent">Link to parent page</a>
+                        </div>
+
+                        <!-- page title -->
+                        <h1>Outdent box - examples</h1>
+                    </div>
+
+                    <div class="col__news-article--content">
+                        <div class="text-image">
+                            <p>Content without outdent.</p>
+                        </div>
+
+                        <!-- Outdent Box Full Width - start -->
+                        <div class="article-item--left--full-width">
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                        </div>
+                        <!-- Outdent Box Full Width - end -->
+
+                        <!-- Outdent Box Full Width - start -->
+                        <div class="article-item--left--full-width">
+                            <!--#include virtual="/includes/blockquote.html"-->
+                        </div>
+                        <!-- Outdent Box Full Width - end -->
+
+                        <!-- Outdent Box Full Width - start -->
+                        <div class="article-item--left--full-width">
+                            <!--#include virtual="/includes/cross-promo-image-top.html"-->
+                        </div>
+                        <!-- Outdent Box Full Width - end -->
+
+                        <!-- Outdent Box Full Width - start -->
+                        <div class="article-item--left--full-width">
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                        </div>
+                        <!-- Outdent Box Full Width - end -->
+
+                        <!-- Outdent Box Full Width - start -->
+                        <div class="article-item--left--full-width">
+                            <!--#include virtual="/includes/story-chrome/list-item.html"-->
+                            <!--#include virtual="/includes/spacer.html"-->
+                        </div>
+                        <!-- Outdent Box Full Width - end -->
+
+                        <!-- Outdent Box Full Width - start -->
+                        <div class="article-item--left--full-width">
+                            <!--#include virtual="../../includes/containers/story-highlights.html"-->
+                        </div>
+                        <!-- Outdent Box Full Width - end -->
+
+                        <!-- Outdent Box Full Width - start -->
+                        <div class="article-item--left--full-width">
+                            <!--#include virtual="/includes/text-image.html"-->
+                        </div>
+                        <!-- Outdent Box Full Width - end -->
+
+
+                        <h1>Outdent box</h1>
+
+                        <!-- Outdent Box Small Width - start -->
+                        <div class="article-item--left">
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                        </div>
+                        <!-- Outdent Box Small Width - end -->
+
+                        <!-- Outdent Box Small Width - start -->
+                        <div class="article-item--left">
+                            <!--#include virtual="/includes/blockquote.html"-->
+                        </div>
+                        <!-- Outdent Box Small Width - end -->
+
+                        <!-- Outdent Box Small Width - start -->
+                        <div class="article-item--left">
+                            <!--#include virtual="/includes/cross-promo-image-top.html"-->
+                        </div>
+                        <!-- Outdent Box Small Width - end -->
+
+                        <!-- Outdent Box Small Width - start -->
+                        <div class="article-item--left">
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                        </div>
+                        <!-- Outdent Box Small Width - end -->
+
+                        <!-- Outdent Box Small Width - start -->
+                        <div class="article-item--left">
+                            <!--#include virtual="/includes/story-chrome/list-item.html"-->
+                            <!--#include virtual="/includes/spacer.html"-->
+                        </div>
+                        <!-- Outdent Box Small Width - end -->
+
+                        <!-- Outdent Box Small Width - start -->
+                        <div class="article-item--left">
+                            <!--#include virtual="../../includes/containers/story-highlights.html"-->
+                        </div>
+                        <!-- Outdent Box Small Width - end -->
+
+                        <!-- Outdent Box Small Width - start -->
+                        <div class="article-item--left">
+                            <!--#include virtual="/includes/text-image.html"-->
+                        </div>
+                        <!-- Outdent Box Small Width - end -->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

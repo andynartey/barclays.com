@@ -1,0 +1,5 @@
+<div class="download-strip">
+    <p class="download-strip__title">
+    	<a href=""><i class="icon icon__download"></i> Download the report  <small>(PDF - 1.1MB)</small></a></p>
+    <p class="download-strip__author">Optional note here</p>
+</div>

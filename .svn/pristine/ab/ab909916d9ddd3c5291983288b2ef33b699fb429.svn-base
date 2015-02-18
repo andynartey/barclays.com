@@ -1,0 +1,135 @@
+// BUTTON STYLES
+/* --------------------------------------*/
+
+// Common button styles begin
+.button-container {
+	position: relative;
+	border: $border-style;
+	border-radius: 4px;
+	padding: em-calc(8 14 8 8);
+	display: block;
+	box-shadow: 0px 1px #cecece;
+	background-color: $white;
+	color: $primary-color;
+	font-weight: normal;
+	font-size: em-calc(18);
+	margin-bottom: em-calc(10);
+	form {
+		display: inline-block;
+		padding: 0;
+		margin: 0;
+	}
+	ul {
+		border: 1px solid red;
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		padding: 0;
+		margin: 0;
+	}
+	&:hover, &:focus {
+		background-color: none;
+	}
+	&.icon-right {
+		padding: em-calc(8 40 8 15);
+	}
+	&.icon-arrow-down {
+		&:after {	
+			@include icon-font($icon-arrow-down);
+			color: $primary-color;
+			position: absolute;
+			right: em-calc(7);
+			bottom: em-calc(7);
+			font-size: em-calc(19);
+		}
+	}
+	&.icon-external-link {
+		&:after {	
+			@include icon-font($icon-external-link);
+			color: $primary-color;
+			position: absolute;
+			right: em-calc(7);
+			bottom: em-calc(7);
+			font-size: em-calc(19);
+		}
+	&.off-white {
+		background: $off-white;
+		}
+	}
+	&.medium {
+		width: em-calc(180);
+	}
+	&.link-style {
+		border: none;
+		box-shadow: none;
+		padding: em-calc(8 40 8 0);
+	}
+}
+@media #{$small} {
+	.button-container {
+		display: inline-block;
+	}
+}
+@media #{$medium} {
+	.button-container {
+		display: inline-block;
+	}
+}
+// Button styles for forms
+form.custom {
+	.custom.dropdown.button-container {
+		&.medium {
+			width: 225px;
+		}
+		&.open.medium ul {
+			min-width: 225px;
+			border: $border-style;
+			li {
+				padding-left: em-calc(15);
+			&:hover, &:focus {
+				color: $primary-color;
+				}
+			&:active {
+				color: $blue-darker;
+				}
+			}
+		}
+		height: auto;
+		border: $border-style;
+		background: $white;
+		font-weight: normal;
+		font-size: em-calc(18);
+		box-shadow: 0px 1px #cecece;
+		padding: em-calc(3 14 2 14);
+		margin-bottom: em-calc(10);
+		.current {
+			color: $primary-color;
+			background-color: $white;
+			padding: 0;
+			margin: 0;
+		}
+		.selector {
+			height: em-calc(39);
+			border-radius: 4px;
+			background-color: $white;
+			color: $primary-color;
+			&:after {
+				border: none;
+				@include icon-font($icon-arrow-down);
+				top: 12px;
+				left: 10px;
+				font-size: em-calc(20);
+			}
+		}
+		&:hover, &.open {
+			a.selector {
+				//border: none;
+				&:after {
+					border: none;
+					@include icon-font($icon-arrow-down);
+				}
+			}
+		}
+	}
+}

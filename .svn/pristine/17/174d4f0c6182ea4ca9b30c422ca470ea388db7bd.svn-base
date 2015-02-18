@@ -1,0 +1,22 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+                <h1>Tables</h1>
+
+                <h2>Current ratings</h2>
+                <p><a href="http://group.barclays.com/about-barclays/investor-relations/debt-investors/credit-ratings/current-ratings">http://group.barclays.com/about-barclays/investor-relations/debt-investors/credit-ratings/current-ratings</a></p>
+
+                <!--#include virtual="/includes/ir/table-example.html"-->
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

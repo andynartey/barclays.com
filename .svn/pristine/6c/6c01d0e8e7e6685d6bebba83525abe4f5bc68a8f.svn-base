@@ -1,0 +1,57 @@
+<div class="table">
+    <table class="table__table-x-y table--data-table">
+        <thead>
+            <tr>
+                <th>Title lorem ipsum dolor</th>
+                <th colspan="2">2012 spending</th>
+                <th colspan="2">2011 spending</th>
+            </tr>
+            <tr class="table__table-x-y--split-col-sub-title">
+                <th></th>
+                <th class="tinted-cell tinted-cell--alt tinted-cell--start">Total</th>
+                <th class="tinted-cell tinted-cell--alt tinted-cell--end">+/-</th>
+                <th class="tinted-cell">Total</th>
+                <th class="tinted-cell">+/-</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="table__table-x-y__y-label">Total community investment</td>
+                <td class="tinted-cell tinted-cell--alt">64.5m</td>
+                <td class="tinted-cell tinted-cell--alt table__table-cell--col-end">+2.5%</td>
+                <td class="tinted-cell">55.3m</td>
+                <td class="tinted-cell">+2.5%</td>
+            </tr>
+            <tr>
+                <td class="table__table-x-y__y-label">
+                    Amount raised by employees and matched to charities through Barclays fundraising and giving programmes
+                </td>
+                <td class="tinted-cell tinted-cell--alt">30.3m Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                <td class="tinted-cell tinted-cell--alt table__table-cell--col-end">+6%</td>
+                <td class="tinted-cell">19.7m</td>
+                <td class="tinted-cell">+6%</td>
+            </tr>
+            <tr>
+                <th colspan="5">
+                    Subtitle fierent intellegam mediocritatem
+                </th>
+            </tr>
+            <tr>
+                <td class="table__table-x-y__y-label">
+                    Number of employees involved in Barclays volunteering, fundraising or giving programmes (% of all Barclays employees)
+                </td>
+                <td class="tinted-cell tinted-cell--alt">68,000<br />(48%)</td>
+                <td class="tinted-cell tinted-cell--alt table__table-cell--col-end">+23%</td>
+                <td class="tinted-cell">59,000<br />(39%)</td>
+                <td class="tinted-cell">+23%</td>
+            </tr>
+            <tr>
+                <td class="table__table-x-y__y-label">Hours spent (personal and work time) to support volunteering activities</td>
+                <td class="tinted-cell tinted-cell--alt">489,000</td>
+                <td class="tinted-cell tinted-cell--alt table__table-cell--col-end">+7%</td>
+                <td class="tinted-cell">359,000</td>
+                <td class="tinted-cell">+7%</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

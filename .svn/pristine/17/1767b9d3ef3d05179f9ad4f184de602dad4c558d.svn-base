@@ -1,0 +1,49 @@
+<!-- CURRENT EVENT -->
+<div class="document-group">
+	
+    <div class="row">
+        <div class="document-group__date">
+            <p>
+                <span class="month">Sept</span>
+                <span class="day">21</span>
+                <span class="year">2014</span>
+            </p>
+        </div>
+        <div class="document-group__heading">
+            <div class="text-image">
+	            <h3>Step into the night charity walk</h3>
+	            <p>PRESENTATION</p>
+            </div>
+        </div>
+    </div>
+    <div class="document-group__info">
+        <dl class="row">
+            <dt class="meta">Where</dt>
+            <dd class="entry">Thu 21 Sept 2014, 7pm - 10pm</dd>
+
+            <dt class="meta">When</dt>
+            <dd class="entry">Potters Fields Park, Tower 	Bridge, London E1 5PT</dd>
+
+            <dt class="meta">Details</dt>
+            <dd class="entry">Antony Jenkins, Barclays Group Chief Executive, presented at Deutsche Bank’s Global Financial Services</dd>
+        </dl>
+    </div>
+    <div class="document-group__summary">
+    	<div class="row">
+	    	<div class="text-image">
+	    		<p>Antony Jenkins, Barclays Group Chief Executive, presented at Deutsche Bank’s Global Financial Services Investor Conference in New York on 4 June 2013. Lorem ipsum dolor sit amet.</p>
+
+	    		<div class="document-group__download">
+		    		<h5><a href="#" title="">Presentation lorem ipsum 1 </a><small>(PDF - 1.2MB)</small></h5>
+		    		<h5><a href="#" title="">Presentation lorem ipsum 2 </a><small>(PDF - 1.7MB)</small></h5>
+		    		<h5><a href="#" title="">Webcast </a><small>(Video - 10 mins)</small></h5>
+		    		<h5><a href="#" title="">Transcript </a><small>(PDF - 1.2MB)</small></h5>
+	    		</div>
+	    	</div>
+    	</div>
+    </div>
+</div>
+
+
+
+

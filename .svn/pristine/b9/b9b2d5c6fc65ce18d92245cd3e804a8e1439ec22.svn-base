@@ -1,0 +1,406 @@
+// CREATE BARCLAYS NAMESPACE
+var BAR = BAR || {};
+
+$(function(){
+
+    // ====================================================
+    // STORYTELLER - INITIALISE ALL COMPONENTS
+    // ====================================================
+
+    BAR.Storyteller = (function () {
+
+        var init = function (selector, itemCount, mode) {
+            var storyTellerContainer = $(selector),
+                storyTellerItemCount = itemCount,
+                storyTellerMode = mode;
+
+            var storytellerFilter = new BAR.StoryTellerFilter(storyTellerContainer),
+                storytellerToggle = new BAR.StorytellerView(storyTellerContainer, storyTellerMode),
+                storytellerLazyLoad = new BAR.StorytellerLazyLoad(storyTellerContainer, storyTellerItemCount);
+        };
+
+        var filterPreSelect = function(selector) {
+            var storyTellerContainer = $(selector),
+                preSelectedFilter = storyTellerContainer.find('.preselect');
+
+            if (preSelectedFilter.length > 0) {
+                _selectFilter(storyTellerContainer, preSelectedFilter);
+            }
+
+        };
+
+        var _selectFilter = function(container, preSelectedFilter) {
+
+            var txt = $(preSelectedFilter).find('a').text(),
+                dataItem = $(this).attr('data-storyteller-filter-item'),
+                labelHolder = '<div class="storyteller-filter-label" data-storyteller-filter-item="'+dataItem+'"><a href="" title="'+txt+'" role="button"><span class="visuallyhidden">Clear current filter:</span>'+ txt + '</a></div>',
+                $self = preSelectedFilter.closest('.storyteller__filter__col').find('[data-storyteller-filter-link]'),
+                getLinkPos = $self.position(),
+                getLinkWidth;
+
+            enquire
+                .register( "screen and (max-width: 768px)", {
+                    match: function() {
+                        getLinkWidth = $self.elementRealWidth() - 30;
+                    }
+                })
+                .register( "screen and (min-width: 769px)", {
+                    match: function() {
+                        getLinkWidth = $self.outerWidth();
+                    }
+                }, true);
+
+            $self.after(labelHolder);
+
+            container.find('.storyteller-filter-label').css({
+                'width': getLinkWidth,
+                'top': getLinkPos.top
+            });
+
+            container.find('.storyteller-filter-label').on('click', function(e) {
+                $(this)
+                    .hide()
+                    .off('click')
+                    .remove();
+
+                e.preventDefault();
+            });
+
+            _orientationChange(container, $self, getLinkWidth, getLinkPos);
+
+        };
+
+        var _orientationChange = function(container, $self, getLinkWidth, getLinkPos) {
+            enquire
+                .register( "screen and (max-width: 768px)", {
+                    match: function() {
+                        setTimeout(function() {
+                            getLinkWidth = $self.elementRealWidth() - 30;
+                            getLinkPos = $self.position();
+
+                            container.find('.storyteller-filter-label').css({
+                                'width': getLinkWidth,
+                                'top': getLinkPos.top
+                            });
+                        }, 250);
+                    }
+                })
+                .register( "screen and (min-width: 769px)", {
+                    match: function() {
+                        setTimeout(function() {
+                            getLinkWidth = $self.outerWidth();
+                            getLinkPos = $self.position();
+
+                            container.find('.storyteller-filter-label').css({
+                                'width': getLinkWidth,
+                                'top': getLinkPos.top
+                            });
+                        }, 250);
+                    }
+                }, true);
+        };
+
+        return {
+            init: init,
+            filterPreSelect: filterPreSelect
+        };
+    }());
+
+    // ====================================================
+    // STORYTELLER VIEW TOGGLE
+    // ====================================================
+
+    BAR.StorytellerView = function(selector, storyTellerMode) {
+        this.storyTellerContainer = $(selector);
+        this.storyTellerMode = storyTellerMode;
+        this.storyItem = this.storyTellerContainer.find('[data-storyteller-item]');
+        this.viewToggle = this.storyTellerContainer.find('[data-storyteller-viewtoggle]');
+        this.storyTellerBody = this.storyTellerContainer.find('[data-storyteller-body]');
+
+        if ( this.storyTellerContainer.length >  0 ) {
+            this.init();
+        }
+    }
+
+    BAR.StorytellerView.prototype = {
+
+        init: function() {
+            var self = this;
+
+            if ( this.storyTellerMode === 'list-view' ) {
+                this.storyTellerBody.addClass('storyteller-list-view');
+                self.viewToggle.addClass('grid-view');
+            }
+
+            self.viewToggle.on('click', function(e) {
+                self.checkView(this);
+                e.preventDefault();
+            });
+        },
+
+        checkView: function(toggle) {
+            if ( this.storyTellerBody.hasClass('storyteller-list-view') ) {
+                $(toggle).removeClass('grid-view');
+
+                this.storyTellerBody.removeClass('storyteller-list-view');
+
+                BAR.Utilities.equalizeHeights(this.storyTellerContainer, this.storyItem);
+
+            } else {
+                $(toggle).addClass('grid-view');
+                this.storyTellerBody.addClass('storyteller-list-view');
+
+                this.storyItem.removeClass('clear-me');
+                this.storyItem.removeClass('no-min-height');
+            }
+        }
+    }
+
+
+    // ====================================================
+    // STORYTELLER LAZY LOAD
+    // ====================================================
+
+    BAR.StorytellerLazyLoad = function(selector, itemCount) {
+        this.storyTellerContainer = $(selector);
+        this.showMoreBtn = this.storyTellerContainer.find('[data-storyteller-showmore]');
+        this.storyItem = this.storyTellerContainer.find('[data-storyteller-item]');
+        this.storyTellerBody = this.storyTellerContainer.find('[data-storyteller-body]');
+        this.storyTellerItemCount = itemCount;
+
+        this.init();
+    }
+
+    BAR.StorytellerLazyLoad.prototype = {
+
+        init: function() {
+            var self = this;
+
+            this.hideContent();
+
+            if ( !this.storyTellerBody.hasClass('storyteller-list-view') ) {
+                BAR.Utilities.equalizeHeights(this.storyTellerContainer, this.storyItem);
+            }
+
+            this.showMoreBtn.on('click', function(e) {
+                self.showMore();
+                e.preventDefault();
+            });
+        },
+
+        hideContent: function() {
+            this.storyItem.hide().addClass('js-itemHidden');
+
+            for ( var i = 0; i < this.storyTellerItemCount; i++ ) {
+                this.storyItem.eq(i).show().removeClass('js-itemHidden');
+            }
+        },
+
+        showMore: function() {
+            var $hiddenItems = this.storyTellerContainer.find('.js-itemHidden'),
+                newStoryCount = this.storyTellerItemCount;
+
+            for ( var i = 0; i < this.storyTellerItemCount; i++) {
+                if ( $hiddenItems.eq(i).hasClass('storyteller__item--feature') ) {
+                    newStoryCount--;
+                }
+            }
+
+            for ( var i = 0; i < newStoryCount; i++ ) {
+                $hiddenItems.eq(i).fadeIn().removeClass('js-itemHidden');
+            }
+
+            var firstItemPos = $hiddenItems.first().offset().top;
+
+            this.scrollToRow(firstItemPos);
+
+            if ( !this.storyTellerBody.hasClass('storyteller-list-view') ) {
+                BAR.Utilities.equalizeHeights(this.storyTellerContainer, this.storyItem);
+            }
+
+            this.hideBtn();
+        },
+
+        scrollToRow: function(firstItemPos) {
+            var scrollTarget = firstItemPos;
+
+            $('html, body').animate({
+                scrollTop: scrollTarget-10
+            }, 'slow');
+        },
+
+        hideBtn: function() {
+            var hiddenItemCount = this.storyTellerContainer.find('.js-itemHidden').length;
+
+            if ( hiddenItemCount === 0 ) {
+                this.storyTellerContainer.find('.storyteller__more-stories').hide();
+                this.storyTellerContainer.find('[data-storyteller-archive]').show();
+            }
+        }
+    }
+
+
+    // ====================================================
+    // STORYTELLER FILTERS
+    // ====================================================
+
+    BAR.StoryTellerFilter = function(selector) {
+        this.storyTellerContainer = $(selector);
+        this.storyTellerFilterLink = this.storyTellerContainer.find('[data-storyteller-filter-link]');
+        this.storyTellerFilterToggle = this.storyTellerContainer.find('[data-storyteller-filter-toggle]');
+        this.storyTellerFilterHolder = this.storyTellerContainer.find('[data-storyteller-filter-holder]');
+
+        this.init();
+    }
+
+    BAR.StoryTellerFilter.prototype = {
+
+        init: function() {
+            var self = this;
+
+            this.mediaDetection(self);
+
+            this.storyTellerFilterLink.on('click', function(e) {
+                if ( !$(this).hasClass('inactive') ) {
+                    self.checkState(this);
+                }
+                e.preventDefault();
+            });
+
+            this.storyTellerFilterToggle.on('click', function(e) {
+                self.mobileToggleFilters(this);
+                e.preventDefault();
+            });
+        },
+
+        checkState: function(link) {
+            var $link = $(link);
+
+            if ( $link.hasClass('active') ) {
+                this.hideDropdown($link);
+            } else {
+                this.showDropdown($link);
+            }
+        },
+
+        showDropdown: function($link) {
+            var getLinkWidth = $link.outerWidth(),
+                getLinkPos = $link.position(),
+                getLinkHeight = $link.height(),
+                useArrowKeys = '<span class="visuallyhidden">Use arrow keys to select</span>',
+                self = this;
+
+            self.storyTellerContainer.find('[data-storyteller-filter-list]').hide();
+            self.storyTellerFilterLink.removeClass('active');
+
+            $link.addClass('active').attr('aria-expanded', 'true');
+            $link.append(useArrowKeys);
+            $link.next('[data-storyteller-filter-list]')
+                .css({
+                    'width': getLinkWidth,
+                    'top': getLinkPos.top + getLinkHeight + 20
+                }).show().attr('aria-hidden', 'false');
+
+            $link.next('[data-storyteller-filter-list]')
+                .find('[data-storyteller-filter-item]')
+                    .on('click', function(e) {
+                        self.addSelectedItem(this);
+                        e.preventDefault();
+                    });
+
+            self.outsideClickClose($link);
+        },
+
+        hideDropdown: function($link) {
+            var self = this;
+
+            $link.removeClass('active').attr('aria-expanded', 'false');
+            $link.find('span').remove();
+            $link.next('[data-storyteller-filter-list]').hide().attr('aria-hidden', 'true')
+                .find('[data-storyteller-filter-item]')
+                    .off('click', function(e) {
+                        self.addSelectedItem(this);
+                        e.preventDefault();
+                    });
+        },
+
+        addSelectedItem: function(selectedItem) {
+
+            var storyTellerFilter = this,
+                txt = $(selectedItem).find('a').text(),
+                dataItem = $(selectedItem).attr('data-storyteller-filter-item'),
+                labelHolder = '<div class="storyteller-filter-label" data-storyteller-filter-item="'+dataItem+'"><a href="" title="'+txt+'" role="button"><span class="visuallyhidden">Clear current filter:</span>'+ txt + '</a></div>',
+                $self = this.storyTellerFilterLink.filter('.active'),
+                getLinkWidth = $self.outerWidth(),
+                getLinkPos = $self.position();
+
+            storyTellerFilter.hideDropdown($self);
+
+            $self.after(labelHolder);
+
+            this.storyTellerContainer.find('.storyteller-filter-label').css({
+                'width': getLinkWidth,
+                'top': getLinkPos.top
+            });
+
+            this.storyTellerContainer.find('.storyteller-filter-label').on('click', function(e) {
+                storyTellerFilter.removeSelectedItem(this);
+                e.preventDefault();
+            });
+        },
+
+        removeSelectedItem: function(self) {
+
+            // CQ5 - REMOVE FILTER FUNCTION
+            // COMMENTED OUT FOR STAGING PURPOSES
+            /*
+            var identifierText = this.storyTellerContainer.html(),
+                i = identifierText.indexOf("parentFilters"),
+                identifier1 = identifierText.substring(i + 13, i + 49),
+                functionName = "removeFilter"+ identifier1;
+
+            if (typeof(window[functionName]) === "function") {
+                window[functionName]($(self));
+            } else {
+                throw("Error.  Function " + functionName + " does not exist.");
+            }*/
+
+            $(self)
+                .hide()
+                .off('click')
+                .remove();
+        },
+
+        mediaDetection: function(self) {
+            enquire
+                .register( "screen and (max-width: 768px)", {
+                    match: function() {
+                        self.storyTellerFilterHolder.hide();
+                    }
+                })
+                .register( "screen and (min-width: 769px)", {
+                    match: function() {
+                        self.storyTellerFilterHolder.show();
+                    }
+                }, true);
+        },
+
+        mobileToggleFilters: function(self) {
+            $(self).toggleClass('filter-active');
+            this.storyTellerFilterHolder.slideToggle('fast');
+        },
+
+        outsideClickClose: function(link) {
+            var self = this;
+
+            $(document).on('mouseup', function(e) {
+                var filterContainer = $('.storyteller__filter__col');
+
+                if ( !filterContainer.is(e.target) && filterContainer.has(e.target).length === 0 ) {
+                    self.hideDropdown(link);
+                }
+            });
+        }
+    }
+
+}());

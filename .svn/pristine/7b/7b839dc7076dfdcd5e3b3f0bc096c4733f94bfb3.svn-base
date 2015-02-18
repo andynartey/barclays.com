@@ -1,0 +1,71 @@
+.cross-promo {
+	border-bottom: 1px solid $gray-rule;
+	clear: both;
+	&:last-child {
+		border-bottom: none;
+	}
+    padding: em-calc(20 0 0);
+    .cross-promo__image {
+		@media #{$small} {
+		}
+		@media #{$medium} {
+		}
+    }
+	.cross-promo__body {
+		@media #{$small} {
+    	}
+    	 @media #{$medium} {
+    	}
+	}
+	.cross-promo__label {
+		color: $blue-darker;
+		text-transform: uppercase;
+		font-size: em-calc(13);
+		@media #{$small} {
+			font-size: em-calc(14);
+    	}
+    	 @media #{$medium} {
+    	}
+	}
+	.cross-promo__title {
+			font-size: em-calc(18);
+		@media #{$small} {
+			font-size: em-calc(22);
+    	}
+    	@media #{$medium} {
+    	}
+	}
+	.cross-promo__description {
+		@media #{$small} {
+    	}
+    	@media #{$medium} {
+    	}
+	}
+	.date {
+		color: #b2b2b2;
+		@media #{$small} {
+    	}
+    	@media #{$medium} {
+    	}
+	}
+	// Float Image left or right
+	// &.cross-left {
+	// 	.cross-promo__image {
+	// 		float: left;
+	// 	}
+	// 	.cross-promo__body {
+	// 		margin-left: em-calc(10);
+	// 		float: right;
+	// 	}
+	// }
+	// &.cross-right {
+	// 	.cross-promo__image {
+	// 		float: right;
+	// 	}
+	// 	.cross-promo__body {
+	// 		margin-right: em-calc(10);
+	// 		float: left;
+	// 	}
+	// }
+}
+

@@ -1,0 +1,99 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+
+    <!--#include file="includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container">
+
+        <!--#include file="includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include file="includes/site-chrome/logo-banner.html"-->
+
+        <!--#include file="includes/site-chrome/main-navigation.html"-->
+
+        <div class="content row">
+
+            <section class="detail-9">
+
+                <article class="news-article">
+
+                    <div class="row">
+                        <div class="news-article__title">
+                            <h3>Building young futures</h3>
+                            <h1>Taking one small step into the night for charity</h1>
+                            <p class="date">30 Jul 2013, 15:30 BST</p>
+                        </div>
+
+                        <div class="news-article__hero">
+                            <img src="http://placehold.it/770x385" data-interchange="
+                                [http://placehold.it/435x220, (default)],
+                                [http://placehold.it/600x300, (medium)],
+                                [http://placehold.it/770x385, (large)]" alt="hero">
+                        </div>
+
+                        <div class="news-article__body">
+                            <p class="news-article__standfirst">Barclays, UNICEF and UK broadcaster Heart radio’s Have a Heart charity are inviting Barclays staff and customers to join a sponsored night walk in London on Wednesday, 21 September.</p>
+
+                            <p class="news-article__paragraph">Barclays, UNICEF and UK broadcaster Heart radio’s Have a Heart charity are inviting Barclays customers to join a sponsored night walk in London on Wednesday, 21 September.</p>
+
+                            <blockquote class="news-article__blockquote">In 2012, 800 people took part in the walk, following a 10km route across central London past some of the city's iconic landmarks.</blockquote>
+
+                            <p class="news-article__paragraph">Online registration for the <a href="">Take One Small Step Into The Night</a> event opens on Monday, 18 July for Barclays customers, employees and their friends and family.</p>
+
+                            <p class="news-article__paragraph">Funds raised from the walk will go towards transforming the lives of children in the UK and around the world by providing education and improving. </p>
+
+                            <div class="article-item--left">
+                                <!--#include file="includes/story-chrome/event-summary.html"-->
+                            </div>
+
+                            <p class="news-article__paragraph">In 2012, 800 people took part in the walk, following a 10-kilometre route across central London past some of the city's iconic landmarks.</p>
+
+                            <p class="news-article__paragraph">Participants raised more than £60,000, which went towards healthcare and education projects for children in London and Rwanda. Take One Small Step Into from Potters Fields Park by Tower Bridge. Refreshments and entertainment will be provided along the route. Funds raised from the walk will go towards transforming the lives of children in the UK and around the world by providing education and improving.</p>
+
+                            <div class="news-article__body__callToAction">
+                                <p><a href="">Find out how to register ></a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+                <!--#include file="includes/story-chrome/prev-next-stories.html"-->
+
+            </section>
+
+            <section class="sub-content-3">
+
+                <!--#include file="includes/story-chrome/tags.html"-->
+
+                <div class="show-for-large-up">
+
+                    <!--#include file="includes/story-chrome/latest-news.html"-->
+
+                    <!--#include file="includes/story-chrome/cross-promotion.html"-->
+
+                    <!--#include file="includes/story-chrome/cross-promotion.html"-->
+
+                </div>
+
+            </section>
+
+
+            <!--#include file="includes/story-chrome/share-tools.html"-->
+
+            <section class="detail-9">
+
+                <!--#include file="includes/story-chrome/related-content.html"-->
+
+            </section>
+
+        </div>
+
+        <!--#include file="includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include file="includes/javascripts.html"-->
+
+</body>
+</html>

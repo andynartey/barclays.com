@@ -1,0 +1,317 @@
+// ====================================================
+// MAIN GLOBAL NAVIGATION -- Desktop and landscape tablet
+// ====================================================
+
+.main-nav {
+    @extend .show-for-large-up;
+    font-family: $header-font-family;
+    border-bottom: 1px solid $gray-btn-stroke;
+    margin-bottom: em-calc(15);
+    //box-shadow: 0px 0px 6px 0px #cfcfcf;
+
+    ul {
+        font-size: 1em;
+    }
+}
+
+.mega-menu {
+    @include grid-column(12);
+    position: relative;
+}
+
+.mega-menu__list {
+    list-style: none;
+    margin: 0;
+    @include clearfix;
+
+    .mega-active {
+        position: relative;
+        &:after {
+            @include icon-font($icon-nav-arrow-up);
+            position: absolute;
+            bottom: 0;
+            left: 38%;
+            color: $gray-btn-stroke;
+            font-size: em-calc(32);
+            line-height: 0.25;
+        }
+    }
+
+    .mega-menu__item--news {
+        .mega-active {
+            &:after {
+                left: 15%;
+            }
+        }
+    }
+
+    .mega-menu__item--products-services {
+        .mega-active {
+            &:after {
+                left: 50%;
+            }
+        }
+    }
+}
+
+.mega-menu__list > * {
+    margin: 0 0 0 -1px;
+    float: left;
+}
+
+.mega-menu__list > *:first-child {
+    margin-left: 0;
+}
+
+.mega-menu__top-link {
+    padding: em-calc(15 20);
+    display: block;
+    color: $primary-color;
+    -webkit-backface-visibility: hidden;
+
+    &:focus {
+        color: $blue-darker;
+    }
+}
+
+.mega-menu__item--news {
+    @extend .mega-menu__item !optional;
+
+    .mega-menu__top-link {
+        padding-left: 0;
+    }
+}
+
+.mega-menu__item--products-services {
+    @extend .mega-menu__item !optional;
+    float: right;
+
+    .mega-menu__top-link {
+        padding-right: 0;
+    }
+}
+
+.mega-content {
+    position: absolute;
+    border: none;
+    border-top: 6px solid $gray-btn-stroke;
+    border-bottom: $border-style;
+    background: #fafafa;
+    margin-top: em-calc(1);
+    display: none;
+    z-index: 50;
+    .row {
+        max-width: 75em;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+}
+
+.mega-menu__close-btn {
+    display: block;
+    color: #b2b2b2;
+    position: absolute;
+    bottom: em-calc(20);
+    right: em-calc(20);
+    font-family: $body-font-family;
+    font-size: em-calc(12);
+
+    &:after {
+        padding-left: em-calc(7);
+        font-size: em-calc(18);
+        @include icon-font($icon-cross);
+        position: relative;
+        top: em-calc(2);
+    }
+}
+
+// MEGA MENU -- INTRO
+// ====================================================
+.menu-intro {
+    @include grid-column(4);
+    padding-top: em-calc(20);
+}
+
+.menu-intro__heading {
+    color: $primary-color;
+    -webkit-backface-visibility: hidden;
+}
+
+.menu-intro__paragraph {
+    font-size: em-calc(16);
+}
+
+.menu-intro__link {
+    padding-top: 0;
+    font-size: em-calc(22);
+    &:after {
+        @include icon-font($icon-chevron-right);
+        font-size: em-calc(12);
+        padding-left: em-calc(5);
+        position: relative;
+        top: em-calc(1);
+    }
+}
+
+
+
+// MEGA MENU -- LINKS
+// ====================================================
+
+.menu-links {
+    @include grid-column(4);
+    position: relative;
+    padding-top: em-calc(30);
+    padding-bottom: em-calc(30);
+    min-height: 380px;
+
+    .active {
+        @include linear-gradient(#14a0db, $primary-color);
+        color: $white;
+        &:after {
+            color: $white;
+        }
+
+        &:hover {
+            @include linear-gradient(#14a0db, $primary-color);
+            color: $white;
+            &:after {
+                color: $white;
+            }
+        }
+    }
+}
+
+.menu-links__list {
+    display: block;
+    margin: 0;
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.menu-links__list li {
+    margin: 0;
+    font-size: 0.875em;
+}
+
+.menu-links__item {
+    border-bottom: $border-style;
+    margin-bottom: 0;
+
+    &:first-child {
+        border-top: $border-style;
+    }
+
+    a {
+        padding: em-calc(10);
+        display: block;
+        background: none;
+
+        &:hover {
+            background: #f5f5f5;
+        }
+    }
+}
+
+.menu-links__item--nested {
+    @extend .menu-links__item;
+    // border-bottom: 0;
+    // border-bottom: 1px solid #e1e1e1;
+
+    > a {
+        // position: relative;
+        // &:before {
+        //     content: " ";
+        //     position: absolute;
+        //     width: 100%;
+        // }
+        &:after {
+            @include icon-font($icon-chevron-right);
+            font-size: em-calc(18);
+            color: $gray-carousel-arrow;
+            position: absolute;
+            margin-top: em-calc(3);
+            right: em-calc(0);
+            padding-right: em-calc(20);
+            display: inline-block;
+        }
+
+        &:hover {
+            &:after {
+                color: $blue-darker;
+            }
+        }
+    }
+}
+
+.menu-links__third-level-list {
+    margin: 0;
+    list-style-type: none;
+    list-style-position: inside;
+    position: absolute;
+    left: 100%;
+    top: em-calc(34);
+    z-index: 200;
+    display: none;
+    padding: em-calc(0 0 0 15);
+    background: #fafafa;
+}
+
+.menu-links__third-level-list li {
+    margin: 0;
+    font-size: 0.875em;
+}
+
+.third-level-list__item {
+    @extend .menu-links__item;
+
+    &:first-child {
+        font-family: $header-font-family-bold;
+    }
+
+    a {
+        font-size: 1.15em;
+    }
+}
+
+
+// MEGA MENU -- PROMO
+// ====================================================
+
+.menu-promo {
+    @include grid-column(4);
+    padding-top: em-calc(30);
+    padding-bottom: em-calc(60);
+    padding-left: 1em;
+}
+
+.menu-promo__image {
+    margin-bottom: em-calc(15);
+    position: relative;
+
+    h3 {
+        @include image-label(em-calc(12), em-calc(7));
+    }
+
+    img {
+        margin-bottom: 0 !important;
+    }
+}
+
+.menu-promo__paragraph {
+    font-family: $body-font-family;
+}
+
+
+
+// MENU BANNER -- STICKY (DESKTOP ONLY)
+// ====================================================
+.header-sticky {
+    position: fixed;
+    z-index: 2050;
+    top: 0;
+    background: $white;
+    left: 0;
+}

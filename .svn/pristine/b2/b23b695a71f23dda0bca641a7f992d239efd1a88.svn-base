@@ -1,0 +1,19 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+	<div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+		        <h1>Lightbox examples</h1>
+
+                <p><a href="disclaimer-copy.html" class="disclaimer-lbox">Disclaimer</a></p>
+			</div>
+
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

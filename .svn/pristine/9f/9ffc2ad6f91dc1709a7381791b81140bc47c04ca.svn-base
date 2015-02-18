@@ -1,0 +1,45 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="row">
+
+        <div class="detail-8">
+            <br /><br />
+            <h2>Two columns (8 - 4)</h2>
+            <code>.detail-8</code>
+
+            <hr>
+
+            <img src="http://placehold.it/770x250" data-interchange="
+                [http://placehold.it/480x156, (default)],
+                [http://placehold.it/725x235, (medium)],
+                [http://placehold.it/770x250, (large)]" alt="" class="">
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+        </div>
+
+        <div class="sub-content-4">
+            <br /><br /><br /><br /><br /><br />
+            <code>.sub-content-4</code>
+
+            <hr>
+
+            <img src="http://placehold.it/370x150" data-interchange="
+                [http://placehold.it/480x156, (default)],
+                [http://placehold.it/725x235, (medium)],
+                [http://placehold.it/370x150, (large)]" alt="" class="">
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+        </div>
+
+    </div>
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="includes/containers/cookie-message.html"-->
+
+    <!--#include file="includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__hub">
+
+        <!--#include file="includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include file="includes/site-chrome/logo-banner.html"-->
+
+        <!--#include file="includes/site-chrome/main-navigation.html"-->
+
+        <div class="row__full-bleed"></div>
+
+        <div class="row">
+
+            <div class="col__full-width">
+                <section class="news-landing">
+
+                    <div class="row">
+
+                        <div class="detail-6">
+                            <!--#include file="includes/containers/carousel.html"-->
+                        </div>
+
+                        <div class="detail-6">
+                            <!--#include file="includes/story-chrome/promo-list.html"-->
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+
+        </div>
+
+        <div class="row__full-bleed"></div>
+
+        <div class="row">
+
+            <div class="col__full-width">
+                <div class="resTab1">
+                    <div class="tabs__controls">
+
+                        <div class="tabs__mobile">
+                            <a href="" class="tabs__mobile__trigger" data-tabs-mobile-trigger>
+                                Latest news
+                            </a>
+
+                            <ul class="tabs__mobile__dropdown" data-tabs-mobile-dropdown>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Latest news</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Community</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Products</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Economy</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Economy</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="tabs__desktop">
+                            <li class="tabs__desktop__item active" data-tabs-desktop-item>
+                                <a href="">Latest news</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Community</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Products</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Economy</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Economy</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tabs__contentHolder">
+                        <div class="tabs__content" data-tabs-content>
+                            <!--#include file="includes/containers/storyteller.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <h1>Community</h1>
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <h1>Products</h1>
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <h1>Economy</h1>
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <h1>Economy</h1>
+                        </div>
+                    </div>
+                </div>
+            <div class="responsive-tab-container resTab1">
+
+        </div>
+
+        <div class="row__full-bleed">
+            <!--#include file="includes/story-chrome/link-blocks-3-up-small-image.html"-->
+        </div>
+
+        <div class="row"></div>
+
+        <div class="row__full-bleed"></div>
+
+        <div class="row"></div>
+
+        <div class="row__full-bleed"></div>
+
+        <div class="row"></div>
+
+        <div class="row__full-bleed"></div>
+
+        <div class="row"></div>
+
+
+        <!--#include file="includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include file="includes/javascripts.html"-->
+
+</body>
+</html>

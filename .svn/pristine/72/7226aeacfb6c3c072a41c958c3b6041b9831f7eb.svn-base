@@ -1,0 +1,31 @@
+// Spacer classes as used in CQ5
+
+.thickline {
+	background: $gray-rule;
+	width: 100%;
+	height: em-calc(4);
+	display: block;
+	margin-bottom: em-calc(18);
+}
+
+.thinline {
+	background: $gray-rule;
+	width: 100%;
+	height: em-calc(1);
+	display: block;
+	margin-bottom: em-calc(18);
+}
+
+.whitespace20 {
+	background: $white;
+	width: 100%;
+	height: em-calc(20);
+	display: block;
+}
+
+.whitespace10 {
+	background: $white;
+	width: 100%;
+	height: em-calc(10);
+	display: block;
+}

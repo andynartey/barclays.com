@@ -1,0 +1,341 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+    <!--#include file="includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__utility">
+
+        <!--#include file="includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include file="includes/site-chrome/logo-banner.html"-->
+
+        <!--#include file="includes/site-chrome/main-navigation.html"-->
+
+        <div class="row">
+            <div class="col__utility-heading">
+
+                <div class="link__page_holder">
+                    <!-- link to page above -->
+                    <!--<a href="#" class="link__page-parent">Link to parent page</a>-->
+                </div>
+
+                <!-- page title -->
+                <h1>68 results</h1>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col__full-width"></div>
+        </div>
+
+        <div class="row__full-bleed">
+            <!-- parsys 2: modules start here -->
+
+            <!-- 2 columns (75/25) - START -->
+            <div class="column-control-container__75-25">
+                <div class="column-control__75">
+                    <section class="search-results">
+
+                        <div class="search-results__search-field">
+                            <form action="">
+                                <input type="text" value="Anthony Jenkins" class="search-results__input">
+                                <input type="submit" value="" class="search-results__submit">
+                                <i class="icon icon__search"></i>
+                            </form>
+                        </div>
+
+                        <div class="search-results__recommended">
+                            <h2>Recommended results</h2>
+
+                            <div class="search-results__recommended__item">
+                                <h3><a href="">Anthony Jenkins profile page</a></h3>
+                                <p>Lorem ipsum dolor sit amet, stet consequuntur vim id</p>
+                            </div>
+
+                            <div class="search-results__recommended__item">
+                                <h3><a href="">Anthony Jenkins profile page</a></h3>
+                                <p>Lorem ipsum dolor sit amet, stet consequuntur vim id <span>(PDF - 1.2MB)</span></p>
+                            </div>
+
+                            <div class="search-results__recommended__item">
+                                <h3><a href="">Anthony Jenkins profile page</a><i class="icon icon__external-link"></i></h3>
+                                <p>Lorem ipsum dolor sit amet, stet consequuntur vim id</p>
+                            </div>
+                        </div>
+
+                        <div class="search-results__filter" data-searchresults-filter="">
+
+                            <a href="" class="search-results__filter__toggle" data-searchresults-filter-toggle="">
+                                Filters
+                            </a>
+
+                            <div class="search-results__filter__holder" data-searchresults-filter-holder="">
+                                <div class="search-results__filter__col">
+
+                                    <a href="" class="search-results__filter__link" data-searchresults-filter-link="">
+                                        Filter by region
+                                    </a>
+
+                                    <ul class="search-results__filter__list" data-searchresults-filter-list="">
+                                        <li class="search-results__filter__item" data-searchresults-filter-item="">
+                                            <a href="">Africa &amp; Middle East <span>(11)</span></a>
+                                        </li>
+                                        <li class="search-results__filter__item" data-searchresults-filter-item="">
+                                            <a href="">Americas <span>(7)</span></a>
+                                        </li>
+                                        <li class="search-results__filter__item" data-searchresults-filter-item="">
+                                            <a href="">Asia Pacific <span>(9)</span></a>
+                                        </li>
+                                        <li class="search-results__filter__item" data-searchresults-filter-item="">
+                                            <a href="">Europe <span>(23)</span></a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="search-results__filter__col">
+
+                                    <a href="" class="search-results__filter__link" data-searchresults-filter-link="">
+                                        Filter by date
+                                    </a>
+
+                                    <ul class="search-results__filter__list" data-searchresults-filter-list="">
+                                        <li class="search-results__filter__item" data-searchresults-filter-item="">
+                                            <a href="">Day</a>
+                                        </li>
+                                        <li class="search-results__filter__item" data-searchresults-filter-item="">
+                                            <a href="">Month</a>
+                                        </li>
+                                        <li class="search-results__filter__item" data-searchresults-filter-item="">
+                                            <a href="">Year</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="search-results__filter__col">
+
+                                    <a href="" class="search-results__filter__link" data-searchresults-filter-link="">
+                                        Filter by division
+                                    </a>
+
+                                    <ul class="search-results__filter__list" data-searchresults-filter-list="">
+                                        <li class="search-results__filter__item" data-searchresults-filter-item="">
+                                            <a href="">Barclays Africa</a>
+                                        </li>
+                                        <li class="search-results__filter__item" data-searchresults-filter-item="">
+                                            <a href="">Barclays UK</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="search-results__results">
+                            <div class="row">
+
+                                <article class="search-results__item" data-searchresults-item="">
+                                    <div class="row">
+                                        <div class="search-results__item__image">
+                                            <a href="/news-article.html">
+                                                <img src="http://placehold.it/270x152"
+                                                    data-interchange="
+                                                    [http://placehold.it/350x197, (medium)],
+                                                    [http://placehold.it/270x152, (large)]" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="search-results__item__copy">
+                                            <h3>Banking on change</h3>
+                                            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+                                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                                            <p>Group Chief Executive <strong>Antony Jenkins</strong> was appointed Group Chief Executive on 30 August 2012, having previously been Chief Executive of ... </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="search-results__item" data-searchresults-item="">
+                                    <div class="row">
+                                        <div class="search-results__item__image">
+                                            <a href="/news-article.html">
+                                                <img src="http://placehold.it/270x152"
+                                                    data-interchange="
+                                                    [http://placehold.it/350x197, (medium)],
+                                                    [http://placehold.it/270x152, (large)]" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="search-results__item__copy">
+                                            <h3>Banking on change</h3>
+                                            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+                                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                                            <p>Group Chief Executive <strong>Antony Jenkins</strong> was appointed Group Chief Executive on 30 August 2012, having previously been Chief Executive of ... </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="search-results__item" data-searchresults-item="">
+                                    <div class="row">
+                                        <div class="search-results__item__image">
+
+                                        </div>
+                                        <div class="search-results__item__copy">
+                                            <h3>Download</h3>
+                                            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+                                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                                            <p>Group Chief Executive <strong>Antony Jenkins</strong> was appointed Group Chief Executive on 30 August 2012, having previously been Chief Executive of ... </p>
+                                            <p class="file">(PDF - 1.2MB)</p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="search-results__item" data-searchresults-item="">
+                                    <div class="row">
+                                        <div class="search-results__item__image">
+                                            <a href="/news-article.html">
+                                                <img src="http://placehold.it/270x152"
+                                                    data-interchange="
+                                                    [http://placehold.it/350x197, (medium)],
+                                                    [http://placehold.it/270x152, (large)]" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="search-results__item__copy">
+                                            <h3>Banking on change</h3>
+                                            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+                                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                                            <p>Group Chief Executive Antony was appointed Group Chief Executive on 30 August 2012, having previously been Chief Executive of ... </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="search-results__item" data-searchresults-item="">
+                                    <div class="row">
+                                        <div class="search-results__item__image">
+                                        </div>
+                                        <div class="search-results__item__copy">
+                                            <h3>Banking on change</h3>
+                                            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+                                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                                            <p>Group Chief Executive Antony was appointed Group Chief Executive on 30 August 2012, having previously been Chief Executive of ... </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="search-results__item" data-searchresults-item="">
+                                    <div class="row">
+                                        <div class="search-results__item__image">
+                                            <a href="/news-article.html">
+                                                <img src="http://placehold.it/270x152"
+                                                    data-interchange="
+                                                    [http://placehold.it/350x197, (medium)],
+                                                    [http://placehold.it/270x152, (large)]" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="search-results__item__copy">
+                                            <h3>Banking on change</h3>
+                                            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+                                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                                            <p>Group Chief Executive Antony was appointed Group Chief Executive on 30 August 2012, having previously been Chief Executive of ... </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="search-results__item" data-searchresults-item="">
+                                    <div class="row">
+                                        <div class="search-results__item__image">
+                                            <a href="/news-article.html">
+                                                <img src="http://placehold.it/270x152"
+                                                    data-interchange="
+                                                    [http://placehold.it/350x197, (medium)],
+                                                    [http://placehold.it/270x152, (large)]" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="search-results__item__copy">
+                                            <h3>Banking on change</h3>
+                                            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+                                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                                            <p>Group Chief Executive Antony was appointed Group Chief Executive on 30 August 2012, having previously been Chief Executive of ... </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="search-results__item" data-searchresults-item="">
+                                    <div class="row">
+                                        <div class="search-results__item__image">
+                                            <a href="/news-article.html">
+                                                <img src="http://placehold.it/270x152"
+                                                    data-interchange="
+                                                    [http://placehold.it/350x197, (medium)],
+                                                    [http://placehold.it/270x152, (large)]" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="search-results__item__copy">
+                                            <h3>Banking on change</h3>
+                                            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+                                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                                            <p>Group Chief Executive Antony was appointed Group Chief Executive on 30 August 2012, having previously been Chief Executive of ... </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="search-results__item" data-searchresults-item="">
+                                    <div class="row">
+                                        <div class="search-results__item__image">
+                                            <a href="/news-article.html">
+                                                <img src="http://placehold.it/270x152"
+                                                    data-interchange="
+                                                    [http://placehold.it/350x197, (medium)],
+                                                    [http://placehold.it/270x152, (large)]" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="search-results__item__copy">
+                                            <h3>Banking on change</h3>
+                                            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+                                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                                            <p>Group Chief Executive Antony was appointed Group Chief Executive on 30 August 2012, having previously been Chief Executive of ... </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="search-results__item" data-searchresults-item="">
+                                    <div class="row">
+                                        <div class="search-results__item__image">
+                                            <a href="/news-article.html">
+                                                <img src="http://placehold.it/270x152"
+                                                    data-interchange="
+                                                    [http://placehold.it/350x197, (medium)],
+                                                    [http://placehold.it/270x152, (large)]" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="search-results__item__copy">
+                                            <h3>Banking on change</h3>
+                                            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+                                            <p class="date">13 Sep 2013, 13:00 BST</p>
+                                            <p>Group Chief Executive Antony was appointed Group Chief Executive on 30 August 2012, having previously been Chief Executive of ... </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <div class="search-results__more-stories">
+                                    <p><a href="" data-searchresults-showmore="">More stories</a></p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+                <div class="column-control__25"></div>
+            </div>
+            <!-- 2 columns (75/25) - END -->
+
+            <!-- modules end here -->
+        </div>
+
+        <!--#include file="includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .site-container -->
+
+<!--#include file="includes/javascripts.html"-->
+</body>
+</html>

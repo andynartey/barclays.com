@@ -1,0 +1,192 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+                <h1>Tabs</h1>
+
+                <div class="resTab1">
+                    <div class="tabs__controls">
+                        <div class="tabs__mobile">
+                            <a href="" class="tabs__mobile__trigger" data-tabs-mobile-trigger>
+                                Make a selection
+                            </a>
+
+                            <ul class="tabs__mobile__dropdown" data-tabs-mobile-dropdown>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 1</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 2</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 3</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 4</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 5</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 6</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 7</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 8</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 9</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="tabs__desktop">
+                            <li class="tabs__desktop__item active" data-tabs-desktop-item>
+                                <a href="">Tab 1</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 2</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 3</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 4</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 5</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 6</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 7</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 8</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 9</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tabs__contentHolder">
+                        <div class="tabs__content" data-tabs-content>
+                            <!--#include virtual="/includes/containers/accordion.html"-->
+                            <!--#include virtual="../../includes/containers/accordion-mini.html"-->
+                        </div>
+                        <div class="tabs__content" data-tabs-content>
+                            <!--#include virtual="/includes/link-module.html"-->
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                            <!--#include virtual="/includes/story-chrome/list-item.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <!--#include virtual="/includes/blockquote.html"-->
+                            <!--#include virtual="/includes/containers/alert-box.html"-->
+                            <!--#include virtual="/includes/containers/column-control-50.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                            <!--#include virtual="/includes/text-image.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <!--#include virtual="/includes/cross-promo-image-top.html"-->
+                            <!--#include virtual="/includes/spacer.html"-->
+                            <!--#include virtual="/includes/ir/table-y.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <!--#include virtual="/includes/containers/image-gallery.html"-->
+                            <!--#include virtual="/includes/containers/grid-container-4.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <!--#include virtual="/includes/containers/story-highlights.html"-->
+                            <!--#include virtual="/includes/story-chrome/bullet-list.html"-->
+                            <!--#include virtual="/includes/containers/accordion.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <!--#include virtual="/includes/products-services/button-filter.html"-->
+                            <!--#include virtual="/includes/story-chrome/document-download.html"-->
+                            <!--#include virtual="/includes/ir/table-y.html"-->
+                            <br/>
+                            <!--#include virtual="../../includes/containers/dropdown-container.html"-->
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <!--#include virtual="/includes/containers/storyteller.html"-->
+                            <!--#include virtual="/includes/containers/carousel-grid-3.html"-->
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+<!--
+<div class="tabs__controls">
+    <div class="tabs__mobile">
+        <a href="" class="tabs__mobile__trigger" data-tabs-mobile-trigger>
+            Make a selection
+        </a>
+
+        <ul class="tabs__mobile__dropdown" data-tabs-mobile-dropdown>
+            <li class="tabs__mobile__item" data-tabs-mobile-item>
+                <a href="">Tab 1</a>
+            </li>
+            <li class="tabs__mobile__item" data-tabs-mobile-item>
+                <a href="">Tab 2</a>
+            </li>
+            <li class="tabs__mobile__item" data-tabs-mobile-item>
+                <a href="">Tab 3</a>
+            </li>
+        </ul>
+    </div>
+
+    <ul class="tabs__desktop">
+        <li class="tabs__desktop__item active" data-tabs-desktop-item>
+            <a href="">Tab 1</a>
+        </li>
+        <li class="tabs__desktop__item" data-tabs-desktop-item>
+            <a href="">Tab 2</a>
+        </li>
+        <li class="tabs__desktop__item" data-tabs-desktop-item>
+            <a href="">Tab 3</a>
+        </li>
+    </ul>
+
+</div>
+
+<div class="tabs__contentHolder">
+    <div class="tabs__content" data-tabs-content>
+        <h1>Tab 1 content title</h1>
+    </div>
+
+    <div class="tabs__content" data-tabs-content>
+        <h1>Tab 2 content title</h1>
+    </div>
+
+    <div class="tabs__content" data-tabs-content>
+        <h1>Tab 3 content title</h1>
+    </div>
+</div> -->
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

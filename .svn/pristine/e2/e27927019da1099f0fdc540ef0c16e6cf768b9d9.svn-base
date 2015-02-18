@@ -1,0 +1,356 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+    <!--#include file="includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__news-feature">
+
+        <!--#include file="includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include file="includes/site-chrome/logo-banner.html"-->
+
+        <!--#include file="includes/site-chrome/main-navigation.html"-->
+
+        <div class="row__full-bleed">
+
+            <!-- parsys 1: modules start here -->
+            <div class="row">
+                <section class="hero-wide">
+                    <img src="http://placehold.it/1170x390" data-interchange="
+                        [http://placehold.it/480x160, (default)],
+                        [http://placehold.it/768x256, (medium)],
+                        [http://placehold.it/1170x390, (large)]" alt="hero">
+                </section>
+            </div>
+            <!-- modules end here -->
+
+        </div>
+
+        <div class="row">
+            <div class="template_col-1">
+                &nbsp;
+                <!-- share links 1 -->
+                <div class="share-tools-1">
+                    <!--#include file="includes/story-chrome/share-tools.html"-->
+                </div>
+            </div>
+            <div class="template_col-8">
+                <div class="col__news-feature--header share-ignore">
+
+                    <!-- link to page above -->
+                    <a href="#" class="link__page-parent">News</a>
+
+                    <!-- page title -->
+                    <h1>Small steps into the night with Unicef make a big difference to education in Rwanda</h1>
+
+                    <!-- author -->
+                    <p class="news-article-author">By Matt Stephenson, Programme Co-ordinator</p>
+
+                    <!-- date -->
+                    <p class="news-article-date">30 Jul 2013, 15:30 BST</p>
+
+                </div>
+
+                <div class="template_col-11">
+                    <!-- these markers are used for the jump to module and are displayed if content is in the adjacent parsys -->
+                    <div class="jump-to__marker" id="article1"></div>
+                    <!-- parsys 2: modules start here -->
+                    <p class="news-feature__standfirst">It’s 6:51pm and the light is fading over London’s icon Tower Bridge as 2000 Barclays staff and customers eagerly wait to step into the night for charity. </p>
+
+                    <p class="news-feature__paragraph">Meanwhile, 3000 miles away in central Rwanda, Clémentine Makuzu arrives home from school after walking the 10 mile route that she treks lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                    <p class="news-feature__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend.</p>
+
+                    <div class="news-feature__blockquote">
+                        <blockquote class="news-feature__quote">
+                            The scale of the turnout for this years walk was truly amazing. To see so many staff and customers getting behind such a worthy cause underlines our shared.
+                        </blockquote>
+
+                        <cite class="news-feature__cite">
+                            <strong>Ashok Vaswani</strong>, COO Barclays UK
+                        </cite>
+                    </div>
+
+                    <p class="news-feature__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend.</p>
+
+                    <div class="news-feature__bullet_list">
+                    	<h2 class="news-feature__heading2">Our key objectives</h2>
+                        <ul>
+	                        <li>Ensure financial inclusion is part of the new UN Development framework</li>
+	                        <li>Recognise group banking as a springboard to financial inclusion</li>
+	                        <li>Build bridges between informal and formal financial sectors</li>
+	                        <li>Invest in, and expand access to, financial literacy</li>
+	                        <li>Develop strong checks and balances to protect the most poor and vulnerable people</li>
+                        </ul>
+	                </div>
+
+	                <p class="news-feature__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend.</p>
+
+	                <div class="news-feature__number_list">
+                    	<h2 class="news-feature__heading2">Our key principles</h2>
+                        <ol>
+	                        <li><span>1</span> <p>Ensure financial inclusion is part of the new UN Development framework</p></li>
+	                        <li><span>2</span> <p>Recognise group banking as a springboard to financial inclusion</p></li>
+	                        <li><span>3</span> <p>Build bridges between informal and formal financial sectors</p></li>
+	                        <li><span>4</span> <p>Invest in, and expand access to, financial literacy</p></li>
+	                        <li><span>5</span> <p>Develop strong checks and balances to protect the most poor and vulnerable people</p></li>
+                        </ol>
+	                </div>
+
+                    <!-- modules end here -->
+                </div>
+
+            </div>
+            <div class="template_col-3">
+                <!-- jump to -->
+                <!--#include file="includes/story-chrome/jump-to.html"-->
+
+                <!-- Topics 1 -->
+                <div class="topics-1">
+                    <!--#include file="includes/story-chrome/tags.html"-->
+                </div>
+
+                <!-- parsys 3: modules start here -->
+
+                <!-- modules end here -->
+            </div>
+        </div>
+
+
+        <div class="row__full-bleed">
+            <div class="jump-to__marker" id="article2"></div>
+
+            <!-- parsys 4: modules start here -->
+
+                <!--#include file="includes/containers/image-gallery.html"-->
+
+            <!-- modules end here -->
+        </div>
+
+        <div class="row">
+            <div class="jump-to__marker" id="article3"></div>
+
+            <div class="template_col-7">
+
+                <!-- parsys 5: modules start here -->
+                <h2 class="news-feature__heading2">Project background</h2>
+
+                <p class="news-feature__paragraph">The <a href="">Take One Small Step Into The Night</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus. </p>
+
+                <p class="news-feature__paragraph">Pellentesque placerat eros vel consequat vehicula. Ut tempor elementum venenatis. Pellentesque posuere elit sit amet diam tempus, vitae vulputate ligula dapibus.</p>
+
+                <div class="article-item--left">
+                    <!--#include file="includes/containers/key-stats.html"-->
+                </div>
+
+                <p class="news-feature__paragraph">Funds raised from the walk will go towards transforming the lives of children in the UK and around the world by providing education and improving healthcare.</p>
+
+                <p class="news-feature__paragraph">Lorem ipsum dolor sit took part in the walk, following a 10-kilometre route across central London past some of the city's iconic landmarks.</p>
+
+                <p class="news-feature__paragraph">Participants raised more than £60,000, which went towards healthcare and education projects for children in London and Rwanda.</p>
+
+                <p class="news-feature__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend.</p>
+
+                <p class="news-feature__paragraph"><a href="">Read more about the Building Young Futures program</a></p>
+                <!-- modules end here -->
+
+            </div>
+
+
+            <div class="template_col-3">
+                <!-- parsys 6: modules start here -->
+                <aside class="supplementry-info">
+                    <h2 class="supplementry-info__heading">Education in Rwanda</h2>
+                    <div class="supplementry-info__body">
+                        <img src="images/news-feature/chart.png" alt="">
+                        <p>Literacy rates in the region have increased by 14% since 2010.</p>
+                    </div>
+                </aside>
+                <!-- modules end here -->
+            </div>
+        </div>
+
+        <div class="row__full-bleed">
+            <div class="jump-to__marker" id="article4"></div>
+
+            <!-- parsys 7: modules start here -->
+
+            <!--#include file="includes/containers/stats-block.html"-->
+
+            <!-- modules end here -->
+        </div>
+
+
+        <div class="row">
+            <div class="jump-to__marker" id="article5"></div>
+            <div class="template_col-7">
+
+                <!-- parsys 8: modules start here -->
+                <h2 class="news-feature__heading2">Making a difference</h2>
+
+                <p class="news-feature__paragraph">Since last years event, lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend.</p>
+
+                <div class="news-feature__blockquote--narrow">
+                    <blockquote class="news-feature__quote">
+                        Since 2012, the project has grown into praesent mattis magna et dolor mattis.
+                    </blockquote>
+                </div>
+
+                <p class="news-feature__paragraph">In 2012, 800 people took part in the walk, following a 10-kilometre route across central London past some of the city's iconic landmarks. Participants raised more than £60,000, which went towards healthcare and education projects for children in London and Rwanda.</p>
+
+                <p class="news-feature__paragraph">Participants raised more than £60,000, which went towards healthcare and education projects for children in London and Rwanda.</p>
+
+                <!--#include file="includes/selected-tweet.html"-->
+
+
+                <!--#include file="includes/download-strip.html"-->
+
+                <!-- modules end here -->
+
+            </div>
+            <div class="template_col-3">
+
+                <!-- parsys 9: modules start here -->
+
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row__full-bleed">
+            <div class="jump-to__marker" id="article6"></div>
+
+            <!-- parsys 10: modules start here -->
+            <div class="row">
+                <div class="template_col-8">
+
+
+
+                </div>
+            </div>
+            <!-- modules end here -->
+        </div>
+
+
+        <div class="row">
+            <div class="jump-to__marker" id="article7"></div>
+            <div class="template_col-7">
+
+                <!-- parsys 11: modules start here -->
+
+                <!-- modules end here -->
+
+            </div>
+            <div class="template_col-3">
+
+                <!-- parsys 12: modules start here -->
+
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row__full-bleed dummy-module__example">
+            <div class="jump-to__marker" id="article8"></div>
+
+            <!-- parsys 13: modules start here -->
+            <div class="row">
+                <div class="template_col-8">
+
+
+
+                </div>
+            </div>
+            <!-- modules end here -->
+        </div>
+
+        <div class="row">
+            <div class="jump-to__marker" id="article9"></div>
+            <div class="template_col-7">
+
+                <!-- parsys 14: modules start here -->
+
+                <!-- modules end here -->
+
+            </div>
+            <div class="template_col-3">
+
+                <!-- parsys 15: modules start here -->
+
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="template_col-8-full-width">
+
+                <!-- Topics 2 -->
+                <div class="topics-2">
+                    <!--#include file="includes/story-chrome/tags.html"-->
+                </div>
+                <!-- share links 2 -->
+                <div class="share-tools-2">
+                    <!--#include file="includes/story-chrome/share-tools.html"-->
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="jump-to__marker" id="article10"></div>
+            <div class="template_col-8-full-width">
+
+                <!-- parsys 16: modules start here -->
+
+                <!-- modules end here -->
+
+            </div>
+            <div class="template_col-3">
+
+                <!-- parsys 17: modules start here -->
+
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="template_col-8-full-width">
+
+                <!-- Related stories -->
+                <!--#include file="includes/story-chrome/related-content.html"-->
+
+            </div>
+            <div class="template_col-3">
+
+                <!-- parsys 18: modules start here -->
+
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="template_col-8-full-width">
+
+                <!-- parsys 19: modules start here -->
+
+                <!-- modules end here -->
+
+            </div>
+            <div class="template_col-3">
+
+                <!-- parsys 20: modules start here -->
+
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <!--#include file="includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .site-container -->
+
+<!--#include file="includes/javascripts.html"-->
+</body>
+</html>

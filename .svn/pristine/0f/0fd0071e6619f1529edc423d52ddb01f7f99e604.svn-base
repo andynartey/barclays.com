@@ -1,0 +1,66 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+
+
+            <section class="link-blocks">
+
+			    <div class="link-blocks__wrapper">
+			        <h1>3 UP - TEXT</h1>
+					<!--#include virtual="../../includes/story-chrome/link-blocks-3-up-text.html"-->
+			    </div>
+
+			</section>
+
+			<section class="link-blocks">
+
+			    <div class="link-blocks__wrapper">
+					<h1>3 UP - BIG IMAGES</h1>
+			        <!--#include virtual="../../includes/story-chrome/link-blocks-3-up-large-image.html"-->
+			    </div>
+
+			</section>
+
+			<section class="link-blocks">
+
+			    <div class="link-blocks__wrapper">
+					<h1>3 UP - SMALL IMAGES</h1>
+					<!--#include virtual="../../includes/story-chrome/link-blocks-3-up-small-image.html"-->
+			    </div>
+
+			</section>
+
+			<section class="link-blocks">
+
+			    <div class="link-blocks__wrapper">
+					<h1>4 UP - TEXT</h1>
+			        <!--#include virtual="../../includes/story-chrome/link-blocks-4-up-text.html"-->
+			    </div>
+
+			</section>
+
+			<section class="link-blocks">
+
+			    <div class="link-blocks__wrapper">
+					<h1>4 UP - BIG IMAGES</h1>
+			        <!--#include virtual="../../includes/story-chrome/link-blocks-4-up-large-image.html"-->
+			    </div>
+
+			</section>
+
+			<section class="link-blocks">
+
+			    <div class="link-blocks__wrapper">
+					<h1>4 UP - SMALL IMAGES</h1>
+			        <!--#include virtual="../../includes/story-chrome/link-blocks-4-up-small-image.html"-->
+			    </div>
+
+			</section>
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

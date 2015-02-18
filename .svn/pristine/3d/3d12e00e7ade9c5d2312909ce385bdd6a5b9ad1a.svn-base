@@ -1,0 +1,9 @@
+<div id="iframe" class="external-web">
+    <script language="javascript" type="text/javascript">
+        var _iframeURL = 'http://qfx.quartalflife.com/Clients/uk/barclays1/SM6.3/Default.aspx?culture=en-GB';
+        _iframeURLHeight = 365;
+    </script>
+    <noscript>
+        <iframe frameborder="0" width="100%" allowtransparency="true" marginheight="0" marginwidth="0" class="externalwebIFrame" id="ExternalWebContentExternalIFrame" height="1000" src="http://qfx.quartalflife.com/Clients/uk/barclays1/SM6.3/Default.aspx?culture=en-GB" ></iframe>
+    </noscript>
+</div>

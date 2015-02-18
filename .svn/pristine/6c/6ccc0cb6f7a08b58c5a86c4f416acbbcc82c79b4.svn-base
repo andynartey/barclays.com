@@ -1,0 +1,48 @@
+@import "bourbon/bourbon";
+// Global Foundation Settings
+@import "base/settings";
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+@import "foundation/components/grid-5";
+@import "base/block-grid-5";
+
+@import "base/lt-ie9-foundation-grid";
+
+
+
+
+.lt-ie9 {
+
+    // MEGA MENU
+    .mega-menu__top-link {
+        &:focus {
+            outline: none;
+            color: $primary-color;
+        }
+    }
+
+    .menu-intro__heading {
+        color: $primary-color !important;
+    }
+
+    .mega-content .row {
+        width: 100%;
+        max-width: 75em;
+        margin: 0 auto;
+    }
+
+
+    // FOOTER
+    .bottom-footer__list li {
+        padding-right: em-calc(10);
+    }
+
+    .bottom-footer__list li:last-child a {
+        border-right: none;
+    }
+
+    // HOVER BLOCKS
+    .hover-block__desc {
+        width: 93%;
+    }
+}

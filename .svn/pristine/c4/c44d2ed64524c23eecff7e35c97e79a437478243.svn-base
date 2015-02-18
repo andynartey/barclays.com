@@ -1,0 +1,347 @@
+.icon {
+	display: inline-block;
+	position: relative;
+
+	// pixel dimensions for consistency, also prevents issues when nested in p tags etc
+	width: 30px;
+	height: 20px;
+	&:after {
+		font-size: 19px; // needs to be in pixels as ol' IE is not picking up the size correctly
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-top: em-calc(4.9);
+	}
+}
+
+// icons in buttons
+.btn {
+	.icon {
+		// float: right; // only on right aligned button
+	}
+	&.btn__small {
+		.icon {
+			height: 15px;
+			width: 20px;
+			left: -6px;
+			&:after {
+				font-size: 15px;
+			}
+		}
+	}
+}
+
+@media #{$small} {
+	.btn {
+		.icon {
+			// float: none;
+		}
+	}
+}
+
+.icon__external-link {
+	&:after {
+		@include icon-font($icon-external-link);
+		margin-left: 6px;
+		margin-top: 6px;
+		font-size: 16px;
+	}
+}
+.icon__location {
+	&:after {
+		@include icon-font($icon-location);
+		margin-left: 8px;
+		margin-top: 4px;
+	}
+}
+.btn {
+	.icon__location {
+		width: 15px;
+		&:after {
+			margin-left: -2px;
+		}
+	}
+}
+// add remove buttons
+.icon__add {
+	&:after {
+		@include icon-font($icon-plus);
+		margin-left: 0.5px;
+		margin-top: 2px;
+	}
+}
+.icon__remove {
+	&:after {
+		@include icon-font($icon-minus);
+		margin-left: 1.5px;
+		margin-top: 4px;
+	}
+}
+.btn {
+	.icon__add,
+	.icon__remove {
+		width: 17px;
+		height: 5px;
+		left: -3px;
+		top: -1px;
+		&:after {
+			margin-top: -6px;
+			font-size: 13px;
+		}
+	}
+}
+.icon__block-arrow-left {
+	&:after {
+		@include icon-font($icon-block-arrow-left);
+		margin-left: 5px;
+	}
+}
+.icon__block-arrow-right {
+	&:after {
+		@include icon-font($icon-block-arrow-right);
+		margin-left: 5px;
+	}
+}
+.icon__block-arrow-down {
+	&:after {
+		@include icon-font($icon-block-arrow-down);
+		margin-left: 5px;
+	}
+}
+.icon__block-arrow-up {
+	&:after {
+		@include icon-font($icon-block-arrow-up);
+		margin-left: 5px;
+	}
+}
+.icon__search {
+	&:after {
+		@include icon-font($icon-magnifying-glass);
+		margin-left: 5px;
+	}
+}
+.icon__hamburger {
+	&:after {
+		@include icon-font($icon-hamburger);
+		margin-left: 3.3px;
+		font-size: em-calc(22);
+		margin-top: em-calc(3);
+	}
+}
+.icon__play {
+	&:after {
+		@include icon-font($icon-play);
+		margin-left: 5px;
+	}
+}
+.icon__play-link {
+	width: 30px;
+	&:after {
+		@include icon-font($icon-play-link);
+		margin-left: 10px;
+	}
+}
+.btn {
+	.icon__play-link {
+		width: 18px;
+		&:after {
+			margin-left: -2px;
+		}
+	}
+	&.btn__small {
+		.icon__play-link {
+			width: 20px;
+			&:after {
+				margin-left: 7px;
+				margin-top: 4px;
+			}
+		}
+	}
+}
+.icon__pause {
+	&:after {
+		@include icon-font($icon-pause);
+		margin-left: 5px;
+	}
+}
+.icon__arrow-up {
+	&:after {
+		@include icon-font($icon-arrow-up);
+		margin-left: 5.5px;
+	}
+}
+.icon__chevron {
+	&:after {
+		margin-left: 4px;
+		margin-top: 2px;
+	}
+}
+.icon__chevron-up {
+	&:after {
+		@include icon-font($icon-chevron-up);
+	}
+}
+.icon__chevron-down {
+	&:after {
+		@include icon-font($icon-chevron-down);
+	}
+}
+.icon__chevron-left {
+	&:after {
+		@include icon-font($icon-chevron-left);
+	}
+}
+.icon__chevron-right {
+	&:after {
+		@include icon-font($icon-chevron-right);
+	}
+}
+.icon__nav-arrow-up {
+	&:after {
+		@include icon-font($icon-nav-arrow-up);
+		margin-left: 5.5px;
+		font-size: 40px;
+		margin-top: -5px;
+		margin-left: 0;
+	}
+}
+p {
+	.icon__chevron {
+		&:after {
+			font-size: 15px;
+			margin-top: 7px;
+			margin-left: 6px;
+		}
+	}
+}
+.link__page-parent {
+	.icon__chevron {
+		width: 25px;
+		&:after {
+			margin-top: 6px;
+			font-size: 16px;
+		}
+	}
+}
+.icon__twitter {
+	&:after {
+		@include icon-font($icon-twitter);
+		margin-left: 2px;
+	}
+}
+.icon__tick {
+	&:after {
+		@include icon-font($icon-tick);
+		margin-left: 2px;
+	}
+}
+.icon__cross {
+	&:after {
+		@include icon-font($icon-cross);
+		margin-left: 5px;
+	}
+}
+.icon__download {
+	&:after {
+		@include icon-font($icon-download);
+		margin-left: 5px;
+		margin-top: 2px;
+		font-size: 30px;
+	}
+}
+.icon__list {
+	&:after {
+		@include icon-font($icon-list);
+		margin-left: 5px;
+	}
+}
+.icon__info {
+	&:after {
+		@include icon-font($icon-info);
+		margin-left: 5px;
+	}
+}
+.icon__grid-view {
+	&:after {
+		@include icon-font($icon-grid-view);
+		margin-left: 5px;
+	}
+}
+.icon__secure {
+	&:after {
+		@include icon-font($icon-lock);
+		margin-left: 8px;
+		margin-top: 2px;
+	}
+}
+.btn.btn__small {
+	.icon__secure {
+		&:after {
+			font-size: 17px;
+			margin-left: 6px;
+			margin-top: 0px;
+		}
+	}
+}
+.icon__maximise {
+	&:after {
+		@include icon-font($icon-maximise);
+		margin-top: 0;
+	}
+}
+.icon__minimise {
+	&:after {
+		@include icon-font($icon-minimise);
+		margin-top: 0;
+	}
+}
+// social icons
+.icon__share {
+	&:after {
+		@include icon-font($icon-share);
+		margin-left: 5px;
+	}
+}
+.icon__email {
+	&:after {
+		@include icon-font($icon-email);
+		margin-left: 1px;
+	}
+}
+.icon__print {
+	&:after {
+		@include icon-font($icon-print);
+		margin-left: 3px;
+	}
+}
+.icon__down {
+	&:after {
+		@include icon-font($icon-down);
+		margin-left: 5px;
+	}
+}
+.btn__social {
+	.icon {
+		color: #ccc;
+		left: 0;
+		top: 0;
+		position: absolute;
+		width: 40px;
+		height: 45px;
+	}
+	.icon__share:after {
+		font-size: 28px;
+		margin-top: 3px;
+	}
+	.icon__email:after {
+		font-size: 21px;
+		margin-top: 3px;
+		margin-left: 4px;
+	}
+	.icon__print:after {
+		font-size: 25px;
+		margin-top: 3px;
+		margin-left: 4px;
+	}
+}

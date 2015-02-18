@@ -1,0 +1,40 @@
+<div class="grid-container grid-container-4">
+    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+        <li class="grid-container-item">
+            <!--#include virtual="cross-promo.html"-->
+        </li>
+        <li class="grid-container-item">
+            <!--#include virtual="cross-promo.html"-->
+        </li>
+        <li class="grid-container-item">
+            <!--#include virtual="cross-promo.html"-->
+        </li>
+        <li class="grid-container-item">
+            <!--#include virtual="cross-promo.html"-->
+        </li>
+        <li class="grid-container-item">
+            <!--#include virtual="cross-promo.html"-->
+        </li>
+        <li class="grid-container-item">
+            <!--#include virtual="cross-promo.html"-->
+        </li>
+        <li class="grid-container-item">
+            <!--#include virtual="cross-promo.html"-->
+        </li>
+        <li class="grid-container-item">
+            <!--#include virtual="cross-promo.html"-->
+        </li>
+        <li class="grid-container-item">
+            <!--#include virtual="cross-promo.html"-->
+        </li>
+        <li class="grid-container-item">
+            <!--#include virtual="cross-promo.html"-->
+        </li>
+        <li class="grid-container-item">
+            <!--#include virtual="cross-promo.html"-->
+        </li>
+        <li class="grid-container-item">
+            <!--#include virtual="cross-promo.html"-->
+        </li>
+    </ul>
+</div>

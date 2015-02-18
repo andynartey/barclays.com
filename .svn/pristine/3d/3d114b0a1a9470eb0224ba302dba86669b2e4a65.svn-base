@@ -1,0 +1,28 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+		        <h1>Document group - Pre event</h1>
+		    	<!--#include virtual="../../includes/story-chrome/document-group.html"-->
+
+                <h1>Document group - Post event</h1>
+                <!--#include virtual="../../includes/story-chrome/document-group-past.html"-->
+
+                <h1>Document group - generic</h1>
+                <!--#include virtual="../../includes/story-chrome/document-group-generic.html"-->
+
+
+                <h1>Document group - with horizontal lines</h1>
+                <!--#include virtual="../../includes/story-chrome/document-group-horizontal-line.html"-->
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

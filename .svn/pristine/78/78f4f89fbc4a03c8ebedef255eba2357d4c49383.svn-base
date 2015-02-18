@@ -1,0 +1,200 @@
+<!-- COUNTRY SELECTION -->
+<div class="js-country-selector">
+    <div class="country_selector__current">
+        <div class="country_selector__location">
+            <p>Your current selection: <span class="country-selector__country-name">United Kingdom</span></p>
+        </div>
+    </div>
+    <div class="country-selector__container" id="SelectCountry">
+        <h1 class="country-selector__heading">View products and services in:</h1>
+        <ul id="accordion" class="country-selector__regions">
+            <li>
+                <h2 class="country-selector__title">
+                    <a href="#" title="">Europe</a>
+                </h2>
+                <ul class="country-selector__region_list">
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="/products-and-services-individuals.html" title="">Cyprus</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Denmark</a></h3>  
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">France</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Germany</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Gibraltar</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Greece</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Italy</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Jersey</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Luxembourg</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Monaco</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Netherlands</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Norway</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Portugal</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Russia</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Spain</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Sweden</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Switzerland</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="/products-and-services-individuals.html" title="">United Kingdom</a></h3>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2 class="country-selector__title">
+                    <a href="#" class="" title="">Africa</a>
+                </h2>
+                <ul class="country-selector__region_list">
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Botswana</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Ghana</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Israel</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Kenya</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Mauritius</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Mozambique</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Nigeria</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Qatar</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Saudi Arabia</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Seychelles</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">South Africa</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Tanzania</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">UAE</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Uganda</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Zambia</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#"  title="">Zimbabwe</a></h3>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2 class="country-selector__title">
+                    <a href="#" class="" title="">Asia Pacific</a>
+                </h2>
+                <ul class="country-selector__region_list">
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Australia</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">China</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Hong Kong</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" v>India</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Indonesia</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Japan</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Malaysia</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Pakistan</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Philippines</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Singapore</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">South Korea</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Taiwan</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Thailand</a></h3>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2 class="country-selector__title">
+                    <a href="#" class="" title="">Americas</a>
+                </h2>
+                <ul class="country-selector__region_list">
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Brazil</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Puerto Rico</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Canada</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">USA</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Cayman Islands</a></h3>
+                    </li>
+                    <li>
+                        <h3 class="country-selector__country_name"><a href="#" title="">Mexico</a></h3>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

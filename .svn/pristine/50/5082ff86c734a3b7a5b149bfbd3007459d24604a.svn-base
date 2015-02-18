@@ -1,0 +1,18 @@
+.prev-next-stories {
+    @extend .show-for-large;
+    border-bottom: 5px solid #e5e5e5;
+    ul {
+        @include block-grid(2);
+    }
+    a {
+        display: block;
+        padding-top: em-calc(20);
+        font-family: $header-font-family;
+        font-size: em-calc(18);
+    }
+}
+.prev-next-stories__next {
+    a {
+        text-align: right;
+    }
+}

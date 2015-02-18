@@ -1,0 +1,82 @@
+// =======================================================
+// COUNTRY SELECTOR -- Mobile, portrait tablet and desktop
+// =======================================================
+
+body {
+    overflow-x: hidden;     // For hamburger navigation
+}
+.js-country-container {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    @include linear-gradient(to left, #fafafa 90%, #e4e4e4);
+    ul {
+        padding: 0;
+        position: relative;
+        font-size: 1em;
+    }
+    .country-first-level {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+    li {
+        border-bottom: $border-style;
+        font-family: $header-font-family;
+        margin: 0;
+        a {
+            padding: em-calc(7 10);
+            &:hover {
+                @include linear-gradient(#14a0db, $primary-color);
+                color: #fff;
+            }
+        }
+    }
+    .location {
+        a {
+            @include background( linear-gradient(to left, #fafafa 90%, #e4e4e4) );
+            padding-right: em-calc(45);
+            font-family: $header-font-family-bold;
+            &:hover {
+                @include background( linear-gradient(#14a0db, $primary-color) );
+            }
+        }
+    }
+    .has-slide-menu {
+        > a {
+            @include background( url(../images/icon-arrow-dropdown.png) no-repeat 95% center, linear-gradient(to left, #fafafa 90%, #e4e4e4) );
+        }
+    }
+    .country-second-level {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 100%;
+        z-index: 0;
+        @include linear-gradient(to left, #fafafa 90%, #e4e4e4);
+        li {
+            border-bottom: none;
+            border-top: $border-style;
+            font-size: 1em;
+        }
+    }
+    .country-sub-back {
+        a {
+            color: $blue-darker;
+            font-family: $header-font-family-bold;
+            @include background( url(../images/icon-arrow-left-small.png) no-repeat em-calc(10) center, linear-gradient(to left, #fafafa 90%, #e4e4e4) );
+            padding-right: em-calc(25);
+            &:hover {
+                @include background( url(../images/icon-arrow-left-small.png) no-repeat em-calc(10) center, linear-gradient(#14a0db, $primary-color) );
+            }
+        }
+    }
+    .nav-active {
+        z-index: 100;
+    }
+}

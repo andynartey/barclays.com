@@ -1,0 +1,89 @@
+// ====================================================
+// TABS
+// ====================================================
+
+.tabs__controls {
+    border-bottom: $border-style;
+}
+
+// TABS -- MOBILE
+// ====================================================
+
+.tabs__mobile {
+    @extend .show-for-medium-down;
+    margin: em-calc(0 -15);
+    padding: em-calc(7 0);
+    background: $gray-bkgnd;
+    border-top: $border-style;
+    border-bottom: $border-style;
+
+    form.custom {
+        margin: em-calc(0 15);
+
+        .custom-forms {
+            @include linear-gradient(to top, $gray-bkgnd, $white);
+            @include radius;
+            border: $border-style;
+            margin-bottom: 0;
+            font-size: em-calc(16);
+
+            .current {
+                font-family: $header-font-family;
+                color: #666;
+                margin-left: em-calc(15);
+            }
+
+            ul li {
+                padding: em-calc(10 15);
+                font-size: em-calc(15);
+                font-family: $header-font-family;
+            }
+        }
+    }
+}
+
+
+
+// TABS -- DESKTOP
+// ====================================================
+
+.tabs__desktop {
+    @extend .show-for-large-up;
+    @extend .button-group;
+    float: none;
+    position: relative;
+    bottom: -1px;
+}
+
+
+.tabs__desktop__item {
+    margin-right: em-calc(7);
+
+    a {
+        display: block;
+        font-family: $header-font-family-regular;
+        font-size: em-calc(20);
+        padding: em-calc(10 40);
+        border: $border-style;
+        border-bottom: none;
+        //@include linear-gradient(to top, $gray-bkgnd, $white);
+        background: $gray-bkgnd;
+        border-bottom: $border-style;
+    }
+
+    &.active {
+        a {
+            background: #fff;
+            color: $blue-darker;
+            border-bottom: 1px solid #fff;
+        }
+    }
+}
+
+
+
+// TABS -- CONTENT
+// ====================================================
+
+
+

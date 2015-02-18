@@ -1,0 +1,15 @@
+.alert-box {
+	background: $blue-bkgnd;
+	border: solid 1px #d9ecf4;
+	@include grid-row();
+	padding-top: 1em;
+}
+.alert-box__content {
+    @include grid-column(12);
+    h4 {
+    	font-size: 1.125em;
+    }
+    h4, p {
+    	color: #00395d;    	
+    }
+}

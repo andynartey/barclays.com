@@ -1,0 +1,11 @@
+<!-- HERO HUB BEGINS -->
+<div class="hero__hubImage">
+    <div class="aperture__content">
+        <img data-interchange=" [/images/online-banking/370x139_online-banking.jpg.jpg, (default)], [/images/online-banking/1280x480_online-banking.jpg, (medium)]" src="/images/online-banking/370x139_online-banking.jpg" alt="" >
+    </div>
+    <div class="hero__hubImageTextLeft">
+        <h1>Online banking</h1>
+		<p>Your banking needs accessed whenever, wherever you are.</p>
+    </div>
+</div>
+<!-- HERO HUB ENDS -->

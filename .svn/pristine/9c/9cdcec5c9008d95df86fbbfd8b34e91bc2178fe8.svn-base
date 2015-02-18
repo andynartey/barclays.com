@@ -1,0 +1,12 @@
+<!-- HERO HUB BEGINS -->
+<div class="hero__hubImage">
+    <div class="aperture__content">
+        <img data-interchange=" [/images/products-services/1280x480.jpg, (default)]" src="/images/products-services/1280x480.jpg" alt="" >
+    </div>
+    <div class="hero__hubImageTextLeft">
+        <h1>Products and services</h1>
+		<p>Barclays is a major global financial services provider engaged in personal banking</p>
+		<a href="/products-and-services-individuals-country-selection.html" class="btn btn__secondary white"><i class="icon icon__location"></i> United Kingdom</a>
+    </div>
+</div>
+<!-- HERO HUB ENDS -->

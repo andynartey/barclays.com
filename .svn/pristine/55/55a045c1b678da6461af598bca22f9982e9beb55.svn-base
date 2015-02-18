@@ -1,0 +1,45 @@
+<section class="stats-block">
+    <div class="row">
+        <div class="stats-block__container">
+
+            <div class="row">
+                <div class="stats-block__section--slim">
+                    <h2 class="stats-block__heading">Key stats</h2>
+
+                    <div class="row">
+                        <div class="stats-block__item full-width">
+                            <span class="num">&pound;74,520</span>
+                            <span class="info">Raised in sponsorship so far from the step into the night walk 2013.</span>
+                        </div>
+
+                        <div class="stats-block__item half-width">
+                            <span class="num">5000+</span>
+                            <span class="info">School pupils have benefited so far from new equipment and facilities.</span>
+                        </div>
+
+                        <div class="stats-block__item half-width">
+                            <span class="num">76%</span>
+                            <span class="info">of children in the region now have access to lorem ipsum</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="stats-block__section--wide">
+                    <h2 class="stats-block__heading">Focus on results</h2>
+
+                    <img class="stats-block__image" src="http://placehold.it/440x248" data-interchange="
+                        [http://placehold.it/440x248, (default)],
+                        [http://placehold.it/600x338, (medium)],
+                        [http://placehold.it/440x248, (large)]" alt="Results">
+
+                    <div class="stats-block__body">
+                        <p>Participants raised more than £60,000, which went towards healthcare and education projects for children in London and Rwanda.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>

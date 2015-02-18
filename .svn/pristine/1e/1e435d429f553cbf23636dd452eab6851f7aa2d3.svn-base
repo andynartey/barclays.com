@@ -1,0 +1,54 @@
+// ====================================================
+// GLOBAL TOP NAV BAR
+// ====================================================
+
+.top-nav-bar {
+    @extend .show-for-large-up;
+    font-family: $header-font-family;
+}
+
+.top-nav-bar__share-price {
+    @include grid-column(6);
+    padding-top: em-calc(10);
+    p {
+        color: $primary-color;
+        margin-bottom: 0;
+        strong {
+            font-family: $header-font-family-bold;
+        }
+        span {
+            display: inline-block;
+            margin-left: 5px;
+        }
+    }
+}
+
+.top-nav-bar__links {
+    @include grid-column(6);
+    ul {
+        font-size: 1em;
+        float: right;
+    }
+    a {
+        padding: em-calc(10);
+        display: block;
+        font-size: em-calc(14);
+        &:hover {
+            color: $blue-darker;
+        }
+    }
+    .online-banking {
+        margin: em-calc(5 10 0);
+        margin-right: 0;
+        a {
+            margin-bottom: 0;
+            @include background( url(../images/icon-padlock.png), linear-gradient(#14a0db, $primary-color) );
+            background-repeat: no-repeat, repeat;
+            background-position: em-calc(10) center;
+            @include radius;
+            border: 1px solid $primary-color;
+            color: #fff;
+            padding: em-calc(5 10 5 30);
+        }
+    }
+}

@@ -1,0 +1,86 @@
+/* Hide for both screenreaders and browsers */
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+/* Hide only visually, but have it available for screenreaders: by Jon Neal */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.fixed {
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+
+/* Border classes */
+
+/* Gray*/
+.bdr-gray--top {
+    border-top: $border-style;
+}
+
+.bdr-gray--right {
+    border-right: $border-style;
+}
+
+.bdr-gray--bottom {
+    border-bottom: $border-style;
+}
+
+.bdr-gray--left {
+    border-left: $border-style;
+}
+
+/* Blue */
+
+.bdr-blue--top {
+    border-top: 1px solid $blue-border;
+}
+
+.bdr-blue--right {
+    border-right: 1px solid $blue-border;
+}
+
+.bdr-blue--bottom {
+    border-bottom: 1px solid $blue-border;
+}
+
+.bdr-blue--left {
+    border-left: 1px solid $blue-border;
+}
+
+/* background classes */
+.bkd-gray {
+    background: $gray-bkgnd;
+}
+
+.bkd-blue {
+    background: $blue-bkgnd;
+}

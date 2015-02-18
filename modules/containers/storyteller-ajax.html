@@ -1,0 +1,50 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container template__hub">
+
+        <div class="row">
+
+            <div class="col__full-width">
+
+                <!--#include virtual="../../includes/containers/storyteller-ajax.html"-->
+
+            </div>
+
+        </div>
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+    <script>
+        $(function(){
+
+            var $filterItem = $('[data-storyteller-filter-item]'),
+                $storyItem = $('[data-storyteller-item]'),
+                ajaxUrl = '/includes/containers/storyteller-ajax-content.html';
+
+            $filterItem.on('click', function(e) {
+                $storyItem.remove();
+
+                $.ajax({
+                    url: ajaxUrl
+                }).done(function(data) {
+                    $storyItemContainer = $('[data-storyteller-body]').find('.row');
+
+                    $storyItemContainer.prepend(data);
+
+                    // Find new storyitems
+                    $storyItem = $('[data-storyteller-item]');
+
+                    BAR.Utilities.equalizeHeights('.storyteller-1', $storyItem);
+                });
+
+                e.preventDefault();
+            });
+
+        }());
+    </script>
+
+</body>
+</html>

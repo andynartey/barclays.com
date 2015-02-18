@@ -1,0 +1,72 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+                <!-- PRIMARY TAB BEGINS -->
+                <h1>Tab - Primary</h1>
+                <div class="resTab2">
+                    <div class="tabs__controls">
+                        <div class="tabs__mobile">
+                            <a href="" class="tabs__mobile__trigger" data-tabs-mobile-trigger>
+                                <!-- Make a selection -->
+                            </a>
+
+                            <ul class="tabs__mobile__dropdown" data-tabs-mobile-dropdown>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 3</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 4</a>
+                                </li>
+                                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                                    <a href="">Tab 5</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="tabs__desktop">
+                            <li class="tabs__desktop__item active" data-tabs-desktop-item>
+                                <a href="">Tab 3</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 4</a>
+                            </li>
+                            <li class="tabs__desktop__item" data-tabs-desktop-item>
+                                <a href="">Tab 5</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tabs__contentHolder">
+                        <div class="tabs__content" data-tabs-content>
+                            <h1>Tab 3 </h1>
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <h1>Tab 4 </h1>
+                        </div>
+
+                        <div class="tabs__content" data-tabs-content>
+                            <h1>Tab 5 </h1>
+                        </div>
+                    </div>
+                </div>
+                <!-- PRIMARY TAB ENDS -->
+                <br/><br/>
+                
+                <h1>Tab - Secondary</h1>
+                <!-- SECONDARY TAB BEGINS -->
+                <!--#include virtual="/includes/contact-us/tabbed-content-example.html"-->
+                <!-- SECONDARY TAB ENDS -->
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

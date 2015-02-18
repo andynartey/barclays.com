@@ -1,0 +1,34 @@
+// LATEST NEWS
+/* --------------------------------------*/
+.latest-news {
+    padding: em-calc(20 0 10);
+    @include clearfix;
+}
+.latest-news__heading {
+    font-size: em-calc(24);
+    color: $blue-darker;
+    margin-bottom: em-calc(15);
+}
+
+.latest-news__item {
+    border-bottom: $border-style;
+    margin-bottom: em-calc(20);
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.latest-news__heading2 {
+    text-transform: uppercase;
+    color: $blue-darker;
+    font-size: em-calc(14);
+    font-family: $header-font-family-regular;
+}
+
+.latest-news__heading1 {
+    font-size: em-calc(22);
+}
+
+.latest-news__date {
+    color: #b2b2b2;
+}

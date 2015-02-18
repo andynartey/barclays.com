@@ -1,0 +1,77 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+
+    <!--#include file="includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container">
+
+        <!--#include file="includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include file="includes/site-chrome/logo-banner.html"-->
+
+        <!--#include file="includes/site-chrome/main-navigation.html"-->
+
+        <div class="content row">
+
+            <!--#include file="includes/products-and-services-hero-image.html"-->
+
+        </div>
+
+        <div class="product-links">
+            <section class="small-12 medium-12">
+                <div class="content row">
+                    <div class="column small-12">
+                        <h2 class="hide-for-small">Please select a category</h2>
+                     </div>
+                        <ul class="equal-heights" data-equal-heights-target="product-links__content">
+                            <li class="product-links__item medium-4 columns">
+                                <img data-interchange="
+                                    [images/products-services/individuals-medium.jpg, (medium)],
+                                    [images/products-services/individuals-large.jpg, (large)]" alt="" class="hide-for-small">
+                                <div class="product-links__content">
+                                    <h3><a href="#">Individuals</a></h3>
+                                    <div class="product-links__text hide-for-small">
+                                        <p>Barclays offers world-class everyday banking services in 20 countries around the world</p>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="product-links__item medium-4 columns">
+
+                                <img data-interchange="
+                                    [images/products-services/businesses-medium.jpg, (medium)],
+                                    [images/products-services/businesses-large.jpg, (large)]" alt="" class="hide-for-small">
+                                <div class="product-links__content">
+                                    <h3> <a href="">Businesses</a></h3>
+                                    <div class="product-links__text hide-for-small">
+                                        <p>Donec sed odio dui. Nullam id dolor id nibh ultricies vehicula ut id elit</p>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="product-links__item medium-4 columns">
+
+                                <img data-interchange="
+                                    [images/products-services/corporates-medium.jpg, (medium)],
+                                    [images/products-services/corporates-large.jpg, (large)]" alt="" class="hide-for-small">
+                                <div class="product-links__content">
+                                    <h3><a href="">Corporates and institutions</a></h3>
+                                    <div class="product-links__text hide-for-small">
+                                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. </p>
+                                    </div>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+            </section>
+        </div>
+
+        <!--#include file="includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include file="includes/javascripts.html"-->
+
+</body>
+</html>

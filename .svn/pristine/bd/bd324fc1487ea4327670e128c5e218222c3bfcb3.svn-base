@@ -1,0 +1,43 @@
+<section class="link-blocks">
+
+    <div class="row">
+
+        <aside class="link-blocks__item">
+            <div class="link-blocks__content first">
+                <a class="link-blocks__link" href="">
+                    <img data-interchange="
+                        [/images/link-blocks/link-large.jpg, (medium)],
+                        [/images/link-blocks/link-large.jpg, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="">Press releases</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+        <aside class="link-blocks__item">
+            <div class="link-blocks__content">
+                <a class="link-blocks__link" href="">
+                    <img data-interchange="
+                        [/images/link-blocks/link-large.jpg, (medium)],
+                        [/images/link-blocks/link-large.jpg, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="">Media centre</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+        <aside class="link-blocks__item">
+            <div class="link-blocks__content">
+                <a class="link-blocks__link" href="">
+                    <img data-interchange="
+                        [/images/link-blocks/link-large.jpg, (medium)],
+                        [/images/link-blocks/link-large.jpg, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="">News archive</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+    </div>
+
+</section>

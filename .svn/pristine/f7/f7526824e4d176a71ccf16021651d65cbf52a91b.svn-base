@@ -1,0 +1,42 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+                <h1>Tables</h1>
+
+                <h2>Basic Table</h2>
+
+                <!--#include virtual="/includes/ir/table-y.html"-->
+
+                <h2>Data Table 1 - all lines, no shading</h2>
+                <!--#include virtual="/includes/ir/table-xy.html"-->
+
+                <h2>Data Table 2 - horizontal lines, no shading</h2>
+                <!--#include virtual="/includes/ir/table-xy-horizontal-line.html"-->
+
+                <h2>Data Table 3 - horizontal lines, vertical shading</h2>
+                <!--#include virtual="/includes/ir/table-xy-vertical-shading.html"-->
+
+                <h2>Data Table 4 - horizontal lines, horizontal shading </h2>
+                <!--#include virtual="/includes/ir/table-xy-horizontal-shading-2.html"-->
+
+                <h2>Text Table 1 - all lines, no shading</h2>
+                <!--#include virtual="/includes/ir/table-text-xy.html"-->
+
+                <h2>Text Table 2 - horizontal lines, no shading</h2>
+                <!--#include virtual="/includes/ir/table-text-xy-horizontal-line.html"-->
+
+                <h2>Text Table 3 - horizontal lines, horizontal shading</h2>
+                <!--#include virtual="/includes/ir/table-text-xy-horizontal-shading.html"-->
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

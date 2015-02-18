@@ -1,0 +1,30 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+	<div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+		        <h1>Share price feed</h1>
+                <div class="grid-container grid-container-3-3">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/containers/share-price-feed.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/containers/share-price-feed.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/containers/share-price-feed-tabs.html"-->
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

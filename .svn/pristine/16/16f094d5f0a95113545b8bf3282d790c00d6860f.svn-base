@@ -1,0 +1,63 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="content row">
+        <br><br>
+        <!-- DO NOT INTEGRATE THIS! -->
+        <p><a href="" class="show-heading">Show/hide carousel heading</a></p>
+        <p><a href="" class="show-link">Show/hide carousel link</a></p>
+        <script>
+            (function () {
+                if(  !document.addEventListener  ){
+                    return;
+                }
+                var headings = document.getElementsByClassName('carousel-grid__title'),
+                    headingsHidden = false,
+                    links = document.getElementsByClassName('carousel-grid__link--header'),
+                    linksHidden = false;
+                function addClass (el) {
+                    el[0].className = el[0].className + ' hidden';
+                    el[1].className = el[1].className + ' hidden';
+                }
+                function removeClass (el) {
+                    el[0].className = el[0].className.replace('hidden', '');
+                    el[1].className = el[1].className.replace('hidden', '');
+                }
+                document.getElementsByClassName('show-heading')[0].addEventListener('click', function (e) { 
+                    e.preventDefault();
+                    if (headingsHidden) {
+                        removeClass(headings);
+                        headingsHidden = false;
+                    } else {
+                        addClass(headings);
+                        headingsHidden = true;
+                    }
+                });
+                document.getElementsByClassName('show-link')[0].addEventListener('click', function (e) { 
+                    e.preventDefault();
+                    if (linksHidden) {
+                        removeClass(links);
+                        linksHidden = false;
+                    } else {
+                        addClass(links);
+                        linksHidden = true;
+                    }
+                });
+            })();
+        </script>
+        <!-- END -->
+        <br><br>
+        <div class="detail-wide">
+            <h1>Grid Carousel - 3 UP</h1>
+            <!--#include virtual="../../includes/containers/carousel-grid-3.html"-->
+
+            <h1>Grid Carousel - 4 UP</h1>
+            <!--#include virtual="../../includes/containers/carousel-grid-4.html"-->
+        </div>
+        <br><br>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

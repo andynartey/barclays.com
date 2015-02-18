@@ -1,0 +1,369 @@
+<div class="accordion_mini">
+    <div class="accordion_frame">
+
+        <ul class="accordion__product_list">
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Adaptive image/spacer</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+
+                            <div class="bc-textimage">
+                                <div class="textimage_text">
+                                    <div class="text">
+                                    <h3>Spacer example below (thin line spacer)</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion__content_frame">
+                                <!--#include virtual="/includes/spacer.html"-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">blockquote</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="../../includes/story-chrome/blockquote.html"-->
+
+                            <hr>
+
+                            <!--#include virtual="../../includes/story-chrome/blockquote-indented.html"-->
+
+                            <hr>
+
+                            <!--#include virtual="../../includes/story-chrome/blockquote-indented-narrow.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">bulleted list</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/story-chrome/bullet-list-no-heading.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">link</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/link-module.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">links list</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">text &amp; image</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/text-image.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">image gallery</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/containers/image-gallery.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">document download</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/story-chrome/document-download.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">selected tweet</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/selected-tweet.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Spacers</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="../../includes/miscellaneus/spacers.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Column control</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/containers/column-control-50.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Video</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!-- START VIDEO EMBED CODE -->
+                            <script src="//www.media.barclays.co.uk/player/player.ashx?mode=accessible&id=160714-6680180&autostart=n&enablesharing=y&showrelated=y&width=604&height=340"></script>
+                            <!-- END VIDEO EMBED CODE -->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Dynamic charts</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <h2>Donut chart</h2>
+                            <div class="donut-chart"></div>
+                            <br/>
+                            <br/>
+                            <h2>Donut chart (narrow)</h2>
+                            <div class="donut-chart-narrow"></div>
+                            <br/>
+                            <br/>
+                            <h2>Bar chart</h2>
+                            <div class="bar-chart"></div>
+                            <br/>
+                            <br/>
+                            <h2>Line chart</h2>
+                            <div class="line-chart"></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Document Group (Do not use!)</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <h1>Document group - Pre event</h1>
+                            <!--#include virtual="../../includes/story-chrome/document-group.html"-->
+
+                            <h1>Document group - Post event</h1>
+                            <!--#include virtual="../../includes/story-chrome/document-group-past.html"-->
+
+                            <h1>Document group - generic</h1>
+                            <!--#include virtual="../../includes/story-chrome/document-group-generic.html"-->
+
+
+                            <h1>Document group - with horizontal lines</h1>
+                            <!--#include virtual="../../includes/story-chrome/document-group-horizontal-line.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Link and Blurb</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/products-services/our-products.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Tables</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <h2>Basic Table</h2>
+
+                            <!--#include virtual="/includes/ir/table-y.html"-->
+
+
+                            <br />
+                            <br />
+                            <br />
+
+                            <h2>Data Table 1 - all lines, no shading</h2>
+                            <!--#include virtual="/includes/ir/table-xy.html"-->
+
+                            <br />
+                            <br />
+
+                            <br />
+                            <br />
+                            <br />
+
+                            <h2>Data Table 2 - horizontal lines, no shading</h2>
+                            <!--#include virtual="/includes/ir/table-xy-horizontal-line.html"-->
+
+                            <br />
+
+                            <br />
+                            <br />
+                            <br />
+
+                            <h2>Data Table 3 - horizontal lines, vertical shading</h2>
+                            <!--#include virtual="/includes/ir/table-xy-vertical-shading.html"-->
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+
+                            <h2>Data Table 4 - horizontal lines, horizontal shading </h2>
+                            <!--#include virtual="/includes/ir/table-xy-horizontal-shading-2.html"-->
+
+                            <br />
+                            <br />
+                            <br />
+
+                            <br />
+                            <br />
+                            <br />
+
+                            <h2>Text Table 1 - all lines, no shading</h2>
+                            <!--#include virtual="/includes/ir/table-text-xy.html"-->
+
+                            <br />
+                            <br />
+                            <br />
+                            <h2>Text Table 2 - horizontal lines, no shading</h2>
+                            <!--#include virtual="/includes/ir/table-text-xy-horizontal-line.html"-->
+
+                            <br />
+                            <br />
+
+
+                            <br />
+                            <br />
+
+                            <h2>Text Table 3 - horizontal lines, horizontal shading</h2>
+                            <!--#include virtual="/includes/ir/table-text-xy-horizontal-shading.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Cross promo</a></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <!-- IMAGE TOP -->
+                            <!--#include virtual="/includes/cross-promo-image-left.html"-->
+
+                            <!--#include virtual="/includes/cross-promo-image-right.html"-->
+
+                            <!--#include virtual="/includes/cross-promo-image-top.html"-->
+
+                            <!--#include virtual="/includes/cross-promo-no-image.html"-->
+
+                            <!--#include virtual="/includes/cross-promo-small-title.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</div>

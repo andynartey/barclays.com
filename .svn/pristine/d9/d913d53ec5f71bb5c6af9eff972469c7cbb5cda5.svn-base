@@ -1,0 +1,33 @@
+<div class="bc-textimage">
+    <div class="textimage_text">
+        <div class="text">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <p class="intro">Intro paragraph: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea.</p>
+            <p>Paragraph: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui.</p>
+            <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/125x70, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            <p class="dark-blue">Paragraph - dark blue: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui. Virtute antiopam intellegat an vim, id ceteros probatus delicata sed, eu quando facete eam.</p>
+
+            <p class="article">Article: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui.</p>
+
+            <p class="label">Label: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui.</p>
+
+            <p class="description_cyan">Description - cyan: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui.</p>
+
+            <p class="description_dark-blue">Description - dark blue: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui.</p>
+
+            <p class="large-text">Large text - Default.</p>
+
+            <p class="large-text_dark-blue">Large text - Dark blue.</p>
+
+            <p class="footnote">Footnote</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+#map {
+	background: #f7f7f7;		
+}
+#map svg {
+	width: 100%;
+}
+
+path {
+	fill: #e1e1e1;
+	stroke: #fff;
+	stroke-width: 0.5px;
+	transition: fill 0.2s;
+}
+
+text {
+	text-anchor: start;
+	dominant-baseline: text-before-edge;
+}
+
+.europe-hover .europe,
+.asia-pacific-hover .asia-pacific,
+.americas-hover .americas,
+.africa-and-middle-east-hover .africa-and-middle-east {
+	fill: #ccc;
+}

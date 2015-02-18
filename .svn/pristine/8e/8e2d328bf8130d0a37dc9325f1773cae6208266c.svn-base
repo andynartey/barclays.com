@@ -1,0 +1,229 @@
+<div class="accordion">
+    <div class="accordion_frame">
+        <ul class="accordion__product_list">
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="/personal-banking.html" title="" class="js-mobile-link">Personal banking</a></h2>
+                    </div>
+                    <div class="accordion__summary">
+                        <p>Everyday banking, Mortgages, Credit cards, Complaints, FAQs, Lost & stolen cards</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame hide-for-small">
+                                <!--#include virtual="/includes/contact-us/contact-panel.html"-->
+                        </div> 
+                        <div class="accordion__content_frame hide-for-small">
+                                <!--#include virtual="/includes/contact-us/contact-pair.html"-->
+                        </div>    
+                        <div class="accordion__content_frame hide-for-small">
+                                <!-- TABBED CONTENT BEGINS -->
+                                <!--#include virtual="/includes/contact-us/multi-office-filter.html"-->
+                        </div>
+                        <div class="accordion__content_frame hide-for-small">
+                                <!-- TABBED CONTENT BEGINS -->
+                                <!--#include virtual="/includes/contact-us/more-contacts.html"-->
+                        </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Premier banking</a></h2>
+                    </div>
+                    <div class="accordion__summary">
+                        <p>Premier bank accounts, Contact banking manager, Complaints, FAQs</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <p>For premier banking services in other locations please select a country</p>
+                        </div>
+                        <div class="accordion__content_frame hide-for-small">
+                                <!--#include virtual="/includes/products-services/button-filter.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                 <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Wealth management</a></h2>
+                    </div>
+                    <div class="accordion__summary">
+                        <p>Wealth management, Investments, Asset management</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <p>For premier banking services in other locations please select a country</p>
+                        </div>
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/products-services/highlighted-story-module.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Barclaycard</a></h2>
+                    </div>
+                    <div class="accordion__summary">
+                        <p>Lost and stolen cards, Customer service, New card applications</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <p>For premier banking services in other locations please select a country</p>
+                        </div>
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/products-services/button-filter.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Stockbrokers</a></h2>
+                    </div>
+                    <div class="accordion__summary">
+                        <p>Email us, Complaints</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <p>For premier banking services in other locations please select a country</p>
+                        </div>
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/products-services/button-filter.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">International banking</a></h2>
+                    </div>
+                    <div class="accordion__summary">
+                        <p>International bank accounts, Complaints, FX, International investments</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <p>For premier banking services in other locations please select a country</p>
+                        </div>
+                        <div class="accordion__content_frame">
+                            <!--#include virtual="/includes/products-services/button-filter.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div> 
+</div>
+
+
+<div class="accordion">
+    <div class="accordion_frame">
+        <h1 class="accordion__heading">Other teams</h1>
+        <ul class="accordion__product_list">
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Community</a></h2>
+                    </div>
+                    <div class="accordion__summary">
+                        <p>Community enquires</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <p>For stockbroker services in other locations, please select a country</p>
+                            <br/>
+                            <!--#include virtual="/includes/products-services/key-links-by-region.html"-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Citizenship</a></h2>
+                    </div>
+                    <div class="accordion__summary">
+                        <p>Citizenship enquires</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <p>For premier banking services in other locations please select a country</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Media relations</a></h2>
+                    </div>
+                    <div class="accordion__summary">
+                        <p>Journalist enquires</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <p>For premier banking services in other locations please select a country</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Sponsorship</a></h2>
+                    </div>
+                    <div class="accordion__summary">
+                        <p>Sponsorship opportunities</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <p>For premier banking services in other locations please select a country</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="accordion__item accordion__closed">
+                <div class="columns accordion__tab">
+                    <div class="accordion__intro">
+                        <h2 class="accordion__title"><a href="#" title="" class="js-mobile-link">Investors</a></h2>
+                    </div>
+                    <div class="accordion__summary">
+                        <p>We offer international banking, investment solutions and international trading</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns accordion__content">
+                        <div class="accordion__content_frame">
+                            <p>For premier banking services in other locations please select a country</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

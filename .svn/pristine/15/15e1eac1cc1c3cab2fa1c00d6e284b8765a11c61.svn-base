@@ -1,0 +1,103 @@
+// ====================================================
+// DROPDOWN
+// ====================================================
+
+.dropdown__controls {
+    margin-bottom: em-calc(10);
+    @media #{$medium} {
+        @include grid-column(12);
+    }
+}
+
+.no-js .dropdown__controls {
+    display: none;
+}
+.dropdown__container {
+    margin: em-calc(0 -15);
+    padding: em-calc(7 0);
+    position: relative;
+}
+.dropdown__contentHolder {
+    @include grid-column(12);
+    padding-left: 0;
+    padding-right: 0;
+    // @media #{$medium} {
+    //     padding-left: 0;
+    //     padding-right: 0;
+    // }
+}
+.dropdown__trigger {
+    display: block;
+    margin: em-calc(0 15);
+    overflow-x: hidden;
+    line-height: em-calc(20);
+    @media #{$medium} {
+        margin: 0;
+    }
+    @include linear-gradient(to top, $gray-bkgnd, $white);
+    @include radius;
+    border: $border-style;
+    color: $gray;
+    font-family: $header-font-family;
+    padding: em-calc(10 18 10 10);
+    position: relative;
+    &:hover {
+            color: $primary-color;
+    }
+    &:after {
+        @include icon-font($icon-chevron-down);
+        position: absolute;
+        right: 0;
+        width: em-calc(30);
+        height: em-calc(20);
+        padding-left: em-calc(5);
+        padding-right: em-calc(5);
+        // @include linear-gradient(to top, $gray-bkgnd, $white);
+    }
+    &.active {
+        &:after {
+            @include icon-font($icon-chevron-up);
+        }
+    }
+}
+.dropdown__select {
+    display: none;
+    position: absolute;
+    background: $white;
+    z-index: 20;
+    border: $border-style;
+    border-top: none;
+    list-style: none;
+    left: em-calc(18);
+    @media #{$medium} {
+        left: 0;
+    }
+}
+.dropdown__item {
+    font-size: em-calc(20);
+    font-family: $header-font-family;
+    a {
+        display: block;
+        padding: em-calc(10 30 10 10);
+        @media #{$small} {
+            white-space: nowrap;
+        }
+        &:hover {
+            background: $gray-bkgnd;
+        }
+    }
+}
+
+
+// TABS -- CONTENT
+// ====================================================
+
+.dropdown__contentHolder {
+    // @include grid-column(12);
+    @media #{$small}, #{$medium} {
+        .accordion__content_frame:first-child,
+        .accordion__product_list:first-child {
+            border-top: none;
+        }
+    }
+}

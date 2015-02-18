@@ -1,0 +1,27 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+                <h1>Carousel - Basic</h1>
+
+                <div class="column-control-container__50--collapse">
+                    <div class="column-control__6">
+                        <!--#include virtual="../../includes/containers/carousel.html"-->
+                    </div>
+
+                    <div class="column-control__6">
+                        <!--#include virtual="../../includes/containers/carousel.html"-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

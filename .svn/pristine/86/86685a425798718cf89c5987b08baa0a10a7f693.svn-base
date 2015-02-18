@@ -1,0 +1,294 @@
+// =======================================================
+// COUNTRY SELECTOR -- Mobile, portrait tablet and desktop
+// =======================================================
+
+// body {
+//     overflow-x: hidden;     // For hamburger navigation
+// }
+.js-country-container {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    @include linear-gradient(to left, #fafafa 90%, #e4e4e4);
+    ul {
+        padding: 0;
+        position: relative;
+    }
+    // .country-first-level {
+    //     width: 100%;
+    // }
+    li {
+        border-bottom: $border-style;
+        font-family: $header-font-family;
+        margin: 0;
+        a {
+            padding: em-calc(7 10);
+            &:hover {
+                @include linear-gradient(#14a0db, $primary-color);
+                color: #fff;
+            }
+        }
+    }
+    .location {
+        a {
+            @include background( linear-gradient(to left, #fafafa 90%, #e4e4e4) );
+            padding-right: em-calc(45);
+            font-family: $header-font-family-bold;
+            &:hover {
+                @include background( linear-gradient(#14a0db, $primary-color) );
+            }
+        }
+    }
+    .has-slide-menu {
+        > a {
+            @include background( url(../images/icon-arrow-dropdown.png) no-repeat 95% center, linear-gradient(to left, #fafafa 90%, #e4e4e4) );
+        }
+    }
+    // .country-second-level {
+    //     @include linear-gradient(to left, #fafafa 90%, #e4e4e4);
+    //     li {
+    //         border-bottom: none;
+    //         border-top: $border-style;
+    //         font-size: 1em;
+    //     }
+    // }
+    .country-sub-back {
+        a {
+            color: $blue-darker;
+            font-family: $header-font-family-bold;
+            @include background( url(../images/icon-arrow-left-small.png) no-repeat em-calc(10) center, linear-gradient(to left, #fafafa 90%, #e4e4e4) );
+            padding-right: em-calc(25);
+            &:hover {
+                @include background( url(../images/icon-arrow-left-small.png) no-repeat em-calc(10) center, linear-gradient(#14a0db, $primary-color) );
+            }
+        }
+    }
+    .nav-active {
+        z-index: 100;
+    }
+}
+//*	COUNTRY SELECTOR BEGINS	*// 
+.js-country-selector {
+	.country-selector__regions {
+		border-top: 1px solid $gray-rule;
+		@media #{$small} {
+			@include block-grid(
+			    // This controls how many elements will be on each row of the block grid. Set this to whatever number you need, up to the max allowed in the variable.
+			    // Available options: 1-12 by default, and false.
+			    $per-row: 2,
+			
+			    // This controls how much space is between each item in the block grid.
+			    // Use a variable or any pixel or em values.
+			    $spacing: $block-grid-default-spacing,
+			
+			    // This controls whether or not base styles come through, set to false to leave out.
+			    $base-style: true
+			  );
+			border-top: none;
+			color: $blue-darker;
+			.country-selector__title {
+				font-family: "Expert-Sans-Regular";
+				font-size: em-calc(22);
+				a {
+					color: $blue-darker;
+				}
+			}
+		}
+		.accordion__active-tab {
+			.country-selector__title {
+				background-gradient: none;
+				background-image: none;
+				background-color: $primary-color;
+				color: $white;
+				& a {
+					color: $white;
+				}
+				&:after {
+					@include icon-font($icon-minus);
+					line-height: 1.5;
+				}
+			}
+		}
+	}
+	.country-selector__region_list {
+		margin: 0;
+		border-left: 1px solid $gray-rule;
+		border-right: 1px solid $gray-rule;
+		@media #{$small} {
+			@include block-grid(
+			    // This controls how many elements will be on each row of the block grid. Set this to whatever number you need, up to the max allowed in the variable.
+			    // Available options: 1-12 by default, and false.
+			    $per-row: 2,
+			    // This controls how much space is between each item in the block grid.
+			    // Use a variable or any pixel or em values.
+			    $spacing: $block-grid-default-spacing,
+			
+			    // This controls whether or not base styles come through, set to false to leave out.
+			    $base-style: true
+			  );
+			li {
+			float: left;
+    		clear: left;
+			padding-bottom: 0;
+			font-size: em-calc(16);
+			position: relative;
+			&:nth-child(2n) {
+			    float: right;
+			    clear: right;
+			    border: 1px dotted green;
+				}
+			}
+		}
+		.icon {
+			width: 20px;
+		}
+		.btn {
+				width: em-calc(145);
+				color: $primary-color;
+				padding: em-calc(10);
+				font-size: em-calc(17);
+			}
+		form {
+			padding-left: 10px;
+		}
+		label {
+			display: inline-block;
+			margin-left: 5px;
+			color: $gray;
+			font-size: em-calc(14);
+		}
+		form.custom .custom.checkbox.checked:before {
+			content: "\e60e";
+			font-family: Icons;
+			font-size: em-calc(13);
+			color: $primary-color;
+			margin-top: 7px;
+			margin-left: -7px;
+		}
+		.js-country__confirm {
+			position: absolute;
+			background-color: $white;
+			top: em-calc(39);
+			padding-top: em-calc(5);
+			z-index: 10;
+			width: 100%;
+			display: none;
+			.country-selector__country_name {
+				border-bottom: none;
+			}
+			h3 {
+				padding-left: em-calc(3);
+			}
+		}
+	}
+	.country-selector__title {
+		font-size: em-calc(22);
+		border-bottom: 1px solid $gray-rule;
+		border-left: 1px solid $gray-rule;
+		border-right: 1px solid $gray-rule;
+		@include background-gradient(#fff, #f1f1f1);
+		margin-bottom: 0;
+		padding: em-calc(10);
+		a {
+			padding: em-calc(20 0);
+		}
+		&:hover, &:focus {
+			@include background-gradient(#f1f1f1, #fff);
+			color: $primary-color;
+		}
+		&:hover {
+			cursor: pointer;
+			@media #{$small} {
+				cursor: default;
+			}
+		}
+		&:after {		
+			@include icon-font($icon-plus);
+			font-size: em-calc(12);
+			line-height: 1.5;
+			float: right;
+			@media #{$small} {
+				display:none;
+			}
+		}
+	}
+	.country-selector__country_name {
+		font-size: em-calc(18);
+		color: $blue-lighter;
+		border-bottom: 1px solid $gray-rule;
+		margin-bottom: 0;
+		padding: em-calc(10);
+		display: block;
+			@media #{$small} {
+				border-bottom: none;
+			}
+		}
+	.country-selector__heading {
+		font-size: em-calc(18);
+		color: $blue-darker;
+		margin-bottom: em-calc(20);
+			/*@group breakpoint from small*/
+			@media #{$small} {
+				font-size: em-calc(24);
+			}
+			/*endgroup*/
+			/*@group breakpoint from medium*/
+			@media #{$medium} {
+				font-size: em-calc(24);
+			}
+			/*endgroup*/
+	}
+	// .country-selector__region_head {
+	// 	font-size: em-calc(30);
+	// 	color: $blue-darker;
+	// 	margin-bottom: em-calc(20);
+	// 	&:after {	
+	// 		content:none;
+	// 	}
+	// }
+	ul {
+		list-style: none;
+		margin-bottom: em-calc(40);
+		&.our__products{
+			margin: 0;
+		}
+	}
+	li {
+		position: relative;
+		display: block;
+		@media #{$small} {
+			&:before {		
+				font-size: em-calc(25);
+			}
+		}
+		@media #{$medium} {
+			&:before {		
+				font-size: em-calc(25);
+			}
+		}
+		&.js-country-selector__back {
+			padding-bottom: em-calc(20);
+			a {
+				display: block;
+				padding-bottom: em-calc(10);
+			}
+		}
+	}
+	.js-country-selector__back {
+		a {
+			display: block;
+			padding: em-calc(20 0 0 0);
+			margin-left: em-calc(-5);
+			text-transform: uppercase;
+			&:before {
+				@include icon-font($icon-chevron-left);
+			}
+		}
+		&:before {
+			content: none;
+		}
+		&:after {
+			content: none;
+		}
+	}
+}

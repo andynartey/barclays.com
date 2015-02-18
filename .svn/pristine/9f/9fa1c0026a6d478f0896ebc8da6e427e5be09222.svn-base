@@ -1,0 +1,230 @@
+// ====================================================
+// LOGO BANNER
+// ====================================================
+
+.logo-banner {
+    border-bottom: $border-style;
+    font-family: $header-font-family;
+    padding: em-calc(10 0 2);
+    position: relative;
+    z-index: 100;
+    background: #fff;
+
+    @media #{$medium} {
+        padding: em-calc(20 0 0);
+        min-height: em-calc(75);
+    }
+}
+
+// LOGO BANNER -- HAMBURGER
+// ====================================================
+.logo-banner__hamburger {
+    @include grid-column(3);
+    @extend .show-for-medium-down;
+
+    @media #{$small} {
+        @include grid-column(3);
+    }
+
+    .icon__hamburger {
+        font-size: em-calc(14);
+        margin-top: 2px;
+    }
+}
+
+
+
+// LOGO BANNER -- LOGO
+// ====================================================
+.logo-banner__logo {
+    @include grid-column(6);
+    text-align: center;
+    padding: 0;
+
+    @media #{$small} {
+        @include grid-column(6);
+    }
+
+    @media #{$medium} {
+        @include grid-column(7);
+        text-align: left;
+    }
+
+    a {
+        line-height: em-calc(30);
+    }
+
+    img {
+        margin-bottom: 0 !important;
+        width: 152px;
+
+        @media #{$medium} {
+            width: auto;
+        }
+    }
+}
+
+
+
+// LOGO BANNER -- SEARCH
+// ====================================================
+
+.logo-banner__search {
+    @include grid-column(3);
+
+    @media #{$small} {
+        @include grid-column(3);
+    }
+
+    @media #{$medium} {
+        @include grid-column(5);
+    }
+}
+
+.logo-banner__search__toggle {
+    width: em-calc(22);
+    height: em-calc(37);
+    float: right;
+    margin-right: em-calc(5);
+
+    &:before {
+        @include icon-font($icon-magnifying-glass);
+        font-size: em-calc(22);
+        padding-top: em-calc(3);
+        display: inline-block;
+    }
+
+    @media #{$medium} {
+        margin-right: 0;
+
+        &:before {
+            padding-top: em-calc(5);
+        }
+    }
+}
+
+.logo-banner__search__form {
+    margin: em-calc(0 -10 0 0);
+    display: none;
+    @include clearfix;
+
+    position: relative;
+
+    .search-clear {
+        position: absolute;
+        right: 5px;
+        top: 4px;
+        color: $gray-rule;
+        margin-left: 0;
+        &:after {
+            font-size: em-calc(20);
+        }
+
+        @media #{$medium} {
+            right: 57px;
+        }
+    }
+
+    .icon__search {
+        display: none;
+
+        @media #{$medium} {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 7px;
+            color: $primary-color;
+            &:after {
+                font-size: em-calc(22);
+            }
+        }
+    }
+}
+
+.logo-banner__search-btn {
+    display: none;
+    @extend .logo-banner__search__toggle;
+
+    @media #{$medium} {
+        display: block;
+        border: none;
+        width: em-calc(41);
+        float: right;
+        height: em-calc(40);
+        margin: 0;
+        background: none;
+        position: relative;
+        z-index: 10;
+        padding: 0;
+        border: 1px solid #f1f1f1;
+        border-radius: 0 4px 4px 0;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.logo-banner__search .logo-banner__search-field {
+    margin: 0;
+    width: 100%;
+    float: right;
+    font-size: em-calc(16);
+    padding: em-calc(0 5);
+    height: em-calc(35);
+    font-family: $header-font-family;
+    border: none;
+    background: $white;
+    box-shadow: none;
+    outline: none;
+
+    &:focus {
+        box-shadow: none;
+        border: none;
+        outline: none;
+        background: $white;
+    }
+
+    @media #{$medium} {
+        width: 85%;
+        background: $gray-bkgnd;
+        height: em-calc(40);
+        margin-top: 0;
+        padding-left: em-calc(15);
+        border-radius: 4px 0 0 4px;
+
+        &:focus {
+            background: none;
+            background: $gray-bkgnd;
+        }
+    }
+}
+
+.search-mobile {
+    height: em-calc(37);
+
+    .logo-banner__search__form {
+        position: absolute;
+        left: em-calc(15);
+
+        .search-clear {
+            &:after {
+                margin-top: 3px;
+            }
+        }
+    }
+
+    .logo-banner__search-btn {
+        background-position: 90% center;
+    }
+}
+
+// LOGO BANNER -- STICKY (MOBILE ONLY)
+// ====================================================
+.banner-sticky {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    background: #fff;
+    left: 0;
+}

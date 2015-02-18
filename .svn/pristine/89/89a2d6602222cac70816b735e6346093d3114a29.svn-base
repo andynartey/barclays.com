@@ -1,0 +1,140 @@
+// ====================================================
+// DOWNLOAD STRIP MODULE
+// ====================================================
+.document-download {
+    margin-bottom: 1em;
+    clear: both;
+}
+
+.download {
+    background-color: $blue-bkgnd;
+    padding: em-calc(10 15);
+    margin-bottom: em-calc(2);
+    overflow: hidden;
+    p {
+        margin-bottom: 0.5em;
+    }
+}
+.download-feature {
+    padding-top: 0;
+    p {
+        float: left;
+        width: 55%;
+        clear: left;
+    }
+    img {
+        float: right;
+        width: 42.5%;
+        margin-top: 0.2em;
+    }
+    .download-link {
+        font-size: 0.8em;
+        font-family: verdana, sans-serif;
+        font-weight: bold;
+        a {
+            min-height: 1em;
+            padding-left: 1.7em;
+            padding-top: 0.15em;
+        }
+    }
+    .download-details {
+        font-size: 0.9em;
+    }
+}
+@media #{$small} {
+    .download-feature {
+        img {
+            margin-top: 1.4em;
+        }
+    }
+}
+
+.download-feature__content {
+    max-width: 35em;
+}
+
+.download-title {
+    font-family: $header-font-family-regular;
+    color: #00395d;
+    font-size: em-calc(18);
+    float: left;
+    width: 100%;
+    margin-top: 1em;
+}
+.grid-container-item .download-title:first-child {
+    margin-top: 1em;    
+}
+@media #{$small} {
+    .download-title {
+        float: left;
+        width: 55%;
+        font-size: em-calc(22);
+        word-wrap: break-word;
+    }
+}
+.download-details {
+    font-size: 0.7em;
+    font-weight: normal;
+    font-family: verdana, sans-serif;
+    // letter-spacing: 0;
+    color: #8c8c8c;
+    display: inline-block;
+}
+.col__full-width  {
+    .download-link:first-child {
+        margin-top: 0.5em;    
+    }
+}
+.download-link {
+    // margin-bottom: 0.5em;
+    margin-bottom: 0;
+    font-size: em-calc(18);
+    // letter-spacing: -1.5px;
+    font-family: $header-font-family-regular;
+    a {
+        padding-left: 2em;
+        position: relative;
+        display: block;
+        padding-top: 0.2em;
+        // margin-bottom: 0.5em;
+    }
+    .icon {
+        position: absolute;
+        left: 0;
+        top: 0.2em;
+    }
+    .icon__down {
+        top: 0;
+        width: 20px;
+        &:after {
+            font-size: 14px;
+            margin-left: 0;
+        }
+    }
+}
+.download-summary {
+    padding-left: 2.4em;
+}
+
+// Accordion style fixez
+.accordion__item {
+    .download-title {
+        font-size: 1.7em;
+    }
+    .download {
+        p {
+            font-size: 1.0em;
+            line-height: 1.4;
+            color: #666;
+        }
+        .download-link {
+            font-size: 1.35em;
+        }
+    }
+    .download-feature .download-link {
+        font-size: 1em;
+    }
+    .download-summary {
+        padding-left: 2.8em;
+    }
+}

@@ -1,0 +1,17 @@
+<!-- 2 columns (50% each) - START -->
+<div class="column-control-container__50">
+
+    <div class="column-control__6">
+        <h2>2 columns (50% each)</h2>
+        <p>
+            Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+        </p>
+    </div>
+
+    <div class="column-control__6">
+        <h2>2 columns (50% each)</h2>
+        <p>
+            Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+        </p>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+<div class="table">
+    <div class="table--wrapper">
+        <table class="table--basic-table">
+            <tbody>
+                <tr>
+                    <th colspan="2" class="heading-style-1">R (Heading style 1)</th>
+                </tr>
+                <tr>
+                    <th colspan="2" class="heading-style-2">R (Heading style 2)</th>
+                </tr>
+                <tr>
+                    <td><strong>Risk assesment</strong></td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</td>
+                </tr>
+                <tr>
+                    <td><strong>Risk avoidance</strong></td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</td>
+                </tr>
+                <tr>
+                    <td><strong>Risk management</strong></td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</td>
+                </tr>
+                <tr>
+                    <th colspan="2" class="heading-style-1">S</th>
+                </tr>
+                <tr>
+                    <th colspan="2" class="heading-style-2">S</th>
+                </tr>
+                <tr>
+                    <td><strong>Share prices</strong></td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</td>
+                </tr>
+                <tr>
+                    <td><strong>Shops</strong></td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

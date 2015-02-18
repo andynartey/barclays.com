@@ -1,0 +1,11 @@
+<div class="medium-6 columns accordion__intro">
+    <h2 class="accordion__title"><span data-hover="Personal banking">Personal banking</span></h2>
+    <p>Loans, Mortgages, Bank accounts, Investments, Savings</p>
+</div>
+<div class="medium-6 columns">
+    <div class="accordion__summary">
+        <p>We offer world-class everyday banking services in 20 countries around the world</p>
+    </div>
+</div>
+
+

@@ -1,0 +1,301 @@
+// ====================================================
+// CROSS PROMO MODULE
+// ====================================================
+.cross-promo {
+	.cross-promo__heading {
+		border-top: 4px solid $gray-rule;
+    	padding: em-calc(10 0 10);
+    	color: $blue-darker;
+	    font-size: em-calc(22);
+
+	    @media #{$small} {
+	        font-size: em-calc(34);
+	    }
+	    @media #{$medium} {
+	        font-size: em-calc(22);
+	    }
+	}
+	.related-content__heading {
+		border-top: 5px solid $gray-rule;
+    	padding: em-calc(10 0 10);
+    	color: $blue-darker;
+	    font-size: em-calc(22);
+
+	    @media #{$small} {
+	        font-size: em-calc(34);
+	    }
+	    @media #{$medium} {
+	        font-size: em-calc(22);
+	    }
+	}
+	.cross-promo__container {
+		border-bottom: 1px solid $gray-rule;
+		clear: both;
+		&:last-child {
+			border-bottom: none;
+		}
+    }
+	.cross-promo__label {
+		color: $blue-darker;
+		text-transform: uppercase;
+		font-size: em-calc(13);
+		font-family: $header-font-family-regular;
+		&:first-child {
+			margin-top: 0;
+		}
+		@media #{$small} {
+			font-size: em-calc(13);
+    	}
+	}
+	.date {
+		color: #b2b2b2;
+	}
+	// Float Image LEFT or RIGHT
+	.cross-promo__container {
+		clear: both;
+		overflow: hidden;
+		margin-bottom: em-calc(20);
+		.cross-promo__title {
+			font-size: em-calc(20);
+			@media #{$medium} {
+				font-size: em-calc(22);
+			}
+			line-height: 1.2;
+		}
+		.cross-promo__title_small {
+			font-size: em-calc(18);
+			line-height: 1.22;
+		}
+		&.cross-text {
+			@include grid-column(12);
+			padding-left: 0;
+			padding-right: 0;
+		}
+		&.cross-stacked {
+			.cross-promo__image {
+				float: left;
+				@include grid-column(5);
+				padding-left: 0;
+				img {
+						margin-bottom: 0;
+					}
+			}
+			.cross-promo__body {
+				float: right;
+				@include grid-column(7);
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+		&.cross-left {
+			.cross-promo__image {
+				float: left;
+				@include grid-column(5);
+				padding-left: 0;
+				img {
+						margin-bottom: 0;
+					}
+			}
+			.cross-promo__body {
+				float: right;
+				@include grid-column(7);
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+		&.cross-right {
+			.cross-promo__image {
+				float: left;
+				@include grid-column(5);
+				padding-left: 0;
+				img {
+						margin-bottom: 0;
+					}
+			}
+			.cross-promo__body {
+				float: right;
+				@include grid-column(7);
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
+	.cross-promo__image {
+		position: relative;
+
+	    .video-link {
+	        display: block;
+	        width: em-calc(20);
+	        height: em-calc(20);
+	        position: absolute;
+	        bottom: 0;
+	        // left: em-calc(15);
+	        left: 0;
+	        background: $primary-color;
+	        opacity: 0.9;
+
+	        &:before {
+	            @include icon-font($icon-block-arrow-right);
+	            color: $white;
+	            font-size: em-calc(20);
+	        }
+
+	        @media #{$small} {
+	            width: em-calc(35);
+	            height: em-calc(35);
+
+	            &:before {
+	                font-size: em-calc(35);
+	            }
+	        }
+	    }
+
+		// .video-link {
+	 //        display: block;
+	 //        width: em-calc(35);
+	 //        height: em-calc(35);
+	 //        position: absolute;
+	 //        bottom: 0;
+	 //        left: 0;
+	 //        background: $primary-color;
+	 //        opacity: 0.9;
+	
+	 //        &:before {
+	 //            @include icon-font($icon-block-arrow-right);
+	 //            color: $white;
+	 //            font-size: em-calc(35);
+	 //        }
+	 //    }
+	    h3 {
+            @include image-label(em-calc(12), em-calc(10 15));
+            padding: 5px 3px;
+			@media #{$small} {
+				padding: 0.525em 0.5375em 0.35em;
+			}
+            line-height: 0.8;
+            opacity: 0.9;
+            margin-top: 0;
+        }
+	 }
+	@media #{$small} {
+		.cross-promo__container {
+			clear: both;
+			overflow: hidden;
+			margin-bottom: em-calc(20);
+			&.cross-stacked {
+				.cross-promo__image {
+					@include grid-column(4);
+					float: left;
+					padding-left: 0;
+					img {
+						margin-bottom: 0;
+					}
+				}
+				.cross-promo__body {
+					float: none;
+					@include grid-column(8);
+					padding-left: 0;
+				}
+			}
+			&.cross-left {
+				padding-bottom: em-calc(20);
+				.cross-promo__image {
+					@include grid-column(4);
+					float: left;
+					padding-left: 0;
+					img {
+						margin-bottom: 0;
+					}
+				}
+				.cross-promo__body {
+					@include grid-column(8);
+					float: right;
+					padding-left: 0;
+				}
+			}
+			&.cross-right {
+				padding-bottom: em-calc(20);
+				.cross-promo__image {
+					@include grid-column(4);
+					float: right;
+					padding-right: 0;
+					padding-left: 0;
+					img {
+						margin-bottom: 0;
+					}
+				}
+				.cross-promo__body {
+					@include grid-column(8);
+					float: left;
+					padding-right: em-calc(10);
+					padding-left: 0;
+				}
+			}
+		}
+    }
+    @media #{$medium} {
+    	.cross-promo__container {
+			clear: both;
+			overflow: hidden;
+			margin-bottom: em-calc(20);
+			&.cross-stacked {
+				@include grid-column(12);
+				padding-left: 0;
+				padding-right: 0;
+				.cross-promo__image {
+					float: none;
+					@include grid-column(12);
+					padding-left: 0;
+					padding-right: 0;
+					max-height: em-calc(152);
+					overflow: hidden;
+				}
+				.cross-promo__body {
+					float: none;
+					margin-top: em-calc(10);
+					@include grid-column(12);
+					padding-left: 0;
+					padding-right: 0;
+				}
+			}
+			&.cross-left {
+				.cross-promo__image {
+					@include grid-column(4);
+					float: left;
+					padding-left: 0;
+					padding-right: 0;
+					img {
+						margin-bottom: 0;
+					}
+				}
+				.cross-promo__body {
+					@include grid-column(8);
+					float: right;
+					padding-right: 0;
+				}
+				padding-bottom: em-calc(20);
+			}
+			&.cross-right {
+				padding-bottom: em-calc(20);
+				.cross-promo__image {
+					@include grid-column(4);
+					float: right;
+					padding-right: 0;
+					padding-left: 0;
+					img {
+						margin-bottom: 0;
+					}
+				}
+				.cross-promo__body {
+					@include grid-column(8);
+					float: left;
+					padding-right: em-calc(10);
+					padding-left: 0;
+				}
+			}
+		}
+    }
+
+	
+}
+

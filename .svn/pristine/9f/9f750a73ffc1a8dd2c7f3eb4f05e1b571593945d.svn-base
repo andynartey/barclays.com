@@ -1,0 +1,29 @@
+<div class="button-filter content-switcher">
+  <div class="content-switcher__description">
+    <h2>Optional title. </h2>
+    <p>This can be left blank</p>
+  </div>
+  <form action="" class="custom">
+      <!-- KeyLinksCombo function -->
+      <select id="contentSwitcher-1" class="button-container custom-forms medium">
+          <option>Choose section</option>
+          <option value="container-1">Title 1</option>
+          <option value="container-2">Title 2</option>
+          <option value="container-3">Title 3</option>
+          <option value="container-4">Title 4</option>
+      </select>
+  </form>
+
+  <div id="content-1" class="js-contentSwitcher">
+    <!--#include virtual="/includes/online-banking/button-list.html"-->
+  </div>
+  <div id="content-2" class="js-contentSwitcher">
+    <h1>Content 2</h1>
+  </div>
+  <div id="content-3" class="js-contentSwitcher">
+    <h1>Content 3</h1>
+  </div>
+  <div id="content-4" class="js-contentSwitcher">
+    <h1>Content 4</h1>
+  </div>
+</div>

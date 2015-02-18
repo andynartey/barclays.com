@@ -1,0 +1,123 @@
+// ====================================================
+// TABS
+// ====================================================
+
+.tabs__controls {
+
+    @media #{$medium} {
+        border-bottom: $border-style;
+    }
+}
+
+// TABS -- MOBILE
+// ====================================================
+
+.tabs__mobile {
+    @extend .show-for-medium-down;
+    margin: em-calc(0 -15);
+    padding: em-calc(7 0);
+    background: $gray-bkgnd;
+    border-top: $border-style;
+    border-bottom: $border-style;
+    position: relative;
+}
+
+.tabs__mobile__trigger {
+    display: block;
+    margin: em-calc(0 15);
+    @include linear-gradient(to top, $gray-bkgnd, $white);
+    @include radius;
+    border: $border-style;
+    color: $gray;
+    font-family: $header-font-family;
+    padding: em-calc(10 15);
+    position: relative;
+
+    &:after {
+        @include icon-font($icon-chevron-down);
+        position: absolute;
+        right: em-calc(15);
+    }
+
+    &.active {
+        &:after {
+            @include icon-font($icon-chevron-up);
+        }
+    }
+}
+
+.tabs__mobile__dropdown {
+    display: none;
+    position: absolute;
+    background: $white;
+    z-index: 20;
+    border: $border-style;
+    border-top: none;
+    list-style: none;
+}
+
+.tabs__mobile__item {
+    font-size: em-calc(18);
+    font-family: $header-font-family;
+
+    a {
+        display: block;
+        padding: em-calc(10 15);
+
+        &:hover {
+            background: $gray-bkgnd;
+        }
+    }
+}
+
+
+// TABS -- DESKTOP
+// ====================================================
+
+.tabs__desktop {
+    @extend .show-for-large-up;
+    @extend .button-group;
+    float: none;
+    position: relative;
+    bottom: -1px;
+}
+
+
+.tabs__desktop__item {
+    margin-right: em-calc(7);
+
+    a {
+        display: block;
+        font-family: $header-font-family-regular;
+        font-size: em-calc(20);
+        padding: em-calc(10 35);
+        border: $border-style;
+        border-bottom: none;
+        //@include linear-gradient(to top, $gray-bkgnd, $white);
+        background: $gray-bkgnd;
+        border-bottom: $border-style;
+    }
+
+    &.active {
+        a {
+            background: #fff;
+            color: $blue-darker;
+            border-bottom: 1px solid #fff;
+        }
+    }
+}
+
+
+
+// TABS -- CONTENT
+// ====================================================
+
+
+.tabs__contentHolder {
+    @media #{$small}, #{$medium} {
+        .accordion__content_frame:first-child,
+        .accordion__product_list:first-child {
+            border-top: none;
+        }
+    }
+}

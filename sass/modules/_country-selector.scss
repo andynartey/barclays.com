@@ -1,0 +1,45 @@
+// COUNTRY SELECTOR
+/* --------------------------------------*/
+.country-selector {
+	margin-bottom: 0.5em;
+}
+.country-selector__container {
+	@include grid-column(12);
+    padding: em-calc(0);
+    margin-bottom: em-calc(20);
+    h2.country-selector__title,
+    h3.country-selector__country_name {
+			margin: 0;
+		}
+	.country-selector__country_name {
+		a {
+			display: block;
+		}
+	}
+}
+.country_selector__current {
+	@include grid-row();
+ 	background-color: $blue-bkgnd;
+ 	border: solid 1px #d9ecf4;
+ 	padding: em-calc(20);
+ 	margin-bottom: em-calc(20);
+ 	@media #{$medium} {
+	 	.country_selector__location {
+	 		@include grid-column(12);
+	 	}
+ 	}
+ 	.country_selector__location {
+ 		p {
+ 			color: $blue-darker;
+ 			font-size: em-calc(16);
+ 			margin: 0;
+ 			.country-selector__country-name {
+ 				font-size: em-calc(18);
+ 				display: block;
+ 				@media #{$small} {
+ 					display: initial;
+ 				}
+ 			}
+ 		}
+ 	}
+}

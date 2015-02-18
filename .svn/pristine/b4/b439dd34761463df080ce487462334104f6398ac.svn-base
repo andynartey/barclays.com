@@ -1,0 +1,33 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+	<div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+		        <h1>iframe</h1>
+
+                <h2><!-- First --> iframe (Share chart)</h2>
+                <!--#include virtual="/includes/containers/iframe.html"-->
+
+                <!-- only one iframe per url -->
+                <!-- <h2>Second iframe (Share Calculator)</h2>
+
+                <div id="iframe" class="external-web">
+                    <script language="javascript" type="text/javascript">
+                        var _iframeURL = 'http://otp.investis.com/clients/uk/responsive/spc/default.aspx?culture=en-GB&cid=266&confid=142';
+                        _iframeURLHeight = 622;
+                    </script>
+                    <noscript>
+                        <iframe frameborder="0" width="100%" allowtransparency="true" marginheight="0" marginwidth="0" class="externalwebIFrame" id="ExternalWebContentExternalIFrame" height="1000" src="http://otp.investis.com/clients/uk/responsive/spc/default.aspx?culture=en-GB&cid=266&confid=142" ></iframe>
+                    </noscript>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

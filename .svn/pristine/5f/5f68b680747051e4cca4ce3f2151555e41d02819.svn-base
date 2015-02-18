@@ -1,0 +1,53 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+    <!--#include file="includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__utility">
+
+        <!--#include file="includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include file="includes/site-chrome/logo-banner.html"-->
+
+        <!--#include file="includes/site-chrome/main-navigation.html"-->
+
+        <div class="row">
+            <div class="col__utility-heading">
+
+                <div class="link__page_holder">
+                    <!-- link to page above -->
+                    <a href="#" class="link__page-parent">Link to parent page</a>
+                </div>
+
+                <!-- page title -->
+                <h1>Topic results</h1>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- parsys 1: modules start here -->
+
+                <div class="thinline"></div>
+
+                <!--#include file="includes/containers/storyteller.html"-->
+
+                <!--#include file="includes/story-chrome/tags.html"-->
+
+                <div class="whitespace20"></div>
+
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row__full-bleed"></div>
+
+        <!--#include file="includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .site-container -->
+
+<!--#include file="includes/javascripts.html"-->
+</body>
+</html>

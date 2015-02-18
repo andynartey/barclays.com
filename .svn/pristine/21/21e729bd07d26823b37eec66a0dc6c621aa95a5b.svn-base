@@ -1,0 +1,68 @@
+.disclaimer {
+    position: relative;
+    background: #FFF;
+    padding: em-calc(20);
+    width:auto;
+    max-width: em-calc(680);
+    margin: em-calc(20) auto;
+    border: 5px solid $gray-rule;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 12px 4px #cfcfcf;
+    box-shadow: 0px 0px 12px 4px #cfcfcf;
+
+    @media #{$small} {
+        border: 10px solid $gray-rule;
+        border-radius: 10px;
+    }
+
+}
+
+.disclaimer__inner {
+    max-height: em-calc(200);
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: em-calc(20);
+
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 1%, rgba(237,237,237,0) 97%, rgba(244,244,244,0.65) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(0,0,0,0)), color-stop(97%,rgba(237,237,237,0)), color-stop(100%,rgba(244,244,244,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 1%,rgba(237,237,237,0) 97%,rgba(244,244,244,0.65) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 1%,rgba(237,237,237,0) 97%,rgba(244,244,244,0.65) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 1%,rgba(237,237,237,0) 97%,rgba(244,244,244,0.65) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 1%,rgba(237,237,237,0) 97%,rgba(244,244,244,0.65) 100%); /* W3C */
+    filter: ""; /* IE6-9 */
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6f4f4f4',GradientType=0 ); /* IE6-9 */
+    border-bottom: 1px solid #ededed;
+
+    @media #{$small} {
+        max-height: em-calc(340);
+    }
+}
+
+
+
+.disclaimer__btns {
+    //border-top: 3px solid $gray-rule;
+    padding-top: em-calc(20);
+
+    .btn {
+        text-align: center;
+        font-size: em-calc(18);
+
+        @media #{$small} {
+            text-align: left;
+        }
+    }
+
+    .btn__primary {
+        @media #{$small} {
+            margin-right: em-calc(15);
+        }
+    }
+
+}
+
+.re-direct {
+    .disclaimer__inner {
+        //overflow-y: visible;
+    }
+}

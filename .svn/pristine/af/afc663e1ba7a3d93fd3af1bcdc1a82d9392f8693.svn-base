@@ -1,0 +1,59 @@
+<section class="promo-list">
+
+    <article class="promo-list__item">
+        <div class="row">
+            <div class="promo-list__item__info">
+                <h3>Spaces for sport</h3>
+                <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+            </div>
+            <div class="promo-list__item__image">
+                <a href=""><img data-interchange="
+                [/images/news-article/partners-small.jpg, (default)],
+                [/images/news-article/partners-medium.jpg, (medium)]" alt="Step into the Night" class="right"></a>
+            </div>
+        </div>
+    </article>
+
+    <article class="promo-list__item">
+        <div class="row">
+            <div class="promo-list__item__info">
+                <h3>Spaces for sport</h3>
+                <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+            </div>
+            <div class="promo-list__item__image">
+                <a href=""><img data-interchange="
+                [/images/news-article/partners-small.jpg, (default)],
+                [/images/news-article/partners-medium.jpg, (medium)]" alt="Step into the Night" class="right"></a>
+            </div>
+        </div>
+    </article>
+
+    <article class="promo-list__item">
+        <div class="row">
+            <div class="promo-list__item__info">
+                <h3>Spaces for sport</h3>
+                <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+            </div>
+            <div class="promo-list__item__image">
+                <a href=""><img data-interchange="
+                [/images/news-article/partners-small.jpg, (default)],
+                [/images/news-article/partners-medium.jpg, (medium)]" alt="Step into the Night" class="right"></a>
+            </div>
+        </div>
+    </article>
+
+    <article class="promo-list__item">
+        <div class="row">
+            <div class="promo-list__item__info">
+                <h3>Spaces for sport</h3>
+                <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+            </div>
+            <div class="promo-list__item__image">
+                <a href=""><img data-interchange="
+                [/images/news-article/partners-small.jpg, (default)],
+                [/images/news-article/partners-medium.jpg, (medium)]" alt="Step into the Night" class="right"></a>
+            </div>
+        </div>
+    </article>
+
+</section>

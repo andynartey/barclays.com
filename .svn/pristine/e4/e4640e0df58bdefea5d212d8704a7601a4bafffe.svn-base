@@ -1,0 +1,101 @@
+// ====================================================
+// NEWS FEATURE MODULE
+// ====================================================
+
+.news-feature__standfirst {
+    font-size: em-calc(18);
+    font-family: $header-font-family;
+    margin-bottom: em-calc(15);
+    line-height: 1.4;
+
+    @media #{$small} {
+        font-size: em-calc(22);
+    }
+}
+
+.news-feature__paragraph {
+
+    @media #{$small} {
+        font-size: em-calc(14);
+        line-height: 2;
+    }
+}
+
+@media #{$small} {
+    .news-feature__heading2 {
+        font-size: em-calc(28);
+    }
+}
+
+
+// NEWS FEATURE -- BLOCKQUOTE
+// ====================================================
+
+.news-feature__blockquote {
+    margin-bottom: em-calc(20);
+
+    @media #{$small} {
+        @include grid-column(12, false, false, -1);
+        padding-left: 0;
+    }
+
+    @media #{$medium} {
+        @include grid-column(13.75, false, false, -1.75);
+        padding: 0;
+    }
+}
+
+.news-feature__quote {
+    display: block;
+    margin-bottom: 0;
+    -webkit-backface-visibility: hidden;
+}
+
+.news-feature__cite {
+    font-style: normal;
+    font-size: em-calc(12);
+    color: $blue-darker;
+    display: block;
+    margin-top: em-calc(20);
+}
+
+.news-feature__blockquote--narrow {
+    @extend .news-feature__blockquote;
+
+    @media #{$small} {
+        text-align: left;
+        @include grid-column(6, false, false, -1);
+        padding-left: 0;
+    }
+
+    @media #{$medium} {
+        @include grid-column(6, false, false, -1.75);
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+
+.supplementry-info {
+    background: $blue-bkgnd;
+    padding: em-calc(20 15 10);
+    margin-bottom: em-calc(20);
+    border-top: 7px solid $blue-border;
+}
+
+.supplementry-info__heading {
+    font-family: $header-font-family-regular;
+    color: $blue-darker;
+    font-size: em-calc(22);
+    margin-bottom: em-calc(15);
+}
+
+.supplementry-info__body {
+    img {
+        display: block;
+        margin-bottom: em-calc(20);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

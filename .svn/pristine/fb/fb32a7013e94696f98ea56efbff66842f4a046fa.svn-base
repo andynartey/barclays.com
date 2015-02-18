@@ -1,0 +1,14 @@
+<div class="download download-strip">
+	<p class="download-link">
+    	<a href="">
+    		<i class="icon icon__download"><span class="visuallyhidden">download</span></i> 
+    		Download a Barclays Cycle Scheme map
+    		<span class="download-details">(PDF - 1.2MB)</span>
+    	</a>
+    </p>
+    <div class="download-summary">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipis cing raesent mattis magna.
+		</p>
+	</div>
+</div>

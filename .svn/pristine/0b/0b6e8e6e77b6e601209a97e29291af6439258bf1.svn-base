@@ -1,0 +1,28 @@
+<div class="button-filter content-switcher buttonFilterContainer-1">
+  <div class="content-switcher__description">
+    
+  </div>
+  <form action="" class="custom">
+      <!-- KeyLinksCombo function -->
+      <select class="buttonFilter1 button-container custom-forms medium">
+          <option>Choose location</option>
+          <option value="ChicagoBarclayCard">Chicago</option>
+          <option value="LondonBarclayCard">London</option>
+          <option value="HongKongBarclayCard">Hong Kong</option>
+          <option value="NewYorkBarclayCard">New York</option>
+      </select>
+  </form>
+
+  <div id="ChicagoBarclayCard" class="js-contentSwitcher">
+    <!--#include virtual="./includes/online-banking/button-list-barclaycard.html"-->
+  </div>
+  <div id="LondonBarclayCard" class="js-contentSwitcher">
+    <h2>Content 2</h2>
+  </div>
+  <div id="HongKongBarclayCard" class="js-contentSwitcher">
+    <h2>Content 3</h2>
+  </div>
+  <div id="NewYorkBarclayCard" class="js-contentSwitcher">
+    <h2>Content 4</h2>
+  </div>
+</div>

@@ -1,0 +1,255 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container">
+
+        <!--#include virtual="../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../includes/site-chrome/main-navigation.html"-->
+
+        <!-- 2 columns (50% each) - START -->
+        <div class="column-control-container__50">
+
+            <div class="column-control__6">
+                <h2>2 columns (50% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+
+            <div class="column-control__6">
+                <h2>2 columns (50% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+        </div>
+        <!-- 2 columns (50% each) - END -->
+
+
+        <hr>
+
+        <!-- 2 columns (50% each - collapses in tablet/mobile) - START -->
+        <div class="column-control-container__50--collapse">
+
+            <div class="column-control__6">
+                <h2>2 columns (50% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+
+            <div class="column-control__6">
+                <h2>2 columns (50% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+        </div>
+        <!-- 2 columns (50% each - collapses in tablet/mobile) - END -->
+
+        <hr>
+
+        <!-- 2 columns (50% each - collapses in mobile only) - START -->
+        <div class="column-control-container__50--collapse-mobile">
+
+            <div class="column-control__6">
+                <h2>2 columns (50% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+
+            <div class="column-control__6">
+                <h2>2 columns (50% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+        </div>
+        <!-- 2 columns (50% each - collapses in mobile only) - END -->
+
+        <hr>
+
+        <!-- 3 columns (33.3% each) - START -->
+        <div class="column-control-container__33">
+            <div class="column-control__4">
+                <h2>3 columns (33% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+
+            <div class="column-control__4">
+                <h2>3 columns (33% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+
+            <div class="column-control__4">
+                <h2>3 columns (33% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+        </div>
+        <!-- 3 columns (33.3% each) - END -->
+
+        <hr>
+
+        <!-- 4 columns (25% each) - START -->
+        <div class="column-control-container__25">
+            <div class="column-control__3">
+                <h2>4 columns (25% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+
+            <div class="column-control__3">
+                <h2>4 columns (25% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+
+            <div class="column-control__3">
+                <h2>4 columns (25% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+
+            <div class="column-control__3">
+                <h2>4 columns (25% each)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+        </div>
+        <!-- 4 columns (25% each) - END -->
+
+        <hr>
+
+        <!-- 2 columns (25/75) - START -->
+        <div class="column-control-container__25-75">
+            <div class="column-control__75">
+                <h2>2 columns (75%)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+            <div class="column-control__25">
+                <h2>2 columns (25%)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+        </div>
+        <!-- 2 columns (25/75) - END -->
+
+        <hr>
+
+        <!-- 2 columns (75/25) - START -->
+        <div class="column-control-container__75-25">
+            <div class="column-control__75">
+                <h2>2 columns (75%)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+            <div class="column-control__25">
+                <h2>2 columns (25%)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+        </div>
+        <!-- 2 columns (75/25) - END -->
+
+        <hr>
+
+        <!-- 2 columns (33/66) - START -->
+        <div class="column-control-container__33-66">
+            <div class="column-control__66">
+                <h2>2 columns (66%)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+            <div class="column-control__33">
+                <h2>2 columns (33%)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+        </div>
+        <!-- 2 columns (33/66) - END -->
+
+        <hr>
+
+        <!-- 2 columns (66/33) - START -->
+        <div class="column-control-container__66-33">
+            <div class="column-control__66">
+                <h2>2 columns (66%)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+            <div class="column-control__33">
+                <h2>2 columns (33%)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+        </div>
+        <!-- 2 columns (66/33) - END -->
+
+        <hr>
+
+        <!-- 2 columns (33/66) - START -->
+        <div class="column-control-container__33-66--collapse-mobile">
+            <div class="column-control__66">
+                <h2>2 columns (66%)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+            <div class="column-control__33">
+                <h2>2 columns (33%)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+        </div>
+        <!-- 2 columns (33/66) - END -->
+
+        <hr>
+
+        <!-- 2 columns (33/66) - START -->
+        <div class="column-control-container__66-33--collapse-mobile">
+            <div class="column-control__66">
+                <h2>2 columns (66%)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+            <div class="column-control__33">
+                <h2>2 columns (33%)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+
+        </div>
+        <!-- 2 columns (33/66) - END -->
+
+    </div> <!-- END .site-container -->
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

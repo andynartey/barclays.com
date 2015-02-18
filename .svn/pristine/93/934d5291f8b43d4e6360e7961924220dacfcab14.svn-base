@@ -1,0 +1,201 @@
+// ====================================================
+// JUMP TO NAV MODULE
+// ====================================================
+.jump-to-nav {
+    @include grid-column(12);
+    // @include grid-row();
+    padding: 0 0 1em;
+    position: relative;
+    min-height: 50px;
+    hr {
+        border-bottom: $border-style;
+        border-width: 2px;
+        margin: 0.5em 0 1em;
+        position: absolute;
+        top: 2.4em;
+        width: 100%;
+    }
+    // temp hide as not completed
+    display: none;
+    @media #{$small} {
+        display: block;
+    }
+}
+
+// JUMP TO NAV -- LINKS
+// ====================================================
+.jump-to-nav__links {
+    background: #fff;
+    // @include outerRow();
+    // @extend .row;
+    // overflow: hidden;
+}
+
+.jump-to-nav__col {
+    @include grid-column(10);    
+    padding: 0;
+    position: relative;
+}
+
+// JUMP TO NAV -- TOGGLE
+// ====================================================
+.jump-to-nav-toggle {
+    // width: 90%;
+    // float: left;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    font-family: $header-font-family-regular;
+    font-size: em-calc(18);
+    border: $border-style;
+    border-color: transparent;
+    padding-top: em-calc(15);
+    padding-bottom: em-calc(10);
+    display: block;
+    position: relative;
+
+    // &:after {
+    //     position: absolute;
+    //     font-family: "Icons";
+    //     content: $icon-chevron-down;
+    //     right: em-calc(15);
+    // }
+    .icon {
+        float: right;
+        &:after {
+            transition: all 0.5s;
+            margin-top: 0;
+        }
+    }
+}
+.jump-to-nav__open {
+    .jump-to-nav-toggle {
+        border-color: $gray-rule;
+        .icon:after {
+            -webkit-transform: rotate(180deg);
+            -webkit-transform-origin: center;
+            margin-top: 1px;
+        }
+    }
+}
+// temp testing height
+.jump-to__marker {
+    // height: 500px;
+}
+.jump-to-nav-toggle__pos-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    padding-top: 0.9375em;
+    padding-bottom: 0.625em;
+    background: #fff;
+    z-index: 1;
+    display: none;
+    width: 80%;
+    &.visible {
+        display: block;
+    }
+}
+.jump-to-nav__open {
+    .jump-to-nav-toggle__pos-title.visible {
+        display: none;
+    }
+}
+
+// JUMP TO NAV -- BACK TO TOP
+// ====================================================
+.jump-to-nav-bkToTop {
+    @include grid-column(1);
+    // width: 10%;
+    // float: left;
+    position: relative;
+    padding: em-calc(15) 0 0;
+    // padding-bottom: em-calc(15);
+
+    // &:before {
+    //     position: absolute;
+    //     font-family: "Icons";
+    //     content: $icon-block-arrow-up;
+    //     right: em-calc(15);
+    // }
+    .icon:after {
+        font-size: 13px;
+        font-weight: bold;
+        top: 1px;
+    }
+}
+
+// JUMP TO NAV -- ITEMS
+// ====================================================
+.jump-to-nav__items {
+    // @include grid-column(8);
+    list-style: none;
+    background: #fff;
+    // margin-bottom: 0;
+    position: absolute;
+    z-index: 1;
+    // left: -0.175em;
+    // left: em-calc(5);
+    // padding: 0;
+    display: none;
+}
+.jump-to-nav__open {
+    .jump-to-nav__items {
+        display: block;
+    }
+}
+
+.jump-to-nav__item {
+    // @include grid-column(10);
+    // width: 99.5%;
+    float: left;
+    width: 100%;
+
+    a {
+    border-bottom: $border-style;
+    border-left: $border-style;
+    border-right: $border-style;
+        font-family: $header-font-family;
+        font-size: em-calc(21);
+        padding: em-calc(10);
+        display: block;
+        &:hover,
+        &:focus {
+            background: $primary-color;
+            color: #fff;
+        }
+    }
+
+    // &.active {
+    //     a {
+    //         background: $primary-color;
+    //         color: #fff;
+    //     }
+    // }
+}
+
+
+// .jump-to-nav--mobile {
+//     @extend .jump-to-nav;
+//     @extend .show-for-medium-down;
+// }
+
+// .jump-to-nav--desktop {
+//     @extend .jump-to-nav;
+//     //@extend .show-for-large;
+//     @include grid-column(3);
+//     float: right;
+//     min-width: inherit;
+//     display: none;
+
+//     .jump-to-nav-toggle {
+//         padding-left: 0;
+//         padding-right: 0;
+//     }
+
+//     .jump-to-nav-bkToTop {
+//         padding-left: 0;
+//         padding-right: 0;
+//     }
+// }

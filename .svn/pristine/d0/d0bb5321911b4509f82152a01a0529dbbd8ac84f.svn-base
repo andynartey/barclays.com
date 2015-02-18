@@ -1,0 +1,49 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+
+    <!--#include file="includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container">
+
+        <!--#include file="includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include file="includes/site-chrome/logo-banner.html"-->
+
+        <!--#include file="includes/site-chrome/main-navigation.html"-->
+
+        <div class="content row">
+
+            <div class="full-width">
+                <section class="news-landing">
+
+                    <div class="row">
+
+                        <div class="detail-6">
+                            <!--#include file="includes/containers/carousel.html"-->
+                        </div>
+
+                        <div class="detail-6">
+                            <!--#include file="includes/story-chrome/promo-list.html"-->
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="full-width">
+                <!--#include file="includes/containers/storyteller.html"-->
+            </div>
+
+        </div>
+
+        <!--#include file="includes/story-chrome/link-blocks.html"-->
+
+        <!--#include file="includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include file="includes/javascripts.html"-->
+
+</body>
+</html>

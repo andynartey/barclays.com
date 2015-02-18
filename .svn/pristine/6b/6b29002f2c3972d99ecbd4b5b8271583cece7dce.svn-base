@@ -1,0 +1,251 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body> 
+
+    <div class="content row">
+        <br>
+        <div class="small-12 medium-10 medium-push-1 large-8 large-push-2 columns">
+            <h1>Tables</h1>
+
+            <h2>Table Y</h2>
+
+            <!--#include virtual="/includes/ir/table-y.html"-->
+
+            <br />
+            <br />
+            <br />
+
+            <h2>Table X</h2>
+
+            <table class="table__table-x table--tinted">
+                <thead>
+                    <tr>
+                        <th>Objectives</th>
+                        <th>Strategy</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Barclays plays a broader role in the community</td>
+                        <td class="table__col--highlighted">What we deliver through our core business</td>
+                        <td>Barclays community investment programme is focused on 5 Million</td>
+                    </tr>
+                    <tr>
+                        <td>What we deliver through our core business</td>
+                        <td class="table__col--highlighted">Barclays plays a broader role in the community</td>
+                        <td>Barclays community investment programme is focused on 5 Million</td>
+                    </tr>
+                    <tr>
+                        <td>Barclays community investment programme is focused on 5 Million</td>
+                        <td class="table__col--highlighted">Barclays plays a broader role in the community</td>
+                        <td>Barclays community investment programme</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br />
+            <br />
+            <br />
+
+            <h2>Table X-Y</h2>
+
+            <table class="table__table-x-y table--clear-head table--tinted table--striped">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>2012</th>
+                        <th>2011</th>
+                        <th>2010</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Total community investment</td>
+                        <td>64.5m</td>
+                        <td>63.5m</td>
+                        <td>55.3m</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">
+                            Amount raised by employees and matched to charities through Barclays fundraising and giving programmes
+                        </td>
+                        <td>30.3m</td>
+                        <td>26.8m</td>
+                        <td>19.7m</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">
+                            Number of employees involved in Barclays volunteering, fundraising or giving programmes (% of all Barclays employees)
+                        </td>
+                        <td>68,000<br />(48%)</td>
+                        <td>73,000<br />(47%)</td>
+                        <td>59,000<br />(39%)</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Hours spent (personal and work time) to support volunteering activities</td>
+                        <td>489,000</td>
+                        <td>418,000</td>
+                        <td>359,000</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br />
+            <br />
+            <br />
+
+            <h2>Table X-Y with Split Columns with a Subtitle</h2>
+
+            <table class="table__table-x-y table--tinted table--data-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th colspan="2">2012 spending</th>
+                        <th colspan="2">2011 spending</th>
+                    </tr>
+                    <tr class="table__table-x-y--split-col-sub-title">
+                        <th></th>
+                        <th>Total</th>
+                        <th>+/-</th>
+                        <th>Total</th>
+                        <th>+/-</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Total community investment</td>
+                        <td>64.5m</td>
+                        <td class="table__table-cell--col-end">+2.5%</td>
+                        <td>55.3m</td>
+                        <td>+2.5%</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">
+                            Amount raised by employees and matched to charities through Barclays fundraising and giving programmes
+                        </td>
+                        <td>30.3m</td>
+                        <td class="table__table-cell--col-end">+6%</td>
+                        <td>19.7m</td>
+                        <td>+6%</td>
+                    </tr>
+                    <tr>
+                        <th colspan="5">
+                            Subtitle fierent intellegam mediocritatem
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">
+                            Number of employees involved in Barclays volunteering, fundraising or giving programmes (% of all Barclays employees)
+                        </td>
+                        <td>68,000<br />(48%)</td>
+                        <td class="table__table-cell--col-end">+23%</td>
+                        <td>59,000<br />(39%)</td>
+                        <td>+23%</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Hours spent (personal and work time) to support volunteering activities</td>
+                        <td>489,000</td>
+                        <td class="table__table-cell--col-end">+7%</td>
+                        <td>359,000</td>
+                        <td>+7%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br />
+            <br />
+            <br />
+
+            <h2>Table X-Y with Data Highlight</h2>
+
+            <table class="table__table-x-y table--clear-head table--tinted table--striped table--data-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Q3 2013 Adj. Consensus (&pound;m)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Total income of net insurance claims</td>
+                        <td>6,546</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Impairment charges</td>
+                        <td>797</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Net operating income</td>
+                        <td>5,497</td>
+                    </tr>
+                    <tr class="table__table-row--emphasize-row">
+                        <td class="table__table-x-y__y-label">Operating expenses excluding costs to achieve Transform</td>
+                        <td>4,325</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Total operating expenses</td>
+                        <td class="table__talbe-cell--highligted">4,527</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">2014 operation expenses projection</td>
+                        <td>1,254</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br />
+            <br />
+            <br />
+
+            <h2>Table X-Y with Totals</h2>
+
+            <table class="table__table-x-y table--clear-head table--tinted table--striped">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Q3 2013 Adj. Consensus (&pound;m)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Total income of net insurance claims</td>
+                        <td>6,546</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Impairment charges</td>
+                        <td>797</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Net operating income</td>
+                        <td>5,497</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Operating expenses excluding costs to achieve Transform</td>
+                        <td>4,325</td>
+                    </tr>
+                    <tr>
+                        <td class="table__table-x-y__y-label">Total operating expenses</td>
+                        <td>4,527</td>
+                    </tr>
+                    <tr class="table__table-x-y__totals-row">
+                        <td class="table__table-x-y__y-label">Profit before tax</td>
+                        <td>1,254</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br />
+            <br />
+            <br />
+
+
+
+        </div>
+
+    </div>
+
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

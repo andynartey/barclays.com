@@ -1,0 +1,22 @@
+<div class="aperture">
+	<div class="aperture__frame">
+		<div class="aperture__content">
+			<a href="" class="aperture__subtitle">
+				<!--#echo var="aperturesubtitle" -->
+			</a>
+			<h2 class="aperture__title">
+				<!--#echo var="apertureTitle" -->
+			</h2>
+			<p class="aperture__lead">
+				<!--#echo var="apertureText" -->
+			</p>			
+			<!--#if expr="${aperturehasCountrySelect} == 'true'"-->
+				<!--#include file="country-select.html"-->
+			<!--#else-->
+				
+			<!--#endif-->
+		</div>
+	</div>
+</div>
+
+<!--#set var="aperturehasCountrySelect" value="false" -->

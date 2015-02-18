@@ -1,0 +1,452 @@
+<!-- Main Navigation -->
+<nav class="main-nav">
+    <div class="row">
+        <div class="mega-menu">
+            <ul class="mega-menu__list" data-mega-menu-list>
+
+                <li class="mega-menu__item--news" data-mega-menu-item>
+
+                    <a href="" class="mega-menu__top-link" data-mega-top-link>
+                        News
+                    </a>
+
+                    <div class="mega-content" data-mega-content>
+                        <div class="row">
+
+                            <section class="menu-intro">
+                                <h1 class="menu-intro__heading">News</h1>
+                                <p class="menu-intro__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a class="menu-intro__link" href="">Go to News</a>
+                            </section>
+
+                            <nav class="menu-links" data-mega-links>
+                                <ul class="menu-links__list">
+                                    <li class="menu-links__item--nested" data-mega-links-item>
+                                        <a href="">Community</a>
+                                        <ul class="menu-links__third-level-list" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Community</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Supporting individuals</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Increasing access</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Supporting businesses</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Helping institutions</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Growth</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Environment</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Risk</a>
+                                    </li>
+                                    <li class="menu-links__item--nested" data-mega-links-item>
+                                        <a href="">Diversity</a>
+                                        <ul class="menu-links__third-level-list" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Diversity</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Supporting individuals</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Increasing access</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Supporting businesses</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Helping institutions</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Human Rights</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Around the world</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our programs</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our partners</a>
+                                    </li>
+                                    <li class="menu-links__item--nested" data-mega-links-item>
+                                        <a href="">Our approach</a>
+                                        <ul class="menu-links__third-level-list" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Our approach</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Supporting individuals</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Increasing access</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Supporting businesses</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Helping institutions</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <section class="menu-promo" data-mega-promo>
+                                <div class="menu-promo__image">
+                                    <h3>Community</h3>
+                                    <img src="http://placehold.it/370x165" alt="">
+                                </div>
+                                <h4 class="menu-promo__heading">Building Young Futures</h4>
+                                <p class="menu-promo__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                            </section>
+
+                            <a href="" class="mega-menu__close-btn" data-mega-close>Close</a>
+
+                        </div>
+                    </div>
+
+                </li>
+
+                <li class="mega-menu__item--about-us" data-mega-menu-item>
+
+                    <a href="" class="mega-menu__top-link" data-mega-top-link>
+                        About us
+                    </a>
+
+                    <div class="mega-content" data-mega-content>
+                        <div class="row">
+
+                            <section class="menu-intro">
+                                <h1 class="menu-intro__heading">About us</h1>
+                                <p class="menu-intro__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a class="menu-intro__link" href="">Go to About us</a>
+                            </section>
+
+                            <nav class="menu-links" data-mega-links>
+                                <ul class="menu-links__list">
+                                    <li class="menu-links__item">
+                                        <a href="">Community</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Growth</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Environment</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Risk</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Diversity</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Human Rights</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Around the world</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our programs</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our partners</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our approach</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <section class="menu-promo" data-mega-promo>
+                                <div class="menu-promo__image">
+                                    <h3>Community</h3>
+                                    <img src="http://placehold.it/370x165" alt="">
+                                </div>
+                                <h4 class="menu-promo__heading">Building Young Futures</h4>
+                                <p class="menu-promo__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                            </section>
+
+                            <a href="" class="mega-menu__close-btn" data-mega-close>Close</a>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="mega-menu__item--ir" data-mega-menu-item>
+
+                    <a href="" class="mega-menu__top-link" data-mega-top-link>
+                        Investor Relations
+                    </a>
+
+                    <div class="mega-content" data-mega-content>
+                        <div class="row">
+
+                            <section class="menu-intro">
+                                <h1 class="menu-intro__heading">Investor relations</h1>
+                                <p class="menu-intro__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a class="menu-intro__link" href="">Go to Investor relations</a>
+                            </section>
+
+                            <nav class="menu-links" data-mega-links>
+                                <ul class="menu-links__list">
+                                    <li class="menu-links__item">
+                                        <a href="">Community</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Growth</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Environment</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Risk</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Diversity</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Human Rights</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Around the world</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our programs</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our partners</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our approach</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <section class="menu-promo" data-mega-promo>
+                                <div class="menu-promo__image">
+                                    <h3>Community</h3>
+                                    <img src="http://placehold.it/370x165" alt="">
+                                </div>
+                                <h4 class="menu-promo__heading">Building Young Futures</h4>
+                                <p class="menu-promo__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                            </section>
+
+                            <a href="" class="mega-menu__close-btn" data-mega-close>Close</a>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="mega-menu__item--citizenship" data-mega-menu-item>
+
+                    <a href="" class="mega-menu__top-link" data-mega-top-link>
+                        Citizenship
+                    </a>
+
+                    <div class="mega-content" data-mega-content>
+                        <div class="row">
+
+                            <section class="menu-intro">
+                                <h1 class="menu-intro__heading">Citizenship</h1>
+                                <p class="menu-intro__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a class="menu-intro__link" href="">Go to Citizenship</a>
+                            </section>
+
+                            <nav class="menu-links" data-mega-links>
+                                <ul class="menu-links__list">
+                                    <li class="menu-links__item">
+                                        <a href="">Community</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Growth</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Environment</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Risk</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Diversity</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Human Rights</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Around the world</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our programs</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our partners</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our approach</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <section class="menu-promo" data-mega-promo>
+                                <div class="menu-promo__image">
+                                    <h3>Community</h3>
+                                    <img src="http://placehold.it/370x165" alt="">
+                                </div>
+                                <h4 class="menu-promo__heading">Building Young Futures</h4>
+                                <p class="menu-promo__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                            </section>
+
+                            <a href="" class="mega-menu__close-btn" data-mega-close>Close</a>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="mega-menu__item--careers" data-mega-menu-item>
+
+                    <a href="" class="mega-menu__top-link" data-mega-top-link>
+                        Careers
+                    </a>
+
+                    <div class="mega-content" data-mega-content>
+                        <div class="row">
+
+                            <section class="menu-intro">
+                                <h1 class="menu-intro__heading">Careers</h1>
+                                <p class="menu-intro__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a class="menu-intro__link" href="">Go to Careers</a>
+                            </section>
+
+                            <nav class="menu-links" data-mega-links>
+                                <ul class="menu-links__list">
+                                    <li class="menu-links__item">
+                                        <a href="">Community</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Growth</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Environment</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Risk</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Diversity</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Human Rights</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Around the world</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our programs</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our partners</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our approach</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <section class="menu-promo" data-mega-promo>
+                                <div class="menu-promo__image">
+                                    <h3>Community</h3>
+                                    <img src="http://placehold.it/370x165" alt="">
+                                </div>
+                                <h4 class="menu-promo__heading">Building Young Futures</h4>
+                                <p class="menu-promo__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                            </section>
+
+                            <a href="" class="mega-menu__close-btn" data-mega-close>Close</a>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="mega-menu__item--products-services" data-mega-menu-item>
+
+                    <a href="" class="mega-menu__top-link" data-mega-top-link>
+                        Products and services
+                    </a>
+
+                    <div class="mega-content" data-mega-content>
+                        <div class="row">
+
+                            <section class="menu-intro">
+                                <h1 class="menu-intro__heading">Products and services</h1>
+                                <p class="menu-intro__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a class="menu-intro__link" href="">Go to Products and services</a>
+                            </section>
+
+                            <nav class="menu-links" data-mega-links>
+                                <ul class="menu-links__list">
+                                    <li class="menu-links__item">
+                                        <a href="">Community</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Growth</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Environment</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Risk</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Diversity</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Human Rights</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Around the world</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our programs</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our partners</a>
+                                    </li>
+                                    <li class="menu-links__item">
+                                        <a href="">Our approach</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <section class="menu-promo" data-mega-promo>
+                                <div class="menu-promo__image">
+                                    <h3>Community</h3>
+                                    <img src="http://placehold.it/370x165" alt="">
+                                </div>
+                                <h4 class="menu-promo__heading">Building Young Futures</h4>
+                                <p class="menu-promo__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                            </section>
+
+                            <a href="" class="mega-menu__close-btn" data-mega-close>Close</a>
+
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>

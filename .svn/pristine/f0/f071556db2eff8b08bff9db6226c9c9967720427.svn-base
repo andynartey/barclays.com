@@ -1,0 +1,95 @@
+// ====================================================
+// RELATED CONTENT MODULE
+// ====================================================
+
+
+.related-content {
+    border-top: 4px solid #e1e1e1;
+    padding-top: em-calc(20);
+    padding-bottom: em-calc(10);
+    @include clearfix;
+
+    @media #{$small} {
+        padding: em-calc(20 0 10);
+    }
+}
+
+// RELATED CONTENT -- HEADING
+/* --------------------------------------*/
+.related-content__heading {
+    color: $blue-darker;
+    font-size: em-calc(24);
+    line-height: 1.25;
+
+    @media #{$small} {
+        font-size: em-calc(30);
+        line-height: 1.2;
+    }
+    @media #{$medium} {
+        font-size: em-calc(36);
+        line-height: 1.17;
+    }
+}
+
+
+// RELATED CONTENT -- ITEMS
+/* --------------------------------------*/
+.related-content__items {
+    @include grid-row();
+}
+
+// RELATED CONTENT -- ITEM
+/* --------------------------------------*/
+.related-content__item {
+    @include grid-column(12);
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: $border-style;
+    padding-top: em-calc(20);
+    &:last-child {
+        border-bottom: none;
+    }
+
+    @media #{$small} {
+        padding-bottom: em-calc(15);
+    }
+}
+
+// RELATED CONTENT -- INFO
+/* --------------------------------------*/
+.related-content__item__info {
+    @include grid-column(8);
+    h3 {
+        color: $blue-darker;
+        text-transform: uppercase;
+        font-family: $header-font-family-regular;
+            font-size: em-calc(13);
+            line-height: 1.38;
+    }
+    h2 {
+        font-size: em-calc(18);
+        line-height: 1.22;
+    }
+    .date {
+        color: #b2b2b2;
+    }
+
+    // @media #{$small} {
+    //     h3 {
+    //     }
+    //     // h2 {
+    //     //     font-size: em-calc(18);
+    //     // }
+    // }
+}
+
+// RELATED CONTENT -- IMAGE
+/* --------------------------------------*/
+.related-content__item__image {
+    @include grid-column(4);
+    padding-left: 0;
+
+    @media #{$small} {
+
+    }
+}

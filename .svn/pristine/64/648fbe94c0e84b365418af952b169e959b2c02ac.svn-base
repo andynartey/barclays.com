@@ -1,0 +1,28 @@
+<table class="table__table-y">
+    <thead>
+        <tr>
+            <th colspan="2">R</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="table__title-col">Risk assesment</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</td>
+        </tr>
+        <tr>
+            <td class="table__title-col">Risk avoidance</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</td>
+        </tr>
+        <tr>
+            <td class="table__title-col">Risk management</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</td>
+        </tr>
+    </tbody>
+</table>

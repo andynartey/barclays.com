@@ -1,0 +1,23 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+
+    <div class="site-container">
+
+        <div class="content row">
+
+            <div class="small-12 medium-6 large-4 medium-centered large-centered column">
+
+                <!--#include virtual="../../includes/lists/link-list.html"-->
+
+            </div>
+
+        </div>
+
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

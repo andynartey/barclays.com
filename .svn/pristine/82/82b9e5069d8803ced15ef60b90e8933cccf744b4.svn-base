@@ -1,0 +1,234 @@
+ // CREATE BARCLAYS NAMESPACE
+var BAR = BAR || {};
+
+$(function(){
+
+    // ====================================================
+    // SEARCH RESULTS - INITIALISE ALL COMPONENTS
+    // ====================================================
+
+    BAR.SearchResults = (function () {
+
+        var init = function (selector, itemCount) {
+            var searchContainer = $(selector),
+                searchItemCount = itemCount;
+
+            var searchFilter = new BAR.SearchFilter(searchContainer),
+                searchLazyLoad = new BAR.SearchLazyLoad(searchContainer, searchItemCount);
+        };
+
+        return {
+            init: init
+        };
+    }());
+
+    // ====================================================
+    // SEARCH RESULTS FILTERS
+    // ====================================================
+
+    BAR.SearchFilter = function(selector) {
+        this.searchContainer = $(selector);
+        this.searchFilterLink = this.searchContainer.find('[data-searchresults-filter-link]');
+        this.searchFilterToggle = this.searchContainer.find('[data-searchresults-filter-toggle]');
+        this.searchFilterHolder = this.searchContainer.find('[data-searchresults-filter-holder]');
+
+        this.init();
+    }
+
+    BAR.SearchFilter.prototype = {
+
+        init: function() {
+            var self = this;
+
+            this.mediaDetection(self);
+
+            this.searchFilterLink.on('click', function(e) {
+                if ( !$(this).hasClass('inactive') ) {
+                    self.checkState(this);
+                }
+                e.preventDefault();
+            });
+
+            this.searchFilterToggle.on('click', function(e) {
+                self.mobileToggleFilters(this);
+                e.preventDefault();
+            });
+        },
+
+        checkState: function(link) {
+            var $link = $(link);
+
+            if ( $link.hasClass('active') ) {
+                this.hideDropdown($link);
+            } else {
+                this.showDropdown($link);
+            }
+        },
+
+        showDropdown: function($link) {
+            var getLinkWidth = $link.outerWidth(),
+                getLinkPos = $link.position(),
+                getLinkHeight = $link.height(),
+                self = this;
+
+            self.searchContainer.find('[data-searchresults-filter-list]').hide();
+            self.searchFilterLink.removeClass('active');
+
+            $link.addClass('active');
+            $link.next('[data-searchresults-filter-list]')
+                .css({
+                    'width': getLinkWidth,
+                    'top': getLinkPos.top + getLinkHeight + 20
+                }).show();
+
+            $link.next('[data-searchresults-filter-list]')
+                .find('[data-searchresults-filter-item]')
+                    .on('click', function(e) {
+                        self.addSelectedItem(this);
+                        e.preventDefault();
+                    });
+
+            self.outsideClickClose($link);
+        },
+
+        hideDropdown: function($link) {
+            var self = this;
+
+            $link.removeClass('active');
+            $link.next('[data-searchresults-filter-list]').hide()
+                .find('[data-searchresults-filter-item]')
+                    .off('click', function(e) {
+                        self.addSelectedItem(this);
+                        e.preventDefault();
+                    });
+        },
+
+        addSelectedItem: function(selectedItem) {
+
+            var searchFilter = this,
+                txt = $(selectedItem).find('a').text(),
+                labelHolder = '<div class="search-results-filter-label"><a href="">' + txt + '</a></div>',
+                $self = this.searchFilterLink.filter('.active'),
+                getLinkWidth = $self.outerWidth(),
+                getLinkPos = $self.position();
+
+            searchFilter.hideDropdown($self);
+
+            $self.after(labelHolder);
+
+            this.searchContainer.find('.search-results-filter-label').css({
+                'width': getLinkWidth,
+                'top': getLinkPos.top
+            });
+
+            this.searchContainer.find('.search-results-filter-label').on('click', function(e) {
+                searchFilter.removeSelectedItem(this);
+                e.preventDefault();
+            });
+        },
+
+        removeSelectedItem: function(self) {
+            $(self)
+                .hide()
+                .off('click')
+                .remove();
+        },
+
+        mediaDetection: function(self) {
+            enquire
+                .register( "screen and (max-width: 768px)", {
+                    match: function() {
+                        self.searchFilterHolder.hide();
+                    }
+                })
+                .register( "screen and (min-width: 769px)", {
+                    match: function() {
+                        self.searchFilterHolder.show();
+                    }
+                }, true);
+        },
+
+        mobileToggleFilters: function(self) {
+            $(self).toggleClass('filter-active');
+            this.searchFilterHolder.slideToggle('fast');
+        },
+
+        outsideClickClose: function(link) {
+            var self = this;
+
+            $(document).on('mouseup', function(e) {
+                var filterContainer = $('.search-results__filter__col');
+
+                if ( !filterContainer.is(e.target) && filterContainer.has(e.target).length === 0 ) {
+                    self.hideDropdown(link);
+                }
+            });
+        }
+    }
+
+    // ====================================================
+    // SEARCH FILTER LAZY LOAD
+    // ====================================================
+
+    BAR.SearchLazyLoad = function(selector, itemCount) {
+        this.searchContainer = $(selector);
+        this.showMoreBtn = this.searchContainer.find('[data-searchresults-showmore]');
+        this.storyItem = this.searchContainer.find('[data-searchresults-item]');
+        this.searchItemCount = itemCount;
+
+        this.init();
+    }
+
+    BAR.SearchLazyLoad.prototype = {
+
+        init: function() {
+            var self = this;
+
+            this.hideContent();
+
+            this.showMoreBtn.on('click', function(e) {
+                self.showMore();
+                e.preventDefault();
+            });
+        },
+
+        hideContent: function() {
+            this.storyItem.hide().addClass('js-itemHidden');
+
+            for ( var i = 0; i < this.searchItemCount; i++ ) {
+                this.storyItem.eq(i).show().removeClass('js-itemHidden');
+            }
+        },
+
+        showMore: function() {
+            var $hiddenItems = this.searchContainer.find('.js-itemHidden');
+
+            for ( var i = 0; i < this.searchItemCount; i++ ) {
+                $hiddenItems.eq(i).fadeIn().removeClass('js-itemHidden');
+            }
+
+            var firstItemPos = $hiddenItems.first().offset().top;
+
+            this.scrollToRow(firstItemPos);
+
+            this.hideBtn();
+        },
+
+        scrollToRow: function(firstItemPos) {
+            var scrollTarget = firstItemPos,
+                headerScrollOffset = $('.main-nav').height();
+
+            $('html, body').animate({
+                scrollTop: scrollTarget - headerScrollOffset - 20
+            }, 'slow');
+        },
+
+        hideBtn: function() {
+            var hiddenItemCount = this.searchContainer.find('.js-itemHidden').length;
+
+            if ( hiddenItemCount === 0 ) {
+                this.searchContainer.find('.search-results__more-stories').hide();
+            }
+        }
+    }
+}());

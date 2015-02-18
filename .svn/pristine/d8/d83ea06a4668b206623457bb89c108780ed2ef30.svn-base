@@ -1,0 +1,83 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__news-feature">
+
+        <!--#include virtual="../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../includes/site-chrome/main-navigation.html"-->
+
+        <div class="row row__full-bleed">
+
+            
+
+        </div>
+
+        <div class="row">
+            
+        </div>
+
+        <div class="row row__full-bleed">
+
+
+        </div>
+
+        <div class="row col__full-bleed">
+
+            
+
+        </div>
+
+        <div class="row row__full-width">
+
+            
+
+        </div>
+
+        <div class="row">
+            
+        </div>
+
+        <div class="row row__full-bleed">
+
+
+        </div>
+
+        <div class="row">
+            
+        </div>
+
+        <div class="row row__full-bleed">
+
+            
+
+        </div>
+
+        <div class="row">
+            
+        </div>
+
+        <div class="row row__full-bleed">
+
+            
+
+        </div>
+
+        <div class="row">
+            
+        </div>
+
+        <div class="row">
+            
+        </div>
+
+        <!--#include virtual="../includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .site-container -->
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

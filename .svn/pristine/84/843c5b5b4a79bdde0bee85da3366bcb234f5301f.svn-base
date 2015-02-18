@@ -1,0 +1,25 @@
+<!-- Logo banner -->
+<section class="logo-banner">
+    <div class="row">
+        <div class="logo-banner__hamburger">
+            <a href="" data-offcanvas-menu-toggle>
+                <img src="/images/icon-hamburger.png" alt="">
+            </a>
+        </div>
+        <div class="logo-banner__logo">
+            <a href="">
+                <img src="/images/logo.png" data-interchange="
+                    [/images/logo-tab-mob.png, (default)],
+                    [/images/logo-tab-mob.png, (medium)],
+                    [/images/logo.png, (large)]" alt="Barclays">
+            </a>
+        </div>
+        <div class="logo-banner__search" data-search>
+            <a href="" class="logo-banner__search__toggle" data-search-toggle></a>
+            <form action="" class="logo-banner__search__form" data-search-form>
+                <input type="submit" value="" class="logo-banner__search-btn" data-search-btn>
+                <input type="text" placeholder="Search" class="logo-banner__search-field" data-search-field>
+            </form>
+        </div>
+    </div>
+</section>

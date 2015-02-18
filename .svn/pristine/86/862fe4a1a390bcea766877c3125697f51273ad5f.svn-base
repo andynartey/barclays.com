@@ -1,0 +1,120 @@
+<section class="cross-promo">
+
+    <!-- CROSS PROMO with SMALL Title-->
+    <div class="cross-promo__container cross-right">
+        <div class="cross-promo__image">
+            <a href="">
+                <h3>FEATURE</h3>
+                    <img src="http://placehold.it/270x152" data-interchange="
+                        [http://placehold.it/270x152, (large)]" 
+                        alt="Step into the Night">
+                </a>
+        </div>
+        <div class="cross-promo__body">
+            <h3 class="cross-promo__label">Partners</h3>
+                <h2 class="cross-promo__title_small">
+                    <a href="">Barclays announces changes to group executive committee.</a></h2>
+                <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+    <!-- CROSS PROMO with SMALL Title-->
+    <div class="cross-promo__container cross-right">
+        <div class="cross-promo__image">
+            <a href="">
+                <h3>FEATURE</h3>
+                    <img src="http://placehold.it/270x152" data-interchange="
+                        [http://placehold.it/270x152, (large)]" 
+                        alt="Step into the Night">
+                </a>
+        </div>
+        <div class="cross-promo__body">
+            <h3 class="cross-promo__label">Partners</h3>
+                <h2 class="cross-promo__title_small">
+                    <a href="">Barclays announces changes to group executive committee.</a></h2>
+                <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+    <!-- CROSS PROMO with SMALL Title-->
+    <div class="cross-promo__container cross-right">
+        <div class="cross-promo__image">
+            <a href="">
+                <h3>FEATURE</h3>
+                    <img src="http://placehold.it/270x152" data-interchange="
+                        [http://placehold.it/270x152, (large)]" 
+                        alt="Step into the Night">
+                </a>
+        </div>
+        <div class="cross-promo__body">
+            <h3 class="cross-promo__label">Partners</h3>
+                <h2 class="cross-promo__title_small">
+                    <a href="">Barclays announces changes to group executive committee.</a></h2>
+                <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+    <!-- CROSS PROMO with SMALL Title-->
+    <div class="cross-promo__container cross-right">
+        <div class="cross-promo__image">
+            <a href="">
+                <h3>FEATURE</h3>
+                    <img src="http://placehold.it/270x152" data-interchange="
+                        [http://placehold.it/270x152, (large)]" 
+                        alt="Step into the Night">
+                </a>
+        </div>
+        <div class="cross-promo__body">
+            <h3 class="cross-promo__label">Partners</h3>
+                <h2 class="cross-promo__title_small">
+                    <a href="">Barclays announces changes to group executive committee.</a></h2>
+                <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+
+    <!-- <article class="promo-list__item">
+        <div class="row">
+            <div class="promo-list__item__info">
+                <h3>Category</h3>
+                <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+            <div class="promo-list__item__image">
+                <a href=""><img src="http://placehold.it/185x104" data-interchange="
+                [http://placehold.it/125x70, (default)],
+                [http://placehold.it/235x132, (medium)],
+                [http://placehold.it/185x104, (large)]" alt="Step into the Night" class="right"></a>
+            </div>
+        </div>
+    </article>
+
+    <article class="promo-list__item">
+        <div class="row">
+            <div class="promo-list__item__info">
+                <h3>Category</h3>
+                <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+            <div class="promo-list__item__image">
+                <a href=""><img src="http://placehold.it/185x104" data-interchange="
+                [http://placehold.it/125x70, (default)],
+                [http://placehold.it/235x132, (medium)],
+                [http://placehold.it/185x104, (large)]" alt="Step into the Night" class="right"></a>
+            </div>
+        </div>
+    </article>
+
+    <article class="promo-list__item">
+        <div class="row">
+            <div class="promo-list__item__info">
+                <h3>Category</h3>
+                <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+            <div class="promo-list__item__image">
+                <a href=""><img src="http://placehold.it/185x104" data-interchange="
+                [http://placehold.it/125x70, (default)],
+                [http://placehold.it/235x132, (medium)],
+                [http://placehold.it/185x104, (large)]" alt="Step into the Night" class="right"></a>
+            </div>
+        </div>
+    </article> -->
+
+</section>

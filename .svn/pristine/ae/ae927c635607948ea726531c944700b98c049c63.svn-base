@@ -1,0 +1,86 @@
+
+<!-- HOVER BLOCK THREE UP BEGINS -->
+<div class="hover-block">
+    <div class="hover-block__container ">
+        <div class="hover-block__four_up">
+            <article class="hover-block__item">
+                <div class="hover-block__image">
+                    <a href="">
+                        <img src="http://placehold.it/590x332" data-interchange="
+                            [http://placehold.it/230x129, (default)],
+                            [http://placehold.it/365x205, (medium)],
+                            [http://placehold.it/590x332, (large)]" alt="">
+                    </a>
+                </div>
+                <div class="hover-block__desc--container">
+                <div class="hover-block__desc">
+                    <!-- note: we're wrapping all the content in a link to give a larger clickable area (this is valid html) -->
+                    <!-- please let us know if this will cause issues in CQ5 and we'll provide an alterna -->
+                    <a href="">
+                        <h3 class="hover-block__heading">Barclays Premier League <i class="icon icon__add"></i></h3>
+                        <p class="hover-block__paragraph">Banking on Change is a partnership between Plan UK, CARE International UK and Barclays that aims to help around 400,000 people in 11 countries.</p>
+                    </a>
+                </div>
+                </div>
+            </article>
+
+            <article class="hover-block__item">
+                <div class="hover-block__image">
+                    <a href="">
+                        <img src="http://placehold.it/590x332" data-interchange="
+                            [http://placehold.it/230x129, (default)],
+                            [http://placehold.it/365x205, (medium)],
+                            [http://placehold.it/590x332, (large)]" alt="">
+                    </a>
+                </div>
+                <div class="hover-block__desc--container">
+                <div class="hover-block__desc">
+                    <a href="">
+                        <h3 class="hover-block__heading">Barclays Cycle Hire <i class="icon icon__add"></i></h3>
+                        <p class="hover-block__paragraph">Banking on Change is a partnership.</p>
+                    </a>
+                </div>
+                </div>
+            </article>
+
+            <article class="hover-block__item">
+                <div class="hover-block__image">
+                    <a href="">
+                        <img src="http://placehold.it/590x332" data-interchange="
+                            [http://placehold.it/230x129, (default)],
+                            [http://placehold.it/365x205, (medium)],
+                            [http://placehold.it/590x332, (large)]" alt="">
+                    </a>
+                </div>
+                <div class="hover-block__desc--container">
+                <div class="hover-block__desc">
+                    <a href="">
+                        <h3 class="hover-block__heading">Barclays Cycle Hire <i class="icon icon__add"></i></h3>
+                        <p class="hover-block__paragraph">Banking on Change is a partnership.</p>
+                    </a>
+                </div>
+                </div>
+            </article>
+
+            <article class="hover-block__item">
+                <div class="hover-block__image">
+                    <a href="">
+                        <img src="http://placehold.it/590x332" data-interchange="
+                            [http://placehold.it/230x129, (default)],
+                            [http://placehold.it/365x205, (medium)],
+                            [http://placehold.it/590x332, (large)]" alt="">
+                    </a>
+                </div>
+                <div class="hover-block__desc--container">
+                <div class="hover-block__desc">
+                    <a href="">
+                        <h3 class="hover-block__heading">Barclays ATP World Tour Finals <i class="icon icon__add"></i></h3>
+                        <p class="hover-block__paragraph">Banking on Change is a partnership between Plan UK, CARE International UK and Barclays that aims to help around 400,000 people in 11 countries.</p>
+                    </a>
+                </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+<!-- HOVER BLOCK THREE UP ENDS -->

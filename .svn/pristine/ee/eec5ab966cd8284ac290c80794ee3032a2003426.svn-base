@@ -1,0 +1,171 @@
+
+<!-- HOVER BLOCK FOUR UP BEGINS -->
+<div class="hover-block">
+    <div class="hover-block__container ">
+        <div class="carousel-grid__header">
+            <!-- add 'hidden' class to hide -->
+            <h2 class="carousel-grid__title">Meet our people</h2>
+            <a href="#" class="carousel-grid__link--header">View all</a>
+        </div>
+        <div class="carousel-grid__hover-block" data-type="4">
+            <div class="slides hover-block__four_up">
+                <article class="hover-block__item">
+                    <div class="hover-block__image">
+                        <a href="">
+                            <img src="http://placehold.it/590x332" data-interchange="
+                                [http://placehold.it/230x129, (default)],
+                                [http://placehold.it/365x205, (medium)],
+                                [http://placehold.it/590x332, (large)]" alt="">
+                        </a>
+                    </div>
+                    <div class="hover-block__desc">
+                        <!-- note: we're wrapping all the content in a link to give a larger clickable area (this is valid html) -->
+                        <!-- please let us know if this will cause issues in CQ5 and we'll provide an alterna -->
+                        <a href="">
+                            <h3 class="hover-block__heading">Building young futures <i class="icon icon__add"></i></h3>
+                            <p class="hover-block__paragraph">Banking on Change is a partnership between Plan UK, CARE International.</p>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- NOTE: additonal class added on items with no revealed content -->
+                <article class="hover-block__item hover-block__item--no-hover">
+                    <div class="hover-block__image">
+                        <a href="">
+                            <img src="http://placehold.it/590x332" data-interchange="
+                                [http://placehold.it/230x129, (default)],
+                                [http://placehold.it/365x205, (medium)],
+                                [http://placehold.it/590x332, (large)]" alt="">
+                        </a>
+                    </div>
+                    <div class="hover-block__desc">
+                        <a href="">
+                            <h3 class="hover-block__heading">Building young futures <i class="icon icon__add"></i></h3>
+                            <!-- <p class="hover-block__paragraph">Banking on Change is a partnership between Plan UK, CARE International.</p> -->
+                        </a>
+                    </div>
+                </article>
+
+                <article class="hover-block__item">
+                    <div class="hover-block__image">
+                        <a href="">
+                            <img src="http://placehold.it/590x332" data-interchange="
+                                [http://placehold.it/230x129, (default)],
+                                [http://placehold.it/365x205, (medium)],
+                                [http://placehold.it/590x332, (large)]" alt="">
+                        </a>
+                    </div>
+                    <div class="hover-block__desc">
+                        <a href="">
+                            <h3 class="hover-block__heading">Building young futures <i class="icon icon__add"></i></h3>
+                            <p class="hover-block__paragraph">Banking on Change is a partnership between Plan UK, CARE International.</p>
+                        </a>
+                    </div>
+                </article>
+                <article class="hover-block__item">
+                    <div class="hover-block__image">
+                        <a href="">
+                            <img src="http://placehold.it/590x332" data-interchange="
+                                [http://placehold.it/230x129, (default)],
+                                [http://placehold.it/365x205, (medium)],
+                                [http://placehold.it/590x332, (large)]" alt="">
+                        </a>
+                    </div>
+                    <div class="hover-block__desc">
+                        <a href="">
+                            <h3 class="hover-block__heading">Building young futures <i class="icon icon__add"></i></h3>
+                            <p class="hover-block__paragraph">Banking on Change is a partnership between Plan UK, CARE International.</p>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="hover-block__item">
+                    <div class="hover-block__image">
+                        <a href="">
+                            <img src="http://placehold.it/590x332" data-interchange="
+                                [http://placehold.it/230x129, (default)],
+                                [http://placehold.it/365x205, (medium)],
+                                [http://placehold.it/590x332, (large)]" alt="">
+                        </a>
+                    </div>
+                    <div class="hover-block__desc">
+                        <a href="">
+                            <h3 class="hover-block__heading">Building young futures <i class="icon icon__add"></i></h3>
+                            <p class="hover-block__paragraph">Banking on Change is a partnership between Plan UK, CARE International.</p>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="hover-block__item">
+                    <div class="hover-block__image">
+                        <a href="">
+                            <img src="http://placehold.it/590x332" data-interchange="
+                                [http://placehold.it/230x129, (default)],
+                                [http://placehold.it/365x205, (medium)],
+                                [http://placehold.it/590x332, (large)]" alt="">
+                        </a>
+                    </div>
+                    <div class="hover-block__desc">
+                        <a href="">
+                            <h3 class="hover-block__heading">Building young futures <i class="icon icon__add"></i></h3>
+                            <p class="hover-block__paragraph">Banking on Change is a partnership between Plan UK, CARE International.</p>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="hover-block__item">
+                    <div class="hover-block__image">
+                        <a href="">
+                            <img src="http://placehold.it/590x332" data-interchange="
+                                [http://placehold.it/230x129, (default)],
+                                [http://placehold.it/365x205, (medium)],
+                                [http://placehold.it/590x332, (large)]" alt="">
+                        </a>
+                    </div>
+                    <div class="hover-block__desc">
+                        <a href="">
+                            <h3 class="hover-block__heading">Building young futures <i class="icon icon__add"></i></h3>
+                            <p class="hover-block__paragraph">Banking on Change is a partnership between Plan UK, CARE International.</p>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="hover-block__item">
+                    <div class="hover-block__image">
+                        <a href="">
+                            <img src="http://placehold.it/590x332" data-interchange="
+                                [http://placehold.it/230x129, (default)],
+                                [http://placehold.it/365x205, (medium)],
+                                [http://placehold.it/590x332, (large)]" alt="">
+                        </a>
+                    </div>
+                    <div class="hover-block__desc">
+                        <a href="">
+                            <h3 class="hover-block__heading">Building young futures <i class="icon icon__add"></i></h3>
+                            <p class="hover-block__paragraph">Banking on Change is a partnership between Plan UK, CARE International.</p>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="hover-block__item">
+                    <div class="hover-block__image">
+                        <a href="">
+                            <img src="http://placehold.it/590x332" data-interchange="
+                                [http://placehold.it/230x129, (default)],
+                                [http://placehold.it/365x205, (medium)],
+                                [http://placehold.it/590x332, (large)]" alt="">
+                        </a>
+                    </div>
+                    <div class="hover-block__desc">
+                        <a href="">
+                            <h3 class="hover-block__heading">Building young futures <i class="icon icon__add"></i></h3>
+                            <p class="hover-block__paragraph">Banking on Change is a partnership between Plan UK, CARE International.</p>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class="carousel__controls-wrapper"><div class="carousel-grid__controls carousel-grid__controls-4"></div></div>
+        </div>
+    </div>
+</div>
+<!-- HOVER BLOCK FOUR UP ENDS -->

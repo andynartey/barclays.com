@@ -1,0 +1,81 @@
+// SHARE, EMAIL, PRINT MODULE
+/* --------------------------------------*/
+
+.share-tools-1 {
+    display: none;
+}
+@media #{$small} {
+    .share-tools-1 {
+        display: block;
+    }
+    .share-tools-2 {
+        display: none;
+    }
+}
+.share-tools {
+    @include grid-column(12);
+    padding-top: em-calc(15);
+    padding-bottom: em-calc(10);
+    border-bottom: 4px solid #e5e5e5;
+}
+.share-tools__heading {
+    @extend .hide-for-medium-up;
+    @include grid-column(12);
+    h2 {
+        color: $gray;
+        font-size: em-calc(22);
+        margin-bottom: em-calc(10);
+    }
+}
+.share-tools__body {
+    @include grid-column(12);
+    padding-left: 0;
+    position: absolute;
+    &.fixed {
+        top: 100px;
+        width: auto;
+        position: fixed;
+    }
+    &.absolute {
+    }
+    .share-tools__list {
+        @include block-grid(3);
+    }
+    .btn__social {
+        display: block;
+        color: #8c8c8c;
+        font-family: $header-font-family-regular;
+        // img, span {
+        //     display: block;
+        //     margin: 0 auto;
+        // }
+        // span {
+        //     text-align: center;
+        // }
+    }
+}
+.share-tools__list {
+    list-style: none;
+    margin-left: -4px;
+}
+@media #{$small} {
+    .share-tools {
+        @include grid-column(1);
+        // position: absolute;
+        // left: em-calc(10);
+        border: none;
+        // top: 320px;
+    }
+    .share-tools__body {
+        width: auto;
+        .share-tools__list {
+            @include block-grid(1);
+        }
+        .share-tools__list-item {
+            margin-bottom: 2.1em;
+            // &:last-child {
+            //     margin-bottom: 0;
+            // }
+        }
+    }
+}

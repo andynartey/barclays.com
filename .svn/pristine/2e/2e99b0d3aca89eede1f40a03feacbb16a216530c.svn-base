@@ -1,0 +1,24 @@
+@import "bourbon/bourbon";
+// Global Foundation Settings
+@import "base/settings";
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+@import "foundation/components/grid-5";
+@import "base/block-grid-5";
+
+@import "base/lt-ie9-foundation-grid";
+
+
+// MEGA MENU
+
+.lt-ie9 {
+    .menu-intro, .menu-links, .menu-promo {
+        margin-top: 20px;
+    }
+
+    .mega-content .row {
+        width: 100%;
+        max-width: 75em;
+        margin: 0 auto;
+    }
+}

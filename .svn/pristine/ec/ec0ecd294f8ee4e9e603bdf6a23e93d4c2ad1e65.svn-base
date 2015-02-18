@@ -1,0 +1,28 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+	<div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+		        <h1>Disclaimer lightbox examples</h1>
+
+                <p><a href="" class="disclaimer-alert" data-mfp-src="/modules/containers/disclaimer-copy.html">Disclaimer Alert</a> - Sets cookie on acceptance</p>
+
+                <p><a href="http://www.google.com" class="disclaimer-redirect" data-mfp-src="/modules/containers/disclaimer-copy-redirect.html">Re-direct Disclaimer</a></p>
+
+                <p><a href="javascript:eraseCookie('AcceptDisclaimer');">Remove cookie acceptance</a> when testing other pages (refresh after)</p>
+			</div>
+
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+    <script>
+    function eraseCookie(name) {
+        $.removeCookie(name, { path: '/' });
+    }
+    </script>
+
+</body>
+</html>

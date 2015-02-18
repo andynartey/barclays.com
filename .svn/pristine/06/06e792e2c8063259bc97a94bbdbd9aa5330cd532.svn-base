@@ -1,0 +1,63 @@
+// ====================================================
+// LINK BLOCKS MODULE
+// ====================================================
+
+.link-blocks {
+    padding-bottom: em-calc(20);
+    @include clearfix;
+    .first {
+        border-top: $border-style;
+    }
+
+    @media #{$small} {
+        background: $gray-bkgnd;
+        padding-top: em-calc(20);
+        padding-bottom: em-calc(30);
+        .first {
+            border-top: none;
+        }
+    }
+}
+
+.link-blocks__item {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(12);
+        margin-bottom: em-calc(20);
+    }
+
+    @media #{$medium} {
+        @include grid-column(4);
+    }
+}
+
+.link-blocks__content {
+    background: #fefefe;
+}
+
+.link-blocks__link {
+    @extend .hide-for-small;
+}
+
+.link-blocks__heading {
+    margin-bottom: 0;
+    border-bottom: $border-style;
+    a {
+        display: block;
+        padding: em-calc(13 0);
+    }
+
+    @media #{$small} {
+        border: none;
+        a {
+            padding: em-calc(10 15);
+        }
+    }
+}
+
+.link-blocks__paragraph {
+    @extend .hide-for-small;
+    padding: em-calc(0 30 20);
+    margin-bottom: 0;
+}

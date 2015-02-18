@@ -1,0 +1,352 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container">
+
+        <!--#include virtual="../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../includes/site-chrome/main-navigation.html"-->
+
+        <div class="row">
+            <div class="col__full-width">
+                <div class="text-image">
+                    <p>Hello, I'm some text outside the column control module.</p>
+                </div>
+                <!-- 2 columns (50% each) - START -->
+                <div class="column-control-container__50">
+
+                    <div class="column-control__6">
+                        <h2>2 columns (50% each)</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                        </p>
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+
+                        <h3>Document Group</h3>   
+                            <!--#include virtual="/includes/story-chrome/document-group.html"-->
+
+                            <!--#include virtual="/includes/story-chrome/document-group-past.html"-->
+
+                            <!--#include virtual="/includes/story-chrome/document-group-generic.html"-->
+
+                            <!--#include virtual="/includes/story-chrome/document-group-horizontal-line.html"-->
+
+                        <h3>Link and Blurb</h3> 
+                            <!--#include virtual="/includes/products-services/our-products.html"-->
+                    </div>
+
+                    <div class="column-control__6">
+                        <h2>2 columns (50% each)</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                        </p>
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+
+                        <h3>Document Group</h3>
+                            <!--#include virtual="/includes/story-chrome/document-group.html"-->
+
+                            <!--#include virtual="/includes/story-chrome/document-group-past.html"-->
+
+                            <!--#include virtual="/includes/story-chrome/document-group-generic.html"-->
+
+                            <!--#include virtual="/includes/story-chrome/document-group-horizontal-line.html"-->
+
+                        <h3>Link and Blurb</h3> 
+                            <!--#include virtual="/includes/products-services/our-products.html"-->
+
+                    </div>
+                </div>
+                <!-- 2 columns (50% each) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (50% each - collapses in tablet/mobile) - START -->
+                <div class="column-control-container__50--collapse">
+
+                    <div class="column-control__6">
+                        <!--#include virtual="/includes/link-module.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+
+                    <div class="column-control__6">
+                        <!--#include virtual="/includes/lists/link-list.html"-->
+                        <!--#include virtual="/includes/story-chrome/list-item.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+                </div>
+                <!-- 2 columns (50% each - collapses in tablet/mobile) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (50% each - collapses in mobile only) - START -->
+                <div class="column-control-container__50--collapse-mobile">
+
+                    <div class="column-control__6">
+                        <!--#include virtual="/includes/blockquote.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+
+                    <div class="column-control__6">
+                        <!--#include virtual="/includes/containers/carousel.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+                </div>
+                <!-- 2 columns (50% each - collapses in mobile only) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 3 columns (33.3% each) - START -->
+                <div class="column-control-container__33">
+                    <div class="column-control__4">
+                        <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                        
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+
+                    <div class="column-control__4">
+                        <!--#include virtual="/includes/cross-promo-image-top.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+
+                    <div class="column-control__4">
+                        <!--#include virtual="/includes/text-image.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+                </div>
+                <!-- 3 columns (33.3% each) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 4 columns (25% each) - START -->
+                <div class="column-control-container__25">
+                    <div class="column-control__3">
+                        <!--#include virtual="/includes/selected-tweet.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+
+                    <div class="column-control__3">
+                        <!--#include virtual="/includes/story-chrome/document-download.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+
+                    <div class="column-control__3">
+                        <!--#include virtual="/includes/story-chrome/bullet-list.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+
+                    <div class="column-control__3">
+                        <!--#include virtual="/includes/story-chrome/bullet-list-no-heading.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+                </div>
+                <!-- 4 columns (25% each) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (25/75) - START -->
+                <div class="column-control-container__25-75">
+                    <div class="column-control__75">
+                        <!--#include virtual="/includes/contact-us/tabbed-content-example.html"-->
+                        <!--#include virtual="/includes/story-chrome/link-blocks-3-up-small-image.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+
+                            <!-- Multi Office filter -->
+                            <!--#include virtual="/includes/contact-us/multi-office-filter.html"-->
+                    </div>
+                    <div class="column-control__25">
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+                </div>
+                <!-- 2 columns (25/75) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (25/75) - START -->
+                <div class="column-control-container__25-75">
+                    <div class="column-control__75">
+                        <!--#include virtual="/includes/ir/table-xy-horizontal-line.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+                    <div class="column-control__25">
+
+                        <h3>Spacers</h3>
+                                <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+                </div>
+                <!-- 2 columns (25/75) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (75/25) - START -->
+                <div class="column-control-container__75-25">
+                    <div class="column-control__75">
+                        <!--#include virtual="/includes/containers/carousel.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+                    <div class="column-control__25">
+                        <!--#include virtual="/includes/text-image.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+                </div>
+                <!-- 2 columns (75/25) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (75/25) - START -->
+                <div class="column-control-container__75-25">
+                    <div class="column-control__75">
+                        <!--#include virtual="/includes/containers/dropdown-container.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+                    <div class="column-control__25">
+                        <h3>iframe</h3>
+                        <!--#include virtual="/includes/containers/iframe.html"-->
+
+                        <h3>Spacers</h3>
+                            <!--#include virtual="/includes/miscellaneus/spacers.html"-->
+                    </div>
+                </div>
+                <!-- 2 columns (75/25) - END -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 4 columns (25% each) - START -->
+                <div class="column-control-container__25">
+                    <div class="column-control__3">
+                        <!--#include virtual="/includes/containers/story-highlights.html"-->
+                    </div>
+
+                    <div class="column-control__3">
+                        <!--#include virtual="/includes/containers/story-highlights2.html"-->
+                    </div>
+
+                    <div class="column-control__3">
+                        <!--#include virtual="/includes/containers/story-highlights.html"-->
+                    </div>
+
+                    <div class="column-control__3">
+                        <!--#include virtual="/includes/containers/story-highlights2.html"-->
+                    </div>
+                </div>
+                <!-- 4 columns (25% each) - END -->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (75/25) - START -->
+                <div class="column-control-container__75-25">
+                    <div class="column-control__75">
+                        <!-- START VIDEO EMBED CODE -->
+                            <script src="//www.media.barclays.co.uk/player/player.ashx?mode=accessible&id=160714-6680180&autostart=n&enablesharing=y&showrelated=y&width=604&height=340"></script>
+                            <!-- END VIDEO EMBED CODE -->
+                    </div>
+                    <div class="column-control__25">
+                        <h2>Donut chart (narrow)</h2>
+                        <div class="donut-chart-narrow"></div>
+                    </div>
+                </div>
+                <!-- 2 columns (75/25) - END -->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- 2 columns (75/25) - START -->
+                <div class="column-control-container__75-25">
+                    <div class="column-control__75">
+                        <h2>Donut chart</h2>
+                            <div class="donut-chart"></div>
+                            <br/>
+                            <br/>
+                            <h2>Bar chart</h2>
+                            <div class="bar-chart"></div>
+                            <br/>
+                            <br/>
+                            <h2>Line chart</h2>
+                            <div class="line-chart"></div>
+                    </div>
+                    <div class="column-control__25">
+
+                    </div>
+                </div>
+                <!-- 2 columns (75/25) - END -->
+
+            </div>
+        </div>
+
+    </div> <!-- END .site-container -->
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

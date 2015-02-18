@@ -1,0 +1,20 @@
+<div class="download download-feature">
+	<div class="download-feature__content">
+	    <h3 class="download-title">
+	    	New Entrepreneurship Plans launched
+		</h3>
+	    <img src="http://placehold.it/110x62" data-interchange="
+	        [http://placehold.it/110x62, (default)],
+	        [http://placehold.it/221x124, (medium)]" alt="">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipis cing raesent mattis magna.
+		</p>
+		<p class="download-link">
+	    	<a href="">
+	    		<i class="icon icon__down"><span class="visuallyhidden">download link</span></i> 
+	    		Entrepreneurship Plan 2014 
+	    		<span class="download-details">(PDF - 1.5MB)</span>
+	    	</a>
+	    </p>
+    </div>
+</div>

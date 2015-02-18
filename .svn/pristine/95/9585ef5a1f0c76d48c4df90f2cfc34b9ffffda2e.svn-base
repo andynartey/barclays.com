@@ -1,0 +1,317 @@
+<!-- Main Navigation -->
+<nav class="main-nav">
+    <div class="row">
+        <div class="mega-menu js-mega-menu">
+            <ul class="mega-menu-list button-group">
+
+                <li class="news js-mega-item">
+                    <a href="" class="js-mega-link">News</a>
+                    <div class="mega-content js-mega-content">
+                        <div class="row">
+                            <div class="menu-intro">
+                                <h1>News</h1>
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a href="">Go to News</a>
+                            </div>
+                            <div class="menu-links">
+                                <ul class="side-nav">
+                                    <li class="third-level-link">
+                                        <a href="">Community</a>
+                                        <ul class="third-level-nav side-nav">
+                                            <li><a href="">Community</a></li>
+                                            <li><a href="">Supporting individuals</a></li>
+                                            <li><a href="">Increasing access</a></li>
+                                            <li><a href="">Supporting businesses</a></li>
+                                            <li><a href="">Helping institutions</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Growth</a></li>
+                                    <li><a href="">Environment</a></li>
+                                    <li><a href="">Risk</a></li>
+                                    <li class="third-level-link">
+                                        <a href="">Diversity</a>
+                                        <ul class="third-level-nav side-nav">
+                                            <li><a href="">Diversity</a></li>
+                                            <li><a href="">Supporting individuals</a></li>
+                                            <li><a href="">Increasing access</a></li>
+                                            <li><a href="">Supporting businesses</a></li>
+                                            <li><a href="">Helping institutions</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Human Rights</a></li>
+                                    <li><a href="">Around the world</a></li>
+                                    <li><a href="">Our programs</a></li>
+                                    <li><a href="">Our partners</a></li>
+                                    <li class="third-level-link">
+                                        <a href="">Our approach</a>
+                                        <ul class="third-level-nav side-nav">
+                                            <li><a href="">Our approach</a></li>
+                                            <li><a href="">Supporting individuals</a></li>
+                                            <li><a href="">Increasing access</a></li>
+                                            <li><a href="">Supporting businesses</a></li>
+                                            <li><a href="">Helping institutions</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu-promo">
+                                <ul class="slides">
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="aboutUs js-mega-item">
+                    <a href="" class="js-mega-link">About us</a>
+                    <div class="mega-content js-mega-content">
+                        <div class="row">
+                            <div class="menu-intro">
+                                <h1>About us</h1>
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a href="">Go to About us</a>
+                            </div>
+                            <div class="menu-links">
+                                <ul class="side-nav">
+                                    <li><a href="">Community</a></li>
+                                    <li><a href="">Growth</a></li>
+                                    <li><a href="">Environment</a></li>
+                                    <li><a href="">Risk</a></li>
+                                    <li><a href="">Diversity</a></li>
+                                    <li><a href="">Human Rights</a></li>
+                                    <li><a href="">Around the world</a></li>
+                                    <li><a href="">Our programs</a></li>
+                                    <li><a href="">Our partners</a></li>
+                                    <li><a href="">Our approach</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-promo">
+                                <ul class="slides">
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="ir js-mega-item">
+                    <a href="" class="js-mega-link">Investor Relations</a>
+                    <div class="mega-content js-mega-content">
+                        <div class="row">
+                            <div class="menu-intro">
+                                <h1>Investor relations</h1>
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a href="">Go to Investor relations</a>
+                            </div>
+                            <div class="menu-links">
+                                <ul class="side-nav">
+                                    <li><a href="">Community</a></li>
+                                    <li><a href="">Growth</a></li>
+                                    <li><a href="">Environment</a></li>
+                                    <li><a href="">Risk</a></li>
+                                    <li><a href="">Diversity</a></li>
+                                    <li><a href="">Human Rights</a></li>
+                                    <li><a href="">Around the world</a></li>
+                                    <li><a href="">Our programs</a></li>
+                                    <li><a href="">Our partners</a></li>
+                                    <li><a href="">Our approach</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-promo">
+                                <ul class="slides">
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="citizenship js-mega-item">
+                    <a href="" class="js-mega-link">Citizenship</a>
+                    <div class="mega-content js-mega-content">
+                        <div class="row">
+                            <div class="menu-intro">
+                                <h1>Citizenship</h1>
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a href="">Go to Citizenship</a>
+                            </div>
+                            <div class="menu-links">
+                                <ul class="side-nav">
+                                    <li><a href="">Community</a></li>
+                                    <li><a href="">Growth</a></li>
+                                    <li><a href="">Environment</a></li>
+                                    <li><a href="">Risk</a></li>
+                                    <li><a href="">Diversity</a></li>
+                                    <li><a href="">Human Rights</a></li>
+                                    <li><a href="">Around the world</a></li>
+                                    <li><a href="">Our programs</a></li>
+                                    <li><a href="">Our partners</a></li>
+                                    <li><a href="">Our approach</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-promo">
+                                <ul class="slides">
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="careers js-mega-item">
+                    <a href="" class="js-mega-link">Careers</a>
+                    <div class="mega-content js-mega-content">
+                        <div class="row">
+                            <div class="menu-intro">
+                                <h1>Careers</h1>
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a href="">Go to Careers</a>
+                            </div>
+                            <div class="menu-links">
+                                <ul class="side-nav">
+                                    <li><a href="">Community</a></li>
+                                    <li><a href="">Growth</a></li>
+                                    <li><a href="">Environment</a></li>
+                                    <li><a href="">Risk</a></li>
+                                    <li><a href="">Diversity</a></li>
+                                    <li><a href="">Human Rights</a></li>
+                                    <li><a href="">Around the world</a></li>
+                                    <li><a href="">Our programs</a></li>
+                                    <li><a href="">Our partners</a></li>
+                                    <li><a href="">Our approach</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-promo">
+                                <ul class="slides">
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                    <li>
+                                        <div class="imgHeadline">
+                                            <h3>Community</h3>
+                                            <img src="/images/meganav/placeholder.jpg" alt="">
+                                        </div>
+                                        <h4>Building Young Futures</h4>
+                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="large-3 columns">
+            <ul class="button-group right">
+                <li class="products-services"><a href="">Products and services</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

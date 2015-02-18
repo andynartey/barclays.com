@@ -1,0 +1,546 @@
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item--feature" data-storyteller-item>
+    <div class="storyteller__item__image">
+        <a href="/news-feature.html">
+            <h3>Feature</h3>
+            <img src="http://placehold.it/570x321" data-interchange="
+                [http://placehold.it/435x245, (default)],
+                [http://placehold.it/725x408, (medium)],
+                [http://placehold.it/570x321, (large)]" alt="">
+        </a>
+    </div>
+    <div class="storyteller__item__copy">
+        <h3>Banking on change</h3>
+        <h2><a href="/news-feature.html">Barclays recognised for social responsibility</a></h2>
+        <p class="date">13 Sep 2013, 13:00 BST</p>
+        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+        <p class="topics"><strong>Topics:</strong> Banking, Economy, Social Responsibility</p>
+    </div>
+</article>
+
+
+<article class="storyteller__item--feature" data-storyteller-item>
+    <div class="storyteller__item__image">
+        <a href="/news-feature.html">
+            <h3>Feature</h3>
+            <img src="http://placehold.it/570x321" data-interchange="
+                [http://placehold.it/435x245, (default)],
+                [http://placehold.it/725x408, (medium)],
+                [http://placehold.it/570x321, (large)]" alt="">
+            <span class="video-link"><span class="visuallyhidden">play link</span></span>
+        </a>
+    </div>
+    <div class="storyteller__item__copy">
+        <h3>Banking on change</h3>
+        <h2><a href="/news-feature.html">Barclays recognised for social responsibility</a></h2>
+        <p class="date">13 Sep 2013, 13:00 BST</p>
+        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+        <p class="topics"><strong>Topics:</strong> Banking, Economy, Social Responsibility</p>
+    </div>
+</article>
+
+<article class="storyteller__item twitter__single" data-storyteller-item>
+    <div class="single">
+        <div class="storyteller__item__copy">
+            <div class="twitter__single__title">
+                <i class="icon icon__twitter"><span class="visuallyhidden">twitter</span></i>
+                <h3>Barclays UK News <a href="">@Barclays</a></h3>
+            </div>
+            <div class="twitter__single__feed">
+                <p>We are pleased to confirm that Barclays will participate in the Help to Buy mortgage guarantee scheme <a href="">#helptobuy</a> <a href="">#mortgage</a></p>
+                <p class="time">11 mins ago</p>
+            </div>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+                <span class="video-link"><span class="visuallyhidden">play link</span></span>
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+
+        </div>
+        <div class="storyteller__item__copy">
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item--feature" data-storyteller-item>
+    <div class="storyteller__item__image">
+        <a href="/news-feature.html">
+            <h3>Feature</h3>
+            <img src="http://placehold.it/570x321" data-interchange="
+                [http://placehold.it/435x245, (default)],
+                [http://placehold.it/725x408, (medium)],
+                [http://placehold.it/570x321, (large)]" alt="">
+        </a>
+    </div>
+    <div class="storyteller__item__copy">
+        <h3>Banking on change</h3>
+        <h2><a href="/news-feature.html">Barclays recognised for social responsibility</a></h2>
+        <p class="date">13 Sep 2013, 13:00 BST</p>
+        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+        <p class="topics"><strong>Topics:</strong> Banking, Economy, Social Responsibility</p>
+    </div>
+</article>
+
+
+<article class="storyteller__item--feature" data-storyteller-item>
+    <div class="storyteller__item__image">
+        <a href="/news-feature.html">
+            <h3>Feature</h3>
+            <img src="http://placehold.it/570x321" data-interchange="
+                [http://placehold.it/435x245, (default)],
+                [http://placehold.it/725x408, (medium)],
+                [http://placehold.it/570x321, (large)]" alt="">
+        </a>
+    </div>
+    <div class="storyteller__item__copy">
+        <h3>Banking on change</h3>
+        <h2><a href="/news-feature.html">Barclays recognised for social responsibility</a></h2>
+        <p class="date">13 Sep 2013, 13:00 BST</p>
+        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+        <p class="topics"><strong>Topics:</strong> Banking, Economy, Social Responsibility</p>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item--feature" data-storyteller-item>
+    <div class="storyteller__item__image">
+        <a href="/news-feature.html">
+            <h3>Feature</h3>
+            <img src="http://placehold.it/570x321" data-interchange="
+                [http://placehold.it/435x245, (default)],
+                [http://placehold.it/725x408, (medium)],
+                [http://placehold.it/570x321, (large)]" alt="">
+        </a>
+    </div>
+    <div class="storyteller__item__copy">
+        <h3>Banking on change</h3>
+        <h2><a href="/news-feature.html">Barclays recognised for social responsibility</a></h2>
+        <p class="date">13 Sep 2013, 13:00 BST</p>
+        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+        <p class="topics"><strong>Topics:</strong> Banking, Economy, Social Responsibility</p>
+    </div>
+</article>
+
+
+
+<article class="storyteller__item--feature" data-storyteller-item>
+    <div class="storyteller__item__image">
+        <a href="/news-feature.html">
+            <h3>Feature</h3>
+            <img src="http://placehold.it/570x321" data-interchange="
+                [http://placehold.it/435x245, (default)],
+                [http://placehold.it/725x408, (medium)],
+                [http://placehold.it/570x321, (large)]" alt="">
+        </a>
+    </div>
+    <div class="storyteller__item__copy">
+        <h3>Banking on change</h3>
+        <h2><a href="/news-feature.html">Barclays recognised for social responsibility</a></h2>
+        <p class="date">13 Sep 2013, 13:00 BST</p>
+        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+        <p class="topics"><strong>Topics:</strong> Banking, Economy, Social Responsibility</p>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+
+
+<article class="storyteller__item--feature" data-storyteller-item>
+    <div class="storyteller__item__image">
+        <a href="/news-feature.html">
+            <h3>Feature</h3>
+            <img src="http://placehold.it/570x321" data-interchange="
+                [http://placehold.it/435x245, (default)],
+                [http://placehold.it/725x408, (medium)],
+                [http://placehold.it/570x321, (large)]" alt="">
+        </a>
+    </div>
+    <div class="storyteller__item__copy">
+        <h3>Banking on change</h3>
+        <h2><a href="/news-feature.html">Barclays recognised for social responsibility</a></h2>
+        <p class="date">13 Sep 2013, 13:00 BST</p>
+        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit praesent mattis pellent.</p>
+        <p class="topics"><strong>Topics:</strong> Banking, Economy, Social Responsibility</p>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>
+
+<article class="storyteller__item" data-storyteller-item>
+    <div class="row">
+        <div class="storyteller__item__image">
+            <a href="/news-article.html">
+                <img src="http://placehold.it/270x152" data-interchange="
+                    [http://placehold.it/172x97, (default)],
+                    [http://placehold.it/350x197, (medium)],
+                    [http://placehold.it/270x152, (large)]" alt="">
+            </a>
+        </div>
+        <div class="storyteller__item__copy">
+            <h3>Banking on change</h3>
+            <h2><a href="/news-article.html">Barclays recognised for social responsibility</a></h2>
+            <p class="date">13 Sep 2013, 13:00 BST</p>
+        </div>
+    </div>
+</article>

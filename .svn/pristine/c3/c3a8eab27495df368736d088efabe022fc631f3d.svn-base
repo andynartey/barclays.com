@@ -1,0 +1,35 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+
+    <div class="site-container">
+
+        <div class="content row">
+        	<h1>Link list (Title visible)</h1>
+        	<hr/>
+            <div class="small-12 medium-6 large-4">
+            	<!-- LINK LIST BEGINS -->
+                	<!--#include virtual="../../includes/lists/link-list.html"-->
+                <!-- LINK LIST ENDS -->
+            </div>
+        </div> 
+
+        <div class="content row">   
+            <h1>Link list (Title hidden)</h1>
+            <hr/>
+            <div class="small-12 medium-6 large-4">
+                <!-- LINK LIST BEGINS -->
+                	<!--#include virtual="../../includes/lists/link-list-without-title.html"-->
+                <!-- LINK LIST ENDS -->
+
+            </div>
+
+        </div>
+
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

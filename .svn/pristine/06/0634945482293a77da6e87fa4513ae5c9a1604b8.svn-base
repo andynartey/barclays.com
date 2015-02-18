@@ -1,0 +1,161 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+
+    <!--#include file="includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__news-article">
+
+        <!--#include file="includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include file="includes/site-chrome/logo-banner.html"-->
+
+        <!--#include file="includes/site-chrome/main-navigation.html"-->
+
+        <div class="row__full-bleed">
+            <!-- empty parsys -->
+        </div>
+
+        <div class="row">
+
+            <section class="col__news-article--main">
+
+                <div class="row">
+                    <section class="col__news-article--header">
+                        <a href="" class="link__page-parent">News</a>
+                        <h1>Taking one small step into the night for charity</h1>
+                        <p class="news-article-date">30 Jul 2013, 15:30 BST</p>
+                    </section>
+                </div>
+
+                <div class="row">
+                    <div class="col__social">
+                        <!-- share links 1 -->
+                        <div class="share-tools-1">
+                            <!--#include virtual="includes/story-chrome/share-tools.html"-->
+                        </div>
+                    </div>
+
+                    <section class="col__news-article--top__content">
+
+                        <div class="image__with-caption">
+                            <img src="http://placehold.it/770x433" data-interchange="
+                                [http://placehold.it/435x245, (default)],
+                                [http://placehold.it/600x338, (medium)],
+                                [http://placehold.it/770x433, (large)]" alt="hero">
+
+                            <p>The walk started and finished at Tower Bridge</p>
+                        </div>
+
+                        <p class="news-article__standfirst">Barclays, UNICEF and UK broadcaster Heart radio’s Have a Heart charity are inviting Barclays staff and customers to join a sponsored night walk in London on Wednesday, 21 September.</p>
+
+                        <p class="news-article__paragraph">Barclays, UNICEF and UK broadcaster Heart radio’s Have a Heart charity are inviting Barclays customers to join a sponsored night walk in London on Wednesday, 21 September.</p>
+
+                        <blockquote class="news-article__blockquote">In 2012, 800 people took part in the walk, following a 10km route across central London past some of the city's iconic landmarks.</blockquote>
+
+                        <p class="news-article__paragraph">Online registration for the <a href="">Take One Small Step Into The Night</a> event opens on Monday, 18 July for Barclays customers, employees and their friends and family.</p>
+
+                        <p class="news-article__paragraph">Funds raised from the walk will go towards transforming the lives of children in the UK and around the world by providing education and improving. </p>
+
+                        <div class="article-item--left">
+                            <!--#include file="includes/story-chrome/event-summary.html"-->
+                        </div>
+
+                        <p class="news-article__paragraph">In 2012, 800 people took part in the walk, following a 10-kilometre route across central London past some of the city's iconic landmarks.</p>
+
+                        <p class="news-article__paragraph">Participants raised more than £60,000, which went towards healthcare and education projects for children in London and Rwanda. Take One Small Step Into from Potters Fields Park by Tower Bridge. Refreshments and entertainment will be provided along the route. Funds raised from the walk will go towards transforming the lives of children in the UK and around the world by providing education and improving.</p>
+
+                        <div class="news-article__callToAction">
+                            <a href="">Find out how to register</a>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="row">
+                    <section class="col__news-article--full__width">
+                        <!-- empty parsys -->
+                    </section>
+                </div>
+
+
+                <div class="row">
+                    <section class="col__news-article--content">
+                        <!-- empty parsys -->
+                    </section>
+                </div>
+
+                <div class="row">
+                    <section class="col__news-article--full__width">
+                        <!-- empty parsys -->
+                    </section>
+                </div>
+
+                <div class="row">
+                    <section class="col__news-article--content">
+                        <!-- empty parsys -->
+                    </section>
+                </div>
+
+                <div class="row">
+                    <section class="col__news-article--content">
+                        <!-- empty parsys -->
+                    </section>
+                </div>
+
+                <div class="row">
+                    <section class="col__news-article--content">
+
+                        <!-- Topics 1 -->
+                        <div class="topics-1">
+                            <!--#include file="includes/story-chrome/tags.html"-->
+                        </div>
+
+                        <!-- share links 2 -->
+                        <div class="share-tools-2">
+                            <!--#include virtual="includes/story-chrome/share-tools.html"-->
+                        </div>
+
+                    </section>
+                </div>
+
+                <div class="row">
+                    <section class="col__news-article--full__width">
+                        <!--#include file="includes/story-chrome/prev-next-stories.html"-->
+                    </section>
+                </div>
+
+                <div class="row">
+                    <section class="col__news-article--full__width">
+                        <!--#include file="includes/story-chrome/related-content.html"-->
+                    </section>
+                </div>
+            </section>
+
+            <aside class="col__news-article--sidebar">
+
+                <!-- Topics 2 -->
+                <div class="topics-2">
+                    <!--#include file="includes/story-chrome/tags.html"-->
+                </div>
+
+                <div class="show-for-large-up">
+
+                    <!--#include file="includes/story-chrome/latest-news.html"-->
+
+                    <!--#include file="includes/story-chrome/cross-promotion.html"-->
+
+                    <!--#include file="includes/story-chrome/cross-promotion.html"-->
+
+                </div>
+
+            </aside>
+
+        </div>
+
+        <!--#include file="includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include file="includes/javascripts.html"-->
+
+</body>
+</html>

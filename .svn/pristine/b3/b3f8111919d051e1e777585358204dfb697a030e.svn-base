@@ -1,0 +1,80 @@
+
+<div class="carousel-grid">
+    <h2 class="carousel-grid__mainHeading">Programmes and projects</h2>
+
+    <div class="slides">
+
+        <li class="carousel-grid__panel">
+
+            <article class="carousel-grid__panel__item">
+                <div class="carousel-grid__image">
+                    <img src="http://placehold.it/590x245" data-interchange="
+                        [http://placehold.it/230x140, (default)],
+                        [http://placehold.it/365x220, (medium)],
+                        [http://placehold.it/590x245, (large)]" alt="">
+                </div>
+                <div class="carousel-grid__desc">
+                    <h3 class="carousel-grid__heading"><a href="">Banking on Change</a></h3>
+                    <div class="carousel-grid__copy">
+                        <p class="carousel-grid__paragraph">Banking on Change is a partnership between Plan UK, CARE International UK and Barclays that aims to help around 400,000 people in 11 countries.</p>
+                        <a class="carousel-grid__link" href="">Find out more about the programme</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="carousel-grid__panel__item">
+                <div class="carousel-grid__image">
+                    <img src="http://placehold.it/590x245" data-interchange="
+                        [http://placehold.it/230x140, (default)],
+                        [http://placehold.it/365x220, (medium)],
+                        [http://placehold.it/590x245, (large)]" alt="">
+                </div>
+                <div class="carousel-grid__desc">
+                    <h3 class="carousel-grid__heading"><a href="">Building young futures</a></h3>
+                    <div class="carousel-grid__copy">
+                        <p class="carousel-grid__paragraph">Banking on Change is a partnership between Plan UK, CARE International UK and Barclays that aims to help around 400,000 people in 11 countries.</p>
+                        <a class="carousel-grid__link" href="">Find out more about the programme</a>
+                    </div>
+                </div>
+            </article>
+
+        </li>
+
+        <li class="carousel-grid__panel">
+
+            <article class="carousel-grid__panel__item">
+                <div class="carousel-grid__image">
+                    <img src="http://placehold.it/590x245" data-interchange="
+                        [http://placehold.it/230x140, (default)],
+                        [http://placehold.it/365x220, (medium)],
+                        [http://placehold.it/590x245, (large)]" alt="">
+                </div>
+                <div class="carousel-grid__desc">
+                    <h3 class="carousel-grid__heading"><a href="">Barclays Spaces for Sport</a></h3>
+                    <div class="carousel-grid__copy">
+                        <p class="carousel-grid__paragraph">Banking on Change is a partnership between Plan UK, CARE International UK and Barclays that aims to help around 400,000 people in 11 countries.</p>
+                        <a class="carousel-grid__link" href="">Find out more about the programme</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="carousel-grid__panel__item">
+                <div class="carousel-grid__image">
+                    <img src="http://placehold.it/590x245" data-interchange="
+                        [http://placehold.it/230x140, (default)],
+                        [http://placehold.it/365x220, (medium)],
+                        [http://placehold.it/590x245, (large)]" alt="">
+                </div>
+                <div class="carousel-grid__desc">
+                    <h3 class="carousel-grid__heading"><a href="">You can be</a></h3>
+                    <div class="carousel-grid__copy">
+                        <p class="carousel-grid__paragraph">Banking on Change is a partnership between Plan UK, CARE International UK and Barclays that aims to help around 400,000 people in 11 countries.</p>
+                        <a class="carousel-grid__link" href="">Find out more about the programme</a>
+                    </div>
+                </div>
+            </article>
+
+        </li>
+
+    </div>
+</div>

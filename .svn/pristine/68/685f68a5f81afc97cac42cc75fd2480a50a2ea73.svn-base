@@ -1,0 +1,44 @@
+// ====================================================
+// TOOL TIPS
+// ====================================================
+
+.has-tip {
+	font-weight: normal;
+	border-bottom: none;
+	font-size: em-calc(18);
+	&:hover {
+		border-bottom: none;
+	}
+}
+
+.tooltip {
+	border-radius: $global-radius;
+	border: 4px solid rgba(140, 140, 140, 0.3);
+	box-shadow: 0 0 10px rgba(#8c8c8c,.4);
+	width: em-calc(40);
+	max-width: em-calc(460);
+	padding: em-calc(25);
+	// Site container uses a z-index of 2010
+	z-index: 2011;
+	@media #{$small} {
+		width: em-calc(290);
+		max-width: em-calc(350);
+		padding: em-calc(25);
+	}
+}
+
+.tap-to-close {
+	padding-top: 10px;
+}
+
+.lt-ie9 {
+	.tooltip {
+		border: 4px solid #8c8c8c;
+		padding: 5px;
+	}
+}
+
+// .nub {
+// 	border-radius: $global-radius;
+// 	border: 4px solid rgba(140, 140, 140, 0.3);
+// }

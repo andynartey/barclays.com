@@ -1,0 +1,21 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+	<div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+		        <h1>Disclaimer lightbox examples</h1>
+
+                <p><a href="http://www.google.com" class="disclaimer-alert" data-mfp-src="/modules/containers/disclaimer-copy.html">Disclaimer Alert</a> - Sets cookie on acceptance</p>
+
+                <p><a href="http://www.google.com" class="disclaimer-redirect" data-mfp-src="/modules/containers/disclaimer-copy-redirect.html">Re-direct Disclaimer</a></p>
+			</div>
+
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

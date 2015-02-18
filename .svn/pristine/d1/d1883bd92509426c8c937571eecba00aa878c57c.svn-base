@@ -1,0 +1,176 @@
+// Online banking
+.online-banking {
+	.column-control-container__33,
+	.online-banking_wrapper {
+		@include grid-row(0);
+		margin-top: em-calc(30);
+		margin-bottom: em-calc(20);
+		@media #{$medium} {
+			margin-top: 0;
+			padding-bottom: em-calc(20);
+		}
+	}
+	.online-banking_wrapper {
+		.online-banking_title {
+			@media #{$medium} {
+				@include grid-column(4);
+				padding-left: 0;
+			}
+		}
+	}
+	.online-banking_link-switcher {
+		@media #{$medium} {
+			@include grid-column(8);
+			padding-left: 0;
+			.content-switcher {
+				padding-left: 0;
+				padding-right: 0;
+				.js-contentSwitcher, 
+				.links-list {
+					margin-top: 0;
+					margin-bottom: 0;
+				}
+			}
+		}
+		.content-switcher {
+			.js-contentSwitcher {
+				@include grid-row(0);
+				// margin-top: em-calc(20);
+				.icon {
+					float: right;
+					@media #{$small} {
+						float: initial;
+					}
+				}
+			}
+			@media #{$small} {
+				border-top: none;
+				padding-top: 0;
+			}
+		}
+	}
+	.online-banking_title {
+		h2 {
+			font-family: $header-font-family;
+			font-size: em-calc(22);
+			@media #{$small} {
+				font-size: em-calc(30);
+			}
+			@media #{$medium} {
+				font-size: em-calc(36);
+			}
+			color: $blue-darker;
+			margin-top: 0;
+		}
+		p {
+			margin-bottom: em-calc(60);
+		}
+	}
+	.online-banking_link-list {
+		h3 {
+			font-family: $header-font-family-regular;
+			font-size: em-calc(18);
+			color: $blue-darker;
+			@media #{$small} {
+				font-size: em-calc(28);
+			}
+		}
+	}
+	.content-switcher {
+		.js-contentSwitcher {
+			@include grid-row(0);
+			@include grid-column(12);
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+	.column-control__4 {
+		padding-left: 0;
+		padding-right: 0;
+		@media #{$medium} {
+			padding-left: em-calc(15);
+			padding-right: em-calc(15);
+		}
+	}
+}
+//Regular container
+.col__full-width {
+	.online-banking {
+		.column-control-container__33 {
+			@media #{$medium} {
+				.column-control__4 {
+					&.online-banking_title {
+						padding-left: 0;
+					}
+				}
+			}
+		}
+	}
+}
+// Full bleed container overiding styles
+.row__full-bleed {
+	.online-banking {
+		border-top: 1px solid $gray-rule;
+		background-color: $gray-bkgnd;
+	    padding-top: em-calc(30);
+	    .column-control-container__33,
+		.online-banking_wrapper {
+			margin-top: em-calc(10);
+			@media #{$medium} {
+				margin-top: 0;
+			}
+		}
+	    &.online-banking-white-bg {
+	    	background-color: $white;
+	    	.online-banking_title {
+				padding-left: em-calc(15);
+				padding-right: em-calc(15);
+			}
+			.column-control__4 {
+				&.online-banking_title {
+					padding-left: 0;
+					padding-right: 0;
+					@media #{$medium} {
+						padding-left: em-calc(15);
+						padding-right: em-calc(15);
+					}
+				}
+			}
+			.online-banking_link-switcher {
+				@media #{$medium} {
+					padding-left: em-calc(5);
+				}
+			}
+	    }
+		.online-banking_title {
+			padding-left: 0;
+			padding-right: 0;
+			@media #{$medium} {
+				padding-left: em-calc(15);
+			}
+		}
+		.column-control-container__33, {
+			padding: em-calc(0 15 0);
+			@media #{$small} {
+				padding: em-calc(15 15 0);
+			}
+			@media #{$medium} {
+				padding-left: 0;
+				padding-right: 0;
+				padding-bottom: em-calc(20);
+			}
+		}
+		.content-switcher {
+				padding-left: em-calc(15);
+				padding-right: em-calc(15);
+				@media #{$medium} {
+					padding-left: 0;
+				}
+		}
+	}
+	
+}
+
+
+
+

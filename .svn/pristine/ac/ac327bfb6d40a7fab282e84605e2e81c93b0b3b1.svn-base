@@ -1,0 +1,14 @@
+// Client Stories
+
+.client-stories {
+	h2 {
+		font-size: em-calc(16);
+		font-family: $header-font-family-regular;
+		text-transform: uppercase;
+	}
+	h1 {
+		font-size: em-calc(26);
+		font-family: $header-font-family-regular;
+		color: $blue-darker;
+	}
+}

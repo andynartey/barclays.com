@@ -1,0 +1,12 @@
+<aside class="tags">
+    <div class="row">
+        <div class="tags__heading">
+            <h2>Topics</h2>
+        </div>
+        <div class="tags__body">
+            <p>
+                <a href="">Citizenship</a>, <a href="">Fundraising</a>, <a href="">Events</a>, <a href="">Education</a>
+            </p>
+        </div>
+    </div>
+</aside>

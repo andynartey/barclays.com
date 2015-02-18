@@ -1,0 +1,193 @@
+// ====================================================
+// GLOBAL FOOTER
+// ====================================================
+
+
+// MEGA FOOTER -- For use in Wide Screen Tablet/Desktop
+// ====================================================
+
+.mega-footer {
+    @extend .show-for-large-up;
+    color: $off-white;
+    background: $primary-color;
+    padding: em-calc(25 0);
+    h2 {
+        color: #fff;
+        margin-bottom: em-calc(15);
+    }
+    ul {
+        padding: 0;
+        font-size: 1em;
+    }
+    li {
+        margin-bottom: em-calc(15);
+        &:last-child {
+            margin-bottom: 0;
+        }
+        a {
+            color: $off-white;
+            font-size: em-calc(12);
+        }
+    }
+    .main-nav-footer {
+        font-family: $header-font-family;
+        a {
+            font-size: 1em;
+        }
+    }
+    .btn {
+        background: #fff;
+        color: $primary-color;
+        width: 100%;
+        margin-bottom: em-calc(10);
+        @include radius(5px);
+        border: 1px solid $primary-color;
+        padding: em-calc(13 20);
+        display: inline-block;
+        font-family: $header-font-family;
+        font-size: em-calc(14);
+    }
+    .banking {
+        background: #fff url(../images/icon-padlock-blue.png) no-repeat 10px center;
+        padding-left: em-calc(35);
+    }
+}
+.mega-footer__column {
+    @include grid-column(3);
+}
+
+.mega-footer__external-links {
+    @include grid-column(10);
+
+    @media #{$medium} {
+        @include grid-column(10, false, true);
+    }
+}
+
+
+
+// BOTTOM FOOTER
+// ====================================================
+.bottom-footer {
+    color: $off-white;
+    background: $primary-color;
+    ul {
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+    }
+    p {
+        font-size: em-calc(13);
+        margin: 0;
+        line-height: 1.9;
+    }
+
+    @media #{$medium} {
+        background: #0071a4;
+        padding: em-calc(20 0);
+        p {
+            text-align: right;
+            font-size: em-calc(11);
+        }
+    }
+}
+
+
+
+
+// BOTTOM FOOTER -- LINKS
+// ====================================================
+.bottom-footer__links {
+    @include grid-column(12);
+    margin-bottom: em-calc(15);
+    li {
+        margin: 0;
+        width: 50%;
+        float: left;
+        padding-right: em-calc(15);
+        a {
+            color: $off-white;
+            font-size: em-calc(15);
+            display: block;
+            padding-top: em-calc(10);
+            padding-bottom: em-calc(10);
+            border-bottom: 1px solid #0072a6;
+        }
+    }
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+
+    @media #{$medium} {
+        @include grid-column(10);
+        margin-bottom: 0;
+        li {
+            margin-right: em-calc(5);
+            padding-right: em-calc(5);
+            width: auto;
+            float: none;
+            a {
+                font-size: em-calc(12);
+                font-family: $body-font-family;
+                padding-top: 0;
+                padding-bottom: 0;
+                border-bottom: none;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+
+
+// BOTTOM FOOTER -- INFO
+// ====================================================
+.bottom-footer__info {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+
+    @media #{$medium} {
+        @include grid-column(2);
+    }
+}
+
+
+
+
+// BOTTOM FOOTER -- COPYRIGHT
+// ====================================================
+.bottom-footer__copyright {
+    @include grid-column(5);
+
+    @media #{$small} {
+        @include grid-column(5);
+    }
+
+    @media #{$medium} {
+        @include grid-column(12);
+    }
+}
+
+
+
+
+
+// SOCIAL LINKS
+// ====================================================
+
+.social-links--desktop {
+    margin-top: em-calc(20) !important;
+    @include block-grid(4);
+}
+
+.social-links--mobile {
+    @extend .show-for-medium-down;
+    @include grid-column(7);
+    ul {
+        @include block-grid(4);
+    }
+}

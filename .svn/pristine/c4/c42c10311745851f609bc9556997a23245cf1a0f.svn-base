@@ -1,0 +1,182 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+
+    <!--#include file="includes/site-chrome/mobile-nav.html"-->
+    <!--include file="includes/country-selector.html"-->
+
+    <div class="site-container">
+
+        <!--#include file="includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include file="includes/site-chrome/logo-banner.html"-->
+
+        <!--#include file="includes/site-chrome/main-navigation.html"-->
+
+
+        <!-- LEVEL 3 HEADING BEGINS -->
+        <div class="content row">
+            <div class="detail-wide">
+                <div class="row">
+                    <section class="main-content small-12 medium-12 large-12 columns">
+                        <!--#include virtual="/includes/containers/level-3-header.html"-->
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        </section>
+        <!-- LEVEL 3 HEADING ENDS -->
+        <div class="product-services__country-selection">
+
+            <div class="content row">
+
+                <section class="main-content small-12 columns">   
+                    <div class="js-country-selector">
+                        <h1 class="country-selector__heading">View products and services in:</h1>
+                        <ul id="accordion" class="country-selector__regions">
+                            <li>
+                                <h2 class="country-selector__title"><a href="#" title="">Europe</a></h2>
+                                <ul class="country-selector__region_list">
+                                    <li>
+                                        <div style="position: relative;">
+                                            <h3 class="country-selector__country_name"><a href="#" title="">Cyprus</a></h3>
+                                                <div class="input input__checkbox">
+                                                    <form action="#" class="custom">
+                                                        <a href="#" class="btn btn__small btn__secondary">Confirm change</a>
+                                                        <br/>
+                                                        <input type="checkbox" id="checkbox" class="hidden-field"><span class="custom checkbox"></span><label for="checkbox">Make this my default location</label>
+                                                        <br/><br/>
+                                                        <p>Current default location: <b>United Kingdom</b></p>
+                                                    </form>
+                                                </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div style="position: relative;">
+                                            <h3 class="country-selector__country_name"><a href="#">Denmark</a></h3>
+                                                 <div class="input input__checkbox">
+                                                        <form action="#" class="custom">
+                                                            <a href="#" class="btn btn__small btn__secondary">Confirm change</a>
+                                                            <br/>
+                                                            <input type="checkbox" id="checkbox" class="hidden-field"><span class="custom checkbox"></span><label for="checkbox">Make this my default location</label>
+                                                            <br/><br/>
+                                                            <p>Current default location: <b>Russia</b></p>
+                                                        </form>
+                                                    </div>
+                                            </div>    
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">France</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Germany</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Gibraltar</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Greece</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Italy</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Jersey</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Luxembourg</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Monaco</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Netherlands</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Norway</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Portugal</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Russia</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Spain</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Sweden</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">Switzerland</a></h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="country-selector__country_name"><a href="#">United Kingdom</a></h3>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h2 class="country-selector__title"><a href="#" class="" title="">Africa</a></h2>
+                                <ul class="country-selector__region_list">
+                                    <li><h3 class="country-selector__country_name"><a href="#">Botswana</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Ghana</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Israel</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Kenya</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Mauritius</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Mozambique</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Nigeria</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Qatar</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Saudi Arabia</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Seychelles</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">South Africa</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Tanzania</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">UAE</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Uganda</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Zambia</a></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Zimbabwe</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h2 class="country-selector__title"><a href="#" class="" title="">Asia Pacific</a></h2>
+                                <ul class="country-selector__region_list">
+                                    <li><h3 class="country-selector__country_name"><a href="#">Australia</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">China</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Hong Kong</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">India</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Indonesia</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Japan</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Malaysia</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Pakistan</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Philipenes</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Singapore</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">South Korea</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Taiwan</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Thailand</a></h3></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h2 class="country-selector__title"><a href="#" class="" title="">Americas</a></h2>
+                                <ul class="country-selector__region_list">
+                                    <li><h3 class="country-selector__country_name"><a href="#">Brazil</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Puerto Rico</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Canada</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">USA</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Cayman Islands</a></h3></li>
+                                    <li><h3 class="country-selector__country_name"><a href="#">Mexico</a></h3></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </section>         
+
+            </div>
+        </div>
+
+        <!--#include file="includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include file="includes/javascripts.html"-->
+
+</body>
+</html>

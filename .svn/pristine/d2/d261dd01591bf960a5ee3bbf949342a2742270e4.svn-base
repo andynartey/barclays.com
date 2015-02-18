@@ -1,0 +1,228 @@
+// ====================================================
+// SEARCH RESULTS
+// ====================================================
+
+
+// SEARCH RESULTS -- SEARCH FIELD
+// ====================================================
+
+.search-results__search-field {
+	@include clearfix;
+	position: relative;
+
+	.search-results__input {
+		width: 95%;
+		float: left;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		border-radius: $global-radius 0 0 $global-radius;
+		border: 1px solid $gray-btn-stroke;
+		border-right: none;
+		height: 44px;
+		font-size: em-calc(24);
+		font-family: $header-font-family;
+		color: $gray-info;
+		padding-top: 0;
+		padding-bottom: 0;
+
+		&:focus {
+			border-color: $gray-btn-stroke;
+	        box-shadow: none;
+	        outline: none;
+	        background: none;
+	    }
+	}
+
+	.search-results__submit {
+		width: 5%;
+		float: left;
+		background: none;
+		border-radius: 0 $global-radius $global-radius 0;
+		border: 1px solid $gray-btn-stroke;
+		border-left: none;
+		height: 44px;
+		position: relative;
+		z-index: 10;
+	}
+
+	.icon__search {
+		position: absolute;
+		top: em-calc(4);
+		right: em-calc(8);
+		z-index: 5;
+
+		&:after {
+			color: $gray-info;
+			font-size: em-calc(22);
+		}
+	}
+
+}
+
+
+// SEARCH RESULTS -- RECOMMENDED
+// ====================================================
+
+.search-results__recommended {
+	margin-top: em-calc(30);
+	margin-bottom: em-calc(55);
+
+	h2 {
+		font-size: em-calc(12);
+		font-family: $body-font-family;
+		color: $gray-info;
+		margin-bottom: em-calc(15);
+	}
+}
+
+.search-results__recommended__item {
+	@include grid-column(12);
+	background: $blue-bkgnd;
+	float: none;
+	padding-top: em-calc(15);
+	margin-bottom: em-calc(2);
+
+	h3 {
+		font-size: em-calc(18);
+		font-family: $header-font-family-regular;
+	}
+
+	p {
+		margin-bottom: 0;
+		padding-bottom: em-calc(15);
+	}
+
+	span {
+		color: $gray-info;
+	}
+}
+
+
+// SEARCH RESULTS -- FILTER
+// ====================================================
+
+.search-results__filter {
+	border-top: $border-style;
+}
+
+.search-results__filter__toggle {
+	@extend .storyteller__filter__toggle;
+}
+
+.search-results__filter__holder {
+	@extend .storyteller__filter__holder;
+}
+
+.search-results__filter__col {
+	@extend .storyteller__filter__col;
+
+	&:last-child {
+		display: block;
+	}
+
+	@media #{$medium} {
+		@include grid-column(4);
+		//padding-left: 0 !important;
+		//padding-right: 0 !important;
+
+		&:last-child {
+			float: left;
+		}
+	}
+}
+
+.search-results__filter__link {
+	@extend .storyteller__filter__link;
+}
+
+.search-results__filter__list {
+	@extend .storyteller__filter__list;
+}
+
+.search-results__filter__item {
+	@extend .storyteller__filter__item;
+}
+
+.search-results-filter-label {
+	@extend .storyteller-filter-label;
+}
+
+
+
+// SEARCH RESULTS -- RESULTS
+// ====================================================
+
+.search-results__results {
+	@extend .storyteller-list-view;
+	padding-bottom: em-calc(85);
+	border-top: $border-style;
+}
+
+.search-results__item {
+	@extend .storyteller__item;
+
+	@media #{$medium} {
+		width: 100% !important;
+	}
+}
+
+.search-results__item__image {
+	@extend .storyteller__item__image;
+	display: none;
+
+	@media #{$small} {
+		display: block;
+	}
+}
+
+.search-results__item__copy {
+	@extend .storyteller__item__copy;
+	@include grid-column(12);
+
+	.file {
+		color: #b2b2b2;
+	}
+}
+
+.search-results__more-stories {
+	@extend .storyteller__more-stories;
+}
+
+// SEARCH RESULTS -- NO RESULTS
+// ====================================================
+
+.search-results__no-results-suggestions {
+	background: $blue-bkgnd;
+	border: 1px solid $blue-border;
+	padding: em-calc(30 20 20);
+	margin-bottom: em-calc(85);
+
+	h2 {
+		color: $blue-darker;
+		margin-bottom: em-calc(10);
+	}
+}
+
+.search-results__helpful-links {
+	list-style: none;
+	margin-bottom: em-calc(30);
+
+	li {
+		margin-bottom: em-calc(5);
+	}
+
+	a {
+		font-family: $header-font-family-regular;
+		font-size: em-calc(18);
+	}
+}
+
+.search-results__suggestions {
+	list-style: inside;
+
+	li {
+		font-family: $header-font-family-regular;
+		font-size: em-calc(18);
+		margin-bottom: em-calc(5);
+	}
+}

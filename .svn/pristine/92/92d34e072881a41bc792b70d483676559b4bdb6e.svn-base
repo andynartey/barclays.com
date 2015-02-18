@@ -1,0 +1,193 @@
+// ====================================================
+// GLOBAL FOOTER
+// ====================================================
+
+
+// MEGA FOOTER -- For use in Wide Screen Tablet/Desktop
+// ====================================================
+
+.mega-footer {
+    @extend .show-for-large-up;
+    border-top: 1px solid $gray-rule;
+    color: $off-white;
+    background: $white;
+    padding: em-calc(25 0);
+}
+
+.mega-footer__column {
+    @include grid-column(3);
+
+    .links-list {
+        padding: 0;
+        font-size: em-calc(17);
+        list-style: none;
+        margin: 0;
+        border-top: none;
+
+        li {
+            margin-bottom: em-calc(10);
+            line-height: 1;
+            border: none;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            a {
+                color: $primary-color;
+                font-size: em-calc(12);
+                font-family: $body-font-family;
+                padding: 0;
+                line-height: 1.4;
+            }
+        }
+    }
+}
+
+.mega-footer__heading {
+    margin-bottom: em-calc(10);
+    font-size: em-calc(20);
+    color: $blue-headings;
+}
+
+.mega-footer__first-level {
+    .links-list {
+        font-size: em-calc(24);
+        padding: 0;
+        list-style: none;
+        margin: 0;
+        border-top: none;
+
+        li {
+            margin-bottom: em-calc(10);
+            line-height: 1;
+            border: none;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            a {
+                color: $primary-color;
+                font-size: em-calc(12);
+                padding: 0;
+                line-height: 1.4;
+                font-family: $header-font-family;
+            }
+        }
+    }
+}
+
+
+
+// BOTTOM FOOTER
+// ====================================================
+.bottom-footer {
+    color: $primary-color;
+    background: $white;
+    border-top: 1px solid $gray-rule;
+
+    @media #{$medium} {
+        padding-bottom: em-calc(15);
+        border: none;
+    }
+}
+
+.bottom-footer__links {
+    @include grid-column(12);
+    margin-bottom: em-calc(10);
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+
+    @media #{$medium} {
+        @include grid-column(9);
+        margin-bottom: 0;
+    }
+
+    .links-list {
+        @include clearfix;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+        border-top: none;
+
+        li {
+            margin: 0;
+            width: 50%;
+            float: left;
+            padding-right: em-calc(15);
+            border-bottom: none;
+
+            &:nth-child(even) {
+                padding-right: 0;
+            }
+
+            a {
+                color: $primary-color;
+                font-size: em-calc(12);
+                display: block;
+                padding-top: em-calc(10);
+                padding-bottom: em-calc(10);
+                border-bottom: 1px solid $gray-rule;
+                font-family: $body-font-family;
+            }
+
+            @media #{$medium} {
+                padding-right: em-calc(10);
+                width: auto;
+                float: left;
+
+                &:nth-child(even) {
+                    padding-right: em-calc(10);
+                }
+
+                a {
+                    font-size: em-calc(12);
+                    font-family: $body-font-family;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    border-bottom: none;
+                    display: inline-block;
+                    border-right: 1px solid $primary-color;
+                    line-height: 1;
+                    padding-right: em-calc(10);
+                }
+
+                &:last-child {
+                    a {
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bottom-footer__copyright {
+    @include grid-column(12);
+    padding-bottom: em-calc(15);
+
+    p {
+        font-size: em-calc(13);
+        margin: 0;
+        line-height: 1.9;
+        color: #b2b2b2;
+    }
+
+    @media #{$small} {
+        @include grid-column(5);
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+        padding-bottom: 0;
+
+        p {
+            font-size: em-calc(12);
+        }
+    }
+}
+

@@ -1,0 +1,340 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container">
+        <div class="row">
+            <div class="col__full-width">
+
+		        <h1>Grid container content examples</h1>
+
+                <h1>Adaptive image</h1>
+                <div class="grid-container grid-container-4">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">                            
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+                        </li>
+                    </ul>
+                </div>
+
+                <h1>Blockquote</h1>
+                <div class="grid-container grid-container-4">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/blockquote.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/blockquote.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/blockquote.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/blockquote.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/blockquote.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/blockquote.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/blockquote.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/blockquote.html"-->
+                        </li>
+                    </ul>
+                </div>
+                
+                <h1>Cross Promotion</h1>
+                <div class="grid-container grid-container-4">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/cross-promo-no-image.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/cross-promo-image-top.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/cross-promo-image-left.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/cross-promo-image-right.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/cross-promo-small-title.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/cross-promo-no-image.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/cross-promo-image-top.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/cross-promo-image-right.html"-->
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid-container grid-container-3">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/cross-promo-image-left.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/cross-promo-image-right.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/cross-promo-small-title.html"-->
+                        </li>
+                    </ul>
+                </div>
+                
+                <h1>Link</h1>
+                <div class="grid-container grid-container-4">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/link-module.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/link-module.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/link-module-external.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/link-module.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/link-module.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/link-module.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/link-module.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/link-module.html"-->
+                        </li>
+                    </ul>
+                </div>
+
+                <h1>Links list</h1>
+                <div class="grid-container grid-container-4">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/lists/link-list.html"-->
+                        </li>
+                    </ul>
+                </div>
+
+                <h1>List item</h1>
+                <div class="grid-container grid-container-4">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/list-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/list-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/list-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/list-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/list-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/list-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/list-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/story-chrome/list-item.html"-->
+                        </li>
+                    </ul>
+                </div>
+
+                <h1>Text image</h1>
+                <div class="grid-container grid-container-4">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <div class="text-image">
+                                <h1>H1 - Expert Sans Light</h1>
+                            </div>
+                        </li>
+                        <li class="grid-container-item">
+                            <div class="text-image">
+                                <h1>H1 - Expert Sans Light</h1>
+                            </div>
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/text-image.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <div class="text-image">
+                                <h1>H1 - Expert Sans Light</h1>
+                            </div>
+                        </li>
+                        <li class="grid-container-item">
+                            <div class="text-image">
+                                <h1>H1 - Expert Sans Light</h1>
+                            </div>
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="/includes/text-image.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <div class="text-image">
+                                <h1>H1 - Expert Sans Light</h1>
+                            </div>
+                        </li>
+                        <li class="grid-container-item">
+                            <div class="text-image">
+                                <h1>H1 - Expert Sans Light</h1>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <h1>Image gallery</h1>
+                <div class="grid-container grid-container-2">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                             <!--#include virtual="/includes/containers/image-gallery.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                             <!--#include virtual="/includes/containers/image-gallery.html"-->
+                        </li>
+                    </ul>
+                </div>
+                
+                <h1>Document Download</h1>
+                <div class="grid-container grid-container-4">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/story-chrome/document-download-1-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/story-chrome/document-download-1-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/story-chrome/document-download-1-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/story-chrome/document-download-1-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/story-chrome/document-download-1-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/story-chrome/document-download-1-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/story-chrome/document-download-1-item.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/story-chrome/document-download-1-item.html"-->
+                        </li>
+                    </ul>
+                </div>
+
+                <h1>External link disclaimer</h1>
+                <p>Add here once made</p>
+
+                <h1>Selected tweet</h1>
+                <div class="grid-container grid-container-4">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/selected-tweet.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/selected-tweet.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/selected-tweet.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/selected-tweet.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/selected-tweet.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/selected-tweet.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/selected-tweet.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/selected-tweet.html"-->
+                        </li>
+                    </ul>
+                </div>
+
+                <h1>Document group</h1>
+                <div class="grid-container grid-container-2">
+                    <ul class="grid-container-wrapper equal-heights" data-equal-heights-target="grid-container-item">
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/story-chrome/document-group.html"-->
+                        </li>
+                        <li class="grid-container-item">
+                            <!--#include virtual="../../includes/story-chrome/document-group-past.html"-->
+                        </li>
+                    </ul>
+                </div>
+
+	        </div>
+        </div>
+    </div> <!-- END .siteContainer -->
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

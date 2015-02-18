@@ -1,0 +1,51 @@
+ <nav class="jump-to-nav">
+
+    <div class="jump-to-nav__links">
+    	<div class="jump-to-nav__col">
+    		<span class="jump-to-nav-banner"></span>
+	        <a href="" class="jump-to-nav-toggle">
+	        	<span class="jump-to-nav-toggle__title">Quick links</span>
+	        	<span class="jump-to-nav-toggle__pos-title"></span>
+	        	<i class="icon icon__chevron icon__chevron-down"></i>
+	        	<i class="icon icon__chevron icon__chevron-up"></i>
+	        </a>
+	    </div>
+        <a href="" class="jump-to-nav-bkToTop"><i class="icon icon__arrow-up"></i></a>
+		    <ul class="jump-to-nav__items">
+		    	<!-- li tag is only in html if selected by content author -->
+		        <li class="jump-to-nav__item">
+		            <a href="#article1" class="jump-to-nav__link">Introduction</a>
+		        </li>
+		        <li class="jump-to-nav__item">
+		            <a href="#article2" class="jump-to-nav__link">Image gallery</a>
+		        </li>
+		        <li class="jump-to-nav__item">
+		            <a href="#article3" class="jump-to-nav__link">Project background</a>
+		        </li>
+		        <li class="jump-to-nav__item">
+		            <a href="#article4" class="jump-to-nav__link">Key stats and results</a>
+		        </li>
+		        <li class="jump-to-nav__item">
+		            <a href="#article5" class="jump-to-nav__link">Making a difference</a>
+		        </li>
+		        <li class="jump-to-nav__item">
+		            <a href="#article6" class="jump-to-nav__link">Other section</a>
+		        </li>
+		        <li class="jump-to-nav__item">
+		            <a href="#article7" class="jump-to-nav__link">Lorem</a>
+		        </li>
+		        <li class="jump-to-nav__item">
+		            <a href="#article8" class="jump-to-nav__link">Ipsum</a>
+		        </li>
+		        <li class="jump-to-nav__item">
+		            <a href="#article9" class="jump-to-nav__link">Dolor</a>
+		        </li>
+		        <li class="jump-to-nav__item">
+		            <a href="#article10" class="jump-to-nav__link">Sit amet</a>
+		        </li>
+		    </ul>
+    </div>
+
+    <!-- <hr /> -->
+
+</nav>

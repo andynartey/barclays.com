@@ -1,0 +1,5 @@
+.content-switcher {
+    @include grid-column(12);
+    padding-left: 0;
+    margin-bottom: em-calc(30);
+}

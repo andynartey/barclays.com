@@ -1,0 +1,37 @@
+<div class="accordion__content_frame row hide-for-small">
+    <div class="medium-12 columns">
+        <h3 class="accordion__product_title">Our Products</h3>
+        <ul class="large-block-grid-2 our__products">
+          <li>
+            <a href="#" title="" class="button-container link-style">Mortgages 
+                <i class="icon icon__external-link"></i>
+            </a>
+            <p>If you’re planning to buy a new home, we have a range of mortgages to help meet your needs</p>
+          </li>
+          <li>
+            <a href="#" title="" class="button-container link-style">Loans 
+                <i class="icon icon__external-link"></i>
+            </a>
+            <p>If you’re looking for support  buying a car or a dream purchase, our personal loans could help</p>
+          </li>
+          <li>
+            <a href="#" title="" class="button-container link-style">Insurance 
+                <i class="icon icon__external-link"></i>
+            </a>
+            <p>We can provide cover for the things you care about – your home, your family and your well-being</p>
+          </li>
+          <li>
+            <a href="#" title="" class="button-container link-style">Banks accounts 
+                <i class="icon icon__external-link"></i>
+            </a>
+            <p>We offer basic current accounts and others packed with extra benefits for an extra monthly fee</p>
+          </li>
+          <li>
+            <a href="#" title="" class="button-container link-style">Investments & ISAs 
+                <i class="icon icon__external-link"></i>
+            </a>
+            <p>We offer a range of savings accounts, whether you’re looking for easy access or want to put your cash away </p>
+          </li>
+        </ul>
+    </div>
+</div>

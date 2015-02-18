@@ -1,0 +1,67 @@
+<section class="promo-list">
+
+    <article class="promo-list__item">
+        <div class="row">
+            <div class="promo-list__item__info">
+                <h3>Category</h3>
+                <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+            <div class="promo-list__item__image">
+                <a href=""><img src="http://placehold.it/185x104" data-interchange="
+                [http://placehold.it/125x70, (default)],
+                [http://placehold.it/235x132, (medium)],
+                [http://placehold.it/185x104, (large)]" alt="Step into the Night" class="right"></a>
+            </div>
+        </div>
+    </article>
+
+    <article class="promo-list__item">
+        <div class="row">
+            <div class="promo-list__item__info">
+                <h3>Category</h3>
+                <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+            <div class="promo-list__item__image">
+                <a href=""><img src="http://placehold.it/185x104" data-interchange="
+                [http://placehold.it/125x70, (default)],
+                [http://placehold.it/235x132, (medium)],
+                [http://placehold.it/185x104, (large)]" alt="Step into the Night" class="right"></a>
+            </div>
+        </div>
+    </article>
+
+    <article class="promo-list__item">
+        <div class="row">
+            <div class="promo-list__item__info">
+                <h3>Category</h3>
+                <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+            <div class="promo-list__item__image">
+                <a href=""><img src="http://placehold.it/185x104" data-interchange="
+                [http://placehold.it/125x70, (default)],
+                [http://placehold.it/235x132, (medium)],
+                [http://placehold.it/185x104, (large)]" alt="Step into the Night" class="right"></a>
+            </div>
+        </div>
+    </article>
+
+    <article class="promo-list__item">
+        <div class="row">
+            <div class="promo-list__item__info">
+                <h3>Category</h3>
+                <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+            <div class="promo-list__item__image">
+                <a href=""><img src="http://placehold.it/185x104" data-interchange="
+                [http://placehold.it/125x70, (default)],
+                [http://placehold.it/235x132, (medium)],
+                [http://placehold.it/185x104, (large)]" alt="Step into the Night" class="right"></a>
+            </div>
+        </div>
+    </article>
+
+</section>

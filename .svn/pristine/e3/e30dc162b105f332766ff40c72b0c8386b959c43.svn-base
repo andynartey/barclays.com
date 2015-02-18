@@ -1,0 +1,139 @@
+// ====================================================
+// NEWS ARTICLES
+// ====================================================
+
+.news-article {
+    padding-bottom: em-calc(15);
+    border-bottom: $border-style;
+    @include clearfix;
+}
+
+
+// NEWS ARTICLE -- TITLE
+// ====================================================
+.news-article__title {
+    @include grid-column(12);
+    h3 {
+        text-transform: uppercase;
+        font-family: $header-font-family-regular;
+    }
+    h1 {
+        color: $blue-darker;
+        font-size: em-calc(28);
+        line-height: 1.2;
+    }
+    .date {
+        color: #8c8c8c;
+    }
+
+    @media #{$small} {
+        @include grid-column(13, false, false, -1);
+
+        h1 {
+            font-size: em-calc(48);
+        }
+    }
+}
+
+.news-article-date {
+    color: #8c8c8c;
+}
+
+
+
+// NEWS ARTICLE -- HERO
+// ====================================================
+.news-article__hero {
+    @include grid-column(12);
+    margin-bottom: em-calc(20);
+
+    @media #{$small} {
+        //@include grid-column(11, false, false, 1);
+    }
+}
+
+
+
+// NEWS ARTICLE -- BODY
+// ====================================================
+.news-article__body {
+    @include grid-column(12);
+
+    @media #{$small} {
+        //@include grid-column(11, false, false, 1);
+    }
+}
+
+.news-article__standfirst {
+    font-size: em-calc(18);
+    font-family: $header-font-family;
+    margin-bottom: em-calc(15);
+    line-height: 1.4;
+
+    @media #{$small} {
+        font-size: em-calc(22);
+    }
+}
+
+.news-article__paragraph {
+
+    @media #{$small} {
+        font-size: em-calc(14);
+        line-height: 2;
+    }
+}
+
+
+.news-article__blockquote {
+    font-family: $header-font-family;
+    font-size: em-calc(20);
+    quotes: "\201C""\201D""\2018""\2019";
+    &:before, &:after {
+        color: #ccc;
+        font-size: em-calc(40);
+        line-height: 0.1em;
+    }
+    &:before {
+        content: open-quote;
+        margin-right: 0.20em;
+        vertical-align: -0.4em;
+    }
+    &:after {
+        content: close-quote;
+        bottom: -22px;
+        margin-left: 0.20em;
+        position: relative;
+    }
+
+    @media #{$small} {
+        @include grid-column(13, false, false, -1, false, false, false, false);
+        font-size: em-calc(24);
+        line-height: 1.6;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+// NEWS ARTICLE -- CALL TO ACTION
+// ====================================================
+.news-article__body__callToAction {
+    p {
+        font-weight: bold;
+    }
+
+    @media #{$small} {
+        p {
+            font-weight: normal;
+            font-family: $header-font-family;
+            font-size: em-calc(24);
+            margin-bottom: em-calc(15);
+        }
+    }
+}
+
+
+
+
+

@@ -1,0 +1,105 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__news-article">
+
+        <!--#include virtual="../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../includes/site-chrome/main-navigation.html"-->
+
+        <div class="row row__full-bleed">
+
+            <div class="dummy-module dummy-module__example">
+                <div class="dummy-module__content">
+                    <p><strong>Full bleed row.</strong> Hero goes here.</p>
+                    <img src="http://placehold.it/1170x250" data-interchange="
+                        [http://placehold.it/480x144, (default)],
+                        [http://placehold.it/768x230, (medium)],
+                        [http://placehold.it/1170x350, (large)]" alt="" />
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col__news-article-main">
+                <div class="row">
+                    <div class="col__social"></div>
+                    <div class="col__news-article-header">
+                        <a href="#" class="link__page-parent"><i class="icon icon__chevron icon__chevron-left"></i>Link to parent page</a>
+
+                        <h1>News article template</h1>
+
+                        <p class="news-article-date">30 Jul 2013, 15:30 BST</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col__social">
+
+                        <p>Social icons</p>
+
+                    </div>
+                    <div class="col__news-article-content">
+
+                        <p>
+                            <strong>Full width row.</strong> Any number of modules can be added to this parsys column. Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                        </p>
+                        <blockquote class="news-article__blockquote">
+                            In 2012,&nbsp;800 people took part in the walk, following a 10km route across central London past some of the city's iconic landmarks.
+                        </blockquote>
+                        <p>
+                            Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                        </p>
+                        <!-- other modules added here -->
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col__social"></div>
+                    <div class="col__news-article-full-width">
+
+                        <p>
+                            <strong>Full width.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col__news-article-sidebar">
+
+                <p>
+                    <strong>Topics.</strong>
+                </p>
+                <p>
+                    <strong>Latest news.</strong>
+                </p>
+                <p>
+                    <strong>Parsys.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <img src="http://placehold.it/768x230" data-interchange="
+                    [http://placehold.it/480x144, (default)],
+                    [http://placehold.it/768x230, (medium)]" alt="" />
+                <p>
+                    Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+
+            </div>
+        </div>
+
+        <!--#include virtual="../includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .site-container -->
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

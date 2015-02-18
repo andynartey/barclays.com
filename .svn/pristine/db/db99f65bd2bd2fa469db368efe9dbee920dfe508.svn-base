@@ -1,0 +1,29 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container template__news-article">
+        <div class="row">
+            <div class="col__full-width">
+
+                <div class="template_col-1">&nbsp;</div>
+
+                <div class="template_col-8">
+                    <div class="row">
+                        <div class="col__news-article--content">
+                                <div class="article-item--left">
+                                    <!--#include virtual="../../includes/story-chrome/event-summary.html"-->
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="template_col-3">&nbsp;</div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

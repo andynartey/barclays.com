@@ -1,0 +1,204 @@
+// ====================================================
+// NEWS FEATURE MODULE
+// ====================================================
+
+.news-feature {
+    //@include grid-column(12);
+
+    @media #{$small} {
+        //@include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        //@include grid-column(8);
+        margin-bottom: em-calc(20);
+        padding-top: em-calc(20);
+    }
+
+}
+
+
+
+
+
+// NEWS FEATURE -- TITLE
+// ====================================================
+.news-feature__title {
+    @include grid-column(12);
+    h3 {
+        text-transform: uppercase;
+        font-family: $header-font-family-regular;
+    }
+    h1 {
+        color: $blue-darker;
+        font-size: em-calc(28);
+        line-height: 1.2;
+    }
+    .date {
+        color: #8c8c8c;
+    }
+
+    @media #{$small} {
+        @include grid-column(13, false, false, -1);
+
+        h1 {
+            font-size: em-calc(48);
+        }
+    }
+
+    @media #{$medium} {
+        h3 {
+            margin-left: em-calc(-17);
+            &:before {
+                @include icon-font($icon-chevron-left);
+                font-size: em-calc(14);
+                margin-right: em-calc(5);
+            }
+        }
+    }
+}
+
+
+// NEWS FEATURE -- BODY
+// ====================================================
+.news-feature__body {
+    @include grid-column(12);
+
+    h2 {
+        font-size: em-calc(22);
+        color: $blue-darker;
+        font-family: $header-font-family-regular;
+    }
+
+    @media #{$small} {
+        //@include grid-column(11, false, false, 1);
+    }
+}
+
+.news-feature__standfirst {
+    font-size: em-calc(18);
+    font-family: $header-font-family;
+    margin-bottom: em-calc(15);
+    line-height: 1.4;
+
+    @media #{$small} {
+        font-size: em-calc(22);
+    }
+}
+
+.news-feature__paragraph {
+
+    @media #{$small} {
+        font-size: em-calc(14);
+        line-height: 2;
+    }
+}
+
+@media #{$small} {
+    .news-feature__heading2 {
+        font-size: em-calc(28);
+    }
+}
+
+
+// NEWS FEATURE -- BLOCKQUOTE
+// ====================================================
+
+.news-feature__blockquote {
+    margin-bottom: em-calc(20);
+
+    @media #{$small} {
+        @include grid-column(12, false, false, -1);
+        padding-left: 0;
+    }
+
+    @media #{$medium} {
+        @include grid-column(13, false, false, -1.75);
+        padding: 0;
+    }
+}
+
+.news-feature__quote {
+    font-family: $header-font-family;
+    font-size: em-calc(20);
+    quotes: "\201C""\201D""\2018""\2019";
+    display: block;
+    margin-bottom: 0;
+    &:before, &:after {
+        color: #ccc;
+        font-size: em-calc(40);
+        line-height: 0.1em;
+    }
+    &:before {
+        content: open-quote;
+        margin-right: em-calc(2);
+        vertical-align: -0.4em;
+    }
+    &:after {
+        content: close-quote;
+        bottom: -22px;
+        margin-left: em-calc(2);
+        position: relative;
+    }
+
+    @media #{$medium} {
+        font-size: em-calc(24);
+        line-height: 1.6;
+    }
+}
+
+.news-feature__cite {
+    font-style: normal;
+    font-size: em-calc(12);
+    color: $blue-darker;
+    display: block;
+    margin-top: em-calc(20);
+}
+
+.news-feature__blockquote--narrow {
+    @extend .news-feature__blockquote;
+
+    @media #{$small} {
+        text-align: left;
+        @include grid-column(6, false, false, -1);
+        padding-left: 0;
+    }
+
+    @media #{$medium} {
+        @include grid-column(6, false, false, -1.75);
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+
+.hero-wide {
+    @include grid-column(12);
+    margin-bottom: em-calc(15);
+}
+
+
+
+.supplementry-info {
+    background: $blue-bkgnd;
+    padding: em-calc(20 15 10);
+    margin-bottom: em-calc(20);
+    border-top: 7px solid $blue-border;
+}
+
+.supplementry-info__heading {
+    font-family: $header-font-family-regular;
+    color: $blue-darker;
+    font-size: em-calc(22);
+    margin-bottom: em-calc(15);
+}
+
+.supplementry-info__body {
+    img {
+        display: block;
+        margin-bottom: em-calc(20);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

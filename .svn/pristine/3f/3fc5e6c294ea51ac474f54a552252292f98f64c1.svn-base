@@ -1,0 +1,17 @@
+<!-- PRODUCTS AND SERVICES HERO IMAGE -->
+<!-- USE IN THE PRODUCTS-AND-SERVICES.HTML FILE -->
+<section class="main-content small-12 medium-12 large-12 columns">
+    <div class="product-links__hero">
+        <div class="aperture__content">
+            <img data-interchange=" [images/products-services/graduate-medium.jpg, (default)], 
+                                    [images/products-services/graduate-large.jpg, (large)]" alt="" >
+        </div>
+        <div class="product-links__hero_text">
+            <h1>Products and services</h1>
+
+            <p>
+                Barclays is a major global financial services provider engaged in personal banking, credit cards, corporate and investment banking and wealth management
+            </p>
+        </div>
+    </div>
+</section>

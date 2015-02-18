@@ -1,0 +1,68 @@
+<!-- Site Footer -->
+<footer class="mega-footer" data-sticky="end">
+    <div class="row">
+
+        <nav class="mega-footer__column">
+            <ul class="mega-footer__list--firstlevel">
+                <li class="mega-footer__item"><a href="">News</a></li>
+                <li class="mega-footer__item"><a href="">About us</a></li>
+                <li class="mega-footer__item"><a href="">Investor relations</a></li>
+                <li class="mega-footer__item"><a href="">Citizenship</a></li>
+                <li class="mega-footer__item"><a href="">Careers</a></li>
+            </ul>
+        </nav>
+
+        <nav class="mega-footer__column">
+            <h2 class="mega-footer__heading">Results and reports</h2>
+
+            <ul class="mega-footer__list">
+                <li class="mega-footer__item"><a href="">Barclays PLC Annual Report 2012 (PDF 2.1 MB)</a></li>
+                <li class="mega-footer__item"><a href="">2013 Interim Results and Leverage Plan</a></li>
+                <li class="mega-footer__item"><a href="">All financial reports</a></li>
+            </ul>
+        </nav>
+
+        <nav class="mega-footer__column">
+            <h2 class="mega-footer__heading">Press and media</h2>
+
+            <ul class="mega-footer__list">
+                <li class="mega-footer__item"><a href="">Media centre</a></li>
+                <li class="mega-footer__item"><a href="">Press releases</a></li>
+                <li class="mega-footer__item"><a href="">RSS feeds</a></li>
+                <li class="mega-footer__item"><a href="">Barclays on social media</a></li>
+            </ul>
+        </nav>
+
+        <nav class="mega-footer__column">
+            <h2 class="mega-footer__heading">Other links</h2>
+
+            <ul class="mega-footer__list">
+                <li class="mega-footer__item"><a href="">Online banking</a></li>
+                <li class="mega-footer__item"><a href="">Products and services</a></li>
+                <li class="mega-footer__item"><a href="">Contact us</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</footer>
+
+<footer class="bottom-footer">
+    <div class="row">
+
+        <nav class="bottom-footer__links">
+            <ul class="bottom-footer__list">
+                <li class="bottom-footer__item"><a href="">Media centre</a></li>
+                <li class="bottom-footer__item"><a href="">Sitemap</a></li>
+                <li class="bottom-footer__item"><a href="">Terms &amp; Conditions</a></li>
+                <li class="bottom-footer__item"><a href="">Important information</a></li>
+                <li class="bottom-footer__item"><a href="">Privacy policy</a></li>
+                <li class="bottom-footer__item"><a href="">Cookie policy</a></li>
+            </ul>
+        </nav>
+
+        <div class="bottom-footer__copyright">
+            <p>&copy; Barclays 2013</p>
+        </div>
+
+    </div>
+</footer>

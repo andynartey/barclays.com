@@ -1,0 +1,119 @@
+// ====================================================
+// TABS
+// ====================================================
+
+.tabs {
+
+}
+
+.tabs--secondary {
+    @extend .tabs;
+    padding: em-calc(20 0);
+    background: $gray-bkgnd;
+}
+
+.tabs__container {
+    padding: em-calc(0 15);
+    @include grid-row();
+}
+
+// TABS -- SECTION
+// ====================================================
+.tabs-section {
+    &:last-child {
+        border-bottom: $border-style;
+    }
+}
+
+// TABS -- MAIN HEADING
+// ====================================================
+.tabs__mainHeading {
+    font-size: em-calc(22);
+    color: $blue-darker;
+    font-family: $header-font-family-regular;
+    margin-bottom: em-calc(15);
+}
+
+// TABS -- TITLE
+// ====================================================
+.tabs__title {
+    @include linear-gradient(to top, $gray-bkgnd, $white);
+    padding: em-calc(15 10);
+    border: $border-style;
+    border-bottom: none;
+    position: relative;
+
+    &:after {
+        @include icon-font($icon-plus);
+        position: absolute;
+        right: em-calc(15);
+    }
+}
+
+.active {
+    .tabs__title {
+        @include linear-gradient(#14a0db, $primary-color);
+
+        &:after {
+            @include icon-font($icon-minus);
+            color: #fff;
+        }
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+// TABS -- CONTENT
+// ====================================================
+.tabs__content {
+    @include grid-row();
+    background: #fff;
+
+    .detail-two-col {
+        padding: 0;
+    }
+
+    .promo-list {
+        padding: 0;
+    }
+
+    .promo-list__item {
+        padding: 0;
+    }
+
+    .promo-list__item__info {
+        @include grid-column(12);
+        padding: em-calc(0);
+        border-left: $border-style;
+        border-right: $border-style;
+    }
+
+    .promo-list__item__heading {
+        margin-bottom: 0;
+        a {
+            padding: em-calc(10);
+            display: block;
+            font-size: em-calc(14);
+            position: relative;
+
+            &:after {
+                @include icon-font($icon-chevron-right);
+                position: absolute;
+                right: em-calc(10);
+            }
+        }
+    }
+
+    .promo-list__item__paragraph {
+        @extend .hide-for-small;
+    }
+
+    .promo-list__item__image {
+        @extend .hide-for-small;
+    }
+}
+
+
+

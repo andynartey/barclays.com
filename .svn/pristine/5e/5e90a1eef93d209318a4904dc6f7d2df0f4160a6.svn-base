@@ -1,0 +1,25 @@
+@mixin image-label($fontsize, $padding) {
+    position: absolute;
+    background: $primary-color;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: $fontsize;
+    padding: $padding;
+    font-family: $header-font-family;
+}
+
+// ICONS
+@mixin icon-font($font) {
+  font-family: 'Icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  content: $font;
+
+  // Better Font Rendering ===========
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

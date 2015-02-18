@@ -1,0 +1,57 @@
+// Client Stories
+
+.client-stories {
+	margin-bottom: em-calc(20);
+
+	h1 {
+		font-size: em-calc(26);
+		font-family: $header-font-family-regular;
+		color: $blue-darker;
+	}
+	h2 {
+		font-size: em-calc(16);
+		font-family: $header-font-family-regular;
+		text-transform: uppercase;
+	}
+	.client-stories__highlighted_story_left,
+	.client-stories__highlighted_story_right {
+		@include grid-row();
+		.client-stories__image,
+		.client-stories__content {
+			@media #{$small} {
+				@include grid-column(6);
+				padding-left: 0;
+			}
+		}
+	}
+
+	.client-stories__highlighted_story_right {
+		.client-stories__image {
+			float: right;
+		}
+		clear: both;
+	}
+
+	.client__story_title {
+		margin-bottom: em-calc(15);
+		margin-top: 0 !important;
+		display: block;
+		font-size: em-calc(20);
+		font-family: $header-font-family;
+		color: $blue-darker;
+	}
+	/*@group breakpoint from small*/
+	@media #{$small} {
+		.client__story_title  {
+			font-size: em-calc(24);
+		}
+	}
+/*endgroup*/
+/*@group breakpoint from medium*/
+	@media #{$medium} {
+		.client__story_title  {
+			font-size: em-calc(24);
+		}
+	}
+}
+

@@ -1,0 +1,10 @@
+.site-container {
+    background: #fff;
+    position: relative;
+    padding: 0;
+}
+
+.content {
+    position: relative;
+}
+

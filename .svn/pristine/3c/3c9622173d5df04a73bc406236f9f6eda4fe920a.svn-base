@@ -1,0 +1,110 @@
+// ====================================================
+// SHARE PRICE FEED
+// ====================================================
+
+.share-price-feed {
+	background: $blue-bkgnd;
+	border-top: 6px solid $blue-border;
+	padding: em-calc(25 15);
+	min-height: em-calc(300);
+	position: relative;
+
+	h3 {
+		font-family: $header-font-family-regular;
+		font-size: em-calc(22);
+		color: $blue-darker;
+		margin-bottom: em-calc(20);
+	}
+}
+
+.share-price-feed__price {
+	color: $primary-color;
+	margin-bottom: em-calc(15);
+
+	.value {
+		font-family: $header-font-family;
+		font-size: em-calc(59);
+		line-height: 1;
+		margin-right: em-calc(5);
+	}
+
+	.change {
+		font-family: $header-font-family;
+		font-size: em-calc(27);
+
+		&.up {
+			&:before {
+				@include icon-font($icon-arrow-up);
+				font-size: em-calc(10);
+				margin-right: em-calc(10);
+				position: relative;
+				top: -2px;
+			}
+		}
+	}
+}
+
+.share-price-feed__date {
+	font-family: $header-font-family-regular;
+	color: $primary-color;
+	font-size: em-calc(14);
+}
+
+.share-price-feed__info {
+	font-family: $header-font-family-regular;
+	font-size: em-calc(10);
+	color: $gray-info;
+	margin-bottom: em-calc(45);
+}
+
+.share-price-feed__links {
+	list-style: none !important;
+	margin: 0;
+	position: absolute;
+	bottom: em-calc(20);
+
+	a {
+		font-family: $header-font-family;
+		font-size: em-calc(22);
+
+		&:after {
+			@extend .icon__chevron-right;
+			font-size: em-calc(14);
+			margin-left: em-calc(5);
+		}
+	}
+
+	.external {
+		a {
+			&:after {
+				@extend .icon__external-link;
+			}
+		}
+	}
+}
+
+
+// TAB BASIC
+// ====================================================
+.tabs-basic__menu {
+	list-style: none !important;
+	margin: em-calc(0 0 20);
+	border-bottom: 2px solid $blue-border;
+	@include clearfix;
+
+	li {
+		float: left;
+		margin-right: em-calc(30);
+	}
+
+	a {
+		font-family: $header-font-family-regular;
+		font-size: em-calc(22);
+		display: inline-block;
+
+		&.active {
+			color: $blue-darker;
+			border-bottom: 4px solid $blue-darker;
+		}
+	}
+}

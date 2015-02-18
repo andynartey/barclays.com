@@ -1,0 +1,230 @@
+// ====================================================
+// COLUMNS CONTROLS
+// ====================================================
+
+
+// TWO COLUMNS -- (50/50)
+// ====================================================
+.column-control-container__50 {
+    @include grid-row(nest);
+
+    .column-control__6 {
+        @include grid-column(6);
+    }
+}
+
+.column-control-container__50--collapse {
+    @include grid-row(nest);
+
+    .column-control__6 {
+        @include grid-column(12);
+
+        @media #{$medium} {
+            @include grid-column(6);
+        }
+    }
+}
+
+.column-control-container__50--collapse-mobile {
+    @include grid-row(nest);
+
+    .column-control__6 {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(6);
+        }
+    }
+}
+
+
+// THREE COLUMNS -- (33/33/33)
+// ====================================================
+
+.column-control-container__33 {
+    @include grid-row(nest);
+
+    .column-control__4 {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(12);
+        }
+
+        @media #{$medium} {
+            @include grid-column(4);
+        }
+    }
+}
+
+
+
+
+// FOUR COLUMNS -- (25/25/25)
+// ====================================================
+
+.column-control-container__25 {
+    @include grid-row(nest);
+
+    .column-control__3 {
+        @include grid-column(6);
+
+        @media #{$small} {
+            @include grid-column(6);
+
+            &:nth-child(3) {
+                clear: left;
+            }
+        }
+
+        @media #{$medium} {
+            @include grid-column(3);
+
+            &:nth-child(3) {
+                clear: none;
+            }
+        }
+    }
+}
+
+
+
+// TWO COLUMNS -- (25/75)
+// ====================================================
+
+.column-control-container__25-75 {
+    @include grid-row(nest);
+
+    .column-control__25 {
+        @include grid-column(12);
+
+        @media #{$medium} {
+            @include grid-column(3, false, false, false, 9, false, false, left);
+        }
+    }
+
+    .column-control__75 {
+        @include grid-column(12);
+
+        @media #{$medium} {
+            @include grid-column(9, false, false, false, false, 3, false, right);
+        }
+    }
+}
+
+
+// TWO COLUMNS -- (25/75)
+// ====================================================
+
+.column-control-container__75-25 {
+    @include grid-row(nest);
+
+    .column-control__25 {
+        @include grid-column(12);
+
+        @media #{$medium} {
+            @include grid-column(3);
+        }
+    }
+
+    .column-control__75 {
+        @include grid-column(12);
+
+        @media #{$medium} {
+            @include grid-column(9);
+        }
+    }
+}
+
+
+
+// TWO COLUMNS -- (33/66)
+// ====================================================
+
+.column-control-container__33-66 {
+    @include grid-row(nest);
+
+    .column-control__33 {
+        @include grid-column(12);
+
+        @media #{$medium} {
+            @include grid-column(4, false, false, false, 8, false, false, left);
+        }
+    }
+
+    .column-control__66 {
+        @include grid-column(12);
+
+        @media #{$medium} {
+            @include grid-column(8, false, false, false, false, 4, false, right);
+        }
+    }
+}
+
+
+// TWO COLUMNS -- (66/33)
+// ====================================================
+
+.column-control-container__66-33 {
+    @include grid-row(nest);
+
+    .column-control__66 {
+        @include grid-column(12);
+
+        @media #{$medium} {
+            @include grid-column(8);
+        }
+    }
+
+    .column-control__33 {
+        @include grid-column(12);
+
+        @media #{$medium} {
+            @include grid-column(4);
+        }
+    }
+}
+
+
+// TWO COLUMNS -- (33/66) - Collapse in mobile only
+// ====================================================
+
+.column-control-container__33-66--collapse-mobile {
+    @include grid-row(nest);
+
+    .column-control__33 {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(4, false, false, false, 8, false, false, left);
+        }
+    }
+
+    .column-control__66 {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(8, false, false, false, false, 4, false, right);
+        }
+    }
+}
+
+.column-control-container__66-33--collapse-mobile {
+    @include grid-row(nest);
+
+    .column-control__33 {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(4);
+        }
+    }
+
+    .column-control__66 {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(8);
+        }
+    }
+}

@@ -1,0 +1,108 @@
+<section class="link-blocks">
+    <div class="link-blocks__wrapper link-blocks__header-hidden">
+        <h2 class="link-blocks__title ">
+        Barclays products and services in the United Kingdom</h2>
+    </div>
+    <div class="link-blocks__wrapper">
+    <!-- 4 UP LINK BLOCK - SMALL IMAGES -->
+        <aside class="link-blocks__item link-blocks__4-columns link-blocks__display-image">
+            <div class="link-blocks__content">
+                <a class="link-blocks__link" href="/products-and-services-individuals.html">
+                    <img src="http://placehold.it/370x139" data-interchange="
+                        [http://placehold.it/225x73, (medium)],
+                        [http://placehold.it/370x139, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="/products-and-services-individuals.html" title="">For Individuals</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+        <aside class="link-blocks__item link-blocks__4-columns link-blocks__display-image">
+            <div class="link-blocks__content">
+                <a class="link-blocks__link" href="">
+                    <img src="http://placehold.it/370x139" data-interchange="
+                        [http://placehold.it/225x73, (medium)],
+                        [http://placehold.it/370x139, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="">For small to medium businesses</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+        <aside class="link-blocks__item link-blocks__4-columns link-blocks__display-image">
+            <div class="link-blocks__content">
+                <a class="link-blocks__link" href="">
+                    <img src="http://placehold.it/370x139" data-interchange="
+                        [http://placehold.it/225x73, (medium)],
+                        [http://placehold.it/370x139, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="">For corporates and institutions</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+        <aside class="link-blocks__item link-blocks__4-columns link-blocks__display-image">
+            <div class="link-blocks__content">
+                <a class="link-blocks__link" href="">
+                    <img src="http://placehold.it/370x139" data-interchange="
+                        [http://placehold.it/225x73, (medium)],
+                        [http://placehold.it/370x139, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="">For corporates and institutions</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+        <!-- 4 UP LINK BLOCK - SMALL IMAGES -->
+        <aside class="link-blocks__item link-blocks__4-columns link-blocks__display-image">
+            <div class="link-blocks__content">
+                <a class="link-blocks__link" href="/products-and-services-individuals.html">
+                    <img src="http://placehold.it/370x139" data-interchange="
+                        [http://placehold.it/225x73, (medium)],
+                        [http://placehold.it/370x139, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="/products-and-services-individuals.html" title="">For Individuals</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+        <aside class="link-blocks__item link-blocks__4-columns link-blocks__display-image">
+            <div class="link-blocks__content">
+                <a class="link-blocks__link" href="">
+                    <img src="http://placehold.it/370x139" data-interchange="
+                        [http://placehold.it/225x73, (medium)],
+                        [http://placehold.it/370x139, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="">For small to medium businesses</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+        <aside class="link-blocks__item link-blocks__4-columns link-blocks__display-image">
+            <div class="link-blocks__content">
+                <a class="link-blocks__link" href="">
+                    <img src="http://placehold.it/370x139" data-interchange="
+                        [http://placehold.it/225x73, (medium)],
+                        [http://placehold.it/370x139, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="">For corporates and institutions</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+        <aside class="link-blocks__item link-blocks__4-columns link-blocks__display-image">
+            <div class="link-blocks__content">
+                <a class="link-blocks__link" href="">
+                    <img src="http://placehold.it/370x139" data-interchange="
+                        [http://placehold.it/225x73, (medium)],
+                        [http://placehold.it/370x139, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="">For corporates and institutions</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+        
+    </div>
+</section>
+

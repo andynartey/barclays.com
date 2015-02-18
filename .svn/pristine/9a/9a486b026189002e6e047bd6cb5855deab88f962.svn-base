@@ -1,0 +1,131 @@
+// ====================================================
+// DROPDOWN CONTAINER
+// ====================================================
+
+.dropdown__module {
+    @include clearfix;
+    width: 100%;
+    &.active {
+        .dropdown--close {
+            position: fixed;
+            top: 0;
+            left: 0;
+            // background: blue;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+        }
+    }
+}
+.dropdown__controls {
+    margin-bottom: em-calc(10);
+    @media #{$medium} {
+        @include grid-column(12);
+        padding-right: 0;
+        padding-left: 0;
+    }
+    position: relative;
+    z-index: 1001;
+}
+
+.no-js .dropdown__controls {
+    display: none;
+}
+.dropdown__container {
+    margin: 0;
+    padding: em-calc(7 0);
+    position: relative;
+    width: 100%;
+}
+.dropdown__contentHolder {
+    @include grid-column(12);
+    padding-left: 0;
+    padding-right: 0;
+}
+.dropdown__content {
+    width: 100%;
+}
+.dropdown__trigger {
+    display: block;
+    margin: 0;
+    overflow-x: hidden;
+    line-height: em-calc(20);
+    @include linear-gradient(to top, $gray-bkgnd, $white);
+    @include radius;
+    border: $border-style;
+    color: $gray;
+    font-family: $header-font-family;
+    padding: em-calc(10 30 10 10);
+    position: relative;
+    @media #{$medium} {
+        margin: 0;
+    }
+    &:hover, &:focus, &:active {
+            color: $primary-color;
+            outline: none;
+    }
+    &:after {
+        @include icon-font($icon-chevron-down);
+        position: absolute;
+        right: 0;
+        bottom: em-calc(7);
+        // vertical-align: middle;
+        // float:right;
+        // margin-right: em-calc(-32);
+        width: em-calc(30);
+        height: em-calc(20);
+        padding-left: em-calc(5);
+        padding-right: em-calc(5);
+        // @include linear-gradient(to top, $gray-bkgnd, $white);
+    }
+    &.active {
+        &:after {
+            @include icon-font($icon-chevron-up);
+        }
+    }
+}
+.dropdown__select {
+    display: none;
+    position: absolute;
+    background: $white;
+    z-index: 20;
+    border: $border-style;
+    border-top: none;
+    list-style: none;
+    left: 0;
+    width: 100%;
+    @media #{$small} {
+        width: initial;
+    }
+    @media #{$medium} {
+        left: 0;
+    }
+}
+.dropdown__item {
+    font-size: em-calc(20);
+    font-family: $header-font-family;
+    a {
+        display: block;
+        padding: em-calc(10 30 10 10);
+        @media #{$small} {
+            white-space: nowrap;
+        }
+        &:hover {
+            background: $gray-bkgnd;
+        }
+    }
+}
+
+
+// TABS -- CONTENT
+// ====================================================
+
+.dropdown__contentHolder {
+    // @include grid-column(12);
+    @media #{$small}, #{$medium} {
+        .accordion__content_frame:first-child,
+        .accordion__product_list:first-child {
+            border-top: none;
+        }
+    }
+}

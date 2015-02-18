@@ -1,0 +1,55 @@
+<section class="carousel">
+    <ul class="slides">
+        <li class="carousel__item">
+            <div class="carousel__item__image">
+                <a href="">
+                    <h3 class="image__caption">Feature</h3>
+                    <img src="http://placehold.it/570x321" data-interchange="
+                        [http://placehold.it/435x245, (default)],
+                        [http://placehold.it/725x408, (medium)],
+                        [http://placehold.it/570x321, (large)]" alt="">
+                    <span class="video-link"></span>
+                </a>
+            </div>
+            <div class="carousel__item__copy">
+                <h2>Category</h2>
+                <h1><a href="#">Barclays staff and customers take one small step into the night for charity</a></h1>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+        </li>
+        <li class="carousel__item">
+            <div class="carousel__item__image">
+                <a href="">
+                    <h3 class="image__caption">Feature</h3>
+                    <img src="http://placehold.it/570x321" data-interchange="
+                        [http://placehold.it/435x245, (default)],
+                        [http://placehold.it/725x408, (medium)],
+                        [http://placehold.it/570x321, (large)]" alt="">
+                </a>
+            </div>
+            <div class="carousel__item__copy">
+                <h2>Category</h2>
+                <h1><a href="#">Barclays staff and customers take one small step into the night for charity</a></h1>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+        </li>
+        <li class="carousel__item">
+            <div class="carousel__item__image">
+                <a href="">
+                    <h3 class="image__caption">Feature</h3>
+                    <img src="http://placehold.it/570x321" data-interchange="
+                        [http://placehold.it/435x245, (default)],
+                        [http://placehold.it/725x408, (medium)],
+                        [http://placehold.it/570x321, (large)]" alt="">
+                </a>
+            </div>
+            <div class="carousel__item__copy">
+                <h2>Category</h2>
+                <h1><a href="#">Barclays staff and customers take one small step into the night for charity</a></h1>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+        </li>
+    </ul>
+
+    <div class="carousel__controls-wrapper"><div class="carousel__controls"></div></div>
+</section>

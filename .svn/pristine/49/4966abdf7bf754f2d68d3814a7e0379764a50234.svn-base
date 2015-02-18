@@ -1,0 +1,256 @@
+.bc-textimage, .textimage_text {
+
+    // HEADINGS
+    // ====================================================
+
+    h1 {
+        font-size: em-calc(28);
+        color: $blue-darker;
+        line-height: 1.286; // 36
+        margin-top: 0 !important;
+
+        @media #{$small} {
+            font-size: em-calc(38);
+            line-height: 1.16; // 44
+        }
+        @media #{$medium} {
+            font-size: em-calc(48);
+            line-height: 1.167; // 56
+        }
+    }
+
+    h2 {
+        font-size: em-calc(24);
+        color: $blue-darker;
+        line-height: 1.25; // 30
+        margin-top: 0 !important;
+
+        @media #{$small} {
+            font-size: em-calc(30);
+            line-height: 1.2; // 36
+        }
+        @media #{$medium} {
+            font-size: em-calc(36);
+            line-height: 1.17; // 42
+        }
+    }
+
+    h3 {
+        font-family: $header-font-family-regular;
+        font-size: em-calc(20);
+        color: $blue-darker;
+        line-height: 1.2; // 24
+        margin-top: 0 !important;
+
+        @media #{$small} {
+            font-size: em-calc(24);
+            line-height: 1.25; // 30
+        }
+        @media #{$medium} {
+            font-size: em-calc(28);
+            line-height: 1.286; // 36
+        }
+    }
+
+    h4 {
+        font-family: $header-font-family-regular;
+        font-size: em-calc(20);
+        color: $blue-darker;
+        line-height: 1.2; // 24
+        margin-top: 0 !important;
+
+        @media #{$small} {
+            font-size: em-calc(22);
+            line-height: 1.185; // 26
+        }
+        @media #{$medium} {
+            font-size: em-calc(22);
+            line-height: 1.185; // 26
+        }
+    }
+
+    h5 {
+        font-family: $header-font-family-regular;
+        font-size: em-calc(16);
+        color: $blue-darker;
+        line-height: 1.13; // 18
+        margin-top: 0 !important;
+
+        @media #{$small} {
+            font-size: em-calc(18);
+            line-height: 1.115; // 20
+        }
+
+        @media #{$medium} {
+            font-size: em-calc(18);
+            line-height: 1.115; // 20
+        }
+    }
+
+    h6 {
+        font-family: $header-font-family-bold;
+        font-size: em-calc(14);
+        color: $blue-darker;
+        line-height: 1.29; // 18
+        margin-top: 0 !important;
+
+        @media #{$small} {
+            font-family: $header-font-family-regular;
+            font-size: em-calc(16);
+            line-height: 1.13; // 18
+        }
+    }
+
+
+    // PARAGRAPHS
+    // ====================================================
+
+    p {
+        font-size: em-calc(13);
+        line-height: 1.4; // 18
+        &.dark-blue {
+            color: $blue-darker;
+        }
+    }
+
+    span {
+        &.dark-blue {
+            color: $blue-darker;
+        }
+    }
+
+    .intro {
+        font-size: em-calc(22); // 18
+        line-height: 1.34; // 24
+        font-family: $header-font-family;
+        margin-bottom: em-calc(10);
+
+        @media #{$small} {
+            font-size: em-calc(25); // 20
+            line-height: 1.285; // 26
+            margin-bottom: em-calc(20);
+
+        }
+        @media #{$medium} {
+            font-size: em-calc(27); // 22
+            line-height: 1.367; // 30
+            margin-bottom: em-calc(20);
+        }
+    }
+
+    .footnote {
+        font-size: em-calc(12); // 10
+        color: $gray-info;
+        line-height: 1.54; // 15
+    }
+
+    .article {
+        color: $gray;
+        font-size: em-calc(16); // 13
+        line-height: 1.545; // 20
+
+        @media #{$small} {
+            font-size: em-calc(17); // 14
+            line-height: 2.17; // 30
+        }
+        @media #{$medium} {
+            font-size: em-calc(17); // 14
+            line-height: 2.17; // 30
+        }
+    }
+
+    .label {
+        font-family: $header-font-family-regular;
+        color: $gray-info;
+        font-size: em-calc(16); // 13
+        line-height: 1.4; // 18
+    }
+
+    .description_cyan {
+        color: $blue-lighter;
+        font-family: $header-font-family;
+        font-size: em-calc(16); // 13
+        line-height: 1.385; // 18
+
+        @media #{$small} {
+            font-size: em-calc(17); // 14
+            line-height: 1.31; // 18
+        }
+
+        @media #{$medium} {
+            font-size: em-calc(17); // 14
+            line-height: 1.31; // 18
+        }
+    }
+
+    .description_dark-blue {
+        color: $blue-darker;
+        font-family: $header-font-family;
+        font-size: em-calc(16); // 13
+        line-height: 1.385; // 18
+
+        @media #{$small} {
+            font-size: em-calc(17); // 14
+            line-height: 1.31; // 18
+        }
+        @media #{$medium} {
+            font-size: em-calc(17); // 14
+            line-height: 1.31; // 18
+        }
+    }
+
+    .large-text, .large-text_dark-blue {
+        font-family: $header-font-family;
+        color: $blue-lighter;
+        font-size: em-calc(44); // 36
+        line-height: 1.12; // 40
+        margin-bottom: 0;
+
+        @media #{$small} {
+            font-size: em-calc(44); // 36
+            line-height: 1.12; // 40
+            margin-bottom: 0;
+        }
+
+        @media #{$medium} {
+            font-size: em-calc(59); // 48
+            line-height: 1.042; // 50
+            margin-bottom: 0;
+        }
+    }
+
+    .large-text_dark-blue {
+        color: $blue-darker;
+    }
+
+    // IMAGES
+    // ====================================================
+
+    img {
+        margin-bottom: em-calc(20);
+    }
+
+    .image__with-caption {
+        img {
+            margin-bottom: 0;
+        }
+    }
+
+    // LIST ITEMS
+    // ====================================================
+    ul {
+        margin-left: 15px;
+    }
+    ol {
+        margin-left: 21px;
+    }
+}
+
+li {
+    .bc-textimage, .textimage_text {
+        font-size: 110%;
+        p {
+            color: #666666;
+        }
+    }
+}

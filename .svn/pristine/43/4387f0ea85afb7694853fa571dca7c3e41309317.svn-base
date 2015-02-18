@@ -1,0 +1,35 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body>
+
+    <!--#include file="includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container">   
+
+        <!--#include file="includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include file="includes/site-chrome/logo-banner.html"-->
+
+        <!--#include file="includes/site-chrome/main-navigation.html"-->
+
+
+        <div class="content row">
+            <div class="detail-wide">
+                <div class="row">
+                    <section class="main-content small-12 medium-12 large-12 columns">
+                        <!--#include virtual="/includes/containers/hero-sub-hub.html"-->
+                    </section>
+                    <section class="main-content small-12 medium-12 large-12 columns">
+                        <!--#include virtual="/includes/accordion.html"-->
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!--#include file="includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include file="includes/javascripts.html"-->
+
+</body>
+</html>

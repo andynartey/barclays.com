@@ -1,0 +1,258 @@
+// CREATE BARCLAYS NAMESPACE
+var BAR = BAR || {};
+
+$(function(){
+
+    // ====================================================
+    // STORYTELLER - INITIALISE ALL COMPONENTS
+    // ====================================================
+
+    BAR.Storyteller = (function () {
+
+        var init = function (selector, itemCount) {
+            var storyTellerContainer = $(selector),
+                storyTellerItemCount = itemCount;
+
+            var storytellerFilter = new BAR.StoryTellerFilter(storyTellerContainer),
+                storytellerToggle = new BAR.StorytellerView(storyTellerContainer),
+                storytellerLazyLoad = new BAR.StorytellerLazyLoad(storyTellerContainer, storyTellerItemCount);
+        };
+
+        return {
+            init: init
+        };
+    }());
+
+    // ====================================================
+    // STORYTELLER VIEW TOGGLE
+    // ====================================================
+
+    BAR.StorytellerView = function(selector) {
+        this.storyTellerContainer = $(selector);
+        this.viewToggle = this.storyTellerContainer.find('[data-storyteller-viewtoggle]');
+        this.storyTellerBody = this.storyTellerContainer.find('[data-storyteller-body]');
+
+        this.init();
+    }
+
+    BAR.StorytellerView.prototype = {
+
+        init: function() {
+            var self = this;
+
+            self.viewToggle.on('click', function(e) {
+                self.checkView(this);
+                e.preventDefault();
+            });
+        },
+
+        checkView: function(toggle) {
+            if ( this.storyTellerBody.hasClass('storyteller-list-view') ) {
+                $(toggle).removeClass('grid-view');
+                this.storyTellerBody.removeClass('storyteller-list-view');
+            } else {
+                $(toggle).addClass('grid-view');
+                this.storyTellerBody.addClass('storyteller-list-view');
+            }
+        }
+    }
+
+
+    // ====================================================
+    // STORYTELLER LAZY LOAD
+    // ====================================================
+
+    BAR.StorytellerLazyLoad = function(selector, itemCount) {
+        this.storyTellerContainer = $(selector);
+        this.showMoreBtn = this.storyTellerContainer.find('[data-storyteller-showmore]');
+        this.storyItem = this.storyTellerContainer.find('[data-storyteller-item]');
+        this.storyTellerItemCount = itemCount;
+
+        this.init();
+    }
+
+    BAR.StorytellerLazyLoad.prototype = {
+
+        init: function() {
+            var self = this;
+
+            this.hideContent();
+
+            this.showMoreBtn.on('click', function(e) {
+                self.showMore();
+                e.preventDefault();
+            });
+        },
+
+        hideContent: function() {
+            this.storyItem.hide().addClass('js-itemHidden');
+
+            for ( var i = 0; i < this.storyTellerItemCount; i++ ) {
+                this.storyItem.eq(i).show().removeClass('js-itemHidden');
+            }
+        },
+
+        showMore: function() {
+            var $hiddenItems = this.storyTellerContainer.find('.js-itemHidden');
+
+            for ( var i = 0; i < this.storyTellerItemCount; i++ ) {
+                $hiddenItems.eq(i).fadeIn().removeClass('js-itemHidden');
+            }
+
+            var firstItemPos = $hiddenItems.first().offset().top;
+
+            this.scrollToRow(firstItemPos);
+
+            this.hideBtn();
+        },
+
+        scrollToRow: function(firstItemPos) {
+            var scrollTarget = firstItemPos;
+
+            $('html, body').animate({
+                scrollTop: scrollTarget-10
+            }, 'slow');
+        },
+
+        hideBtn: function() {
+            var hiddenItemCount = this.storyTellerContainer.find('.js-itemHidden').length;
+
+            if ( hiddenItemCount === 0 ) {
+                this.storyTellerContainer.find('.storyteller__more-stories').hide();
+                this.storyTellerContainer.find('[data-storyteller-archive]').show();
+            }
+        }
+    }
+
+
+    // ====================================================
+    // STORYTELLER FILTERS
+    // ====================================================
+
+    BAR.StoryTellerFilter = function(selector) {
+        this.storyTellerContainer = $(selector);
+        this.storyTellerFilterLink = this.storyTellerContainer.find('[data-storyteller-filter-link]');
+        this.storyTellerFilterToggle = this.storyTellerContainer.find('[data-storyteller-filter-toggle]');
+        this.storyTellerFilterHolder = this.storyTellerContainer.find('[data-storyteller-filter-holder]');
+
+        this.init();
+    }
+
+    BAR.StoryTellerFilter.prototype = {
+
+        init: function() {
+            var self = this;
+
+            this.mediaDetection(self);
+
+            this.storyTellerFilterLink.on('click', function(e) {
+                if ( !$(this).hasClass('inactive') ) {
+                    self.checkState(this);
+                }
+                e.preventDefault();
+            });
+
+            this.storyTellerFilterToggle.on('click', function(e) {
+                self.mobileToggleFilters(this);
+                e.preventDefault();
+            });
+        },
+
+        checkState: function(link) {
+            var $link = $(link);
+
+            if ( $link.hasClass('active') ) {
+                this.hideDropdown($link);
+            } else {
+                this.showDropdown($link);
+            }
+        },
+
+        showDropdown: function($link) {
+            var getLinkWidth = $link.outerWidth(),
+                getLinkPos = $link.position(),
+                getLinkHeight = $link.height(),
+                self = this;
+
+            self.storyTellerContainer.find('[data-storyteller-filter-list]').hide();
+            self.storyTellerFilterLink.removeClass('active');
+
+            $link.addClass('active');
+            $link.next('[data-storyteller-filter-list]')
+                .css({
+                    'width': getLinkWidth,
+                    'top': getLinkPos.top + getLinkHeight + 20
+                }).show();
+
+            $link.next('[data-storyteller-filter-list]')
+                .find('[data-storyteller-filter-item]')
+                    .on('click', function(e) {
+                        self.addSelectedItem(this);
+                        e.preventDefault();
+                    });
+        },
+
+        hideDropdown: function($link) {
+            var self = this;
+
+            $link.removeClass('active');
+            $link.next('[data-storyteller-filter-list]').hide()
+                .find('[data-storyteller-filter-item]')
+                    .off('click', function(e) {
+                        self.addSelectedItem(this);
+                        e.preventDefault();
+                    });
+        },
+
+        addSelectedItem: function(selectedItem) {
+
+            var storyTellerFilter = this,
+                txt = $(selectedItem).find('a').text(),
+                labelHolder = '<div class="storyteller-filter-label"><a href="">' + txt + '</a></div>',
+                $self = this.storyTellerFilterLink.filter('.active'),
+                getLinkWidth = $self.outerWidth(),
+                getLinkPos = $self.position();
+
+            storyTellerFilter.hideDropdown($self);
+
+            $self.after(labelHolder);
+
+            this.storyTellerContainer.find('.storyteller-filter-label').css({
+                'width': getLinkWidth,
+                'top': getLinkPos.top
+            });
+
+            this.storyTellerContainer.find('.storyteller-filter-label').on('click', function(e) {
+                storyTellerFilter.removeSelectedItem(this);
+                e.preventDefault();
+            });
+        },
+
+        removeSelectedItem: function(self) {
+            $(self)
+                .hide()
+                .off('click')
+                .remove();
+        },
+
+        mediaDetection: function(self) {
+            enquire
+                .register( "screen and (max-width: 768px)", {
+                    match: function() {
+                        self.storyTellerFilterHolder.hide();
+                    }
+                })
+                .register( "screen and (min-width: 769px)", {
+                    match: function() {
+                        self.storyTellerFilterHolder.show();
+                    }
+                }, true);
+        },
+
+        mobileToggleFilters: function(self) {
+            $(self).toggleClass('filter-active');
+            this.storyTellerFilterHolder.slideToggle('fast');
+        }
+    }
+
+}());

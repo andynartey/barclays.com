@@ -1,0 +1,223 @@
+<!-- Mobile Off-Canvas Navigation -->
+<nav class="off-canvas-menu" data-offcanvas-menu-left>
+
+    <ul class="off-canvas-menu__top-level" data-offcanvas-menu-top-level>
+        <li class="off-canvas-menu__item">
+            <a href="">Home</a>
+        </li>
+        <li class="off-canvas-menu__item off-canvas-menu__has-menu active">
+            <a href="" data-offcanvas-menu-second-link>News</a>
+
+            <ul class="off-canvas-menu__second-level" data-offcanvas-menu-second-level>
+                <li class="off-canvas-menu__second-level__item--back" data-offcanvas-menu-second-back>
+                    <a href="">Main menu</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__heading">
+                    <a href="">Latest news</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Citizenship</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Transform</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu">
+                    <a href="" data-offcanvas-menu-third-link>Other</a>
+
+                    <ul class="off-canvas-menu__third-level" data-offcanvas-menu-third-level>
+                        <li class="off-canvas-menu__third-level__item" data-offcanvas-menu-third-back>
+                            <a href="">Back</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item off-canvas-menu__heading">
+                            <a href="">Other</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">News article</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Feature</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Archive</a>
+                </li>
+            </ul>
+
+        </li>
+        <li class="off-canvas-menu__item off-canvas-menu__has-menu">
+            <a href="" data-offcanvas-menu-second-link>About us</a>
+            <ul class="off-canvas-menu__second-level" data-offcanvas-menu-second-level>
+                <li class="off-canvas-menu__second-level__item--back" data-offcanvas-menu-second-back>
+                    <a href="">Back</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__heading">
+                    <a href="">About us</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Transforming Barclays</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu">
+                    <a href="" data-offcanvas-menu-third-link>Our purpose and values</a>
+
+                    <ul class="off-canvas-menu__third-level" data-offcanvas-menu-third-level>
+                        <li class="off-canvas-menu__third-level__item" data-offcanvas-menu-third-back>
+                            <a href="">Back</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item off-canvas-menu__heading">
+                            <a href="">Our purpose and values</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Story</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu">
+                    <a href="" data-offcanvas-menu-third-link>Barclays around the World</a>
+
+                    <ul class="off-canvas-menu__third-level" data-offcanvas-menu-third-level>
+                        <li class="off-canvas-menu__third-level__item" data-offcanvas-menu-third-back>
+                            <a href="">Back</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item off-canvas-menu__heading">
+                            <a href="">Other</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">News article</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu">
+                    <a href="" data-offcanvas-menu-third-link>Leadership</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu">
+                    <a href="" data-offcanvas-menu-third-link>Governance</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu">
+                    <a href="" data-offcanvas-menu-third-link>History</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Achievements</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu">
+                    <a href="" data-offcanvas-menu-third-link>Sponsorship</a>
+                </li>
+            </ul>
+        </li>
+        <li class="off-canvas-menu__item off-canvas-menu__has-menu">
+            <a href="" data-offcanvas-menu-second-link>Investor relations</a>
+            <ul class="off-canvas-menu__second-level" data-offcanvas-menu-second-level>
+                <li class="off-canvas-menu__second-level__item--back" data-offcanvas-menu-second-back>
+                    <a href="">Main menu</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__heading">
+                    <a href="">Investor relations</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Growth</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Supporting individuals</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Increasing access</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Supporing businesses</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Helping institutions</a>
+                </li>
+            </ul>
+        </li>
+        <li class="off-canvas-menu__item off-canvas-menu__has-menu">
+            <a href="" data-offcanvas-menu-second-link>Citizenship</a>
+            <ul class="off-canvas-menu__second-level" data-offcanvas-menu-second-level>
+                <li class="off-canvas-menu__second-level__item--back" data-offcanvas-menu-second-back>
+                    <a href="">Main menu</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__heading">
+                    <a href="">Citizenship</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Growth</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Supporting individuals</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Increasing access</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Supporing businesses</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Helping institutions</a>
+                </li>
+            </ul>
+        </li>
+        <li class="off-canvas-menu__item off-canvas-menu__has-menu">
+            <a href="" data-offcanvas-menu-second-link>Careers</a>
+            <ul class="off-canvas-menu__second-level" data-offcanvas-menu-second-level>
+                <li class="off-canvas-menu__second-level__item--back" data-offcanvas-menu-second-back>
+                    <a href="">Main menu</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__heading">
+                    <a href="">Careers</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Growth</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Supporting individuals</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Increasing access</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Supporing businesses</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Helping institutions</a>
+                </li>
+            </ul>
+        </li>
+        <li class="off-canvas-menu__item off-canvas-menu__has-menu">
+            <a href="" data-offcanvas-menu-second-link>Product and services</a>
+            <ul class="off-canvas-menu__second-level" data-offcanvas-menu-second-level>
+                <li class="off-canvas-menu__second-level__item--back" data-offcanvas-menu-second-back>
+                    <a href="">Main menu</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__heading">
+                    <a href="">Product and services</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Growth</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Supporting individuals</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Increasing access</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Supporing businesses</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item">
+                    <a href="">Helping institutions</a>
+                </li>
+            </ul>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="">Online banking</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="">Contact us</a>
+        </li>
+    </ul>
+
+</nav>
+
+<!--The Layer that will be layed over the content
+    so that the content is unclickable while menu is shown-->
+<div class="off-canvas-menu-content-layer" data-offcanvas-menu-content-layer></div>

@@ -1,0 +1,12 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="content row">
+        <h1>Alert box</h1>
+    	<!--#include virtual="../../includes/containers/alert-box.html"-->
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

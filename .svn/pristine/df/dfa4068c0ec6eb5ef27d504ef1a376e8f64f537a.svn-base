@@ -1,0 +1,16 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="content row">
+        <br><br>
+        <div class="detail-wide">
+            <h1>Link and blurb</h1>
+            <!--#include virtual="/includes/products-services/our-products.html"-->
+        </div>
+        <br><br>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

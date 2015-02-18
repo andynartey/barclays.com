@@ -1,0 +1,6 @@
+<nav class="prev-next-stories">
+    <ul class="prev-next-stories__items">
+        <li class="prev-next-stories__prev"><a href="">Previous story</a></li>
+        <li class="prev-next-stories__next"><a href="">Next story</a></li>
+    </ul>
+</nav>

@@ -1,0 +1,47 @@
+<section class="carousel">
+    <ul class="slides">
+        <li class="carousel__item">
+            <div class="carousel__item__image">
+                <h3 class="image__caption">Campaign</h3>
+                <img src="http://placehold.it/570x400" data-interchange="
+                    [http://placehold.it/435x305, (default)],
+                    [http://placehold.it/725x510, (medium)],
+                    [http://placehold.it/570x400, (large)]" alt="">
+            </div>
+            <div class="carousel__item__copy">
+                <h2>Category</h2>
+                <h1><a href="#">1. Barclays staff and customers take one small step into the night for charity</a></h1>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+        </li>
+        <li class="carousel__item">
+            <div class="carousel__item__image">
+                <h3 class="image__caption">Campaign</h3>
+                <img src="http://placehold.it/570x400" data-interchange="
+                    [http://placehold.it/435x305, (default)],
+                    [http://placehold.it/725x510, (medium)],
+                    [http://placehold.it/570x400, (large)]" alt="">
+            </div>
+            <div class="carousel__item__copy">
+                <h2>Category</h2>
+                <h1><a href="#">2. Barclays staff and customers take one small step into the night for charity</a></h1>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+        </li>
+        <li class="carousel__item">
+            <div class="carousel__item__image">
+                <h3 class="image__caption">Campaign</h3>
+                <img src="http://placehold.it/570x400" data-interchange="
+                    [http://placehold.it/435x305, (default)],
+                    [http://placehold.it/725x510, (medium)],
+                    [http://placehold.it/570x400, (large)]" alt="">
+            </div>
+            <div class="carousel__item__copy">
+                <h2>Category</h2>
+                <h1><a href="#">3. Barclays staff and customers take one small step into the night for charity</a></h1>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+        </li>
+    </ul>
+    <div class="here"></div>
+</section>

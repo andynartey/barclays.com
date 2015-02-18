@@ -1,0 +1,218 @@
+.icon {
+	display: inline-block;
+	position: relative;
+
+	// pixel dimensions for consistency, also prevents issues when nested in p tags etc
+	width: 30px;
+	height: 20px;
+	&:after {
+		font-size: 19px; // needs to be in pixels as ol' IE is not picking up the size correctly
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-top: em-calc(4.9);
+	}
+}
+.icon__external-link {
+	&:after {
+		@include icon-font($icon-external-link);
+		margin-left: 6px;
+		margin-top: 2px;
+	}
+}
+.icon__location {
+	&:after {
+		@include icon-font($icon-location);
+		margin-left: 2px;
+		margin-top: 4px;
+	}
+}
+.icon__add {
+	&:after {
+		@include icon-font($icon-plus);
+		margin-left: 0.5px;
+		margin-top: 2px;
+	}
+}
+.icon__remove {
+	&:after {
+		@include icon-font($icon-minus);
+		margin-left: 1.5px;
+		margin-top: 4px;
+	}
+}
+.icon__block-arrow-left {
+	&:after {
+		@include icon-font($icon-block-arrow-left);
+		margin-left: 5px;
+	}
+}
+.icon__block-arrow-right {
+	&:after {
+		@include icon-font($icon-block-arrow-right);
+		margin-left: 5px;
+	}
+}
+.icon__block-arrow-down {
+	&:after {
+		@include icon-font($icon-block-arrow-down);
+		margin-left: 5px;
+	}
+}
+.icon__block-arrow-up {
+	&:after {
+		@include icon-font($icon-block-arrow-up);
+		margin-left: 5px;
+	}
+}
+.icon__search {
+	&:after {
+		@include icon-font($icon-magnifying-glass);
+		margin-left: 5px;
+	}
+}
+.icon__hamburger {
+	&:after {
+		@include icon-font($icon-hamburger);
+		margin-left: 3.3px;
+	}
+}
+.icon__play {
+	&:after {
+		@include icon-font($icon-play);
+		margin-left: 5px;
+	}
+}
+.icon__pause {
+	&:after {
+		@include icon-font($icon-pause);
+		margin-left: 5px;
+	}
+}
+.icon__arrow-up {
+	&:after {
+		@include icon-font($icon-arrow-up);
+		margin-left: 5.5px;
+	}
+}
+.icon__chevron {
+	&:after {
+		margin-left: 4px;
+		margin-top: 2px;
+	}
+}
+.icon__chevron-up {
+	&:after {
+		@include icon-font($icon-chevron-up);
+	}
+}
+.icon__chevron-down {
+	&:after {
+		@include icon-font($icon-chevron-down);
+	}
+}
+.icon__chevron-left {
+	&:after {
+		@include icon-font($icon-chevron-left);
+	}
+}
+.icon__chevron-right {
+	&:after {
+		@include icon-font($icon-chevron-right);
+	}
+}
+p {
+	.icon__chevron {
+		&:after {
+			font-size: 15px;
+			margin-top: 7px;
+			margin-left: 6px;
+		}
+	}
+}
+.link__page-parent {
+	.icon__chevron {
+		width: 25px;
+		&:after {
+			margin-top: 6px;
+			font-size: 16px;
+		}
+	}	
+}
+.icon__twitter {
+	&:after {
+		@include icon-font($icon-twitter);
+		margin-left: 2px;
+	}
+}
+.icon__tick {
+	&:after {
+		@include icon-font($icon-tick);
+		margin-left: 2px;
+	}
+}
+.icon__cross {
+	&:after {
+		@include icon-font($icon-cross);
+		margin-left: 5px;
+	}
+}
+.icon__download {
+	&:after {
+		@include icon-font($icon-download);
+		margin-left: 5px;
+		margin-top: 2px;
+		font-size: 30px;
+	}
+}
+// social icons
+.icon__share {
+	&:after {
+		@include icon-font($icon-share);
+		margin-left: 5px;
+	}
+}
+.icon__email {
+	&:after {
+		@include icon-font($icon-email);
+		margin-left: 1px;
+	}
+}
+.icon__print {
+	&:after {
+		@include icon-font($icon-print);
+		margin-left: 3px;
+	}
+}
+.icon__list {
+	&:after {
+		@include icon-font($icon-list);
+		margin-left: 5px;
+	}
+}
+.icon__grid-view {
+	&:after {
+		@include icon-font($icon-grid-view);
+		margin-left: 5px;
+	}
+}
+.icon__secure {
+	&:after {
+		@include icon-font($icon-lock);
+		margin-left: 3px;
+		margin-top: 2px;
+	}
+}
+.icon__maximise {
+	&:after {
+		@include icon-font($icon-maximise);
+		margin-top: 0;
+	}
+}
+.icon__minimise {
+	&:after {
+		@include icon-font($icon-minimise);
+		margin-top: 0;
+	}
+}

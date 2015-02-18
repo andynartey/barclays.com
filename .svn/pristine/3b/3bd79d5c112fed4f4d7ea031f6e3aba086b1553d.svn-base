@@ -1,0 +1,34 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="content row">
+        <br>
+        <div class="small-12 medium-10 large-8 columns">
+
+            <h1>Dynamic charts</h1>
+
+            <h2>Bar chart</h2>
+
+            <div class="bar-chart"></div>
+
+
+            <h2>Line chart</h2>
+
+            <div class="line-chart"></div>
+
+
+            <h2>Donut chart</h2>
+
+            <div class="donut-chart"></div>
+
+            <div class="donut-chart-narrow"></div>
+
+        </div>
+
+    </div>
+
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

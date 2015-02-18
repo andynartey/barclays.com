@@ -1,0 +1,224 @@
+// ====================================================
+// MAIN GLOBAL NAVIGATION -- Desktop and landscape tablet
+// ====================================================
+
+.main-nav {
+    @extend .show-for-large-up;
+    font-family: $header-font-family;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: em-calc(15);
+    box-shadow: 0px 2px 6px 0px #f2f2f2;
+
+    ul {
+        font-size: 1em;
+    }
+}
+
+.mega-menu {
+    @include grid-column(12);
+    position: relative;
+}
+
+.mega-menu__list {
+    @extend .button-group;
+
+    .mega-active {
+        background: url(../images/icon-mainnav-arrow.png) no-repeat center bottom;
+    }
+}
+
+.mega-menu__top-link {
+    padding: em-calc(15 20);
+    display: block;
+    color: $primary-color;
+}
+
+.mega-menu__item {
+
+}
+
+.mega-menu__item--news {
+    @extend .mega-menu__item;
+
+    .mega-menu__top-link {
+        padding-left: 0;
+    }
+}
+
+.mega-menu__item--products-services {
+    @extend .mega-menu__item;
+    float: right;
+
+    .mega-menu__top-link {
+        padding-right: 0;
+    }
+}
+
+.mega-content {
+    position: absolute;
+    border: none;
+    border-top: 6px solid #d9d9d9;
+    border-bottom: $border-style;
+    background: $gray-bkgnd;
+    margin-top: em-calc(1);
+    display: none;
+    z-index: 50;
+    .row {
+        max-width: 75em;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+}
+
+.mega-menu__close-btn {
+    display: block;
+    color: $gray-info;
+    position: absolute;
+    bottom: em-calc(20);
+    right: em-calc(20);
+    font-family: $body-font-family;
+    font-size: em-calc(12);
+
+    &:after {
+        padding-left: em-calc(7);
+        font-size: em-calc(18);
+        @include icon-font($icon-cross);
+    }
+}
+
+// MEGA MENU -- INTRO
+// ====================================================
+.menu-intro {
+    @include grid-column(4);
+    padding-top: em-calc(20);
+}
+
+.menu-intro__heading {
+    color: $primary-color;
+}
+
+.menu-intro__paragraph {
+    font-size: em-calc(16);
+}
+
+.menu-intro__link {
+    padding-top: 0;
+    font-size: em-calc(22);
+    &:after {
+        @include icon-font($icon-chevron-right);
+        font-size: em-calc(14);
+        padding-left: em-calc(5);
+    }
+}
+
+
+
+// MEGA MENU -- LINKS
+// ====================================================
+
+.menu-links {
+    @include grid-column(4);
+    position: relative;
+    border-right: $border-style;
+    padding-top: em-calc(30);
+    padding-bottom: em-calc(30);
+    @include linear-gradient(to right, $gray-bkgnd, #f1f1f1);
+    min-height: 380px;
+}
+
+.menu-links__list {
+    @extend .side-nav;
+    padding: 0;
+}
+
+.menu-links__item {
+    border-bottom: $border-style;
+    margin-bottom: 0;
+
+    &:first-child {
+        border-top: $border-style;
+    }
+
+    a {
+        padding: em-calc(10);
+        display: block;
+        background: none;
+        &:hover {
+            @include linear-gradient(#14a0db, $primary-color);
+            color: #fff;
+        }
+    }
+}
+
+.menu-links__item--nested {
+    @extend .menu-links__item;
+
+    > a {
+        &:after {
+            @include icon-font($icon-chevron-right);
+            font-size: em-calc(18);
+            color: $gray-carousel-arrow;
+            position: absolute;
+            margin-top: em-calc(2);
+            right: em-calc(0);
+            padding-right: em-calc(20);
+            display: inline-block;
+        }
+
+        &:hover {
+            &:after {
+                color: $white;
+            }
+        }
+    }
+}
+
+.menu-links__third-level-list {
+    @extend .side-nav;
+    position: absolute;
+    left: 105%;
+    top: em-calc(34);
+    z-index: 200;
+    display: none;
+    padding: 0;
+    background: $gray-bkgnd;
+}
+
+.third-level-list__item {
+    @extend .menu-links__item;
+
+    &:first-child {
+        font-family: $header-font-family-bold;
+    }
+
+    a {
+        font-size: 1.15em;
+    }
+}
+
+
+// MEGA MENU -- PROMO
+// ====================================================
+
+.menu-promo {
+    @include grid-column(4);
+    padding-top: em-calc(30);
+    padding-bottom: em-calc(60);
+}
+
+.menu-promo__image {
+    margin-bottom: em-calc(15);
+    position: relative;
+
+    h3 {
+        @include image-label(em-calc(12), em-calc(7));
+    }
+}
+
+.menu-promo__paragraph {
+    font-family: $body-font-family;
+}
+
+
+

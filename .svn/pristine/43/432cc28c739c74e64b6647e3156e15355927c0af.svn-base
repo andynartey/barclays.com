@@ -1,0 +1,295 @@
+<!-- Mobile Off-Canvas Navigation -->
+<nav class="off-canvas-menu" role="navigation" data-offcanvas-menu-left>
+
+    <ul class="off-canvas-menu__top-level" data-offcanvas-menu-top-level>
+        <li class="off-canvas-menu__item">
+            <a href="">Home</a>
+        </li>
+        <li class="off-canvas-menu__item off-canvas-menu__has-menu active" aria-haspopup="true">
+            <a href="" data-offcanvas-menu-second-link>News</a>
+
+            <ul class="off-canvas-menu__second-level" aria-hidden="true" data-offcanvas-menu-second-level>
+                <li class="off-canvas-menu__second-level__item--back" aria-haspopup="false" data-offcanvas-menu-second-back>
+                    <a href="">Main menu</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__heading" aria-haspopup="false">
+                    <a href="">Latest news</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Citizenship</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Transform</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu" aria-haspopup="true">
+                    <a href="" data-offcanvas-menu-third-link>Other</a>
+
+                    <ul class="off-canvas-menu__third-level" aria-hidden="true" data-offcanvas-menu-third-level>
+                        <li class="off-canvas-menu__third-level__item" data-offcanvas-menu-third-back>
+                            <a href="">Back</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item off-canvas-menu__heading">
+                            <a href="">Other</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">News article</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Feature</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Archive</a>
+                </li>
+            </ul>
+
+        </li>
+        <li class="off-canvas-menu__item off-canvas-menu__has-menu" aria-haspopup="true">
+            <a href="" data-offcanvas-menu-second-link>About us</a>
+            <ul class="off-canvas-menu__second-level" aria-hidden="true" data-offcanvas-menu-second-level>
+                <li class="off-canvas-menu__second-level__item--back" aria-haspopup="false" data-offcanvas-menu-second-back>
+                    <a href="">Main menu</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__heading" aria-haspopup="false">
+                    <a href="">About us</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Transforming Barclays</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu" aria-haspopup="true">
+                    <a href="" data-offcanvas-menu-third-link>Our purpose and values</a>
+
+                    <ul class="off-canvas-menu__third-level" aria-hidden="true" data-offcanvas-menu-third-level>
+                        <li class="off-canvas-menu__third-level__item" data-offcanvas-menu-third-back>
+                            <a href="">Back</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item off-canvas-menu__heading">
+                            <a href="">Our purpose and values</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Story</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Business structure</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu" aria-haspopup="true">
+                    <a href="" data-offcanvas-menu-third-link>Barclays around the World</a>
+
+                    <ul class="off-canvas-menu__third-level" aria-hidden="true" data-offcanvas-menu-third-level>
+                        <li class="off-canvas-menu__third-level__item" data-offcanvas-menu-third-back>
+                            <a href="">Back</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item off-canvas-menu__heading">
+                            <a href="">Barclays around the World</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Country profile</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu" aria-haspopup="true">
+                    <a href="" data-offcanvas-menu-third-link>Leadership</a>
+
+                    <ul class="off-canvas-menu__third-level" aria-hidden="true" data-offcanvas-menu-third-level>
+                        <li class="off-canvas-menu__third-level__item" data-offcanvas-menu-third-back>
+                            <a href="">Back</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item off-canvas-menu__heading">
+                            <a href="">Leadership</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Person profile</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu" aria-haspopup="true">
+                    <a href="" data-offcanvas-menu-third-link>Governance</a>
+
+                    <ul class="off-canvas-menu__third-level" aria-hidden="true" data-offcanvas-menu-third-level>
+                        <li class="off-canvas-menu__third-level__item" data-offcanvas-menu-third-back>
+                            <a href="">Back</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item off-canvas-menu__heading">
+                            <a href="">Governance</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Framework, code and rules</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Board responsibilities</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Policies</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">The board committees</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">The directors</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Board performance</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu" aria-haspopup="true">
+                    <a href="" data-offcanvas-menu-third-link>History</a>
+
+                    <ul class="off-canvas-menu__third-level" aria-hidden="true" data-offcanvas-menu-third-level>
+                        <li class="off-canvas-menu__third-level__item" data-offcanvas-menu-third-back>
+                            <a href="">Back</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item off-canvas-menu__heading">
+                            <a href="">History</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Story</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Achievements</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__has-menu" aria-haspopup="true">
+                    <a href="" data-offcanvas-menu-third-link>Sponsorship</a>
+
+                    <ul class="off-canvas-menu__third-level" aria-hidden="true" data-offcanvas-menu-third-level>
+                        <li class="off-canvas-menu__third-level__item" data-offcanvas-menu-third-back>
+                            <a href="">Back</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item off-canvas-menu__heading">
+                            <a href="">Sponsorship</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Sponsorship story</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Strategy</a>
+                        </li>
+                        <li class="off-canvas-menu__third-level__item">
+                            <a href="">Form</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="off-canvas-menu__item off-canvas-menu__has-menu" aria-haspopup="true">
+            <a href="" data-offcanvas-menu-second-link>Investor relations</a>
+            <ul class="off-canvas-menu__second-level" aria-hidden="true" data-offcanvas-menu-second-level>
+                <li class="off-canvas-menu__second-level__item--back" aria-haspopup="false" data-offcanvas-menu-second-back>
+                    <a href="">Main menu</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__heading" aria-haspopup="false">
+                    <a href="">Investor relations</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Growth</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Supporting individuals</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Increasing access</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Supporing businesses</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Helping institutions</a>
+                </li>
+            </ul>
+        </li>
+        <li class="off-canvas-menu__item off-canvas-menu__has-menu" aria-haspopup="true">
+            <a href="" data-offcanvas-menu-second-link>Citizenship</a>
+            <ul class="off-canvas-menu__second-level" aria-hidden="true" data-offcanvas-menu-second-level>
+                <li class="off-canvas-menu__second-level__item--back" aria-haspopup="false" data-offcanvas-menu-second-back>
+                    <a href="">Main menu</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__heading" aria-haspopup="false">
+                    <a href="">Citizenship</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Growth</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Supporting individuals</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Increasing access</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Supporing businesses</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Helping institutions</a>
+                </li>
+            </ul>
+        </li>
+        <li class="off-canvas-menu__item off-canvas-menu__has-menu" aria-haspopup="true">
+            <a href="" data-offcanvas-menu-second-link>Careers</a>
+            <ul class="off-canvas-menu__second-level" aria-hidden="true" data-offcanvas-menu-second-level>
+                <li class="off-canvas-menu__second-level__item--back" aria-haspopup="false" data-offcanvas-menu-second-back>
+                    <a href="">Main menu</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__heading" aria-haspopup="false">
+                    <a href="">Careers</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Growth</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Supporting individuals</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Increasing access</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Supporing businesses</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Helping institutions</a>
+                </li>
+            </ul>
+        </li>
+        <li class="off-canvas-menu__item off-canvas-menu__has-menu" aria-haspopup="true">
+            <a href="" data-offcanvas-menu-second-link>Product and services</a>
+            <ul class="off-canvas-menu__second-level" aria-hidden="true" data-offcanvas-menu-second-level>
+                <li class="off-canvas-menu__second-level__item--back" aria-haspopup="false" data-offcanvas-menu-second-back>
+                    <a href="">Main menu</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item off-canvas-menu__heading" aria-haspopup="false">
+                    <a href="">Product and services</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Growth</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Supporting individuals</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Increasing access</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Supporing businesses</a>
+                </li>
+                <li class="off-canvas-menu__second-level__item" aria-haspopup="false">
+                    <a href="">Helping institutions</a>
+                </li>
+            </ul>
+        </li>
+        <li class="off-canvas-menu__item" aria-haspopup="false">
+            <a href="">Online banking</a>
+        </li>
+        <li class="off-canvas-menu__item" aria-haspopup="false">
+            <a href="">Contact us</a>
+        </li>
+    </ul>
+
+</nav>
+
+<!--The Layer that will be layed over the content
+    so that the content is unclickable while menu is shown-->
+<div class="off-canvas-menu-content-layer" data-offcanvas-menu-content-layer></div>

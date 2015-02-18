@@ -1,0 +1,6 @@
+<div class="medium-12 columns">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+    <a href="#" class="btn btn__secondary">Online banking <i class="icon icon__external-link"></i></a>
+     <a href="" title="" class="btn btn__secondary">View Contacts <i class="icon icon__external-link"></i></a>
+</div>
+

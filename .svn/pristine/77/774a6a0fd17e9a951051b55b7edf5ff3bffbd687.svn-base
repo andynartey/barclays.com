@@ -1,0 +1,46 @@
+<section class="carousel">
+    <ul class="slides">
+        <li class="carousel__item">
+            <div class="carousel__item__image">
+                <h3 class="image__caption">Campaign</h3>
+                <img data-interchange="
+                    [/images/placeholder/news-medium.png, (default)],
+                    [/images/placeholder/news-large.png, (medium)],
+                    [/images/placeholder/news-medium.png, (large)]" alt="">
+            </div>
+            <div class="carousel__item__copy">
+                <h2>Category</h2>
+                <h1>Barclays staff and customers take one small step into the night for charity</h1>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+        </li>
+        <li class="carousel__item">
+            <div class="carousel__item__image">
+                <h3 class="image__caption">Campaign</h3>
+                <img data-interchange="
+                    [/images/placeholder/news-medium.png, (default)],
+                    [/images/placeholder/news-large.png, (medium)],
+                    [/images/placeholder/news-medium.png, (large)]" alt="">
+            </div>
+            <div class="carousel__item__copy">
+                <h2>Category</h2>
+                <h1>Barclays staff and customers take one small step into the night for charity</h1>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+        </li>
+        <li class="carousel__item">
+            <div class="carousel__item__image">
+                <h3 class="image__caption">Campaign</h3>
+                <img data-interchange="
+                    [/images/placeholder/news-medium.png, (default)],
+                    [/images/placeholder/news-large.png, (medium)],
+                    [/images/placeholder/news-medium.png, (large)]" alt="">
+            </div>
+            <div class="carousel__item__copy">
+                <h2>Category</h2>
+                <h1>Barclays staff and customers take one small step into the night for charity</h1>
+                <p class="date">30 Jul 2013, 15:30 BST</p>
+            </div>
+        </li>
+    </ul>
+</section>

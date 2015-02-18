@@ -1,0 +1,10 @@
+# Enable Server Side Includes
+Options Includes
+
+# Configure file extensions for SSI
+AddType text/html .html .shtml
+AddOutputFilter INCLUDES .html .shtml
+AddHandler server-parsed .html .shtml
+
+# handle old if statements for those on apache 2.4 (eg WAMP guys) to match 2.2 syntax
+# hSSILegacyExprParser on

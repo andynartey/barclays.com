@@ -1,0 +1,49 @@
+<div class="resTab2">
+<div class="tabs__controls">
+    <div class="tabs__mobile">
+    <a href="" class="tabs__mobile__trigger" data-tabs-mobile-trigger>
+        Make a selection
+    </a>
+
+    <ul class="tabs__mobile__dropdown" data-tabs-mobile-dropdown>
+        <li class="tabs__mobile__item" data-tabs-mobile-item>
+            <a href="">For Individuals</a>
+        </li>
+        <li class="tabs__mobile__item" data-tabs-mobile-item>
+            <a href="">For small - medium businesses</a>
+        </li>
+        <li class="tabs__mobile__item" data-tabs-mobile-item>
+            <a href="">For corporates and institutions</a>
+        </li>
+    </ul>
+</div>
+
+<ul class="tabs__desktop">
+    <li class="tabs__desktop__item active" data-tabs-desktop-item>
+        <a href="">For Individuals</a>
+    </li>
+    <li class="tabs__desktop__item" data-tabs-desktop-item>
+        <a href="">For small - medium businesses</a>
+    </li>
+    <li class="tabs__desktop__item" data-tabs-desktop-item>
+        <a href="">For corporates and institutions</a>
+    </li>
+</ul>
+
+</div>
+
+<div class="tabs__contentHolder">
+<div class="tabs__content" data-tabs-content>
+    <!-- ACCORDION -->
+    <!--#include virtual="/includes/contact-us/accordion.html"-->
+</div>
+
+<div class="tabs__content" data-tabs-content>
+    <h1>Africa</h1>
+</div>
+
+<div class="tabs__content" data-tabs-content>
+    <h1>Asia</h1>
+</div>
+</div>
+</div>

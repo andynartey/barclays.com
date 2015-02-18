@@ -1,0 +1,66 @@
+<div class="responsiveTab resTab1" role="tabpanel">
+    <div class="tabs__controls tabs__secondary">
+        <div class="tabs__mobile">
+            <a href="" class="tabs__mobile__trigger" role="button" aria-haspopup="true" data-tabs-mobile-trigger>
+                <!-- Make a selection -->
+            </a>
+
+            <ul class="tabs__mobile__dropdown" data-tabs-mobile-dropdown>
+                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                    <a href="">Tab 1</a>
+                </li>
+                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                    <a href="">Tab 2</a>
+                </li>
+                <li class="tabs__mobile__item" data-tabs-mobile-item>
+                    <a href="">Tab 3</a>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="tabs__desktop" role="tablist">
+            <li class="tabs__desktop__item active" role="tab" data-tabs-desktop-item>
+                <a href="">Tab 1</a>
+            </li>
+            <li class="tabs__desktop__item" role="tab" data-tabs-desktop-item>
+                <a href="">Tab 2</a>
+            </li>
+            <li class="tabs__desktop__item" role="tab" data-tabs-desktop-item>
+                <a href="">Tab 3</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="tabs__contentHolder">
+        <div class="tabs__content" role="tabpanel" data-tabs-content>
+            <h3>Tab 1 content title</h3>
+            <p>
+                Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+            </p>
+        </div>
+
+        <div class="tabs__content" role="tabpanel" data-tabs-content>
+            <h3>Tab 2 content title</h3>
+            <p>
+                Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+            </p>
+        </div>
+
+        <div class="tabs__content" role="tabpanel" data-tabs-content>
+            <h3>Tab 3 content title</h3>
+            <p>
+                Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+// NEWS TOPICS
+/* --------------------------------------*/
+.tags {
+    @include grid-column(12);
+    padding-top: em-calc(15);
+    padding-bottom: em-calc(10);
+    border-bottom: $border-style;
+    float: none;
+}
+
+.tags__heading {
+    h2 {
+        color: $blue-darker;
+        font-size: em-calc(22);
+    }
+}
+
+@media #{$small} {
+    .tags__heading {
+        @include grid-column(11, false, false, 1);
+        padding-left: 0;
+    }
+    .tags__body {
+        @include grid-column(11, false, false, 1);
+        padding-left: 0;
+    }
+}
+
+@media #{$medium} {
+    .tags {
+        border-bottom: 5px solid #e5e5e5;
+    }
+    .tags__heading, .tags__body {
+        margin: 0;
+    }
+    .tags__heading {
+        h2 {
+            font-size: em-calc(24);
+        }
+    }
+    .tags__body {
+        p {
+            font-size: em-calc(14);
+        }
+    }
+
+}

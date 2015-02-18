@@ -1,0 +1,212 @@
+<!--#include file="includes/site-chrome/header.html"-->
+<body class="index-page">
+
+	<div class="row">
+
+        <div class="small-12 medium-12 large-12 columns">
+            <br />
+            <img src="/images/logo.png" alt="Barclays">
+
+            <hr />
+        </div>
+        <style type="text/css">
+            li { line-height: 2; }
+        </style>
+		<div class="medium-3 large-3 columns">
+
+            <h2>Pages</h2>
+            <ul class="square">
+                <li><a href="/news-landing.html">News Landing</a> (S1)</li>
+                <li><a href="/news-article.html">News Article</a> (S1)</li>
+                <li><a href="/news-feature.html">News Feature Article</a> (S1)</li>
+                <li><a href="/products-and-services.html">Products and services</a> (S2)</li>
+                <li><a href="/products-and-services-individuals.html">Products and services level 2</a> (S2)</li>
+                <li><a href="/citizenship.html">Citizenship</a> (S3)</li>
+                <li><a href="/sponsorship.html">Sponsorship</a> (S2)</li>
+                <li><a href="/country-selection.html">Country selection (UK)</a> (S2)</li>
+                <li><a href="/contact-us.html">Contact us</a> (S2)</li>
+                <li><a href="/careers.html">Careers</a> (S3)</li>
+                <li><a href="/careers-people.html">Careers people</a> (S3)</li>
+                <li><a href="/online-banking.html">Online Banking (S3)</a></li>
+                <li>Investor Relations (S3)</li>
+                <li>Investor Relations homepage (S3)</li>
+                <li>About us - if required (S3)</li>
+                <li>Media centre - if required (S3)</li>
+                <li>Homepage (S3)</li>
+                <li><a href="/search-results.html">Search results</a> (S3)</li>
+                <li><a href="/topic-results.html">Topic results</a> (S3)</li>
+                <li><a href="/no-search-results.html">No search results</a> (S3)</li>
+                <li><a href="/no-topic-results.html">No topic results</a> (S3)</li>
+                <li><a href="/404.html">404 page</a> (S3)</li>
+            </ul>
+
+            <h2>Containers</h2>
+            <ul class="square">
+                <li><a href="/modules/containers/storyteller.html">Story Teller</a> (S2)</li>
+                <li><a href="/modules/containers/tabs.html">Tabs</a> (S2)</li>
+                <li><a href="/modules/containers/alert-box.html">Alert box</a> (S2)</li>
+                <li><a href="/modules/containers/carousel.html">Basic carousel</a> (S1)</li>
+                <li><a href="/modules/containers/grid-carousels.html">Grid carousels</a> (S2)</li>
+                <li><a href="/modules/containers/hover-blocks.html">Hover blocks</a> (S2)</li>
+                <li><a href="/modules/containers/cookie-message.html">Cookie Message</a> (S2)</li>
+                <li><a href="/modules/containers/hero-module.html">Hub Hero</a> (S2)</li>
+                <li><a href="/modules/containers/image-gallery.html">Image Gallery</a> (S3)</li>
+                <li>Image Gallery slideshow (S3)</li>
+                <li><a href="/modules/containers/map.html">Maps</a> (S3)</li>
+                <li><a href="/modules/containers/tables.html">Tables</a> (S3)</li>
+                <li><a href="/modules/containers/tables-examples.html">Table examples</a></li>
+                <li><a href="/modules/containers/stats-block.html">Stats Block</a> (S3)</li>
+                <li><a href="/modules/containers/dynamic-charts.html">Dynamic Charts</a> (S3)</li>
+                <li><a href="/modules/containers/grid-container.html">Grid container</a> (S3)</li>
+                <li><a href="/modules/containers/dropdown-container.html">Dropdown container</a> (S3)</li>
+                <li><a href="/modules/containers/lightbox.html">Lightbox</a> (S3)</li>
+                <li><a href="/modules/containers/video.html">Video</a> (S3)</li>
+            </ul>
+
+
+        </div>
+
+        <div class="medium-3 large-3 columns">
+
+            <h2>Site chrome</h2>
+
+            <ul class="square">
+                <li><a href="/modules/site-chrome/header.html">Header</a> (S1)</li>
+                <li><a href="/modules/site-chrome/footer.html">Footer</a> (S1)</li>
+                <li><a href="/modules/site-chrome/share-price.html">Share price</a> (S1)</li>
+            </ul>
+
+            <h2>Products and Services</h2>
+            <ul class="square">
+                <li><a href="/modules/containers/product-category.html">Product category box</a> (S2)</li>
+                <li><a href="/modules/containers/key-links.html">Button filter module</a> (S2)</li>
+                <li><a href="/modules/containers/our-products.html">Link and blurb module</a> (S2)</li>
+                <li><a href="/modules/containers/highlighted-story.html">Highlighted story module</a> (S2)</li>
+                <li><a href="/modules/containers/country-selector-enabled.html">Country selector (enabled)</a> (S2)</li>
+                <li><a href="/modules/containers/country-selector-disabled.html">Country selector (disabled)</a> (S2)</li>
+            </ul>
+
+            <h2>Contact us</h2>
+            <ul class="square">
+                <li><a href="/modules/story-chrome/primary-contacts.html">Contact pair</a> (S2)</li>
+                <li><a href="/modules/story-chrome/external-links.html">More contacts</a> (S2)</li>
+                <li><a href="/modules/story-chrome/multi-office-filter.html">Multi office filter</a> (S2)</li>
+            </ul>
+
+
+            <h2>Story chrome</h2>
+            <ul class="square">
+                <li><a href="/modules/story-chrome/share-tools.html">Share Tools</a> (S3)</li>
+                <li><a href="/modules/story-chrome/tags.html">Topics</a> (S1)</li>
+                <li>Related Links (TBC)</li>
+                <li><a href="/modules/story-chrome/prev-next-stories.html">Previous/Next Stories</a> (S1)</li>
+                <li><a href="/modules/story-chrome/related-content.html">Related Stories</a> (S1)</li>
+                <li><a href="/modules/story-chrome/latest-news.html">Latest News</a> (S1)</li>
+                <li><a href="/modules/story-chrome/cross-promo.html">Cross Promotion (Related Promotion)</a> (S1)</li>
+                <li><a href="/modules/story-chrome/blockquote.html">Blockquote</a> (S1)</li>
+                <li><a href="/modules/containers/story-highlights.html">Story Highlights</a> (S1)</li>
+                <li><a href="/modules/containers/accordion.html">Accordian</a> (S2)</li>
+                <li><a href="/modules/containers/accordion-mini.html">Mini Accordian</a> (S3)</li>
+                <li><a href="/modules/story-chrome/link-blocks.html">Link Blocks</a> (S1)</li>
+                <li><a href="/modules/story-chrome/contact-panel.html">Contact Panel</a> (S2)</li>
+                <!-- <li><a href="/modules/containers/content-switcher.html">Content Switcher</a> (S2)</li> -->
+                <li><a href="/modules/story-chrome/event-summary.html">Event Summary (S3)</a></li>
+                <!--<li><a href="/modules/story-chrome/promo-list.html">Promo List</a></li>-->
+                <li><a href="/modules/story-chrome/document-download.html">Document download</a> (S3)</li>
+                <li><a href="/modules/story-chrome/selected-tweet.html">Selected tweet</a> (S2)</li>
+                <li>Grid Promo (S3)</li>
+            </ul>
+
+        </div>
+
+        <div class="medium-3 large-3 columns">
+
+            <h2>Lists</h2>
+
+            <ul class="square">
+                <li><a href="/modules/story-chrome/bullet-list.html">Bullet list</a> (S1)</li>
+                <li><a href="/modules/story-chrome/number-list.html">Number list</a> (S2)</li>
+                <li><a href="/modules/lists/link-list.html">Link list</a> (S2)</li>
+            </ul>
+
+            <h2>Miscellaneus</h2>
+            <ul class="square">
+                <li><a href="/style-guide/buttons.html">Buttons &amp; icons</a></li>
+                <li><a href="/style-guide/type-styles.html">Type styles for Text &amp; Image</a></li>
+                <li><a href="/includes/containers/spacers.html">Spacers</a></li>
+                <li><a href="/style-guide/link.html">Link</a></li>
+            </ul>
+
+            <h2>Bespoke IR</h2>
+            <ul class="square">
+                <li><a href="/modules/containers/iframe.html">iframe</a> (S3)</li>
+                <li><a href="/modules/containers/share-price-feed.html">Share price feed</a> (S3)</li>
+                <li>Filters for document list (S3)</li>
+                <li><a href="/modules/containers/document-group.html">Document group</a> (S3)</li>
+            </ul>
+
+            <h2>Templates</h2>
+
+            <ul class="square">
+                <li><a href="/templates/hub.html">Hub</a> (S1)</li>
+                <li><a href="/templates/utility.html">Utility</a> (S1)</li>
+                <li><a href="/templates/editorial.html">Editorial</a> (S1)</li>
+                <li><a href="/templates/news-article.html">News article</a> (S1)</li>
+                <li><a href="/templates/feature.html">Feature</a> (S1)</li>
+                <li><a href="/templates/magazine.html">Magazine</a> (S1)</li>
+            </ul>
+
+            <ul class="square">
+                <li><a href="/templates/column-controls.html">Column controls</a> (S2)</li>
+                <li><a href="/modules/containers/outdent-box.html">Outdent box</a> (S2)</li>
+                <li><a href="/templates/full-bleed-container.html">Full bleed container</a> (S2)</li>
+            </ul>
+
+        </div>
+
+        <div class="medium-3 large-3 columns">
+            <h2>HTML drops</h2>
+            <ul class="square">
+                <li><a href="/code-drops/dotcom-291113.zip">Site code - Drop 1 - 29/11/13</a> (S1)</li>
+                <li><a href="/code-drops/dotcom-091213.zip">Site code - Drop 2 - 09/12/13</a> (S1)</li>
+                <li><a href="/code-drops/dotcom-111213.zip">Site code - Drop 2.1 - 11/12/13</a> (S1)</li>
+                <li><a href="/code-drops/dotcom-100114.zip">Site code - Drop 3 - 10/01/14</a> (S2)</li>
+                <li><a href="/code-drops/dotcom-170114.zip">Site code - Drop 3.1 - 17/01/14</a> (S2)</li>
+                <li><a href="/code-drops/dotcom-210114.zip">Site code - Drop 3.2 - 21/01/14</a> (S2)</li>
+                <li><a href="/code-drops/dotcom-070214.zip">Site code - Drop 4 - 07/02/14</a> (S3)</li>
+            </ul>
+            <hr/>
+
+            <p>Containers module testing</p>
+            <ul class="square">
+                <li><a href="/modules/containers/grid-container-examples.html">Grid container examples</a></li>
+                <li><a href="/modules/containers/dropdown-container-examples.html">Drop down container examples</a></li>
+                <li><a href="/modules/containers/accordion-examples.html">Accordian examples</a></li>
+                <li><a href="/modules/containers/accordion-mini-examples.html">Mini Accordian examples</a></li>
+                <li><a href="/modules/containers/tabs-examples.html">Tabs examples</a></li>
+                <li>Minor tabs examples</li>
+                <li><a href="/templates/full-bleed-container-examples.html">Full bleed container examples</a></li>
+                <li><a href="/templates/column-controls-examples.html">Column controls examples</a></li>
+                <li><a href="/modules/containers/outdent-box-examples.html">Outdent box examples</a></li>
+                <li><a href="/modules/containers/document-group-examples.html">Document group examples</a></li>
+            </ul>
+            <p>Template module testing</p>
+            <ul class="square">
+                <li><a href="/templates/hub-examples.html">Hub</a> (content examples)</li>
+                <li><a href="/templates/feature-examples.html">Feature</a> (content examples)</li>
+            </ul>
+
+            <p>Module testing</p>
+            <ul class="square">
+                <li><a href="/modules/containers/adaptive-image.html">Adaptive image examples</a></li>
+                <li><a href="/modules/containers/dynamic-charts-testing.html">Dynamic charts examples</a></li>
+                <li><a href="/modules/containers/text-image-testing.html">Text &amp; Image examples</a></li>
+                <li><a href="/modules/containers/bulleted-list-testing.html">Bulleted list examples</a></li>
+                <li><a href="/modules/lists/link-list-testing.html">Links List examples</a></li>
+            </ul>
+        </div>
+
+	</div>
+
+</body>
+</html>

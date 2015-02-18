@@ -1,0 +1,28 @@
+<div class="content-switcher">
+  <div class="content-switcher__description">
+    
+  </div>
+  <form action="" class="custom">
+      <!-- KeyLinksCombo function -->
+      <select id="contentSwitcher" class="button-container custom-forms medium">
+          <option>Choose location</option>
+          <option value="Chicago">Chicago</option>
+          <option value="London">London</option>
+          <option value="HongKong">Hong Kong</option>
+          <option value="NewYork">New York</option>
+      </select>
+  </form>
+
+  <div id="Chicago" class="js-contentSwitcher">
+    <!--#include virtual="./includes/lists/link-list.html"-->
+  </div>
+  <div id="London" class="js-contentSwitcher">
+    <!--#include virtual="./includes/lists/link-list.html"-->
+  </div>
+  <div id="HongKong" class="js-contentSwitcher">
+    <!--#include virtual="./includes/lists/link-list.html"-->
+  </div>
+  <div id="NewYork" class="js-contentSwitcher">
+    <!--#include virtual="./includes/lists/link-list.html"-->
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<aside class="story-highlights">
+
+    <h3 class="story-highlights__heading">Key facts about Rwanda</h3>
+
+    <div class="stats-block__item">
+        <span class="num">54%</span>
+        <span class="info">of the population live below the international poverty line.</span>
+    </div>
+
+    <ul class="story-highlights__list">
+        <li>13.5% of the population aged 15-49<sup>1</sup> years is infected with HIV</li>
+        <li>Youth unemployment is at 45%</li>
+    </ul>
+
+    <p class="story-highlights__footnote">* Less than US$1.25 a day</p>
+    <p class="story-highlights__footnote"><sup>1</sup> UNICEF, Rwanda, Country stats</p>
+
+</aside>

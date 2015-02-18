@@ -1,0 +1,217 @@
+.main-content {
+    padding-top: 20px;
+    // min-height: 505px;
+    position: relative;
+    @include clearfix;
+}
+
+
+// ====================================================
+// LAYOUT CONTAINERS
+// ====================================================
+
+// .full-bleed {
+.row__full-bleed {
+    max-width: 100%;
+}
+
+// FULL WIDTH -- (12 columns)
+// ====================================================
+
+.col__full-width {
+    @include grid-column(12);
+    @include clearfix;
+    float: none;
+}
+
+// TWO COLUMNS -- (9 - 3) with 1 col left indent
+// ====================================================
+
+.detail-9 {
+    @include grid-column(12);
+    padding-top: 20px;
+    position: relative;
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(8);
+    }
+}
+
+.sub-content-3 {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+        margin-left: 0;
+        float: right;
+    }
+}
+
+
+// TWO COLUMNS -- (8 - 4)
+// ====================================================
+
+.detail-8 {
+    @include grid-column(12);
+    padding-top: 20px;
+    position: relative;
+
+    @media #{$medium} {
+        @include grid-column(8);
+    }
+}
+
+.sub-content-4 {
+    @include grid-column(12);
+
+    @media #{$medium} {
+        @include grid-column(4);
+    }
+}
+
+
+// TWO COLUMNS -- (6 - 6)
+// ====================================================
+
+.detail-6 {
+@include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+
+    @media #{$medium} {
+        @include grid-column(6);
+    }
+}
+
+// THREE COLUMNS -- (4 - 4 - 4)
+// ====================================================
+
+.detail-4 {
+@include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+
+    @media #{$medium} {
+        @include grid-column(4);
+    }
+}
+
+// FOUR COLUMNS -- (3 - 3 - 3 - 3)
+// ====================================================
+
+.detail-3 {
+@include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(6);
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+    }
+}
+
+// HYGIENE TEMPLATE -- (1 - 8 - 3)
+// ====================================================
+
+.col__social {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(1);
+    }
+}
+
+.col__hygiene-main {
+    @include grid-column(12);
+
+    @media #{$medium} {
+        @include grid-column(8);
+    }
+}
+
+.col__hygiene-sidebar {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(6);
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail-wide {
+    @include grid-column(12);
+    float: none;
+    @include clearfix;
+}
+
+.detail {
+    @include grid-column(12);
+    padding-top: 20px;
+    position: relative;
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(8);
+    }
+}
+
+.sub-content {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+        margin-left: 0;
+        float: right;
+    }
+}
+
+.detail-two-col {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+
+    @media #{$medium} {
+        @include grid-column(6);
+    }
+}

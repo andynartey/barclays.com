@@ -1,0 +1,12 @@
+.cross-promotion {
+    border-top: 5px solid #e5e5e5;
+    padding: em-calc(20 0 10);
+    h2 {
+        font-size: em-calc(24);
+        margin-bottom: em-calc(15);
+    }
+    .cross-promotion__image {
+        display: block;
+        margin-bottom: em-calc(15);
+    }
+}

@@ -1,0 +1,44 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <!--#include virtual="../../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container">
+
+        <!--#include virtual="../../includes/site-chrome/top-nav-bar.html"-->
+
+        <br><br><br><br>
+
+        <nav class="top-nav-bar">
+            <div class="row">
+                <div class="top-nav-bar__share-price">
+                    <p>
+                        <a href="">
+                            <strong>BARC.L</strong>
+                            <span>300.25</span>
+                            <span class="decrease change">-3.25</span>
+                        </a>
+                    </p>
+                </div>
+                <div class="top-nav-bar__links">
+                    <ul class="button-group">
+                        <li><a href="/contact-us.html" class="top-nav-bar__link">Contact us</a></li>
+                        <li>
+                            <a href="#" class="btn btn__small btn__primary"><i class="icon icon__secure"></i> Online banking</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content row" style="min-height: 600px;">
+
+        </div>
+
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

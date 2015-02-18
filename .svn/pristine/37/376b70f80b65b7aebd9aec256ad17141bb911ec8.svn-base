@@ -1,0 +1,81 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="row">
+        <br /><br />
+        <h2>Four columns (3 - 3 - 3 - 3)</h2>
+
+        <div class="detail-3">
+
+            <code>.detail-3</code>
+
+            <hr>
+
+            <img src="http://placehold.it/370x175" data-interchange="
+                [http://placehold.it/480x227, (default)],
+                [http://placehold.it/768x363, (medium)],
+                [http://placehold.it/370x175, (large)]" alt="" class="">
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+        </div>
+
+        <div class="detail-3">
+            <code>.detail-3</code>
+
+            <hr>
+
+            <img src="http://placehold.it/370x175" data-interchange="
+                [http://placehold.it/480x227, (default)],
+                [http://placehold.it/768x363, (medium)],
+                [http://placehold.it/370x175, (large)]" alt="" class="">
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+        </div>
+
+        <div class="detail-3">
+            <code>.detail-3</code>
+
+            <hr>
+
+            <img src="http://placehold.it/370x175" data-interchange="
+                [http://placehold.it/480x227, (default)],
+                [http://placehold.it/768x363, (medium)],
+                [http://placehold.it/370x175, (large)]" alt="" class="">
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+        </div>
+
+        <div class="detail-3">
+            <code>.detail-3</code>
+
+            <hr>
+
+            <img src="http://placehold.it/370x175" data-interchange="
+                [http://placehold.it/480x227, (default)],
+                [http://placehold.it/768x363, (medium)],
+                [http://placehold.it/370x175, (large)]" alt="" class="">
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+        </div>
+
+    </div>
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

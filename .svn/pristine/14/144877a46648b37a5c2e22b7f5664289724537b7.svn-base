@@ -1,0 +1,103 @@
+// SHARE, EMAIL, PRINT MODULE
+/* --------------------------------------*/
+
+.share-tools-1 {
+    display: none;
+
+    @media #{$small} {
+        display: block;
+    }
+}
+
+.share-tools {
+    @include grid-column(12);
+    padding-top: em-calc(15);
+    padding-bottom: em-calc(10);
+    border-bottom: 4px solid #e5e5e5;
+
+    @media #{$small} {
+        @include grid-column(1);
+        border: none;
+    }
+}
+
+.share-tools__heading {
+    @extend .hide-for-medium-up;
+
+    h2 {
+        color: $gray;
+        font-size: em-calc(22);
+        margin-bottom: em-calc(10);
+    }
+}
+
+.share-tools__body {
+    @include grid-column(12);
+    padding-left: 0;
+    position: absolute;
+
+    @media #{$small} {
+        width: auto;
+    }
+
+    &.fixed {
+        width: auto;
+        position: fixed;
+    }
+
+    &.absolute {
+    }
+
+    .share-tools__list {
+        @include block-grid(3);
+
+        @media #{$small} {
+            @include block-grid(1);
+        }
+    }
+
+    .btn__social {
+        display: block;
+        color: $gray-info;
+        font-family: $header-font-family-regular;
+    }
+}
+
+.share-tools__list {
+    list-style: none;
+    margin-left: -4px;
+}
+
+@media #{$small} {
+    .share-tools__body {
+
+        .share-tools__list-item {
+            margin-bottom: 2.1em;
+        }
+    }
+}
+
+.share-tools-2 {
+
+    @media #{$small} {
+        display: none;
+    }
+
+    .share-tools__body {
+        position: static;
+        padding: 0;
+    }
+
+    .share-tools__list-item {
+        a {
+            margin: 0 auto;
+        }
+    }
+}
+
+.share-label {
+    display: block;
+    color: $gray-info;
+    font-family: $header-font-family-regular;
+    padding-top: em-calc(5);
+}

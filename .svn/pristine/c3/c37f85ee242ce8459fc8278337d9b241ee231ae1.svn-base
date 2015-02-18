@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="map.css">
+</head>
+<body>
+	<p>Use SVG image and raphael for IE8</p>
+	<div id="map"></div>
+
+	<!--[if lte IE 8]><script src="r2d3.min.js" charset="utf-8"></script><![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="d3.v3.min.js" charset="utf-8"></script>
+    <!--<![endif]-->
+	<script src="topojson.v1.min.js"></script>
+	<script src="map.d3.js"></script>
+
+</body>
+</html>

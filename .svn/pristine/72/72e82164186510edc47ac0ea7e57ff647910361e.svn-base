@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Barclays.com</title>
+
+    <!--[if (gt IE 9)]><!-->
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <!--<![endif]-->
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="stylesheets/app-ie.css">
+    <![endif]-->
+
+    <script src="javascripts/vendor/custom.modernizr.js"></script>
+
+    <!--[if lt IE 9]>
+        <script src="javascripts/vendor/jquery-1.10.2.min.js"></script>
+        <script src="javascripts/vendor/nwmatcher-1.2.5-min.js"></script>
+        <link rel="stylesheet" href="stylesheets/ie.css" />
+    <![endif]-->
+</head>
+
+<body>
+    <div class="cookie">
+    <div class="cookie__wrapper">
+        <div class="cookie__content">
+            <!-- rich text editor content -->
+            <p>
+                Barclays uses cookies on this website. They help us to know a little bit about you and how you use our website, 
+                which improves the browsing experience and marketing – both for you and for others. They are stored locally on 
+                your computer or mobile device. To accept cookies continue browsing as normal. For more information and 
+                preferences go to the <a href="">cookie policy</a>. You will see this message only once.
+            </p>
+        </div>
+        <a href="#" class="cookie__close"><span class="visuallyhidden">Close</span></a>
+    </div>
+</div>
+
+
+    <!-- Mobile Off-Canvas Navigation -->
+<nav class="off-canvas-menu" data-offcanvas-menu-left>
+
+    <ul class="off-canvas-menu__top-level" data-offcanvas-menu-top-level>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/">Home</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/news/" data-offcanvas-menu-second-link>News</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/aboutus/" data-offcanvas-menu-second-link>About us</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/investorrelations" data-offcanvas-menu-second-link>Investor relations</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/citizenship" data-offcanvas-menu-second-link>Citizenship</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/careers" data-offcanvas-menu-second-link>Careers</a>
+        </li>
+        <li class="off-canvas-menu__item">
+            <a href="http://www.barclays.com/contactus">Contact us</a>
+        </li>
+    </ul>
+
+</nav>
+
+<!--The Layer that will be layed over the content
+    so that the content is unclickable while menu is shown-->
+<div class="off-canvas-menu-content-layer" data-offcanvas-menu-content-layer></div>
+
+
+    <div class="site-container template__news-article">
+
+        <!-- Top Nav Bar -->
+<nav class="top-nav-bar">
+    <div class="row" style="height: 43px;">
+        <!-- placeholder to avoid share price jump -->
+    </div>
+</nav>
+
+        <!-- Logo banner -->
+<section class="logo-banner" data-logo-banner>
+    <div class="row" style="min-height: 37px;">
+        <div class="logo-banner__hamburger">
+            <a href="" data-offcanvas-menu-toggle>
+                <i class="icon icon__hamburger"></i>
+            </a>
+        </div>
+        <div class="logo-banner__logo">
+            <a href="">
+                <img src="images/logo.png" data-interchange="
+                    [images/logo-tab-mob.png, (default)],
+                    [images/logo-tab-mob.png, (medium)],
+                    [images/logo.png, (large)]" alt="Barclays">
+            </a>
+        </div>
+    </div>
+</section>
+
+        <!-- Main Navigation -->
+<nav class="main-nav">
+    <div class="row">
+        <div class="mega-menu">
+            <ul class="mega-menu__list" data-mega-menu-list>
+
+                <li class="mega-menu__item--news" data-mega-menu-item>
+
+                    <a href="http://www.barclays.com/news" class="mega-menu__top-link" data-mega-top-link>
+                        News
+                    </a>
+
+                </li>
+
+                <li class="mega-menu__item--about-us" data-mega-menu-item>
+
+                    <a href="http://www.barclays.com/aboutus" class="mega-menu__top-link" data-mega-top-link>
+                        About us
+                    </a>
+
+                </li>
+
+                <li class="mega-menu__item--ir" data-mega-menu-item>
+
+                    <a href="http://www.barclays.com/investorrelations" class="mega-menu__top-link" data-mega-top-link>
+                        Investor relations
+                    </a>
+                </li>
+
+                <li class="mega-menu__item--citizenship" data-mega-menu-item>
+
+                    <a href="http://www.barclays.com/citizenship" class="mega-menu__top-link" data-mega-top-link>
+                        Citizenship
+                    </a>
+
+                </li>
+
+                <li class="mega-menu__item--careers" data-mega-menu-item>
+
+                    <a href="http://www.barclays.com/careers" class="mega-menu__top-link" data-mega-top-link>
+                        Careers
+                    </a>
+
+                </li>
+
+                <li class="mega-menu__item--products-services" data-mega-menu-item>
+
+                    <a href="http://www.barclays.com/contactus" class="mega-menu__top-link" data-mega-top-link>
+                        Contact us
+                    </a>
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <!-- parsys 1: modules start here -->
+
+                <!-- iframe goes in here, you'll need to add you own dimensions -->
+                <iframe frameborder="0" src="http://example.com/" style="width: 100%;height: 600px;margin-bottom: 1em;"></iframe>
+
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+
+        <!-- Site Footer -->
+        <footer class="mega-footer" data-sticky="end"></footer>
+
+<footer id="footer" class="bottom-footer">
+    <div class="row">
+
+        <nav class="bottom-footer__links">
+            <ul class="links-list">
+                <li><a href="http://group.barclays.com/privacy-policy">Privacy policy</a></li>
+                <li><a href="http://www.accessibility.barclays.com">Accessibility</a></li>
+                <li><a href="http://www.barclays.com/importantinformation">Important information</a></li>
+                <li><a href="http://group.barclays.com/terms-of-use">Terms of use</a></li>
+                <li><a href="http://www.barclays.com/sitemap">Site map</a></li>
+                <li><a href="http://group.barclays.com/cookie-policy">Cookie policy</a></li>
+            </ul>
+        </nav>
+
+        <div class="bottom-footer__copyright">
+            <p>&copy; Barclays 2013</p>
+        </div>
+
+    </div>
+</footer>
+
+    </div> <!-- END .site-container -->
+
+<script src="javascripts/vendor/jquery-1.10.2.min.js"></script>
+<script src="javascripts/plugins.js"></script>
+<script src="javascripts/main.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52dd53871ddd5d1f"></script>
+</body>
+</html>

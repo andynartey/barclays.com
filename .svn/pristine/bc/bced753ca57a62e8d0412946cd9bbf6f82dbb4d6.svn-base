@@ -1,0 +1,39 @@
+<div class="dropdown__module">
+	<div class="dropdown__controls" data-dropdown-controls>
+	    <div class="dropdown__container">
+		    <a href="" class="dropdown__trigger" data-dropdown-trigger>
+		        Make a selection
+		    </a>
+
+		    <ul class="dropdown__select" data-dropdown-dropdown>
+		        <li class="dropdown__item" data-dropdown-item>
+		            <a href="">Europe Europe Europe Europe Europe Europe Europe </a>
+		        </li>
+		        <li class="dropdown__item" data-dropdown-item>
+		            <a href="">Africa Africa Africa Africa Africa Africa Africa</a>
+		        </li>
+		        <li class="dropdown__item" data-dropdown-item>
+		            <a href="">Asia Asia Asia Asia Asia</a>
+		        </li>
+		    </ul>
+		</div>
+
+	</div>
+
+	<div class="dropdown__contentHolder">
+		<div class="dropwdown__content" data-dropdown-content>
+		    <!-- PLACE CONTENT -->
+		    <h1>Europe</h1>
+		</div>
+
+		<div class="dropwdown__content" data-dropdown-content>
+		    <!-- PLACE CONTENT -->
+		    <h1>Africa</h1>
+		</div>
+
+		<div class="dropwdown__content" data-dropdown-content>
+		    <!-- PLACE CONTENT -->
+		    <h1>Asia</h1>
+		</div>
+	</div>
+</div>

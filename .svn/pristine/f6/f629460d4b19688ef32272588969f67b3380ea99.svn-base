@@ -1,0 +1,31 @@
+// ====================================================
+// LINK
+// ====================================================
+
+.link {
+    display: block;
+    font-family: $header-font-family;
+    font-size: em-calc(16);
+    line-height: 1.15;
+    margin-bottom: em-calc(15);
+
+    @media #{$small} {
+        line-height: 1.125;
+        font-size: em-calc(18);
+    }
+}
+
+.link--internal {
+    @extend .link;
+    @extend .icon__chevron-right;
+
+    &:after {
+        top: 2px;
+        position: relative;
+    }
+}
+
+.link--external {
+    @extend .link;
+    @extend .icon__external-link;
+}

@@ -1,0 +1,3 @@
+<iframe frameborder="0" height="440" width="1200" src="http://example.com/"></iframe>
+<!-- the height and the width prevents scrolling within the iframe and should be configureable -->
+<!-- it also help maintain the aspect ratio for the iframe in smaller screen sizes -->

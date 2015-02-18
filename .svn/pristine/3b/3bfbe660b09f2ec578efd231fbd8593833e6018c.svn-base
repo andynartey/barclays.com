@@ -1,0 +1,21 @@
+// ====================================================
+// NEWS LANDING MODULE
+// ====================================================
+
+.news-landing {
+    @include grid-column(12);
+    margin-bottom: em-calc(20);
+    margin-top: em-calc(20);
+}
+
+.news-landing__leftcol, .news-landing__rightcol {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+
+    @media #{$medium} {
+        @include grid-column(6);
+    }
+}

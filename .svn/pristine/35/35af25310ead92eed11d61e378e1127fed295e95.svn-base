@@ -1,0 +1,29 @@
+<aside class="share-tools">
+    <div class="row">
+        <div class="share-tools__heading">
+            <h2>Share, email or print</h2>
+        </div>
+        <div class="share-tools__body">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="/images/share-module/icon-share.png" alt="Share">
+                        <span>Share</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="/images/share-module/icon-email.png" alt="Email">
+                        <span>Email</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="/images/share-module/icon-print.png" alt="Print">
+                        <span>Print</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</aside>

@@ -1,0 +1,496 @@
+// ====================================================
+// TABLE MODULE
+//      _       _                       _      
+//     | |     | |                     | |     
+//   __| |_   _| |__  ___  ___ ___   __| | ___ 
+//  / _` | | | | '_ \/ __|/ __/ _ \ / _` |/ _ \
+// | (_| | |_| | |_) \__ \ (_| (_) | (_| |  __/
+//  \__,_|\__,_|_.__/|___/\___\___/ \__,_|\___|
+// ====================================================
+
+table {
+    font-size: em-calc(14);
+    line-height: 1.3em;
+}
+
+th {
+    padding: 10px 15px;
+    text-align: left;
+    color: #fff;
+    background: $primary-color;
+    border-color: $primary-color;
+    vertical-align: top;
+    a {
+        color: #fff;
+    }
+}
+
+.heading-style-2 {
+    border-bottom: 1px solid $gray-rule;    
+    border-top: 1px solid $gray-rule;
+}
+.heading-style-2,
+.heading-style-4 {
+        background: transparent;
+        color: $blue-darker;
+}
+.heading-style-3,
+.heading-style-4 {
+        font-weight: normal;
+        font-size: 0.9em;
+}
+.heading-style-3,
+.heading-style-4 {
+    padding: 15px;
+}
+
+// IE helpfully picks up the 'king!important print styles
+.lt-ie9 {
+    th {
+        color: #fff!important;
+    }
+    .heading-style-2,
+    .heading-style-4 {
+            color: $blue-darker!important;
+    }
+}
+
+td {
+    padding: 15px 15px;
+    vertical-align: top;
+    border: 1px solid $gray-rule;
+    color: $blue-darker;
+    line-height: 1.4;
+    font-size: 0.9em;
+
+    &:first-child, .table__td__first {
+        border-left: none;
+    }
+
+    &:last-child, .table__td__last {
+        border-right: none;
+    }
+}
+.cell-highlight {
+    color: #fff;
+    background-color: $blue-darker;
+}
+
+.table {
+    overflow: hidden;
+    clear: both;
+}
+.table--wrapper {
+    overflow-x: auto;
+}
+
+.table__title-col {
+    color: $blue-darker;
+    font-weight: bolder;    
+}
+
+.table--striped {
+    tbody tr:nth-child(odd) td {
+        background-color: #f3f8fc;
+        &.cell-highlight {
+            background-color: $blue-darker;
+        }
+    }
+    tbody tr:nth-child(even) td {
+        // background-color: darken($blue-bkgnd, 3);
+        background-color: #e7f2f8;
+        &.cell-highlight {
+            background-color: $blue-darker;
+        }
+    }
+}
+
+.table--vertical-shading {
+    td {
+        background: $blue-bkgnd;
+        &:nth-child(2n) {
+            background: #e7f2f8;
+        }
+        &.cell-highlight {
+            color: #fff;
+            background-color: $blue-darker;
+        }
+    }
+}
+
+.table--horizontal-shading {
+    tr {
+        td {
+            background: $blue-bkgnd;
+            &.cell-highlight {
+                color: #fff;
+                background-color: $blue-darker;
+            }
+        }
+        &:nth-child(2n) td {
+            background: #e7f2f8;
+            &.cell-highlight {
+                color: #fff;
+                background-color: $blue-darker;
+            }
+
+        }
+    }
+
+    .highlight-row,
+    .highlight-row:nth-child(2n) {
+        td,
+        td:nth-child(2n) {
+            background: $blue-darker;
+            color: white;
+            border-color: $blue-darker;
+        }
+    }
+    
+}
+
+    td.cell-highlight,
+    td.cell-highlight:nth-child(2n) {
+        background: $blue-darker;
+        color: white;
+        border-color: $blue-darker;
+    }
+
+/* BASIC TABLE */
+
+.table--basic-table {
+
+    td {
+        display: block;
+        border-right: none;
+        
+        &:first-child {
+            border-width: 0;
+            padding-bottom: 0;
+        }
+
+        &:last-child {
+            border-width: 0;
+            border-bottom-width: 1px;
+        }
+    }
+    th {
+        font-weight: normal;
+    }
+
+    .heading-style-2 th {
+        border-top: 1px solid $gray-rule;
+        border-bottom: 1px solid $gray-rule;
+    }
+
+    @media #{$small} {
+        td {
+            display: table-cell;
+            border-width: 1px;
+
+            &:first-child {
+                border-width: 1px;
+                border-left-width: 0;
+                padding-bottom: 15px;
+                border-top-width: 0;
+            }
+        }
+    }
+}
+
+/* data table */
+
+.table--data-table {
+    tr {
+        // th,
+        .heading-style-4 {
+            border-left: none;
+            &:first-child{
+                border-left: none;
+            }
+        }
+        td {
+            border-left-width: 1px;
+            &:first-child{
+                border-left: none;
+            }
+        }
+        &.cell-highlight {
+            border-left-color: #00395d;
+            border-right-color: #00395d;
+        }
+    }
+    tr {
+        // th
+        &.heading-style-1,
+        &.heading-style-3 {
+            // th {
+                border-color: #007eb6;
+            // }
+        }
+    }
+    &.table--horizontal-lines {
+        tr {
+            // th
+            .heading-style-1,
+            .heading-style-3 {
+                // th {
+                    border-left-color: #007eb6;
+                // }
+            }
+            .heading-style-2,
+            .heading-style-4 {
+                // th {
+                    border-left-color: #fff;
+                // }
+            }
+            td {
+                border-left-color: #fff;
+                border-right-color: #fff;
+            }
+            // &.highlight-row {
+            .cell-highlight {
+                // td {
+                    border-left-color: #00395d;
+                    border-right-color: #00395d;
+                // }
+            }
+        }
+
+    }
+    &.table--horizontal-shading tr {
+        td {
+            border-left: none;
+            border-left-width: 0;
+        }
+        .heading-style-4 {
+            border-left-width: 0;
+        }
+    }
+    &.table--horizontal-shading-2 {
+        tr {
+            td {
+                border-right-width: 0;
+                &:first-child {
+                    background: #f2f8fb;
+                }
+            }
+            &:nth-child(2n) td:first-child {
+                background: #e7f2f8;
+            }
+        }
+    }
+    &.table--vertical-shading {
+        .heading-style-4 {
+                border-left-color: #fff;
+            border-bottom: solid 1px #e1e1e1;
+        }
+        td {
+            border: none;
+            border-bottom: solid 1px #e1e1e1;
+        }
+        .cell-highlight {
+            border-color: #00395d;
+        }
+    }
+
+    td:first-child{
+        background: none;
+        border-right-width: 1px;
+        min-width: 150px;
+        max-width: 60%;
+        @media #{$medium} {
+            min-width: 40%;
+            width: 70%;
+            &.cell-highlight {
+                color: $blue-darker;
+                border-color: #e1e1e1;
+            }
+        }
+    }
+
+    tr:nth-child(2n) td:first-child {
+        background: none;
+    }
+
+    td.cell-highlight:first-child,    
+    tr:nth-child(2n) td.cell-highlight:first-child {
+        background: #00395d;
+        border-color: #00395d;
+        color: #fff;
+    }
+    .cell-highlight {
+        border-color: #00395d;
+    }
+}
+
+.table__table-x-y.table--text-table {    
+    tr {
+        &.heading-style-2,
+        &.heading-style-4 {
+                border-left: $border-style;
+                &:first-child{
+                    border-left: none;
+                }
+        }
+
+    }
+        .heading-style-4,
+        td {
+            border-left: $border-style;
+            border-left-width: 1px;
+            &:first-child{
+                border-left: none;
+            }
+        }
+        .heading-style-4 {
+            border-left: none;
+        }
+        .cell-highlight {
+                background: $blue-darker;
+                color: white;
+                border-color: $blue-darker;
+        }
+        &.table--horizontal-shading {
+            .heading-style-4,
+                td {
+                    border-left: #fff;
+                }
+        }
+    &.table--horizontal-lines {
+        tr {
+            .heading-style-1,
+            .heading-style-3 {
+                    border-left-color: #007eb6;
+            }
+            .heading-style-2,
+            .heading-style-4 {
+                    border-left-color: #fff;
+                td {
+                    border-left: none;
+                }
+            }
+        }
+            td {
+                border-left-color: #fff;
+                border-right-color: #fff;
+            }
+            .cell-highlight {
+                    border-color: #00395d;
+            }
+
+    }
+    &.table--vertical-shading {
+        .heading-style-4 {
+                border-left-color: #fff;
+            border-bottom: solid 1px #e1e1e1;
+        }
+        td {
+            border: none;
+            border-bottom: solid 1px #e1e1e1;
+        }
+        .cell-highlight {
+            border-color: #00395d;
+        }
+    }
+    .cell-highlight {
+        border-color: #00395d;
+    }
+}
+.table__table-x {
+
+    @media #{$medium} {
+
+        display: table;
+
+        thead {
+            display: table-header-group;
+            float: none;
+        }
+
+        tbody {
+            display: table-row-group;
+        }
+
+        tr, tbody tr, thead tr {
+            display: table-row;
+        }
+
+        th, td {
+            display: table-cell;
+            // white-space: normal;
+        }
+    }
+}
+
+
+
+.table__table-x-y {
+    width: 100%;
+    tr {
+
+        text-align: left;
+    }
+    td {
+        border-left-width: 0;
+        border-right-width: 0;
+        max-width: 200px;
+        // white-space: pre-line;
+    }
+    &.table--text-table {
+        td {
+            max-width: 300px;
+            min-width: 200px;
+        }
+    }
+    thead th[colspan] {
+        text-align: center;
+    }
+
+    .table__table-x-y--sub-title {
+        th {
+            text-align: center; 
+        }
+    }
+    .table__table-x-y--split-col-sub-title {
+        th {
+            font-weight: normal;
+            text-align: center;
+            background: none;
+            color: $body-font-color;
+            &.tinted-cell {
+                background: $blue-bkgnd;
+            }
+            &.tinted-cell--alt {
+                background: #e7f2f8;
+            }
+        }
+    }
+}
+
+.table--wide {
+    position: relative;
+    &:after {
+        @include icon-font($icon-chevron-right);
+        position: absolute;
+        top: 1px;
+        right: 0px;
+        color: white;
+        background: $primary-color;
+        padding: 9px 5px;
+        opacity: 1;
+        transition: opacity 0.5s;
+    }
+    &.table-scrolling {
+        &:after {
+            opacity: 0;
+        }
+    }
+}
+.table--clear-head {
+    &:after {
+        background: #fff;
+        color: black;
+        top: 4px;
+    }
+}

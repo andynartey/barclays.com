@@ -1,0 +1,17 @@
+
+<div class="disclaimer">
+    <div class="disclaimer__inner">
+        <div class="text-image">
+            <h5>You are being re-directed to another site</h5>
+
+            <p>The website you are about to visit is owned by Barclays but may operate under different terms and conditions. Please read those terms and conditions carefully before continuing to use the website.</p>
+        </div>
+    </div>
+
+    <div class="disclaimer__btns">
+        <a href="#" class="btn btn__primary disclaimer__accept">Accept and continue</a>
+
+        <a href="#" class="btn btn__secondary disclaimer__cancel">Cancel</a>
+    </div>
+
+</div>

@@ -1,0 +1,807 @@
+<!-- Main Navigation -->
+<nav class="main-nav" role="navigation">
+    <div class="row">
+        <div class="mega-menu">
+            <ul class="mega-menu__list" role="menubar" data-mega-menu-list>
+
+                <li class="mega-menu__item--news" aria-haspopup="true" data-mega-menu-item>
+
+                    <a href="" class="mega-menu__top-link" data-mega-top-link>
+                        News
+                    </a>
+
+                    <div class="mega-content" aria-hidden="true" data-mega-content>
+                        <div class="row">
+
+                            <section class="menu-intro">
+                                <h1 class="menu-intro__heading">News</h1>
+                                <p class="menu-intro__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a class="menu-intro__link" href="">Go to News</a>
+                            </section>
+
+                            <nav class="menu-links" data-mega-links>
+                                <ul class="menu-links__list">
+
+                                    <li class="menu-links__item" aria-haspopup="false">
+                                        <a href="">Latest news</a>
+                                    </li>
+
+                                    <li class="menu-links__item" aria-haspopup="false">
+                                        <a href="">Citizenship</a>
+                                    </li>
+
+                                    <li class="menu-links__item" aria-haspopup="false">
+                                        <a href="">Transform</a>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="" class="active">Other</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Other</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="" class="active">News article</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Feature</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item" aria-haspopup="false">
+                                        <a href="">Archive</a>
+                                    </li>
+
+                                </ul>
+                            </nav>
+
+                            <section class="menu-promo" data-mega-promo>
+                                <div class="menu-promo__image">
+                                    <h3>Feature</h3>
+                                    <img src="http://placehold.it/370x165" alt="">
+                                </div>
+                                <h4 class="menu-promo__heading">Building Young Futures</h4>
+                                <p class="menu-promo__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                            </section>
+
+                            <a href="" class="mega-menu__close-btn" data-mega-close>Close</a>
+
+                        </div>
+                    </div>
+
+                </li>
+
+                <li class="mega-menu__item--about-us" aria-haspopup="true" data-mega-menu-item>
+
+                    <a href="" class="mega-menu__top-link" data-mega-top-link>
+                        About us
+                    </a>
+
+                    <div class="mega-content" aria-hidden="true" data-mega-content>
+                        <div class="row">
+
+                            <section class="menu-intro">
+                                <h1 class="menu-intro__heading">About us</h1>
+                                <p class="menu-intro__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a class="menu-intro__link" href="">Go to About us</a>
+                            </section>
+
+                            <nav class="menu-links" data-mega-links>
+                                <ul class="menu-links__list">
+
+                                    <li class="menu-links__item" aria-haspopup="false">
+                                        <a href="">Transforming Barclays</a>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Our purpose and values</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Our purpose and values</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Story</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item" aria-haspopup="false">
+                                        <a href="">Business structure</a>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Barclays around the world</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Barclays around the world</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Country profile</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Leadership</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Leadership</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Person profile</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Governance</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Governance</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Framework, code and rules</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Board responsibilities</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Policies</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">The Board Committees</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">The Directors</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Board performance</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">History</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Story</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item" aria-haspopup="false">
+                                        <a href="">Achievements</a>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Sponsorship</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Sponsorship</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Sponsorship story</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Strategy</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Form</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </nav>
+
+                            <section class="menu-promo" data-mega-promo>
+                                <div class="menu-promo__image">
+                                    <h3>Feature</h3>
+                                    <img src="http://placehold.it/370x165" alt="">
+                                </div>
+                                <h4 class="menu-promo__heading">Building Young Futures</h4>
+                                <p class="menu-promo__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                            </section>
+
+                            <a href="" class="mega-menu__close-btn" data-mega-close>Close</a>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="mega-menu__item--ir" aria-haspopup="true" data-mega-menu-item>
+
+                    <a href="" class="mega-menu__top-link" data-mega-top-link>
+                        Investor relations
+                    </a>
+
+                    <div class="mega-content" aria-hidden="true" data-mega-content>
+                        <div class="row">
+
+                            <section class="menu-intro">
+                                <h1 class="menu-intro__heading">Investor relations</h1>
+                                <p class="menu-intro__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a class="menu-intro__link" href="">Go to Investor relations</a>
+                            </section>
+
+                            <nav class="menu-links" data-mega-links>
+                                <ul class="menu-links__list">
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Why invest in Barclays</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Why invest in Barclays</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Corporate strategy and priorities</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Business structure and segments</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Key facts and figures</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Balanced scorecard</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">KPIs</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Financial highlights</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Risk management</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Share price</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Share price</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Share price chart</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Share price tools</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">American Depositary Receipts (ADR)</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Results and reports</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Results and reports</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Results</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Annual reports</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">AGM</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Events and presentation</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Events and presentation</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Presentations</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Financial calendar</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Investor news</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Investor news</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Featured news</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Regulatory news</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Regulatory news email set up</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Corporate governance</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Corporate governance</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Executive committee</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">The board</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Purpose and values</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Remuneration report</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Investor communication guidelines</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Stakeholder information</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Stakeholder information</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Barclays e-view</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Barclays stockholders</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Barclays sharestore</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Shareholder forms</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Tax implications</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Share buyback</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">FAQs</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Registrar</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Registrar 2</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Registrar 3</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Registrar 4</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Registrar 5</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Registrar 6</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Treasury and capital</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Treasury and capital</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Capital and unsubordinated debt</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Funding and liquidity</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Prospectus, final terms and related documentation</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Analysts and coverage</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Analysts and coverage</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Analysts</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Consuensus</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Credit ratings</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Credit ratings</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Current credit ratings</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Historical credit ratings</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Credit ratings definitions</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </nav>
+
+                            <section class="menu-promo" data-mega-promo>
+                                <div class="menu-promo__image">
+                                    <h3>Feature</h3>
+                                    <img src="http://placehold.it/370x165" alt="">
+                                </div>
+                                <h4 class="menu-promo__heading">Building Young Futures</h4>
+                                <p class="menu-promo__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                            </section>
+
+                            <a href="" class="mega-menu__close-btn" data-mega-close>Close</a>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="mega-menu__item--citizenship" aria-haspopup="true" data-mega-menu-item>
+
+                    <a href="" class="mega-menu__top-link" data-mega-top-link>
+                        Citizenship
+                    </a>
+
+                    <div class="mega-content" aria-hidden="true" data-mega-content>
+                        <div class="row">
+
+                            <section class="menu-intro">
+                                <h1 class="menu-intro__heading">Citizenship</h1>
+                                <p class="menu-intro__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a class="menu-intro__link" href="">Go to Citizenship</a>
+                            </section>
+
+                            <nav class="menu-links" data-mega-links>
+                                <ul class="menu-links__list">
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Contributing to growth</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Contributing to growth</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Supporting individuals</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Supporting small businesses</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Helping corporate and institutions</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Access to finance</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Social innovation</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">The way we do business</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">The way we do business</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Customer experience</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Environment</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Risk</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Diversity</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Human rights</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Supporting communities</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Supporting communities</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Enterprise</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Employability</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Financial skills</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Employee programmes</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Around the world</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Around the world</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Africa and Middle East</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Americas</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Asia Pacific</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Europe</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Our programs and projects</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Our programs and projects</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Banking on change</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Barclays spaces for sports</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Building young gutures</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">You Can B</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Barclays money skills</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Unlocking enterprise</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Employee programs</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Our partners</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Our partners</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Partner profile</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Our approach</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Our approach</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Strategy</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Key facts and figures</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Reports and publications</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Governance and reporting</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </nav>
+
+                            <section class="menu-promo" data-mega-promo>
+                                <div class="menu-promo__image">
+                                    <h3>Feature</h3>
+                                    <img src="http://placehold.it/370x165" alt="">
+                                </div>
+                                <h4 class="menu-promo__heading">Building young futures</h4>
+                                <p class="menu-promo__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                            </section>
+
+                            <a href="" class="mega-menu__close-btn" data-mega-close>Close</a>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="mega-menu__item--careers" aria-haspopup="true" data-mega-menu-item>
+
+                    <a href="" class="mega-menu__top-link" data-mega-top-link>
+                        Careers
+                    </a>
+
+                    <div class="mega-content" aria-hidden="true" data-mega-content>
+                        <div class="row">
+
+                            <section class="menu-intro">
+                                <h1 class="menu-intro__heading">Careers</h1>
+                                <p class="menu-intro__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a class="menu-intro__link" href="">Go to Careers</a>
+                            </section>
+
+                            <nav class="menu-links" data-mega-links>
+                                <ul class="menu-links__list">
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Find a role</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Find a role</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Divisional pages</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Support function pages</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">Meet our people</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">Meet our people</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">People profile</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-links__item" aria-haspopup="false">
+                                        <a href="">Working at Barclays</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <section class="menu-promo" data-mega-promo>
+                                <div class="menu-promo__image">
+                                    <h3>Feature</h3>
+                                    <img src="http://placehold.it/370x165" alt="">
+                                </div>
+                                <h4 class="menu-promo__heading">Building young futures</h4>
+                                <p class="menu-promo__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                            </section>
+
+                            <a href="" class="mega-menu__close-btn" data-mega-close>Close</a>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="mega-menu__item--products-services" aria-haspopup="true" data-mega-menu-item>
+
+                    <a href="" class="mega-menu__top-link" data-mega-top-link>
+                        Products and services
+                    </a>
+
+                    <div class="mega-content" aria-hidden="true" data-mega-content>
+                        <div class="row">
+
+                            <section class="menu-intro">
+                                <h1 class="menu-intro__heading">Products and services</h1>
+                                <p class="menu-intro__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                                <a class="menu-intro__link" href="">Go to Products and services</a>
+                            </section>
+
+                            <nav class="menu-links" data-mega-links>
+                                <ul class="menu-links__list">
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="/products-and-services-individuals.html">For Individuals</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">For Individuals</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Product category</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Individuals change location</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">For small to medium businesses</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">For small to medium businesses</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Product category</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">SMEs change location</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-links__item--nested" aria-haspopup="true" data-mega-links-item>
+                                        <a href="">For corporates and institutions</a>
+                                        <ul class="menu-links__third-level-list" aria-hidden="true" data-mega-third-level-list>
+                                            <li class="third-level-list__item">
+                                                <a href="">For corporates and institutions</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Product category</a>
+                                            </li>
+                                            <li class="third-level-list__item">
+                                                <a href="">Corporations and institutions change location</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </nav>
+
+                            <section class="menu-promo" data-mega-promo>
+                                <div class="menu-promo__image">
+                                    <h3>Feature</h3>
+                                    <img src="http://placehold.it/370x165" alt="">
+                                </div>
+                                <h4 class="menu-promo__heading">Building young futures</h4>
+                                <p class="menu-promo__paragraph">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent mattis magna et dolor mattis, quis pulvinar metus eleifend pellentesque.</p>
+                            </section>
+
+                            <a href="" class="mega-menu__close-btn" data-mega-close>Close</a>
+
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>

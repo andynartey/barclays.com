@@ -1,0 +1,17 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+    <!-- added into the 'header' after the opening body tag -->
+    <!--#include virtual="../../includes/containers/cookie-message.html"-->
+
+    <div class="content row">
+        <h1>Dropdown container</h1>
+        <div class="dropCont1">
+        <!-- Dropdown container begins -->
+        	<!--#include virtual="../../includes/containers/dropdown-container.html"-->
+		<!-- Dropdown container ends -->
+		</div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

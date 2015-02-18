@@ -1,0 +1,14 @@
+<!-- CLIENT STORY - IMAGE LEFT -->
+<div class="client-stories">
+	<div class="client-stories__highlighted_story_left">
+		<div class="client-stories__image">
+		    <img data-interchange="
+		    [/images/products-services/470x264_fields.jpg, (default)]" alt="" >
+		</div>
+		<div class="client-stories__content">
+		    <h3 class="client__story_title">Introducing the Family Springboard Mortgage</h3>
+		    <p>The average age of an unassisted first-time buyer is now 35, with family members playing a large role in helping those younger than this get on the property ladder.</p>
+		    <p><a href="#" title="">Find out more <i class="icon icon__chevron icon__chevron-right"></i></a></p>
+		</div>
+	</div>
+</div>

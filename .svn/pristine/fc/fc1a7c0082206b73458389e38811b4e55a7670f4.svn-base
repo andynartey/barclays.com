@@ -1,0 +1,108 @@
+// ====================================================
+// JUMP TO NAV MODULE
+// ====================================================
+.jump-to-nav {
+    @include grid-column(12);
+    padding: 0;
+    position: relative;
+}
+
+// JUMP TO NAV -- LINKS
+// ====================================================
+.jump-to-nav__links {
+    @include grid-row();
+    border-bottom: $border-style;
+}
+
+// JUMP TO NAV -- TOGGLE
+// ====================================================
+.jump-to-nav-toggle {
+    @include grid-column(11);
+    font-family: $header-font-family-regular;
+    font-size: em-calc(18);
+    padding-top: em-calc(15);
+    padding-bottom: em-calc(15);
+    display: block;
+    position: relative;
+
+    &:after {
+        position: absolute;
+        font-family: "Icons";
+        content: $icon-chevron-down;
+        right: em-calc(15);
+    }
+}
+
+// JUMP TO NAV -- BACK TO TOP
+// ====================================================
+.jump-to-nav-bkToTop {
+    @include grid-column(1);
+    position: relative;
+    padding-top: em-calc(15);
+    padding-bottom: em-calc(15);
+
+    &:before {
+        position: absolute;
+        font-family: "Icons";
+        content: $icon-block-arrow-up;
+        right: em-calc(15);
+    }
+}
+
+// JUMP TO NAV -- ITEMS
+// ====================================================
+.jump-to-nav__items {
+    @include grid-column(8);
+    list-style: none;
+    background: #fff;
+    margin-bottom: 0;
+    position: absolute;
+    left: em-calc(5);
+    padding: 0;
+    display: none;
+}
+
+.jump-to-nav__item {
+    border-bottom: $border-style;
+    border-left: $border-style;
+    border-right: $border-style;
+
+    a {
+        font-family: $header-font-family;
+        font-size: em-calc(21);
+        padding: em-calc(10);
+        display: block;
+    }
+
+    &.active {
+        a {
+            background: $primary-color;
+            color: #fff;
+        }
+    }
+}
+
+
+.jump-to-nav--mobile {
+    @extend .jump-to-nav;
+    @extend .show-for-medium-down;
+}
+
+.jump-to-nav--desktop {
+    @extend .jump-to-nav;
+    //@extend .show-for-large;
+    @include grid-column(3);
+    float: right;
+    min-width: inherit;
+    display: none;
+
+    .jump-to-nav-toggle {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .jump-to-nav-bkToTop {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

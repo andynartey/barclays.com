@@ -1,0 +1,142 @@
+// CREATE BARCLAYS NAMESPACE
+var BAR = BAR || {},
+    $document = $(document),
+    $window = $(window);
+
+// ====================================================
+// HEADER SEARCH FIELD
+// ====================================================
+
+$(function(){
+
+    BAR.headerSearchField = {
+
+        searchContainer: $('[data-search]'),
+        searchBtn: $('[data-search-toggle]'),
+        searchForm: $('[data-search-form]'),
+        searchField: $('[data-search-field]'),
+        t: null,
+
+        init: function() {
+            t = this;
+            t.addSearchBtnIcon();
+
+            enquire
+                .register( "screen and (max-width: 768px)", {
+                    match: function() {
+                        t.searchContainer.addClass('search-mobile');
+                    },
+
+                    unmatch: function() {
+                        t.searchContainer.removeClass('search-mobile');
+                        if ( $('.search-clear').length > 0 ) {
+                            $('.search-clear').remove();
+                        }
+                    }
+                })
+                .register( "screen and (min-width: 769px)", {
+                    match: function() {
+                        t.searchContainer.addClass('search-desktop');
+
+                        if ( t.searchForm.attr('style') ) {
+                            t.searchForm.removeStyle('width');
+                        }
+                    },
+
+                    unmatch: function() {
+                        t.searchContainer.removeClass('search-desktop');
+                    }
+                }, true);
+
+            t.searchField
+                .addClass('idleField')
+                .on('focus', t.searchFocus)
+                .on('blur', t.searchBlur);
+
+            t.searchBtn.on('click', this.showField);
+        },
+
+        searchFocus: function() {
+            var self = this,
+                $self = $(this);
+
+            $self.removeClass('idleField').addClass('focusField');
+            if (self.value == self.defaultValue){
+                self.value = '';
+            }
+            if(self.value != self.defaultValue){
+                self.select();
+            }
+        },
+
+        searchBlur: function() {
+            var self = this,
+                $self = $(this);
+
+            $self.removeClass('focusField').addClass('idleField');
+            if ($.trim(self.value) == ''){
+                self.value = (self.defaultValue ? self.defaultValue : '');
+            }
+        },
+
+        addSearchBtnIcon: function() {
+            var searchIconCode = '<i class="icon icon__search"></i>';
+            t.searchForm.append(searchIconCode);
+        },
+
+        clearBtn: function() {
+            if ( !$('.search-clear').length > 0 ) {
+                var clearIconCode = '<i class="icon icon__clear search-clear"></i>';
+                t.searchForm.append(clearIconCode);
+            }
+
+            var $searchClear = $('.search-clear');
+
+            $searchClear.on('click', t.hideClearBtn);
+        },
+
+        showField: function(e) {
+            t.searchBtn.hide();
+            t.searchForm.show();
+
+            if ( t.searchContainer.hasClass('search-mobile') ) {
+                var rowWidth = $window .width() - 30;
+                t.searchForm.css('width', rowWidth);
+            }
+            t.checkUserInput();
+            t.outsideClickClose();
+
+            e.preventDefault();
+        },
+
+        checkUserInput: function() {
+            t.searchField.on('keydown keypress', function() {
+                t.clearBtn();
+            });
+        },
+
+        outsideClickClose: function() {
+            $document.on('mouseup touchend', function(e) {
+                var formContainer = $('.logo-banner__search__form');
+
+                if ( !formContainer.is(e.target) && formContainer.has(e.target).length === 0 ) {
+                    t.hideField();
+                }
+            });
+        },
+
+        hideField: function() {
+            t.searchForm.hide();
+            t.searchBtn.show();
+            t.searchBlur();
+            $document.off('mouseup touchend');
+        },
+
+        hideClearBtn: function() {
+            t.searchField.val('Search');
+            t.searchBlur();
+            $(this).remove();
+        }
+
+    };
+}());

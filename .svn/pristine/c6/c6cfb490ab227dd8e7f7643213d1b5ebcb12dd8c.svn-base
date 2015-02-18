@@ -1,0 +1,219 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__news-article">
+
+        <!--#include virtual="../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../includes/site-chrome/main-navigation.html"-->
+
+        <div class="row__full-bleed">
+
+            <!-- parsys 1: modules start here -->
+            <div class="dummy-module dummy-module__example">
+                <div class="dummy-module__content">
+                    <p><strong>parsys 1.</strong> Hero goes here.</p>
+                    <img src="http://placehold.it/1170x350" data-interchange="
+                        [http://placehold.it/480x144, (default)],
+                        [http://placehold.it/768x230, (medium)],
+                        [http://placehold.it/1170x350, (large)]" alt="" />
+                </div>
+            </div>
+            <!-- modules end here -->
+
+        </div>
+
+
+        <div class="row">
+            <div class="template_col-1">
+
+                <div class="col__social">
+                    <!-- share links 1 -->
+                    <div class="share-tools-1">
+                        <!--#include virtual="../includes/story-chrome/share-tools.html"-->
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="template_col-8">
+                <div class="row">
+                    <div class="col__news-article--header share-ignore">
+
+                        <div class="link__page_holder">
+                            <!-- link to page above -->
+                            <a href="#" class="link__page-parent">Link to parent page</a>
+                        </div>
+
+                        <!-- page title -->
+                        <h1>News article template</h1>
+
+                        <!-- date -->
+                        <p class="news-article-date">30 Jul 2013, 15:30 BST</p>
+                    </div>
+
+                    <div class="col__news-article--content">
+
+                        <!-- parsys 2: modules start here -->
+                        <p>
+                            <strong>Parsys 2.</strong> Any number of modules can be added to this parsys column. Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                        </p>
+                        <blockquote class="news-article__blockquote">
+                            In 2012,&nbsp;800 people took part in the walk, following a 10km route across central London past some of the city's iconic landmarks.
+                        </blockquote>
+                        <p>
+                            Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                        </p>
+                        <!-- modules end here -->
+
+                    </div>
+
+                    <div class="col__news-article--full__width">
+
+                        <!-- parsys 3: modules start here -->
+                        <p>
+                            <strong>Parsys 3.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                        </p>
+                        <!-- modules end here -->
+
+                    </div>
+
+                    <div class="col__news-article--content">
+
+                        <!-- parsys 4: modules start here -->
+                        <p>
+                            <strong>Parsys 4.</strong> Any number of modules can be added to this parsys column. Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                        </p>
+                        <blockquote class="news-article__blockquote">
+                            In 2012,&nbsp;800 people took part in the walk, following a 10km route across central London past some of the city's iconic landmarks.
+                        </blockquote>
+                        <p>
+                            Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                        </p>
+                        <!-- modules end here -->
+
+                    </div>
+
+                    <div class="col__news-article--full__width">
+
+                        <!-- parsys 5: modules start here -->
+                        <p>
+                            <strong>Parsys 5.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                        </p>
+                        <!-- modules end here -->
+
+                    </div>
+
+                    <div class="col__news-article--content">
+
+                        <!-- parsys 6: modules start here -->
+                        <p>
+                            <strong>Parsys 6.</strong> Any number of modules can be added to this parsys column. Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                        </p>
+                        <!-- modules end here -->
+
+                    </div>
+
+                    <div class="col__news-article--full__width">
+
+                        <!-- Topics 1 -->
+                        <div class="topics-2">
+                            <!--#include virtual="../includes/story-chrome/tags.html"-->
+                        </div>
+
+                    </div>
+
+                    <div class="col__news-article--content">
+
+                        <!-- share links 2 -->
+                        <div class="share-tools-2">
+                            <!--#include virtual="../includes/story-chrome/share-tools.html"-->
+                        </div>
+
+                    </div>
+
+                    <div class="col__news-article--full__width">
+
+                        <!-- parsys 7: modules start here -->
+                        <p>
+                            <strong>Parsys 7.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                        </p>
+                        <!-- modules end here -->
+
+                    </div>
+
+                    <div class="col__news-article--full__width">
+
+                        <!-- Related stories -->
+                        <p>
+                            <strong>Related stories.</strong>
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="template_col-3">
+                <!-- Topics 2 -->
+                <div class="topics-1">
+                    <!--#include virtual="../includes/story-chrome/tags.html"-->
+                </div>
+
+                <!-- Latest news -->
+                <div class="latest-news">
+                    <p>
+                        <strong>Latest news.</strong>
+                    </p>
+                </div>
+
+                <!-- parsys 8: modules start here -->
+                <p>
+                    <strong>Parsys 8.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <img src="http://placehold.it/768x230" data-interchange="
+                    [http://placehold.it/480x144, (default)],
+                    [http://placehold.it/768x230, (medium)]" alt="" />
+                <p>
+                    Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <!-- modules end here -->
+            </div>
+        </div>
+
+        <div class="row" data-sticky="end">
+            <div class="col__full-width">
+                <p>
+                    <strong>Parsys 9.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+            </div>
+        </div>
+
+        <div class="row__full-bleed">
+
+            <!-- parsys 9: modules start here -->
+            <div class="dummy-module dummy-module__example">
+                <div class="dummy-module__content">
+                    <p>
+                        <strong>Parsys 10.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                    </p>
+                </div>
+            </div>
+            <!-- modules end here -->
+
+        </div>
+
+
+        <!--#include virtual="../includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .site-container -->
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

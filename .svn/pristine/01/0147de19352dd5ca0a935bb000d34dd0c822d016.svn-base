@@ -1,0 +1,34 @@
+<aside class="share-tools">
+    <div class="row">
+        <div class="share-tools__heading">
+            <h2>Share, email or print</h2>
+        </div>
+        <div class="share-tools__body">
+            <ul class="share-tools__list">
+                <li class="share-tools__list-item">
+                    <!-- <a href="#" class="btn__social ">Share <i class="icon icon__share"></i></a> -->
+
+                    <script type="text/javascript">
+                        var addthis_config = {
+                            services_compact: 'facebook, twitter, linkedin',
+                            services_expanded: 'facebook, twitter, linkedin',
+                            ui_email_subject: ''
+                        }
+                    </script>
+
+                    <a class="addthis_button_compact btn__social"> Share <i class="icon icon__share"><span class="visuallyhidden">share</span></i></a>
+
+
+                </li>
+                <li class="share-tools__list-item">
+                    <a href="#" class="addthis_button_email btn__social ">Email <i class="icon icon__email"><span class="visuallyhidden">email</span></i></a>
+                </li>
+                <li class="share-tools__list-item">
+                    <a href="javascript:window.print();" class="btn__social ">Print <i class="icon icon__print"><span class="visuallyhidden">print</span></i></a>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+</aside>

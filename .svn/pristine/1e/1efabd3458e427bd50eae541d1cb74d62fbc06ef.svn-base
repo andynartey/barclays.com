@@ -1,0 +1,25 @@
+// COUNTRY SELECTOR
+/* --------------------------------------*/
+.country-selector {
+	margin-bottom: 0.5em;
+}
+
+.country-selector__call-to-action {
+	position: relative;
+	border: $border-style;
+	border-radius: 4px;
+	padding: em-calc(8 14 8 8);
+	display: block;
+	box-shadow: 0px 1px #cecece;
+	&:before {		
+		@include icon-font($icon-location);
+		color: $primary-color;
+		margin-right: 0.2em;
+	}
+	@media #{$small} {
+		display: inline-block;
+	}
+	@media #{$medium} {
+		display: inline-block;
+	}
+}

@@ -1,0 +1,78 @@
+// ====================================================
+// NEWS ARTICLES
+// ====================================================
+
+.news-article-date {
+    color: $gray-info;
+}
+
+.news-article-author {
+    color: $gray;
+}
+
+
+// NEWS ARTICLE -- BODY
+// ====================================================
+
+
+.news-article__standfirst {
+    font-size: em-calc(18);
+    font-family: $header-font-family;
+    margin-bottom: em-calc(15);
+    line-height: 1.35;
+
+    @media #{$small} {
+        font-size: em-calc(22);
+        line-height: 1.37;
+    }
+}
+
+.news-article__paragraph {
+    font-size: em-calc(13);
+    line-height: 1.4;
+
+    @media #{$small} {
+        font-size: em-calc(14);
+        line-height: 2.15;
+    }
+}
+
+
+.news-article__blockquote {
+    font-family: $header-font-family;
+    font-size: em-calc(20);
+    quotes: "\201C""\201D""\2018""\2019";
+
+    &:before, &:after {
+        color: #ccc;
+        font-size: em-calc(40);
+        line-height: 0.1em;
+    }
+
+    &:before {
+        content: open-quote;
+        margin-right: 0.20em;
+        vertical-align: -0.4em;
+    }
+
+    &:after {
+        content: close-quote;
+        bottom: -22px;
+        margin-left: 0.20em;
+        position: relative;
+    }
+
+    @media #{$small} {
+        @include grid-column(13, false, false, -1, false, false, false, false);
+        font-size: em-calc(24);
+        line-height: 1.5;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    @media #{$medium} {
+        @include grid-column(13, false, false, -1.25, false, false, false, false);
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

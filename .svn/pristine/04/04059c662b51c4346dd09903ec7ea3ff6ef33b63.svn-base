@@ -1,0 +1,721 @@
+.main-content {
+    padding-top: 20px;
+    // min-height: 505px;
+    position: relative;
+    @include clearfix;
+}
+
+.index-page {
+    ul {
+        line-height: 1.6;
+    }
+}
+
+.link__page-parent {
+    font-family: $header-font-family-regular;
+
+    &:before {
+        @include icon-font($icon-chevron-left);
+        margin-right: em-calc(5);
+    }
+}
+
+.topics-1 {
+    clear: left;
+}
+
+
+
+
+
+.article-item--left {
+    @include grid-column(12);
+    padding: 0;
+
+    @media #{$small} {
+        @include grid-column(7, false, false, -1);
+        padding: 0;
+        margin-right: em-calc(20);
+    }
+
+    @media #{$medium} {
+        @include grid-column(5, false, false, -1.25);
+        padding: 0;
+        margin-right: em-calc(20);
+    }
+}
+
+.article-item--left--full-width {
+    @include grid-column(12);
+    padding: 0;
+
+    @media #{$small} {
+        @include grid-column(13.75, false, false, -1.5);
+    }
+
+    @media #{$medium} {
+        @include grid-column(13.25, false, false, -1.25);
+        margin-right: 0;
+        padding: 0;
+    }
+}
+
+
+// ====================================================
+// LAYOUT CONTAINERS
+// ====================================================
+
+.lt-ie9 .row {
+    clear: left;
+    .row {
+        margin-top: 0;
+    }
+}
+.row__full-bleed {
+    max-width: 100%;
+    @include clearfix;
+    // margin-bottom: 1em;
+    .lt-ie9 & {
+        width: 100%;
+        // margin-bottom: 1em;
+    }
+}
+
+// ====================================================
+// FULL BLEED CONTAINER
+// ====================================================
+
+.full-bleed-container12 {
+    margin-bottom: em-calc(15);
+
+    .inner-container {
+        @include grid-column(12);
+    }
+}
+
+.full-bleed-container11 {
+    margin-bottom: em-calc(15);
+
+    .inner-container {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(11, false, false, 1);
+        }
+    }
+}
+
+.full-bleed-container8 {
+    margin-bottom: em-calc(15);
+
+    .inner-container {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(10, false, false, 1);
+        }
+
+        @media #{$medium} {
+            @include grid-column(8, false, false, 1);
+        }
+    }
+}
+
+
+// FULL WIDTH -- (12 columns)
+// ====================================================
+
+.col__full-width {
+    @include grid-column(12);
+    @include clearfix;
+    float: none;
+    // when text added to column we need to push the content down
+    // TODO: this is affecting modules inside full width columns, may be better as .col__full-width > h1 etc
+    h1:first-child, h2:first-child, h3:first-child, h4:first-child, p:first-child {
+        margin-top: 1em;
+    }
+}
+
+// TWO COLUMNS -- (9 - 3) with 1 col left indent
+// ====================================================
+
+.detail-9 {
+    @include grid-column(12);
+    padding-top: 20px;
+    position: relative;
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(8);
+    }
+}
+
+.sub-content-3 {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+        margin-left: 0;
+        float: right;
+    }
+}
+
+
+// TWO COLUMNS -- (8 - 4)
+// ====================================================
+
+.detail-8 {
+    @include grid-column(12);
+    padding-top: 20px;
+    position: relative;
+
+    @media #{$medium} {
+        @include grid-column(8);
+    }
+}
+
+.sub-content-4 {
+    @include grid-column(12);
+
+    @media #{$medium} {
+        @include grid-column(4);
+    }
+}
+
+
+// TWO COLUMNS -- (6 - 6)
+// ====================================================
+
+.detail-6 {
+@include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+
+    @media #{$medium} {
+        @include grid-column(6);
+    }
+}
+
+// THREE COLUMNS -- (4 - 4 - 4)
+// ====================================================
+
+.detail-4 {
+@include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+
+    @media #{$medium} {
+        @include grid-column(4);
+    }
+}
+
+// FOUR COLUMNS -- (3 - 3 - 3 - 3)
+// ====================================================
+
+.detail-3 {
+@include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(6);
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+    }
+}
+
+// SOCIAL COLUMN
+// ====================================================
+
+.col__social {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(1);
+        min-height: 0.1em;
+    }
+}
+
+// EDITORIAL TEMPLATE -- (1 - 8 - 3)
+// ====================================================
+
+@media #{$small} {
+    .template__editorial {
+        .link__page-parent {
+            margin-left: -1.5em;
+        }
+    }
+}
+.col__editorial--header  {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(12, false, false, 1);
+    }
+}
+.col__editorial--top__content {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(11);
+    }
+}
+
+.col__editorial--main__content {
+    @include grid-column(12);
+
+    @media #{$small} {
+        // @include grid-column(7);
+        @include grid-column(11, false, false, 1);
+    }
+    @media #{$medium} {
+        // @include grid-column(7);
+        @include grid-column(7, false, false, 1);
+    }
+}
+
+.col__editorial--sidebar {
+    @include grid-column(12);
+
+    // @media #{$small} {
+    //     @include grid-column(6);
+    // }
+    // @media #{$small} {
+    //     // @include grid-column(7);
+    //     @include grid-column(7, false, false, 1);
+    // }
+    @media #{$small} {
+        // @include grid-column(7);
+        @include grid-column(11, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(4, flase, false, 0);
+    }
+}
+// NEWS ARTICLE TEMPLATE -- (1 - 8 - 3)
+// ====================================================
+
+.template__news-article {
+    .topics-1 {
+        display: block;
+    }
+    .topics-2 {
+        display: none;
+    }
+}
+
+.template__news-article {
+    .link__page-parent {
+        margin-left: em-calc(-5);
+    }
+
+    @media #{$small} {
+        .link__page-parent {
+            margin-left: em-calc(-20);
+        }
+        .topics-1 {
+            display: block;
+        }
+        .topics-2 {
+            display: none;
+        }
+    }
+
+    @media #{$medium} {
+        .link__page-parent {
+            margin-left: em-calc(-23);
+        }
+        .topics-1 {
+            display: none;
+        }
+        .topics-2 {
+            display: block;
+        }
+    }
+}
+
+.template__news-article {
+
+    .template_col-1 {
+
+        @media #{$small} {
+            @include grid-column(1);
+        }
+
+        @media #{$medium} {
+            @include grid-column(1);
+        }
+    }
+
+    .template_col-8 {
+        @include grid-column(12);
+
+        @media #{$medium} {
+            @include grid-column(8);
+        }
+    }
+
+    .template_col-3 {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(10, false, false, 1);
+        }
+        @media #{$medium} {
+            @include grid-column(3, false, false, 0);
+        }
+    }
+}
+
+.col__news-article--header {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(12, false, false, 0);
+    }
+}
+
+.col__news-article--content {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(9, false, false, 2);
+    }
+
+    @media #{$medium} {
+        @include grid-column(11, false, false, 1);
+    }
+}
+
+.col__news-article--full__width {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(12, false, false, 0);
+    }
+}
+
+
+
+
+// NEWS FEATURE TEMPLATE -- (1 - 8 - 3)
+// ====================================================
+
+.template__news-feature {
+    .topics-1 {
+        display: none;
+    }
+    .topics-2 {
+        display: block;
+    }
+    .link__page-parent {
+        margin-left: em-calc(-5);
+    }
+
+    @media #{$small} {
+        .link__page-parent {
+            margin-left: em-calc(-20);
+        }
+    }
+
+    @media #{$medium} {
+        .topics-1 {
+            display: block;
+        }
+        .topics-2 {
+            display: none;
+        }
+
+        .link__page-parent {
+            margin-left: em-calc(-20);
+        }
+    }
+
+    .article-item--left {
+        @media #{$medium} {
+            @include grid-column(6, false, false, -2);
+        }
+    }
+}
+
+.template__news-feature {
+
+    .template_col-1 {
+
+        @media #{$small} {
+            @include grid-column(1);
+        }
+
+        @media #{$medium} {
+            @include grid-column(1);
+        }
+    }
+
+    .template_col-3 {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(10, false, false, 1);
+        }
+
+        @media #{$medium} {
+            @include grid-column(3, false, false, 0);
+        }
+    }
+
+    .template_col-7 {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(9, false, false, 2);
+        }
+
+        @media #{$medium} {
+            @include grid-column(7, false, false, 2);
+        }
+    }
+
+    .template_col-8 {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(10);
+        }
+
+        @media #{$medium} {
+            @include grid-column(8, false, false, 0);
+        }
+    }
+
+    .template_col-8-full-width {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(10, false, false, 1);
+        }
+
+        @media #{$medium} {
+            @include grid-column(8, false, false, 1);
+        }
+    }
+
+    .row__full-bleed {
+        .template_col-8 {
+            @include grid-column(12);
+
+            @media #{$small} {
+                @include grid-column(9, false, false, 1);
+            }
+
+            @media #{$medium} {
+                @include grid-column(8, false, false, 1);
+            }
+        }
+    }
+
+    .template_col-11 {
+        @include grid-column(12);
+        padding: 0;
+
+        @media #{$small} {
+            @include grid-column(11, false, false, 1);
+        }
+
+        @media #{$medium} {
+            @include grid-column(11, false, false, 1);
+            padding-left: em-calc(30);
+        }
+    }
+
+}
+
+
+
+// MAGAZINE TEMPLATE -- (1 - 5 - 6)
+// ====================================================
+
+@media #{$medium} {
+    .template__magazine {
+        .link__page-parent {
+            margin-left: -1.5em;
+        }
+    }
+}
+.col__magazine-header  {
+    @include grid-column(12);
+
+    @media #{$medium} {
+        @include grid-column(12, false, false, 1);
+    }
+}
+.col__magazine-top-content {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(11);
+    }
+}
+.col__magazine-content {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(11, false, false, 1);
+    }
+    @media #{$medium} {
+        @include grid-column(5, false, false, 1);
+    }
+    img {
+        margin-bottom: 0.5em;
+    }
+}
+.col__magazine-sidebar {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(11, false, false, 1);
+    }
+    @media #{$medium} {
+        @include grid-column(6, false, false, 0);
+    }
+}
+
+// UTILITY TEMPLATE
+// ====================================================
+
+.col__utility-heading {
+    @include grid-column(12);
+}
+
+
+
+
+
+
+.detail-wide {
+    @include grid-column(12);
+    float: none;
+    @include clearfix;
+}
+
+.detail {
+    @include grid-column(12);
+    padding-top: 20px;
+    position: relative;
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(8);
+    }
+}
+
+.sub-content {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+        margin-left: 0;
+        float: right;
+    }
+}
+
+.detail-two-col {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+
+    @media #{$medium} {
+        @include grid-column(6);
+    }
+}
+
+
+
+// template dummy modules
+.dummy-module {
+    @include clearfix;
+    width: 100%;
+    padding-top: 1em;
+    img {
+        margin-bottom: 1em;
+    }
+}
+.template__news-article,
+.col__news-feature-content {
+    .dummy-module {
+        padding-top: 0;
+    }
+}
+.dummy-module__example {
+    background: #f6f6f6;
+    .dummy-module__content {
+        @include grid-column(12);
+        float: none;
+    }
+}
+.dummy-module__content {
+    margin: 0 auto;
+    max-width: 75em;
+    .lt-ie9 & {
+        max-width: 73em;
+    }
+}
+.dummy-module__example--feature {
+    .dummy-module__content--wrap {
+        max-width: 75em;
+        margin: 0 auto
+    }
+    .dummy-module__content {
+        padding-left: 0.9375em;
+        padding-right: 0.9375em;
+        width: 100%;
+        float: left;
+        @media #{$small} {
+            // padding-left: 0.9375em;
+            // padding-right: 0.9375em;
+            // width: 60.41667%;
+            // margin-left: 14.58333%;
+            // float: left;
+            padding-left: 8.58333%;
+        }
+    }
+}
+
+// tempy mocks
+// remove these when modules done
+.col__full-width,
+.template__editorial,
+.template__news-article,
+.template__article {
+    img {
+        margin-bottom: 1em;
+    }
+}

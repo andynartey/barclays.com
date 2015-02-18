@@ -1,0 +1,15 @@
+<aside class="story-highlights">
+
+    <h3 class="story-highlights__heading">Barclays Premiership Champions since 2004</h3>
+    <ul class="story-highlights__list">
+        <li><strong>2013-12</strong> - Manchester United</li>
+        <li><strong>2011-12</strong> - Manchester City</li>
+        <li><strong>2010-11</strong> - Manchester United</li>
+        <li><strong>2009-10</strong> - Manchester United</li>
+        <li><strong>2008-09</strong> - Chelsea</li>
+        <li><strong>2007-08</strong> - Manchester United</li>
+        <li><strong>2006-07</strong> - Chelsea</li>
+        <li><strong>2005-06</strong> - Manchester United</li>
+    </ul>
+
+</aside>

@@ -1,0 +1,53 @@
+<section class="related-content">
+
+    <h2 class="related-content__heading">Related Stories</h2>
+
+    <div class="related-content__items">
+        <div class="related-content__item">
+            <div class="row">
+                <div class="related-content__item__info">
+                    <h3>Spaces for sport</h3>
+                    <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                    <p class="date">30 July 2013</p>
+                </div>
+                <div class="related-content__item__image">
+                    <a href=""><img src="http://placehold.it/250x130" data-interchange="
+                        [http://placehold.it/140x73, (default)],
+                        [http://placehold.it/250x130, (medium)]" alt="Step into the Night" class="right"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="related-content__item">
+            <div class="row">
+                <div class="related-content__item__info">
+                    <h3>Spaces for sport</h3>
+                    <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                    <p class="date">30 July 2013</p>
+                </div>
+                <div class="related-content__item__image">
+                    <a href=""><img src="http://placehold.it/250x130" data-interchange="
+                        [http://placehold.it/140x73, (default)],
+                        [http://placehold.it/250x130, (medium)]" alt="Step into the Night" class="right"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="related-content__item">
+            <div class="row">
+                <div class="related-content__item__info">
+                    <h3>Spaces for sport</h3>
+                    <h2><a href="">Barclays In pretium enim accumsan dictume tiam dictum est dictum</a></h2>
+                    <p class="date">30 July 2013</p>
+                </div>
+                <div class="related-content__item__image">
+                    <a href=""><img src="http://placehold.it/250x130" data-interchange="
+                        [http://placehold.it/140x73, (default)],
+                        [http://placehold.it/250x130, (medium)]" alt="Step into the Night" class="right"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>

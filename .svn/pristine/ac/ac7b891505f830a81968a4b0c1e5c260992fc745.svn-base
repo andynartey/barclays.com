@@ -1,0 +1,778 @@
+// ====================================================
+// STORYTELLER MODULE
+// ====================================================
+
+
+// STORYTELLER FILTER
+// ====================================================
+.storyteller__filter {
+    margin-bottom: 1em;
+
+    @media #{$medium} {
+        border-bottom: $border-style;
+    }
+}
+
+.storyteller__filter__toggle {
+    @extend .hide-for-large-up;
+    display: block;
+    text-align: center;
+    font-family: $header-font-family;
+    font-size: em-calc(20);
+    padding: em-calc(10 0);
+    border-bottom: $border-style;
+
+    &:after {
+        @include icon-font($icon-plus);
+        font-size: em-calc(10);
+        display: inline-block;
+        margin-left: em-calc(5);
+    }
+
+    &.filter-active {
+        border-bottom: none;
+
+        &:after {
+            @include icon-font($icon-minus);
+        }
+    }
+
+    @media #{$medium} {
+        border-bottom: none;
+    }
+}
+
+.storyteller__filter__holder {
+    @include grid-row($behavior: nest);
+    margin: 0;
+    border-top: $border-style;
+
+    @media #{$medium} {
+        border-top: none;
+    }
+}
+
+.no-js .storyteller__filter__holder {
+    display: none;
+}
+
+.storyteller__filter__col {
+    border-bottom: $border-style;
+    position: relative;
+
+    &:last-child {
+        display: none;
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+        padding-top: em-calc(10);
+        padding-bottom: em-calc(10);
+        padding-left: 0;
+        position: relative;
+        border: none;
+
+        &:last-child {
+            display: block;
+            float: right;
+        }
+    }
+}
+
+.storyteller__filter__link {
+    display: block;
+    color: $gray-info;
+    font-size: em-calc(16);
+    position: relative;
+    font-family: $header-font-family-regular;
+    padding: em-calc(10 15);
+
+    &:after {
+        @include icon-font($icon-chevron-down);
+        position: absolute;
+        right: em-calc(15);
+    }
+
+    &.active {
+        &:after {
+            @include icon-font($icon-chevron-up);
+        }
+    }
+
+    &.inactive {
+        color: #ccc;
+        &:hover {
+            cursor: default;
+        }
+    }
+
+    @media #{$medium} {
+        padding: em-calc(10 10);
+        border: 1px solid $white;
+        border-bottom: none;
+
+        &:after {
+            right: em-calc(10);
+        }
+
+        &.active {
+            border: $border-style;
+            border-bottom: none;
+        }
+    }
+}
+
+.storyteller__filter__list {
+    list-style: none;
+    margin: 0;
+    display: none;
+    position: absolute;
+    background: $white;
+    z-index: 30;
+    border-bottom: $border-style;
+
+    @media #{$medium} {
+        border: $border-style;
+        border-top: none;
+        z-index: 10;
+    }
+}
+
+.storyteller__filter__item {
+    a {
+        display: block;
+        padding: em-calc(5 15 10);
+        font-family: $header-font-family-regular;
+        font-size: em-calc(18);
+
+        span {
+            color: $gray-info;
+        }
+    }
+
+    @media #{$medium} {
+        a {
+            padding: em-calc(5 10 10);
+        }
+
+    }
+}
+
+.storyteller__view-toggle {
+    @extend .show-for-medium-up;
+
+    display: none;
+    float: right;
+    margin-top: em-calc(13);
+    color: $gray-info;
+    font-size: em-calc(14);
+
+    &:before {
+        @include icon-font($icon-list);
+    }
+
+    &.grid-view {
+        margin-top: em-calc(12);
+        &:before {
+            @include icon-font($icon-grid-view);
+            font-size: em-calc(17.5);
+        }
+    }
+}
+
+.storyteller-filter-label {
+    position: absolute;
+    z-index: 20;
+    background: $primary-color;
+    font-family: $header-font-family-regular;
+
+    a {
+        color: $white;
+        display: block;
+        padding: em-calc(11 15);
+        position: relative;
+        font-size: em-calc(15);
+
+        &:after {
+            position: absolute;
+            right: em-calc(20);
+            font-size: em-calc(14);
+            margin-top: em-calc(2);
+            @include icon-font($icon-cross);
+        }
+    }
+
+    @media #{$medium} {
+        border-radius: 15px;
+
+        a {
+            padding: em-calc(10 15);
+
+            &:after {
+                right: em-calc(15);
+            }
+        }
+    }
+}
+
+
+
+// STORYTELLER
+// ====================================================
+
+.storyteller {
+    margin-bottom: em-calc(20);
+}
+
+
+// STORYTELLER -- ITEM
+// ====================================================
+
+.storyteller__item {
+    &:after {
+        content: "";
+        border-bottom: $border-style;
+        clear: both;
+        width: 100%;
+        display: block;
+        @media #{$small} {
+            border: none;
+        }
+    }
+    @include grid-column(12);
+    padding: em-calc(20 15 0);
+
+    h3 {
+        text-transform: uppercase;
+        font-size: em-calc(13);
+        color: $blue-darker;
+        font-family: $header-font-family-regular;
+        line-height: 1.38;
+        &:first-child {
+            margin-top: 0;
+            @media #{$small} {
+                margin-top: 1em;
+            }
+        }
+    }
+
+    > .row {
+        @include grid-row(false);
+    }
+
+    @media #{$small} {
+        @include grid-column(6);
+        min-height: 320px;
+        padding: em-calc(20 15);
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+        min-height: 430px;
+        padding: em-calc(0 15);
+        margin-bottom: em-calc(20);
+
+        .bdrTop {
+            border-top: 4px solid $gray-rule;
+            padding-top: em-calc(20);
+        }
+    }
+}
+
+// STORYTELLER ITEM -- LIST VIEW
+
+.storyteller-list-view {
+    .storyteller__item {
+        margin-bottom: 0;
+        .bdrTop {
+            border-top: none;
+            padding-top: 0;
+        }
+
+        @media #{$small} {
+            @include grid-column(12);
+            min-height: inherit;
+        }
+
+        @media #{$medium} {
+            @include grid-column(9);
+            min-height: inherit !important;
+            padding: em-calc(20 15);
+            margin-bottom: 0;
+            border-bottom: 1px solid $gray-rule;
+            .standfirst, .topics {
+                display: block;
+            }
+            .bdrTop {
+                .storyteller__item__copy {
+                    padding-right: em-calc(30);
+                    padding-left: em-calc(15);
+                    width: 69%;
+                }
+            }
+        }
+    }
+}
+
+// STORYTELLER -- FEATURE
+// ====================================================
+
+.storyteller__item--feature {
+    @extend .storyteller__item;
+    &:after {
+        content: "";
+        border-bottom: $border-style;
+        clear: both;
+        width: 100%;
+        display: block;
+        @media #{$small} {
+            border: none;
+        }
+    }
+    @include grid-column(12);
+    padding: em-calc(20 15 0);
+
+    h3 {
+        text-transform: uppercase;
+        font-size: em-calc(13);
+        color: $blue-darker;
+        font-family: $header-font-family-regular;
+        line-height: 1.38;
+        &:first-child {
+            margin-top: 0;
+            @media #{$small} {
+                margin-top: 1em;
+            }
+        }
+    }
+
+
+    @media #{$small} {
+        @include grid-column(12);
+        min-height: 320px;
+        padding: em-calc(20 15);
+    }
+
+    @media #{$medium} {
+        @include grid-column(6);
+        min-height: 430px;
+        padding: em-calc(0 15);
+
+        .bdrTop {
+            border-top: 4px solid $gray-rule;
+            padding-top: em-calc(20);
+        }
+    }
+}
+
+// STORYTELLER -- IMAGE
+// ====================================================
+
+.storyteller__item__image {
+    @include grid-column(5);
+    float: right;
+    position: relative;
+    padding-right: 0;
+    margin-bottom: em-calc(15);
+
+    img {
+        margin-bottom: 0;
+    }
+    a {
+        position: relative;
+        display: block;
+    }
+
+    .video-link {
+        display: block;
+        width: em-calc(20);
+        height: em-calc(20);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: $primary-color;
+        background-color: rgba($primary-color, 0.9);
+        opacity: 0.9;
+
+        &:before {
+            @include icon-font($icon-block-arrow-right);
+            color: $white;
+            font-size: em-calc(20);
+        }
+
+        @media #{$small} {
+            width: em-calc(35);
+            height: em-calc(35);
+
+            &:before {
+                font-size: 35px;
+            }
+        }
+    }
+
+    @media #{$small} {
+        @include grid-column(12);
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 0
+    }
+
+    @media #{$medium} {
+        @include grid-column(12);
+        //margin-bottom: em-calc(10);
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+.storyteller__item--feature {
+    .storyteller__item__image {
+        @include grid-column(12);
+        padding: 0;
+        position: relative;
+        margin-bottom: em-calc(15);
+
+        .video-link {
+            left: 0;
+        }
+
+        h3 {
+            @include image-label(em-calc(12), em-calc(10 15));
+            padding: 5px 3px;
+            background-color: rgba(0, 126, 182, 0.9);
+            @media #{$small} {
+                padding: 0.525em 0.5375em 0.35em;
+            }
+            line-height: 0.8;
+            opacity: 0.9;
+            margin-top: 0;
+        }
+
+        @media #{$small} {
+            @include grid-column(12);
+            padding: 0;
+            margin-bottom: 0;
+        }
+
+        @media #{$medium} {
+            @include grid-column(12);
+            padding: 0;
+            margin-bottom: 0;
+        }
+    }
+}
+
+// STORYTELLER IMAGE -- LIST VIEW
+
+.storyteller-list-view {
+    .storyteller__item__image {
+        float: right;
+
+        .video-link {
+            @media #{$small} {
+                left: 0;
+            }
+        }
+
+        @media #{$small} {
+            @include grid-column(4);
+            float: right;
+            padding-right: 0;
+        }
+
+        @media #{$medium} {
+            @include grid-column(4);
+            float: right;
+            padding-right: 0;
+            img {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+// STORYTELLER -- COPY
+// ====================================================
+
+.storyteller__item__copy {
+    @include grid-column(7);
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+
+    h2 {
+        font-size: em-calc(18);
+        line-height: 1.22;
+        -webkit-backface-visibility: hidden;
+    }
+    p {
+        font-size: em-calc(13);
+        margin-bottom: em-calc(15);
+        &.date, &.topics {
+            color: #b2b2b2;
+        }
+    }
+
+    .standfirst, .topics {
+        display: none;
+    }
+
+    @media #{$small} {
+        @include grid-column(12);
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+
+        &.story-border {
+            border-top: 4px solid $gray-rule;
+        }
+    }
+
+    @media #{$medium} {
+        @include grid-column(12);
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.storyteller__item--feature {
+    .storyteller__item__copy {
+        @include grid-column(12);
+        padding: 0;
+
+        @media #{$small} {
+            @include grid-column(12);
+            padding: 0;
+        }
+
+        @media #{$medium} {
+            @include grid-column(12);
+            padding: 0;
+        }
+    }
+}
+
+.storyteller-list-view {
+    .storyteller__item__copy {
+        float: left;
+
+        @media #{$small} {
+            @include grid-column(8);
+            padding-left: 0;
+        }
+
+        @media #{$medium} {
+            @include grid-column(8);
+            padding-left: 0;
+
+            &.story-border {
+                border-top: none;
+            }
+        }
+    }
+}
+
+// STORYTELLER -- SINGLE TWEET
+// ====================================================
+
+.twitter__single {
+    padding-top: em-calc(15);
+    padding-bottom: em-calc(12);
+    @media #{$medium} {
+        padding-top: 0;
+    }
+
+    &:after {
+        position: relative;
+        bottom: -12px;
+    }
+
+    .storyteller__item__copy {
+        float: none;
+        width: 100%;
+        border: none !important;
+
+        @media #{$medium} {
+            padding: em-calc(0);
+        }
+
+    }
+
+    .single {
+        background: $blue-bkgnd;
+        border-top: 5px solid $blue-border;
+        padding: em-calc(15);
+        position: relative;
+    }
+}
+
+.twitter__single__title {
+    padding-left: em-calc(40);
+    margin-bottom: em-calc(10);
+    .icon {
+        left: 14px;
+        position: absolute;
+        top: 9px;
+        color: $primary-color;
+        &:after {
+            font-size: 23px;
+        }
+    }
+    h3 {
+        text-transform: none;
+        font-size: em-calc(18);
+        font-family: $header-font-family;
+        margin-top: 0 !important;
+    }
+    a {
+        display: block;
+        font-size: em-calc(12);
+    }
+}
+
+.twitter__single__feed {
+    margin-bottom: em-calc(15);
+    p {
+        font-family: $header-font-family;
+        font-size: em-calc(16);
+    }
+    .time {
+        font-size: em-calc(13);
+        font-family: $body-font-family;
+        color: #b2b2b2;
+    }
+
+    @media #{$medium} {
+        margin-bottom: em-calc(15);
+
+        p {
+            font-size: em-calc(14);
+            line-height: 1.6;
+        }
+    }
+}
+.lt-ie9 .twitter__single {
+    min-height: 415px;
+}
+
+
+.storyteller-list-view {
+    .twitter__single {
+        .single {
+            min-height: inherit;
+            padding-top: em-calc(15);
+            @include clearfix;
+        }
+        .storyteller__item__copy {
+            padding: em-calc(0);
+        }
+    }
+}
+
+// STORYTELLER FEATURE -- LIST VIEW
+// ====================================================
+
+.storyteller-list-view {
+
+    .storyteller__item--feature {
+        @include grid-row();
+
+        @media #{$medium} {
+            @include grid-column(9);
+        }
+
+        .storyteller__item__image {
+            @media #{$small} {
+                @include grid-column(7);
+                padding-right: 0;
+                float: right;
+            }
+
+            @media #{$medium} {
+                @include grid-column(7);
+                padding-right: 0;
+                //padding-left: 0;
+                float: right;
+            }
+        }
+
+        .storyteller__item__copy {
+            @media #{$small} {
+                @include grid-column(5);
+                padding-left: 0;
+            }
+
+            @media #{$medium} {
+                @include grid-column(5);
+                padding-left: 0;
+            }
+        }
+
+    }
+
+}
+
+
+
+// STORYTELLER -- MORE STORIES
+// ====================================================
+
+.storyteller__more-stories {
+    @include grid-column(12);
+    margin-top: em-calc(15);
+    padding: 0;
+
+    p {
+        text-align: center;
+        background: $gray-bkgnd;
+        border: $border-style;
+        margin: em-calc(0 15);
+    }
+
+    a {
+        color: $gray-info;
+        font-family: $header-font-family-regular;
+        font-size: em-calc(18);
+        padding: em-calc(15 0);
+        display: block;
+
+        &:before {
+            @include icon-font($icon-plus);
+            font-size: em-calc(14);
+            margin-right: em-calc(10);
+            position: relative;
+            top: 0;
+        }
+    }
+}
+
+.no-js .storyteller__more-stories {
+    display: none;
+}
+
+// STORYTELLER -- ARCHIVE LINK
+// ====================================================
+
+.storyteller__archive {
+    @extend .storyteller__more-stories;
+    display: none;
+
+    a {
+        color: $blue-link-quote;
+
+        &:before {
+            display: none;
+        }
+    }
+}
+
+.no-js .storyteller__archive {
+    display: block;
+}
+
+
+.clear-me {
+    clear: left;
+}

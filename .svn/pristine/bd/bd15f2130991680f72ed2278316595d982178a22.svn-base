@@ -1,0 +1,46 @@
+<div class="table">
+    <div class="table--wrapper">
+        <table class="table__table-x-y table--text-table table--horizontal-lines">
+            <tbody>
+                <tr class="heading-style-1">
+                    <th>Headin style 1</th>
+                    <th>ipsum</th>
+                    <th>dolor</th>
+                </tr>
+                <tr class="heading-style-2">
+                    <th>Headin style 2</th>
+                    <th>Lorem</th>
+                    <th>ipsum</th>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                </tr>
+                <tr class="heading-style-3">
+                    <th colspan="3">Heading style 3</th>
+                </tr>
+                <tr class="heading-style-4">
+                    <th>Heading style 4</th>
+                    <th>Regular</th>
+                    <th><strong>Bold</strong></th>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                    <td class="cell-highlight">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>Highlight row</td>
+                    <td>Highlight row</td>
+                    <td>Highlight row</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

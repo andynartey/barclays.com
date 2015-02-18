@@ -1,0 +1,75 @@
+<!-- Site Footer -->
+<footer class="mega-footer">
+    <div class="row">
+        <nav class="mega-footer__column">
+            <ul class="main-nav-footer side-nav">
+                <li><a href="">News</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Citizenship</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Products &amp; Services</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </nav>
+        <nav class="mega-footer__column">
+            <h2>Results &amp; Reports</h2>
+            <ul class="side-nav">
+                <li><a href="">2012 Barclays PLC Annual Report (PDF 2.1 MB)</a></li>
+                <li><a href="">2013 Interim Results and Leverage Plan</a></li>
+                <li><a href="">All financial reports</a></li>
+            </ul>
+        </nav>
+        <nav class="mega-footer__column">
+            <h2>Press &amp; Media</h2>
+            <ul class="side-nav">
+                <li><a href="">Media centre</a></li>
+                <li><a href="">Press releases</a></li>
+                <li><a href="">RSS feeds</a></li>
+            </ul>
+        </nav>
+        <nav class="mega-footer__column">
+            <div class="mega-footer__external-links">
+                <a href="" class="btn banking">Online Banking</a>
+
+                <a href="" class="btn websites">Barclays Websites</a>
+
+                <ul class="social-links--desktop">
+                    <li><a href=""><img src="/images/icon-twitter.png" alt="Twitter"></a></li>
+                    <li><a href=""><img src="/images/icon-facebook.png" alt="Facebook"></a></li>
+                    <li><a href=""><img src="/images/icon-youtube.png" alt="YouTube"></a></li>
+                    <li><a href=""><img src="/images/icon-googleplus.png" alt="Google+"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</footer>
+
+<footer class="bottom-footer">
+    <div class="row">
+        <div class="bottom-footer__links">
+            <ul class="sub-nav">
+                <li><a href="">Media centre</a></li>
+                <li><a href="">Sitemap</a></li>
+                <li><a href="">Terms &amp; Conditions</a></li>
+                <li><a href="">Important information</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Cookie policy</a></li>
+            </ul>
+        </div>
+        <div class="bottom-footer__info">
+            <div class="row">
+                <div class="bottom-footer__copyright">
+                    <p>&copy; Barclays 2013</p>
+                </div>
+                <div class="social-links--mobile">
+                    <ul>
+                        <li><a href=""><img src="/images/icon-twitter.png" alt="Twitter"></a></li>
+                        <li><a href=""><img src="/images/icon-facebook.png" alt="Facebook"></a></li>
+                        <li><a href=""><img src="/images/icon-youtube.png" alt="YouTube"></a></li>
+                        <li><a href=""><img src="/images/icon-googleplus.png" alt="Google+"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

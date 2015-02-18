@@ -1,0 +1,59 @@
+<div class="button-filter content-switcher">
+  <form action="" class="custom">
+      <!-- KeyLinksCombo function -->
+      <select id="contentSwitcher-2" class="contentSwitcher-2 button-container custom-forms medium">
+          <option>Filter by country</option>
+          <option value="Africa">Africa &amp; Middle East (11)</option>
+          <option value="Americas">Americas Americas Americas Americas (7)</option>
+          <option value="Asia">Asia Pacific (9)</option>
+          <option value="Europe">Europe (23)</option>
+      </select>
+  </form>
+
+  <div id="Africa" class="Africa js-contentSwitcher">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+  </div>
+  <div id="Americas" class="Americas js-contentSwitcher">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+
+    <a href="#" class="btn btn__secondary">Online banking <i class="icon icon__external-link"></i></a>
+  </div>
+  <div id="Asia" class="Asia js-contentSwitcher">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+  </div>
+  <div id="Europe" class="Europe js-contentSwitcher">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+
+    <a href="#" class="btn btn__secondary">Online banking <i class="icon icon__external-link"></i></a>
+  </div>
+</div>
+
+<div class="button-filter content-switcher">
+  <form action="" class="custom">
+      <!-- KeyLinksCombo function -->
+      <select id="contentSwitcher-3" class="contentSwitcher-3 button-container custom-forms medium">
+          <option>Filter by country</option>
+          <option value="Singapore">Singapore</option>
+          <option value="Thailand">Thailand</option>
+          <option value="Canada">Canada</option>
+          <option value="Germany">Germany</option>
+      </select>
+  </form>
+
+  <div id="Singapore" class="Singapore js-contentSwitcher">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+  </div>
+  <div id="Thailand" class="Thailand js-contentSwitcher">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+
+    <a href="#" class="btn btn__secondary">Online banking <i class="icon icon__external-link"></i></a>
+  </div>
+  <div id="Canada" class="Canada js-contentSwitcher">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+  </div>
+  <div id="Germany" class="Germany js-contentSwitcher">
+    <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+
+    <a href="#" class="btn btn__secondary">Online banking <i class="icon icon__external-link"></i></a>
+  </div>
+</div>

@@ -1,0 +1,140 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="site-container template__hub">
+
+        <div class="row">
+
+            <div class="col__full-width">
+
+                <div class="bc-textimage">
+                    <div class="textimage_text">
+                        <div class="text">
+                            <h1>Heading 1</h1>
+
+                            <h2>Heading 2</h2>
+
+                            <h3>Heading 3</h3>
+
+                            <h4>Heading 4</h4>
+
+                            <h5>Heading 5</h5>
+
+                            <h6>Heading 6</h6>
+
+                            <p><span class="intro">Intro paragraph: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui.</span></p>
+
+                            <p>Paragraph: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui. Virtute antiopam intellegat an vim, id ceteros probatus delicata sed, eu quando facete eam. Mel ex fabellas dissentiunt, id vitae antiopam duo, ad nec homero platonem salutandi. Etiam gloriatur id est.</p>
+
+                            <p><span class="dark-blue">Paragraph - dark blue: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui. Virtute antiopam intellegat an vim, id ceteros probatus delicata sed, eu quando facete eam.</span></p>
+
+                            <p><span class="article">Article: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui.</span></p>
+
+                            <p><span class="label">Label: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui.</span></p>
+
+                            <p><span class="description_cyan">Description - cyan: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui.</span></p>
+
+                            <p><span class="description_dark-blue">Description - dark blue: Lorem ipsum dolor sit amet, in vix melius detracto, id tollit labore persius sea. Eam sonet mucius aliquam eu, cum unum consulatu consectetuer no, in novum lobortis eloquentiam qui.</span></p>
+
+                            <p><span class="large-text">Large text - Default.</span></p>
+
+                            <p><span class="large-text_dark-blue">Large text - Dark blue.</span></p>
+
+                            <p><span class="footnote">Footnote</span></p>
+
+                            <div class="image__with-caption">
+                                <img src="http://placehold.it/1170x433" data-interchange="
+                                    [http://placehold.it/479x245, (default)],
+                                    [http://placehold.it/768x338, (medium)],
+                                    [http://placehold.it/1170x433, (large)]" alt="hero">
+
+                                <p>This is caption text for the above image</p>
+                            </div>
+
+                            <p>Above this text is a Spacer (20 px), Spacer (thin horizontal line) and Spacer (10 px). Disregard the 'Paragraph Format' below, you can't specify format for Bullets and Numbering, you can only specify the Style.&nbsp;</p>
+
+                            <ul>
+                                <li>Here is bullet text for Paragraph Format, shouldn't it be aligned left? Right now it is outdented.&nbsp;</li>
+                                <li>Here is bullet text for Paragraph Format</li>
+                                <li>Here is bullet text for Paragraph Format</li>
+                            </ul>
+
+                            <ol>
+                                <li>Here is numbered text for Paragraph format, again, shouldn't this be aligned left? Or indented? Right now it is outdented.&nbsp;</li>
+                                <li>Here is numbered text for Paragraph format</li>
+                                <li>Here is numbered text for Paragraph format</li>
+                            </ol>
+
+                            <p style="margin-left: 40px;">This is a one indent. <sup>Here is superscript text.</sup> <sub>Here is subscript text.</sub></p>
+
+                            <ul>
+                                <li><span class="news-feature__standfirst">Here is bullet text for Paragraph Format, Style = Intro Paragraph shouldn't it be aligned left? Right now it is outdented.&nbsp;</span></li>
+                                <li><span class="news-feature__standfirst">Here is bullet text for Paragraph Format</span></li>
+                                <li><span class="news-feature__standfirst">Here is bullet text for Paragraph Format</span></li>
+                            </ul>
+
+                            <ol>
+                                <li><span class="news-feature__standfirst">Here is numbered text for Paragraph format, again, shouldn't this be aligned left? Or indented? Right now it is outdented.&nbsp;</span></li>
+                                <li><span class="news-feature__standfirst">Here is numbered text for Paragraph format, Style = Intro Paragraph</span></li>
+                                <li><span class="news-feature__standfirst">Here is numbered text for Paragraph format</span></li>
+                            </ol>
+
+                            <p><span class="news-feature__standfirst">This is a one indent.&nbsp;<sup>Here is superscript text.</sup>&nbsp;<sub>Here is subscript text.</sub></span></p>
+
+                            <ul>
+                                <li><span class="news-feature__paragraph">Here is bullet text for Paragraph Format, shouldn't it be aligned left? Right now it is outdented.&nbsp;</span></li>
+                                <li><span class="news-feature__paragraph">Here is bullet text for Paragraph Format, Style = News Paragraph</span></li>
+                                <li><span class="news-feature__paragraph">Here is bullet text for Paragraph Format</span></li>
+                            </ul>
+
+                            <ol>
+                                <li><span class="news-feature__paragraph">Here is numbered text for Paragraph format, again, shouldn't this be aligned left? Or indented? Right now it is outdented.&nbsp;</span></li>
+                                <li><span class="news-feature__paragraph">Here is numbered text for Paragraph format, Style = News Paragraph</span></li>
+                                <li><span class="news-feature__paragraph">Here is numbered text for Paragraph format</span></li>
+                            </ol>
+
+                            <p><span class="news-feature__paragraph">This is a one indent.&nbsp;<sup>Here is superscript text.</sup>&nbsp;<sub>Here is subscript text.</sub></span></p>
+
+                            <ul>
+                                <li><span class="news-article-author">Here is bullet text for Paragraph Format, shouldn't it be aligned left? Right now it is outdented.&nbsp;</span></li>
+                                <li><span class="news-article-author">Here is bullet text for Paragraph Format, Style = News Author</span></li>
+                                <li><span class="news-article-author">Here is bullet text for Paragraph Format</span></li>
+                            </ul>
+
+                            <ol>
+                                <li><span class="news-article-author">Here is numbered text for Paragraph format, again, shouldn't this be aligned left? Or indented? Right now it is outdented.&nbsp;</span></li>
+                                <li><span class="news-article-author">Here is numbered text for Paragraph format, Style = News Author</span></li>
+                                <li><span class="news-article-author">Here is numbered text for Paragraph format</span></li>
+                            </ol>
+
+                            <p><span class="news-article-author">This is a one indent.&nbsp;<sup>Here is superscript text.</sup>&nbsp;<sub>Here is subscript text.</sub></span></p>
+
+                            <ul>
+                                <li><span class="news-article-date">Here is bullet text for Paragraph Format, shouldn't it be aligned left? Right now it is outdented.&nbsp;</span></li>
+                                <li><span class="news-article-date">Here is bullet text for Paragraph Format, Style = News Date</span></li>
+                                <li><span class="news-article-date">Here is bullet text for Paragraph Format</span></li>
+                            </ul>
+
+                            <ol>
+                                <li><span class="news-article-date">Here is numbered text for Paragraph format, again, shouldn't this be aligned left? Or indented? Right now it is outdented.&nbsp;</span></li>
+                                <li><span class="news-article-date">Here is numbered text for Paragraph format, Style = News Date</span></li>
+                                <li><span class="news-article-date">Here is numbered text for Paragraph format</span></li>
+                            </ol>
+
+                            <p><span class="news-article-date">This is a one indent.&nbsp;<sup>Here is superscript text.</sup>&nbsp;<sub>Here is subscript text.</sub></span></p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div> <!-- END .siteContainer -->
+
+    <!--#include virtual="../includes/javascripts.html"-->
+
+</body>
+</html>

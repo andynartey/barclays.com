@@ -1,0 +1,33 @@
+.contact-us {
+	.contact-us__sub-heading {
+		color: $blue-darker;
+		font-size: em-calc(22);
+		font-family: $header-font-family-regular;
+		margin-bottom: em-calc(20);
+	}
+	.accordion__product_list {
+		&:first-child {
+			border-top: none;
+		}
+	}
+	.accordion__intro {
+		@include grid-column(12);
+		@media #{$small} {
+			@include grid-column(5);
+			.accordion__title {
+				font-size: em-calc(30);
+			}
+		}
+	}
+	.accordion__summary {
+		font-size: em-calc(13);
+		p {
+			margin-top: em-calc(20);
+		}
+		@media #{$small} {
+			@include grid-column(7);
+		}
+	}
+}
+
+

@@ -1,0 +1,200 @@
+// BUTTON STYLES
+// using .btn instead of .button as foundation .button styles conflict and break IE8
+/* --------------------------------------*/
+
+// Common button styles begin
+.btn {
+	position: relative;
+	border: $border-style;
+	border-radius: 4px;
+	padding: em-calc(6.5 13.5 5.5); // padding left/right 14px
+	display: block;
+	box-shadow: 0px 1px #cecece;
+	background-color: $white;
+	color: $primary-color;
+	font-weight: normal;
+	font-size: em-calc(19);
+	font-family: $header-font-family-regular;
+	margin-bottom: em-calc(10);
+	line-height: 1.4;
+	text-align: left;
+
+	// form {	
+	// 	display: inline-block;
+	// 	padding: 0;
+	// 	margin: 0;
+	// }
+	// ul {
+	// 	border: 1px solid red;
+	// 	padding: 0;
+	// 	margin: 0;
+	// }
+	// li{
+	// 	padding: 0;
+	// 	margin: 0;
+	// }
+	// &:hover, &:focus {
+	// 	background-color: none;
+	// }
+	&:focus {
+		// this allows for the border radius to take effect on the outline
+		outline: none;
+		box-shadow: 0px 0px 3pt 2pt #ffa500;
+		.lt-ie9 & {
+			outline: solid 2px #ffa500;
+		}
+	}
+	&.btn__small {
+		padding: em-calc(6.5 13.5 5.5); 
+		font-size: em-calc(14);
+		margin-bottom: em-calc(8);
+		.icon {
+			height: 15px;
+			width: 20px;
+			&:after {
+				font-size: 15px;
+			}
+		}
+	}
+
+	// position icon
+	.icon {
+		float: right;
+	}
+}
+// buttons in lists and paragraphs
+li > .btn,
+p > .btn {
+	font-size: em-calc(23);
+	&.btn__small {
+		font-size: em-calc(17);
+	}
+}
+
+.btn__primary {
+	@include background-gradient(#007db8, #2187b7);		
+	border-color: #007db8;
+	color: $white;
+	&:hover, &:focus {
+		@include background-gradient(#2187b7, #007db8);
+		color: $white;
+	}
+}
+.btn__secondary {
+	@include background-gradient(#fff, #f1f1f1);
+	color: $primary-color;
+	&:hover, &:focus {
+		@include background-gradient(#f1f1f1, #fff);
+		color: $primary-color;
+	}
+}
+@media #{$small} {
+	.btn {
+		display: inline-block;
+		.icon {
+			float: none;
+		}
+	}
+}
+// button list
+.btn-list {
+	list-style: none;
+	.btn {
+		display: block;
+		.icon {
+			float: right;
+		}
+	}
+}
+
+// social media buttons
+.btn__social {
+	color: $body-font-color;
+	position: relative;
+	padding-top: 2.2em;
+	font-size: 0.8125em;
+	display: inline-block;
+	&:hover, &:focus {
+		color: $primary-color;
+	}
+	.icon {
+		left: 0;
+		top: 0;
+		position: absolute;
+		width: 40px;
+		height: 45px;
+		&:after {
+			font-size: 19px;
+		}
+	}
+}
+p > .btn__social,
+li > .btn__social {
+	font-size: inherit;
+}
+
+// TODO
+// Button styles for forms
+form.custom {
+	.custom.dropdown.button-container {
+		&.medium {
+			width: 225px;
+		}
+		&.open.medium ul {
+			min-width: 225px;
+			border: $border-style;
+			li {
+				padding-left: em-calc(15);
+			&:hover, &:focus {
+				color: $primary-color;
+				}
+			&:active {
+				color: $blue-darker;
+				}
+			}
+		}
+		height: auto;
+		border: $border-style;
+		background: $white;
+		font-weight: normal;
+		font-size: em-calc(22);
+		font-family: $header-font-family-regular;
+		box-shadow: 0px 1px #cecece;
+		padding: em-calc(0 10 0 10);
+		margin-bottom: em-calc(10);
+		.current {
+			color: $primary-color;
+			background-color: $white;
+			padding: 0;
+			margin: 0;
+			line-height: 37px;
+		}
+		.selector {
+			height: em-calc(33);
+			border-radius: 4px;
+			background-color: $white;
+			color: $primary-color;
+			&:after {
+				border: none;
+				@include icon-font($icon-chevron-down);
+				top: 12px;
+				left: 10px;
+				font-size: em-calc(20);
+			}
+		}
+		&:hover, &.open {
+			a.selector {
+				//border: none;
+				&:after {
+					border: none;
+					@include icon-font($icon-chevron-down);
+				}
+			}
+		}
+	}
+}
+form.custom .custom.checkbox.checked:before {
+	content: "\e60e";
+	font-family: Icons;
+}
+// social icons 

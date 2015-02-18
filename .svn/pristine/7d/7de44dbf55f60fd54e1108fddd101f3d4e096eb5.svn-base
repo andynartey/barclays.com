@@ -1,0 +1,26 @@
+<!--#include virtual="../../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="content row">
+        <br>
+        <div class="small-12 medium-12 large-6">
+            <h1>Carousel - Basic</h1>
+            <!--#include virtual="../../includes/containers/carousel.html"-->
+        </div>
+        <br>
+
+    </div>
+
+    <div class="content row">
+        <br><br>
+        <div class="detail-wide">
+            <h1>Carousel - Grid</h1>
+            <!--#include virtual="../../includes/containers/carousel-grid.html"-->
+        </div>
+        <br><br>
+    </div>
+
+    <!--#include virtual="../../includes/javascripts.html"-->
+
+</body>
+</html>

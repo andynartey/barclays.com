@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="map.css">
+</head>
+<body>
+	<p>Use SVG image and raphael for IE8</p>
+	<div id="map"></div>
+
+	<script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="topojson.v1.min.js"></script>
+	<script src="map.d3.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,686 @@
+
+.link__page-parent {
+    display: inline-block;
+    margin: 0.6em 0 1.1em;
+    font-family: $header-font-family-regular;
+
+    &:before {
+        @include icon-font($icon-chevron-left);
+        margin-right: em-calc(5);
+        margin-left: em-calc(-2);
+    }
+
+    @media #{$small} {
+        margin-top: em-calc(10);
+        margin-bottom: 1.3em;
+    }
+
+    @media #{$medium} {
+        margin-left: -1.15em;
+        margin-bottom: 1.2em;
+    }
+}
+
+.topics-1 {
+    clear: left;
+}
+
+
+
+
+
+.article-item--left {
+    @include grid-column(12);
+    padding: 0;
+
+    @media #{$small} {
+        @include grid-column(7, false, false, -1);
+        padding: 0;
+        margin-right: em-calc(20);
+    }
+
+    @media #{$medium} {
+        @include grid-column(5, false, false, -1.25);
+        padding: 0;
+        margin-right: em-calc(20);
+    }
+}
+
+.article-item--left--full-width {
+    @include grid-column(12);
+    padding: 0;
+
+    @media #{$small} {
+        @include grid-column(13.75, false, false, -1.5);
+    }
+
+    @media #{$medium} {
+        @include grid-column(13.25, false, false, -1.25);
+        margin-right: 0;
+        padding: 0;
+    }
+}
+
+
+// ====================================================
+// LAYOUT CONTAINERS
+// ====================================================
+
+.lt-ie9 .row {
+    clear: left;
+    .row {
+        margin-top: 0;
+    }
+}
+.row__full-bleed {
+    max-width: 100%;
+    @include clearfix;
+    //padding-top: em-calc(15);
+    // margin-bottom: 1em;
+    .lt-ie9 & {
+        width: 100%;
+        // margin-bottom: 1em;
+    }
+}
+
+// ====================================================
+// FULL BLEED CONTAINER
+// ====================================================
+
+.full-bleed-container12 {
+    padding-top: em-calc(20);
+
+    .inner-container {
+        @include grid-column(12);
+    }
+}
+
+.full-bleed-container11 {
+    padding-top: em-calc(20);
+
+    .inner-container {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(11, false, false, 1);
+        }
+    }
+}
+
+.full-bleed-container8 {
+    padding-top: em-calc(20);
+
+    .inner-container {
+        @include grid-column(12);
+
+        @media #{$small} {
+            @include grid-column(10, false, false, 1);
+        }
+
+        @media #{$medium} {
+            @include grid-column(8, false, false, 1);
+        }
+    }
+}
+
+
+// FULL WIDTH -- (12 columns)
+// ====================================================
+
+.col__full-width {
+    @include grid-column(12);
+    @include clearfix;
+    float: none;
+    padding-top: em-calc(20);
+    // when text added to column we need to push the content down
+    // TODO: this is affecting modules inside full width columns, may be better as .col__full-width > h1 etc
+    // h1:first-child, h2:first-child, h3:first-child, h4:first-child, p:first-child {
+    //     margin-top: 1em;
+    // }
+
+    //& > h1, & > h2, & > h3, & > h4,& >  p {
+    //    margin-top: 1em;
+    //}
+}
+
+// SOCIAL COLUMN
+// ====================================================
+
+.col__social {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(1);
+        min-height: 0.1em;
+    }
+}
+
+// EDITORIAL TEMPLATE -- (1 - 8 - 3)
+// ====================================================
+
+@media #{$small} {
+    .template__editorial {
+        .link__page-parent {
+            margin-left: -1.2em;
+        }
+    }
+}
+.col__editorial--header  {
+    @include grid-column(12);
+    padding-top: em-calc(20);
+
+    @media #{$small} {
+        @include grid-column(11, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(11, false, false, 1);
+    }
+
+    h1 {
+        margin-bottom: em-calc(3.3);
+    }
+}
+.col__editorial--top__content {
+    @include grid-column(12);
+    padding-top: em-calc(20);
+
+    @media #{$small} {
+        @include grid-column(11);
+    }
+}
+
+.col__editorial--main__content {
+    @include grid-column(12);
+    padding-top: em-calc(20);
+
+    @media #{$small} {
+        // @include grid-column(7);
+        @include grid-column(11, false, false, 1);
+    }
+    @media #{$medium} {
+        // @include grid-column(7);
+        @include grid-column(7, false, false, 1);
+    }
+}
+
+.col__editorial--sidebar {
+    @include grid-column(12);
+    padding-top: em-calc(20);
+
+    // @media #{$small} {
+    //     @include grid-column(6);
+    // }
+    // @media #{$small} {
+    //     // @include grid-column(7);
+    //     @include grid-column(7, false, false, 1);
+    // }
+    @media #{$small} {
+        // @include grid-column(7);
+        @include grid-column(11, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(4, flase, false, 0);
+    }
+}
+// NEWS ARTICLE TEMPLATE -- (1 - 8 - 3)
+// ====================================================
+
+.template__news-article {
+    .topics-1 {
+        display: none;
+    }
+    .topics-2 {
+        display: block;
+    }
+}
+
+.template__news-article {
+    .link__page-parent {
+        margin-left: 0;
+    }
+
+    @media #{$small} {
+        .link__page-parent {
+            margin-left: em-calc(-20);
+        }
+        .topics-1 {
+            display: none;
+        }
+        .topics-2 {
+            display: block;
+        }
+    }
+
+    @media #{$medium} {
+        .link__page-parent {
+            margin-left: -1em;
+        }
+        .topics-1 {
+            display: block;
+        }
+        .topics-2 {
+            display: none;
+        }
+    }
+}
+
+.template__news-article {
+
+    .template_col-1 {
+        padding-top: em-calc(20);
+
+        @media #{$small} {
+            @include grid-column(1);
+        }
+
+        @media #{$medium} {
+            @include grid-column(1);
+            .col__social {
+                padding-left: 0;
+            }
+        }
+    }
+
+    .template_col-8 {
+        @include grid-column(12);
+        padding-top: em-calc(20);
+
+        @media #{$medium} {
+            @include grid-column(8);
+        }
+    }
+
+    .template_col-3 {
+        @include grid-column(12);
+        padding-top: em-calc(20);
+
+        @media #{$small} {
+            @include grid-column(10, false, false, 1);
+        }
+        @media #{$medium} {
+            @include grid-column(3, false, false, 0);
+        }
+    }
+}
+
+.col__news-article--header {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(12, false, false, 0);
+    }
+    h1 {
+        margin-bottom: 0.52em;
+    }
+    .news-article-date {
+        margin-bottom: 2.6em;
+        margin-top: -7px;
+    }
+}
+
+.col__news-article--content {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(9, false, false, 2);
+    }
+
+    @media #{$medium} {
+        @include grid-column(11, false, false, 1);
+    }
+}
+
+.col__news-article--full__width {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(12, false, false, 0);
+    }
+}
+
+
+
+
+// NEWS FEATURE TEMPLATE -- (1 - 8 - 3)
+// ====================================================
+
+.template__news-feature {
+    .topics-1 {
+        display: none;
+    }
+    .topics-2 {
+        display: block;
+    }
+    .link__page-parent {
+        margin-left: em-calc(-0.5);
+    }
+
+    @media #{$small} {
+        .link__page-parent {
+            margin-left: em-calc(-17);
+        }
+    }
+
+    @media #{$medium} {
+        .topics-1 {
+            display: block;
+        }
+        .topics-2 {
+            display: none;
+        }
+
+        .link__page-parent {
+            margin-left: -1em;
+        }
+    }
+
+    .article-item--left {
+        @media #{$medium} {
+            @include grid-column(6, false, false, -2);
+        }
+    }
+}
+
+.template__news-feature {
+
+    .template_col-1 {
+        padding-top: em-calc(20);
+
+        @media #{$small} {
+            @include grid-column(1);
+            min-height: 0.1em;
+        }
+
+        @media #{$medium} {
+            @include grid-column(1);
+        }
+    }
+
+    .template_col-3 {
+        @include grid-column(12);
+        padding-top: em-calc(20);
+
+        @media #{$small} {
+            @include grid-column(10, false, false, 1);
+        }
+
+        @media #{$medium} {
+            @include grid-column(3, false, false, 0);
+        }
+    }
+
+    .template_col-7 {
+        @include grid-column(12);
+        padding-top: em-calc(20);
+
+        @media #{$small} {
+            @include grid-column(9, false, false, 2);
+        }
+
+        @media #{$medium} {
+            @include grid-column(7, false, false, 2);
+        }
+    }
+
+    .template_col-8 {
+        @include grid-column(12);
+        padding-top: em-calc(20);
+
+        @media #{$small} {
+            @include grid-column(10);
+        }
+
+        @media #{$medium} {
+            @include grid-column(8, false, false, 0);
+        }
+    }
+
+    .template_col-8-full-width {
+        @include grid-column(12);
+        padding-top: em-calc(20);
+
+        @media #{$small} {
+            @include grid-column(10, false, false, 1);
+        }
+
+        @media #{$medium} {
+            @include grid-column(8, false, false, 1);
+        }
+    }
+
+    .row__full-bleed {
+        .template_col-8 {
+            @include grid-column(12);
+            padding-top: em-calc(20);
+
+            @media #{$small} {
+                @include grid-column(9, false, false, 1);
+            }
+
+            @media #{$medium} {
+                @include grid-column(8, false, false, 1);
+            }
+        }
+    }
+
+    .template_col-11 {
+        @include grid-column(12);
+        padding-top: em-calc(20);
+
+        @media #{$small} {
+            @include grid-column(11, false, false, 1);
+        }
+
+        @media #{$medium} {
+            @include grid-column(11, false, false, 1);
+            padding-left: em-calc(30);
+        }
+    }
+
+}
+
+.col__news-feature--header {
+    h1 {
+        margin-bottom: 0.51em;
+    }
+    .news-article-author {
+        margin-bottom: 2.6em;
+        margin-top: -12px;
+    }
+    .news-article-date {
+        margin-bottom: 2.6em;
+        margin-top: -19px;
+    }
+}
+
+
+
+// MAGAZINE TEMPLATE -- (1 - 5 - 6)
+// ====================================================
+
+@media #{$small} {
+    .template__magazine {
+        .link__page-parent {
+            margin-left: -1.2em;
+        }
+    }
+}
+
+@media #{$medium} {
+    .template__magazine {
+        .link__page-parent {
+            margin-left: -1.2em;
+        }
+    }
+
+    .link__page-parent {
+        margin-top: 0.75em;
+        margin-bottom: 1.15em;
+    }
+
+    h1 {
+        margin-bottom: em-calc(3.3);
+    }
+}
+
+.col__magazine-header  {
+    @include grid-column(12);
+    padding-top: em-calc(20);
+
+    @media #{$small} {
+        @include grid-column(11, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(11, false, false, 1);
+    }
+}
+
+.col__magazine-top-content {
+    @include grid-column(12);
+    padding-top: em-calc(20);
+
+    @media #{$small} {
+        @include grid-column(11);
+    }
+}
+
+.col__magazine-content {
+    @include grid-column(12);
+    padding-top: em-calc(20);
+
+    @media #{$small} {
+        @include grid-column(11, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(5, false, false, 1);
+    }
+
+    img {
+        margin-bottom: 0.5em;
+    }
+}
+
+.col__magazine-sidebar {
+    @include grid-column(12);
+    padding-top: em-calc(20);
+
+    @media #{$small} {
+        @include grid-column(11, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(6, false, false, 0);
+    }
+}
+
+// UTILITY TEMPLATE
+// ====================================================
+
+.col__utility-heading {
+    @include grid-column(12);
+    .link__page-parent {
+        margin-top: 0.7em;
+        margin-bottom: 1.15em;
+        margin-left: 0;
+    }
+    h1 {
+        margin-bottom: 0.29em;
+    }
+}
+
+/*
+.detail-wide {
+    @include grid-column(12);
+    float: none;
+    @include clearfix;
+}
+
+.detail {
+    @include grid-column(12);
+    padding-top: 20px;
+    position: relative;
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(8);
+    }
+}
+
+.sub-content {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(10, false, false, 1);
+    }
+
+    @media #{$medium} {
+        @include grid-column(3);
+        margin-left: 0;
+        float: right;
+    }
+}
+
+.detail-two-col {
+    @include grid-column(12);
+
+    @media #{$small} {
+        @include grid-column(12);
+    }
+
+    @media #{$medium} {
+        @include grid-column(6);
+    }
+}
+*/
+
+// INDEX PAGE
+// ====================================================
+
+.index-page {
+    ul {
+        line-height: 1.6;
+        list-style-position: inside;
+    }
+    li {
+        line-height: 2;
+    }
+
+    .column-control-container__25 {
+        @include grid-row(nest);
+
+        .column-control__3 {
+            @include grid-column(12);
+
+            @media #{$small} {
+                @include grid-column(6);
+
+                &:nth-child(3) {
+                    clear: left;
+                }
+            }
+
+            @media #{$medium} {
+                @include grid-column(3);
+
+                &:nth-child(3) {
+                    clear: none;
+                }
+            }
+        }
+    }
+}

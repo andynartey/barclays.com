@@ -1,0 +1,9 @@
+<div id="map" data-mobile="/javascripts/data/data.map-mobile.js" data-desktop="/javascripts/data/data.map.js">
+	<div class="map__links">
+		<a class="map__links--africa" href="" data-hover="africa">Africa &amp; Middle East</a>
+		<a class="map__links--americas" href="" data-hover="americas">Americas</a>
+		<a class="map__links--asia" href="" data-hover="asia">Asia Pacific</a>
+		<a class="map__links--europe" href="" data-hover="europe">Europe</a>
+	</div>
+</div>
+

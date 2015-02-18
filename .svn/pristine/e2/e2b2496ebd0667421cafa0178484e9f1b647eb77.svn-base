@@ -1,0 +1,133 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body style="padding: 0.5em;">
+
+    <div class="content row">
+        <br />
+        <div class="column small-12 medium-12 large-6">
+            <h2>Buttons</h2>
+            <a href="#" class="btn btn__primary">Button primary</a>
+            <br />
+            <a href="#" class="btn btn__secondary">Button secondary</a>
+            <p><a href="#" class="btn btn__secondary">Button in p tag</a></p>
+            <ul><li><a href="#" class="btn btn__secondary">Button in li tag</a></li></ul>
+            
+            <a href="#" class="btn btn__primary">Online banking <i class="icon icon__secure"></i></a>
+            <br />
+            <a href="#" class="btn btn__secondary">Go to site <i class="icon icon__external-link"></i></a>
+            <br />
+            <a href="#" class="btn btn__primary">Go to site <i class="icon icon__external-link"></i></a>
+            <br />
+            <a href="#" class="btn btn__secondary">United Kingdom <i class="icon icon__location"></i></a>
+            <br />
+            <a href="#" class="btn btn__secondary">Add to calendar <i class="icon icon__add"></i></a>
+            <br />
+            <a href="#" class="btn btn__secondary">Remove from calendar <i class="icon icon__remove"></i></a>
+            <br />
+        </div>
+
+        <div class="column small-12 medium-12 large-6">
+            <h2>Small buttons</h2>
+            <a href="#" class="btn btn__small btn__secondary">Button</a>
+            <br />
+            <a href="#" class="btn btn__small btn__secondary">Button secondary</a>
+            
+            <p><a href="#" class="btn btn__small btn__secondary">Button in p tag</a></p>
+            <ul><li><a href="#" class="btn btn__small btn__secondary">Button in li tag</a></li></ul>
+
+            <a href="#" class="btn btn__small btn__primary">Online banking <i class="icon icon__secure"></i></a>
+            <br />
+            <a href="#" class="btn btn__small btn__secondary">Go to site <i class="icon icon__external-link"></i></a>
+            <br />
+            <a href="#" class="btn btn__small btn__secondary">United Kingdom <i class="icon icon__location"></i></a>
+            <br />
+            <a href="#" class="btn btn__small btn__secondary">Add to calendar <i class="icon icon__add"></i></a>
+            <br />
+        </div>
+        <div class="column small-12 medium-12">
+            <h2>Button group</h2>
+            <ul class="btn-list">
+                <li><a href="#" class="btn btn__secondary">Button list <i class="icon icon__chevron icon__chevron-right"></i></a></li>
+                <li><a href="#" class="btn btn__secondary">with different lengths <i class="icon icon__block-arrow-right"></i></a></li>
+                <li><a href="#" class="btn btn__secondary">of button <i class="icon icon__print"></i></a></li>
+                <li><a href="#" class="btn btn__secondary">text <i class="icon icon__list"></i></a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="content row" style="background: url(guide.gif) repeat-y 0 0;">
+        <div class="small-12 medium-12 large-6">
+            <h2>Icons</h2>
+            <p><i class="icon icon__search"></i> Search</p>
+            <p><i class="icon icon__hamburger"></i> Open menu</p>
+            
+            <p><i class="icon icon__play"></i> Play</p>
+            
+            <p><i class="icon icon__add"></i> Plus</p>
+            <p><i class="icon icon__remove"></i> Minus</p>
+
+            <p><i class="icon icon__arrow-up"></i> Arrow up</p>
+
+            <p><i class="icon icon__block-arrow-left"></i> Block arrow left</p>
+            <p><i class="icon icon__block-arrow-right"></i> Block arrow right</p>
+            <p><i class="icon icon__block-arrow-up"></i> Block arrow up</p>
+            <p><i class="icon icon__block-arrow-down"></i> Block arrow down</p>
+
+            <h2><i class="icon icon__chevron icon__chevron-left"></i> Chevron left</h2>
+            <h3><i class="icon icon__chevron icon__chevron-left"></i> Chevron left</h3>
+            <p><i class="icon icon__chevron icon__chevron-left"></i> Chevron left</p>
+            <p><a href=""><i class="icon icon__chevron icon__chevron-left"></i> Chevron left</a></p>
+            <p><i class="icon icon__chevron icon__chevron-right"></i> Chevron right</p>
+            <p><i class="icon icon__chevron icon__chevron-up"></i> Chevron up</p>
+            <p><i class="icon icon__chevron icon__chevron-down"></i> Chevron down</p>
+            
+            <p><i class="icon icon__tick"></i> Tick</p>
+            <p><i class="icon icon__cross"></i> Cross</p>
+            <p><i class="icon icon__twitter"></i> Twitter</p>
+            <p><i class="icon icon__share"></i> Share</p>
+            
+            <h2><i class="icon icon__external-link"></i> External link</h2>
+            <h3><i class="icon icon__external-link"></i> External link</h3>
+            <h3>External link <i class="icon icon__external-link"></i></h3>
+            <p><i class="icon icon__external-link"></i> External link</p>
+            <p><i class="icon icon__location"></i> Location</p>
+            <p><i class="icon icon__print"></i> Print</p>
+            <p><i class="icon icon__email"></i> Email</p>
+            <p><i class="icon icon__list"></i> List</p>
+            <p><i class="icon icon__secure"></i> Secure</p>
+
+            <h2>Share tools</h2>
+            <ul class="share-tools__list">
+                <li><a href="#" class="btn__social ">Share <i class="icon icon__share"></i></a></li>
+                <li><a href="#" class="btn__social ">Email <i class="icon icon__email"></i></a></li>
+                <li><a href="#" class="btn__social ">Print <i class="icon icon__print"></i></a></li>
+            </ul>
+
+            <h2>Content button</h2>
+            <p><a href="#" class="btn btn__block">More stories<i class="icon icon__down-arrow"></i></a></p>
+        </div>
+        <br>
+    </div>
+
+    <div class="content row">
+        <br>
+        <div class="small-12 medium-12 large-6">
+            <h1>Form buttons</h1>
+            <form action="" class="custom">
+                <select class="custom-forms">
+                    <option>Filter by country</option>
+                    <option value="">Africa &amp; Middle East (11)</option>
+                    <option value="">Americas (7)</option>
+                    <option value="">Asia Pacific (9)</option>
+                    <option value="">Europe (23)</option>
+                </select>
+                <div class="input input__checkbox">
+                    <input type="checkbox" id="checkbox" /><label for="checkbox">checkbox</label>
+                </div>
+            </form>
+        </div>
+        <br>
+    </div>
+    <!--#include virtual="../includes/javascripts.html"-->
+
+</body>
+</html>

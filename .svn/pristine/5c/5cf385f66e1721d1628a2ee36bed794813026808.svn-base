@@ -1,0 +1,27 @@
+.links-list {
+	margin: 2em 0;
+	ul {
+		list-style: none;
+		border-top: $border-style;
+	}
+}
+
+.links-list__item {
+	border-bottom: $border-style;
+	a {
+		display: block;
+		position: relative;
+		padding: 0.8em  1.2em 0.5em 0;
+		font-size: 1.2em;
+		&:before {
+			@include icon-font($icon-external-link);
+			position: absolute;
+			right: 0;
+			top: 1em;
+		}
+	}
+}
+
+.links-list__heading {	
+	color: $blue-darker;
+}

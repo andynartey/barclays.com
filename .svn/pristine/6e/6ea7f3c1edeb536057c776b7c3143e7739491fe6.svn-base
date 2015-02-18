@@ -1,0 +1,47 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+
+    <div class="row">
+
+        <div class="detail-6">
+            <br /><br />
+            <h2>Two columns (6 - 6)</h2>
+            <code>.detail-6</code>
+
+            <hr>
+
+            <img src="http://placehold.it/570x250" data-interchange="
+                [http://placehold.it/480x210, (default)],
+                [http://placehold.it/768x336, (medium)],
+                [http://placehold.it/570x250, (large)]" alt="" class="">
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+        </div>
+
+        <div class="detail-6">
+            <br /><br /><br /><br />
+            <code>.detail-6</code>
+
+            <hr>
+
+            <img src="http://placehold.it/570x250" data-interchange="
+                [http://placehold.it/480x210, (default)],
+                [http://placehold.it/768x336, (medium)],
+                [http://placehold.it/570x250, (large)]" alt="" class="">
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+
+            <p>Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.</p>
+        </div>
+
+    </div>
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

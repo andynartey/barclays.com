@@ -1,0 +1,76 @@
+.links-list__container {
+	@include clearfix;
+
+	&.links-list__no-title {
+		.links-list__heading {
+			display: none;
+			height: 0;
+			visibility: hidden;
+		}
+	}
+}
+
+.links-list__heading {
+	padding: em-calc(0);
+	color: $blue-darker;
+	font-family: $header-font-family-regular;
+    font-size: em-calc(20);
+    line-height: 1.2;
+    margin-bottom: em-calc(15);
+
+    @media #{$small} {
+        font-size: em-calc(22);
+        line-height: 1.18;
+    }
+    @media #{$medium} {
+        font-size: em-calc(22);
+        line-height: 1.18;
+    }
+}
+
+.links-list {
+	margin-bottom: 2em;
+	margin-left: 0;
+	list-style: none;
+	border-top: $border-style;
+
+	li {
+		border-bottom: $border-style;
+		a {
+			display: block;
+			position: relative;
+			padding: 0.8em  1.2em 0.5em 0;
+			font-size: em-calc(20);
+			font-family: $header-font-family;
+			line-height: 1.12;
+			-webkit-backface-visibility: hidden;
+
+			@media #{$small} {
+				font-size: em-calc(22);
+				line-height: 1.11;
+			}
+
+			&:after {
+				position: absolute;
+				right: 0;
+				top: 0.8em;
+			}
+		}
+	}
+
+	.link-list-external {
+		a {
+			&:after {
+				@include icon-font($icon-external-link);
+			}
+		}
+	}
+
+	.link-list-arrow {
+		a {
+			&:after {
+				@include icon-font($icon-chevron-right);
+			}
+		}
+	}
+}

@@ -1,0 +1,83 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container">
+
+        <!--#include virtual="../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../includes/site-chrome/main-navigation.html"-->
+
+
+        <!-- <div class="row row__full-bleed"> -->
+        <div class="row">
+            <div class="col__full-bleed">
+
+                <!--#set var="hubHeading" value="Hub template" -->
+                <!--#include virtual="../includes/containers/hero-hub.html"-->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <p>12 col row</p>
+                <img src="http://placehold.it/1170x250" data-interchange="
+                    [http://placehold.it/480x144, (default)],
+                    [http://placehold.it/768x230, (medium)],
+                    [http://placehold.it/1170x350, (large)]" alt="" class="">
+
+            </div>
+        </div>
+
+        <div class="row row__full-bleed">
+        <!-- <div class="row"> -->
+            <!-- <div class="col__full-bleed"> -->
+
+            <p>full bleed row</p>
+            <!--#include virtual="../includes/story-chrome/link-blocks.html"-->
+
+            <!-- </div> -->
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <p>12 col row</p>
+                <img src="http://placehold.it/1170x250" data-interchange="
+                    [http://placehold.it/480x144, (default)],
+                    [http://placehold.it/768x230, (medium)],
+                    [http://placehold.it/1170x350, (large)]" alt="" class="">
+
+            </div>
+        </div>
+
+        <div class="row row__full-bleed">
+        <!-- <div class="row"> -->
+            <!-- <div class="col__full-bleed"> -->
+
+                <p>full bleed row</p>
+                <!--#include virtual="../includes/story-chrome/link-blocks.html"-->
+
+            <!-- </div> -->
+        </div>
+
+        <div class="row">
+            <div class="col__full-width">
+
+                <p>12 col row</p>
+                <!--#include virtual="../includes/containers/our-products.html"-->
+
+            </div>
+        </div>
+
+        <!--#include virtual="../includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .siteContainer -->
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

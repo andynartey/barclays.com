@@ -1,0 +1,14 @@
+<!-- Top Nav Bar -->
+<nav class="top-nav-bar">
+    <div class="row">
+        <div class="top-nav-bar__share-price">
+            <p><strong>BARC.L</strong> <span>300.25</span> <span>+3.25</span></p>
+        </div>
+        <div class="top-nav-bar__links">
+            <ul class="button-group">
+                <li class="contact-us"><a href="">Contact us</a></li>
+                <li class="online-banking"><a href="">Online Banking</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

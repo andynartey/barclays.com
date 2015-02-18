@@ -1,0 +1,18 @@
+<div class="cookie">
+	<div class="cookie__wrapper">
+		<div class="cookie__content">
+			<!-- rich text editor content -->
+			<p>
+				In common with most websites, Barclays uses cookies on this site to provide a more robust 
+				and functional browsing experience. Cookies are small files saved on your computer that 
+				are used by websites for purposes such as; recording your site settings, preferences and 
+				anonymous usage. Some cookies are essential to the operation of this site and have already 
+				been set.
+			</p>
+			<p>
+				This message will only be displayed once.
+			</p>
+		</div>
+		<a href="#" class="cookie__close"><span class="visuallyhidden">Close</span><i class="icon icon__close"></i></a>
+	</div>
+</div>

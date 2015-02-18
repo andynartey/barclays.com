@@ -1,0 +1,82 @@
+// ====================================================
+// EVENT SUMMARY MODULE
+// ====================================================
+
+.event-summary {
+    padding: em-calc(15);
+    background: #f0f0f0;
+    margin-bottom: em-calc(20);
+    border-top: 6px solid $primary-color;
+
+    @media #{$small} {
+        //margin-right: em-calc(20);
+    }
+}
+
+
+// EVENT SUMMARY -- DATE
+// ====================================================
+.event-summary__date {
+    @include grid-column(4);
+    .month, .day {
+        display: block;
+        text-align: center;
+        font-family: $header-font-family-bold;
+    }
+    .month {
+        background: $primary-color;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: em-calc(15);
+    }
+    .day {
+        background: #fff;
+        font-size: em-calc(38);
+        line-height: 1.2;
+    }
+}
+
+
+// EVENT SUMMARY -- HEADING
+// ====================================================
+.event-summary__heading {
+    @include grid-column(8);
+    padding-left: 0;
+    h2 {
+        font-size: em-calc(22);
+        line-height: 1.3;
+    }
+}
+
+
+// EVENT SUMMARY -- INFO
+// ====================================================
+.event-summary__info {
+    .meta {
+        @include grid-column(4);
+        text-align: right;
+    }
+    .entry {
+        @include grid-column(8);
+        padding-left: 0;
+    }
+}
+
+
+// EVENT SUMMARY -- CALL TO ACTION
+// ====================================================
+.event-summary__call-to-action {
+    border-top: $border-style;
+    padding-top: em-calc(10);
+}
+
+.event-summary__call-to-action__btn {
+    @include grid-column(10, false, true);
+
+
+    @media #{$small} {
+        //@include grid-column(11);
+        //margin-right: em-calc(20);
+    }
+}
+

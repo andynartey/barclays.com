@@ -1,0 +1,221 @@
+// ====================================================
+// DOCUMENT GROUP MODULE
+// ====================================================
+
+.document-group {
+	@include grid-row(0);
+	@include grid-column(12);
+	border-bottom: 1px solid $gray-rule;
+	margin-bottom: em-calc(20);
+	padding-bottom: em-calc(20);
+	@media #{$medium} {
+		padding-left: 0;
+	}
+	small {
+		color: $gray;
+	}
+	.document-group__summary {
+		display: none;
+	}
+	.document-group__date {
+			@include grid-column(3);
+			margin-left: em-calc(10);
+			margin-right: em-calc(10);
+			@media #{$small} {
+				@include grid-column(2);
+				margin-left: 0;
+				margin-right: 0;
+			}
+			@media #{$medium} {
+				@include grid-column(1);
+				margin-left: em-calc(10);
+				margin-right: em-calc(10);
+			}
+	}
+	.document-group__info {
+		.meta {
+		@include grid-column(3);
+			@media #{$small} {
+				@include grid-column(2);
+				margin-left: 0;
+			}
+			@media #{$medium} {
+				@include grid-column(1);
+				margin-left: 0;
+			}
+		}
+		.entry {
+			padding-left: em-calc(25);
+			@media #{$small} {
+				padding-left: 0;
+			}
+			@media #{$medium} {
+				padding-left: em-calc(20);
+			}
+		}
+	}
+	// Past event
+	&.document-group__past-event {
+		.document-group__date  {
+			.month {
+	        background: $gray-bkgnd;
+	        color: $gray;
+	        }
+	    }
+	    .document-group__date {
+			@include grid-column(3);
+			margin-left: 0;
+			margin-right: em-calc(20);
+			padding-left: 0;
+			@media #{$small} {
+				@include grid-column(2);
+				margin-left: 0;
+				margin-right: 0;
+				padding-left: 0;
+			}
+			@media #{$medium} {
+				@include grid-column(1);
+				margin-left: 0;
+				margin-right: em-calc(10);
+			}
+			p {
+				float: left; 
+			}
+			
+		}
+		.document-group__info {
+			display: none;
+		}
+	    .document-group__summary {
+			display: block;
+			@media #{$medium} {
+				padding-left: em-calc(15);
+			}
+		}
+	}
+	// Generic event
+	&.document-group__generic {
+		.document-group__date,
+		.document-group__info {
+			display: none;
+		}
+		.document-group__date {
+			@include grid-column(1);
+		}
+		.document-group__summary {
+			display: block;
+			@media #{$medium} {
+				padding-left: em-calc(15);
+			}
+		}
+		.document-group__heading {
+			padding-left: 0;
+			padding-right: 0;
+			@media #{$small} {
+				padding-left: 0;
+			}
+			@media #{$medium} {
+				padding-left: em-calc(15);
+			}
+		}
+	}
+}
+
+// DOCUMENT GROUP -- DATE
+// ====================================================
+.document-group__date {
+	@include grid-column(4);
+	@media #{$small} {
+		@include grid-column(2);
+		// max-width: em-calc(80);
+  		// min-width: em-calc(80);
+		padding-left: 0;
+	}
+	@media #{$medium} {
+		@include grid-column(2);
+		padding-left: 0;
+	}
+	clear: both;
+    p {
+    	margin-top: 0 !important;
+    	max-width: em-calc(80);
+    	min-width: em-calc(80);
+    	float: right;
+    }
+    .year, .month, .day {
+        display: block;
+        text-align: center;
+        font-family: $header-font-family-bold;
+        border-top: 1px solid $gray-rule;
+	    border-left: 1px solid $gray-rule;
+	    border-right: 1px solid $gray-rule;
+    }
+    .year {
+        text-transform: uppercase;
+        font-size: em-calc(15);
+        border-bottom: 1px solid $gray-rule;
+    }
+    .month {
+        background: $primary-color;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: em-calc(15);
+    }
+    .day {
+        background: #fff;
+        font-size: em-calc(38);
+        line-height: 1.2;
+    }
+}
+
+// DOCUMENT GROUP -- HEADING
+// ====================================================
+
+.document-group__heading {
+	@include grid-column(8);
+	padding-left: 0;
+	@media #{$small} {
+	 	@include grid-column(10);
+	 	padding-left: 0;
+	}
+	@media #{$medium} {
+	 	@include grid-column(10);
+	 	padding-left: 0;
+	}
+}
+
+// DOCUMENT GROUP -- INFO
+// ====================================================
+.document-group__info {
+    .meta {
+        @include grid-column(3);
+        padding-right: em-calc(20);
+        @media #{$small} {
+        	@include grid-column(1);
+        	padding-right: em-calc(20);
+        }
+        text-align: right;
+        padding-right: em-calc(20);
+        clear: left;
+    }
+    .entry {
+        @include grid-column(8);
+        padding-left: 0;
+        @media #{$small} {
+        	@include grid-column(10);
+        	padding-left: 0;
+        }
+        clear: right;
+    }
+}
+
+// DOCUMENT GROUP -- PAST
+// ====================================================
+.document-group__summary {
+	@include grid-column(12);
+	padding-left: 0;
+	padding-right: 0;
+	@media #{$small} {
+		padding-left: 0;
+	}
+}

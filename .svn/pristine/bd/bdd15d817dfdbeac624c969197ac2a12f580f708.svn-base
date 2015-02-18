@@ -1,0 +1,332 @@
+	// Primary contacts
+	.contact-us__primary-contacts {
+		list-style: none;
+		font-size: em-calc(13);
+		margin-left: 0;
+		margin-right: 0;
+		border-top: none;
+		clear: both;
+		margin-bottom: em-calc(10);
+		@media #{$small} {
+			//@include block-grid(2);
+			font-size: em-calc(14);
+			border-top: 1px solid $gray-rule;
+			border-bottom: none;
+		}
+		@media #{$medium} {
+			padding-left: em-calc(60);
+			padding-right: em-calc(60);
+		}
+		li {
+			// @include grid-row();
+			@include block-grid(2);
+			margin-top: em-calc(10);
+			margin-bottom: em-calc(50);
+			margin-left: 0;
+			margin-right: 0;
+			.has-tip {
+				font-size: em-calc(19);
+			}
+			.contact-us__primary-contacts-container {
+				margin-bottom: em-calc(40);
+			}
+			@media #{$small} {
+				border-bottom: 1px solid $gray-rule;
+				.contact-us__primary-contacts-container {
+					@include grid-column(6);
+					padding-left: 0;
+					margin-bottom: em-calc(20);
+				}
+				&:last-child{
+					border-bottom: none;
+				}
+			}
+		}
+		.contact-us__title {
+			margin-bottom: em-calc(15);
+			font-family: $header-font-family-regular;
+			font-size: em-calc(27);
+			color: $blue-darker;
+			span {
+					display: block; 
+					font-size: em-calc(13);
+				}
+			@media #{$small} {
+				margin-top: 0 !important;
+				font-size: em-calc(31);
+				span {
+					display: block; 
+					font-size: em-calc(13);
+				}
+			}
+		}
+		.contact-us__sub-heading {
+			color: $blue-darker;
+			font-size: em-calc(22);
+			font-family: $header-font-family-regular;
+			margin-bottom: em-calc(20);
+		}
+	}
+	
+	//Primary contacts
+	.contact-us__primary-contacts {
+		list-style: none;
+		font-size: em-calc(13);
+		margin-left: 0;
+		margin-right: 0;
+		border-top: none;
+		clear: both;
+		margin-bottom: 0;
+		@media #{$small} {
+			//@include block-grid(2);
+			font-size: em-calc(14);
+			border-top: 1px solid $gray-rule;
+			border-bottom: none;
+		}
+		li {
+			list-style: none;	
+		}
+	}
+	
+	
+	//Address info
+	address {
+		font-style: normal;
+		border: 1px solid $gray-rule;
+		// padding-top: em-calc(20);
+		@media #{$small} {
+			border: none;
+			margin-bottom: em-calc(10);
+		}
+		div {
+			padding-left: em-calc(10);
+			padding-right: em-calc(10);
+			padding-bottom: em-calc(20);
+			border-bottom: 1px solid $gray-rule;
+			&:first-child {
+					padding-top: em-calc(20);
+				@media #{$small} {
+					padding-top:0;
+				}
+			}
+			&:last-child {
+				border-bottom: none;
+			}
+			@media #{$small} {
+				border-bottom: none;
+				padding-left: 0;
+				padding-right: 0;
+				padding-top: 0;
+				padding-bottom: 0;
+			}
+		}
+		.contact-us__telephone {
+			color: $blue-link-quote;
+			span {
+				color: $gray;
+			}
+		}
+		.contact-us__address {
+			span {
+				float: none;
+			}
+			@media #{$small} {
+				@include grid-row();
+				// @include grid-column(12);
+				clear: both;
+				padding-left: 0;
+				padding-right: 0;
+			}
+			@media #{$medium} {
+				@include grid-row();
+				@include grid-column(5);
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+		.contact-us__description {
+			margin-bottom: em-calc(20);
+			padding-bottom: em-calc(20);
+			@media #{$small} {
+				padding-bottom: 0;
+			}
+			span {
+				float: initial;
+			}
+		}
+		.contact-us__link {
+			@include grid-row();
+			clear: both;
+		}
+		.contact-us__tooltip {
+			@include grid-row();
+			padding-left: 0;
+			padding-bottom: 0;
+			padding-top: 5px;
+			color: $gray;
+			// visibility: hidden;
+			// height: 2px;
+			// border-bottom: 0;
+			// border-top: 3px solid #ffffff;
+			// margin-top: -4px;
+			span {
+				float: initial;
+			}
+			@media #{$small} {
+				@include grid-column(12);
+				padding-left: 0;
+				padding-top: 0;
+				display: block;
+				visibility: visible;
+				height: auto;
+				margin-top: 10px;
+				.icon__info{
+					width: 20px;
+				}
+				.icon__info:after {
+					margin-left: 0;
+					margin-right: 0;
+					font-size: 18px;
+					top: 0;
+				}
+			}
+		}
+	}
+	
+.contact-us__primary-contacts {
+	address {
+				font-size: em-calc(15);
+			}
+}
+	.accordion__content_frame {
+		.contact-us__primary-contacts-container {
+			margin-bottom: em-calc(30);
+			address {
+				font-size: em-calc(18);
+			}
+			.has-tip {
+				font-size: em-calc(15);
+			}
+		}
+	}
+
+
+
+	//external links
+	.contact-us__external-links {
+		@include grid-row();
+		margin-bottom: em-calc(30);
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+		margin-right: 0;
+		h2, h3 {
+			margin-top: 0;
+		}
+		ul {
+			list-style: none;
+			margin: 0;
+		}
+		li {
+			@include grid-column(12);
+			padding-left: 0;
+			padding-right: 0;
+		}
+		h2 {
+			border-bottom: 1px solid $gray-rule;
+			font-size: em-calc(20);
+			&:first-child {
+				border-top: 1px solid $gray-rule;
+				padding-top: em-calc(5);
+			}
+			a { 
+				display: block;
+				padding-top: em-calc(10);
+				padding-bottom: em-calc(15);
+			}
+		}
+		.contact-us__title {
+			font-size: em-calc(24);
+			margin-bottom: em-calc(15);
+			font-family: $header-font-family-regular;
+			color: $blue-darker;
+			@media #{$small} {
+				font-size: em-calc(24);
+				span {
+					@include grid-row(0);
+					font-size: em-calc(14);
+				}
+			}
+		}
+		.btn {
+				padding-right: 0;
+				padding-top: em-calc(5);
+			}
+		i.icon {
+			float: right;
+			&:after {
+				float: right;
+				margin-top: 0;
+				@media #{$small} {
+					margin-top: em-calc(5);
+				}
+			}
+			@media #{$small} {
+				float: none;
+			}
+		}
+		.contact-us__link-container {
+			i.icon {
+				float: right !important;
+			}
+		}
+		@media #{$small} {
+		// margin-bottom: 0;
+			border-top: 1px solid $gray-rule;
+			padding-top: em-calc(40);
+			padding-bottom: em-calc(40);
+			li {
+				@include grid-column(6);
+				padding-left: 0;
+			}
+		}
+	}
+
+	// Accordion begins
+	.accordion__tab {
+		@media #{$small} {
+			padding-bottom: em-calc(10);
+		}
+	}
+	.accordion__product_list {
+		margin-top: em-calc(30);
+		margin-bottom: em-calc(30);
+		@media #{$small} {
+			margin-bottom: em-calc(60);
+		}
+	}
+	.accordion__item {
+		&:first-child { 
+			border-top: 1px solid $gray-rule;
+		}
+		&.accordion__closed {
+			&:first-child { 
+				@media #{$small} {
+					border-top: none;
+				}
+			}
+		}
+	}
+	//Remove borders when placed inside accordion
+	.accordion__content_frame {
+	   	.contact-us__primary-contacts,
+		.content-switcher,
+		.contact-us__external-links {
+			border-top: none;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.contact-us__external-links {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}

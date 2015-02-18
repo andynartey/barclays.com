@@ -1,0 +1,192 @@
+// SHARE, EMAIL, PRINT MODULE
+/* --------------------------------------*/
+
+.share-tools-1 {
+    display: none;
+
+    @media #{$small} {
+        display: block;
+    }
+}
+
+.share-tools {
+    @include grid-column(12);
+    padding-top: em-calc(15);
+    padding-bottom: em-calc(10);
+    border-top: 1px solid #e5e5e5;
+
+    @media #{$small} {
+        @include grid-column(1);
+        border-top: none;
+    }
+}
+
+.share-tools__heading {
+    @extend .hide-for-medium-up;
+
+    h2 {
+        color: $gray;
+        font-size: em-calc(22);
+        margin-bottom: em-calc(10);
+    }
+}
+
+.share-tools__body {
+    @include grid-column(12);
+    padding-left: 0;
+    position: absolute;
+
+    @media #{$small} {
+        width: auto;
+    }
+
+    &.fixed {
+        width: auto;
+        position: fixed;
+        // top: 80px;
+        top: 100px;
+        @media #{$medium} {
+            top: 0;
+        }
+    }
+
+    &.absolute {
+    }
+
+    .share-tools__list {
+        @include block-grid(3);
+
+        @media #{$small} {
+            @include block-grid(1);
+        }
+    }
+
+    .btn__social {
+        display: block;
+        color: $gray-info;
+        font-family: $header-font-family-regular;
+        &:hover, 
+        &:focus {
+                color: #8c8c8c;
+            .icon {
+                color: #b2b2b2;
+            }
+        }
+    }
+}
+
+.share-tools__list {
+    list-style: none;
+    margin-left: -4px;
+}
+
+@media #{$small} {
+    .share-tools__body {
+
+        .share-tools__list-item {
+            margin-bottom: 2.1em;
+        }
+    }
+}
+
+.share-tools-2 {
+
+    @media #{$small} {
+        display: none;
+    }
+
+    .share-tools__body {
+        position: static;
+        padding: 0;
+    }
+
+    .share-tools__list-item {
+        a {
+            margin: 0 auto;
+        }
+    }
+}
+
+.share-label {
+    display: block;
+    color: $gray-info;
+    font-family: $header-font-family-regular;
+    padding-top: em-calc(5);
+}
+
+//////////////////// ADDTHIS
+
+#at20mc {
+    display: none;
+}
+
+.at3lblight {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 680px) {
+    #at3win {
+        width: 95%;
+        left: 2.5%;
+    }
+}
+
+#at3win {
+    -webkit-box-shadow: 0px 0px 12px 4px #cfcfcf;
+            box-shadow: 0px 0px 12px 4px #cfcfcf;
+    // border-radius: 10px;
+    .at3winwrapper {
+        // border-radius: 10px;
+        overflow: hidden;
+    }
+    #at3winheader {
+        background: #00395d;
+        .at3winheadersvc {
+            display: none;
+        }
+        h3 {
+            padding-left: 0;
+            color: #fff;
+            text-shadow: 0 0;
+            font-weight: normal;
+            font-family: $header-font-family-regular;
+        }
+        #at3winheaderclose {
+            background: none;
+            text-indent: 0;
+            border-left: none;
+            &:hover {
+                background: none;
+            }
+            &:after {
+                @include icon-font($icon-cross);
+                position: absolute;
+                top: 15px;
+                left: 15px;
+                color: #fff;
+            }
+        }
+    }
+    #at3wincontent {
+        overflow: hidden;
+        height: 440px;
+    }
+}
+
+#pgurl {
+    color: #00395d;
+    font-family: $body-font-family;
+}
+
+.addthis_toolbox a:hover {
+    background: $blue-bkgnd;
+}
+
+#at3winssi {
+    display: none;
+}
+// nudge iframe up to hide search box
+#at3winshare {
+    margin-top: -80px;
+}

@@ -1,0 +1,355 @@
+<!--#include virtual="../includes/site-chrome/header.html"-->
+<body>
+    <!--#include virtual="../includes/site-chrome/mobile-nav.html"-->
+
+    <div class="site-container template__news-feature">
+
+        <!--#include virtual="../includes/site-chrome/top-nav-bar.html"-->
+
+        <!--#include virtual="../includes/site-chrome/logo-banner.html"-->
+
+        <!--#include virtual="../includes/site-chrome/main-navigation.html"-->
+
+        <div class="row__full-bleed">
+
+            <!-- parsys 1: modules start here -->
+                <!--#include virtual="/includes/containers/hero-hub.html"-->
+            <!-- modules end here -->
+
+        </div>
+
+        <div class="row">
+            <div class="template_col-1">
+                <!-- share links 1 -->
+                <div class="share-tools-1">
+                    <!--#include virtual="../includes/story-chrome/share-tools.html"-->
+                </div>
+            </div>
+            <div class="template_col-8">
+                <div class="col__news-feature--header share-ignore">
+
+                    <div class="link__page_holder">
+                        <!-- link to page above -->
+                        <a href="#" class="link__page-parent">Link to parent page</a>
+                    </div>
+
+                    <!-- page title -->
+                    <h1>Feature template module examples</h1>
+
+                    <!-- author -->
+                    <p class="news-article-author">By Imran Oozeerally, Byron Co-ordinator</p>
+
+                    <!-- date -->
+                    <p class="news-article-date">30 Jul 2013, 15:30 BST</p>
+
+                </div>
+
+                <div class="template_col-11">
+                    <!-- these markers are used for the jump to module and are displayed if content is in the adjacent parsys -->
+                    <div class="jump-to__marker" id="article1"></div>
+                    <!-- parsys 2: modules start here -->
+                    
+                    <!--#include virtual="/includes/link-module.html"-->
+                    <!--#include virtual="/includes/blockquote.html"-->
+                    <!--#include virtual="/includes/contact-us/tabbed-content-example.html"-->
+                    <!--#include virtual="/includes/containers/column-control-50.html"-->
+                    <!--#include virtual="/includes/text-image.html"-->
+                    <!--#include virtual="/includes/story-chrome/adaptive-image.html"-->
+
+                    <!-- Outdent Box Full Width - start -->
+                    <div class="article-item--left--full-width">
+                        <!--#include virtual="/includes/blockquote.html"-->
+                    </div>
+                    <!-- Outdent Box Full Width - end -->
+                    
+                    <!-- modules end here -->
+                </div>
+
+            </div>
+            <div class="template_col-3">
+                <!-- jump to -->
+                <!--#include virtual="../includes/story-chrome/jump-to.html"-->
+
+                <!-- Topics 1 -->
+                <div class="topics-1">
+                    <!--#include virtual="../includes/story-chrome/tags.html"-->
+                </div>
+
+                <!-- parsys 3: modules start here -->
+                    <p>
+                        <strong>Parsys 3.</strong>
+                    </p>
+                <!-- modules end here -->
+            </div>
+        </div>
+
+
+        <div class="row__full-bleed dummy-module__example">
+            <div class="jump-to__marker" id="article2"></div>
+
+            <div class="row">
+                <div class="template_col-8">
+                    <!-- parsys 4: modules start here -->
+                    
+                        <!--#include virtual="/includes/containers/full-bleed-content.html"-->
+
+                    <!-- modules end here -->
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="jump-to__marker" id="article3"></div>
+
+            <div class="template_col-7">
+
+                <!-- parsys 5: modules start here -->
+                    <!--#include virtual="/includes/cross-promo-image-top.html"-->
+                    <!--#include virtual="/includes/containers/carousel.html"-->
+                    <!--#include virtual="/includes/containers/image-gallery.html"-->
+                        <!-- Outdent Box Full Width - start -->
+                        <div class="article-item--left--full-width">
+                            <!--#include virtual="/includes/blockquote.html"-->
+                        </div>
+                        <!-- Outdent Box Full Width - end -->
+                <!-- modules end here -->
+
+            </div>
+
+
+            <div class="template_col-3">
+                <!-- parsys 6: modules start here -->
+                <p>
+                    <strong>Parsys 6.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <!-- modules end here -->
+            </div>
+        </div>
+
+        <div class="row__full-bleed dummy-module__example">
+            <div class="jump-to__marker" id="article4"></div>
+            <!-- parsys 7: modules start here -->
+            <div class="row">
+                <div class="template_col-8">
+                    
+                    <!--#include virtual="/includes/containers/full-bleed-12-col.html"-->
+
+                </div>
+            </div>
+            <!-- modules end here -->
+        </div>
+
+
+        <div class="row">
+            <div class="jump-to__marker" id="article5"></div>
+            <div class="template_col-7">
+
+                <!-- parsys 8: modules start here -->
+                    <!--#include virtual="/includes/selected-tweet.html"-->
+                    <!--#include virtual="/includes/containers/story-highlights.html"-->
+                    <!--#include virtual="/includes/story-chrome/bullet-list-no-heading.html"-->
+                <!-- modules end here -->
+
+            </div>
+            <div class="template_col-3">
+
+                <!-- parsys 9: modules start here -->
+                <p>
+                    <strong>Parsys 9.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row__full-bleed dummy-module__example">
+            <div class="jump-to__marker" id="article6"></div>
+
+            <!-- parsys 10: modules start here -->
+            <div class="row">
+                <div class="template_col-8">
+
+                    <!--#include virtual="/includes/containers/hero-sub-hub.html"-->
+                    <!--#include virtual="/includes/containers/accordion.html"-->
+
+                </div>
+            </div>
+            <!-- modules end here -->
+        </div>
+
+
+        <div class="row">
+            <div class="jump-to__marker" id="article7"></div>
+            <div class="template_col-7">
+
+                <!-- parsys 11: modules start here -->
+                    <!--#include virtual="/includes/products-services/button-filter.html"-->
+                    <!--#include virtual="/includes/story-chrome/document-download.html"-->
+                    <!--#include virtual="/includes/ir/table-y.html"-->
+                <!-- modules end here -->
+
+            </div>
+            <div class="template_col-3">
+
+                <!-- parsys 12: modules start here -->
+                <p>
+                    <strong>Parsys 12.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row__full-bleed dummy-module__example">
+            <div class="jump-to__marker" id="article8"></div>
+
+            <!-- parsys 13: modules start here -->
+            <div class="row">
+                <div class="template_col-8">
+
+                    <!--#include virtual="/includes/country-selector.html"-->
+                    <!--#include virtual="/includes/containers/alert-box.html"-->
+                    <!--#include virtual="/includes/contact-us/contact-pair.html"-->
+                    <!--#include virtual="/includes/contact-us/multi-office-filter.html"-->
+                    <!--#include virtual="/includes/contact-us/more-contacts.html"-->
+                    <!--#include virtual="/includes/containers/carousel-grid-3.html"-->
+
+                </div>
+            </div>
+            <!-- modules end here -->
+        </div>
+
+        <div class="row">
+            <div class="jump-to__marker" id="article9"></div>
+            <div class="template_col-7">
+
+                <!-- parsys 14: modules start here -->
+                <p>
+                    <strong>Parsys 14.</strong> Dolor. Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+            <div class="template_col-3">
+
+                <!-- parsys 15: modules start here -->
+                <p>
+                    <strong>Parsys 15.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="template_col-8-full-width">
+
+                <!-- Topics 2 -->
+                <div class="topics-2">
+                    <!--#include virtual="../includes/story-chrome/tags.html"-->
+                </div>
+                <!-- share links 2 -->
+                <div class="share-tools-2">
+                    <!--#include virtual="../includes/story-chrome/share-tools.html"-->
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="jump-to__marker" id="article10"></div>
+            <div class="template_col-8-full-width">
+
+                <!-- parsys 16: modules start here -->
+                <p>
+                    <strong>parsys 16.</strong> Sit amet. Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+            <div class="template_col-3">
+
+                <!-- parsys 17: modules start here -->
+                <p>
+                    <strong>Parsys 17.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="template_col-8-full-width">
+
+                <!-- Related stories -->
+                <p>
+                    <strong>Related Stories.</strong>
+                </p>
+
+            </div>
+            <div class="template_col-3">
+
+                <!-- parsys 18: modules start here -->
+                <p>
+                    <strong>Parsys 18.</strong> Only short content here.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="template_col-8-full-width">
+
+                <!-- parsys 19: modules start here -->
+                <p>
+                    <strong>parsys 19.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in. Vim natum splendide ne, at enim choro his, in propriae referrentur quo. At putent sanctus vix, duis assum epicuri an has, mei ea quis homero. Ad choro semper facilisi eum, postea scriptorem consectetuer eu nec. Qui no utroque expetenda.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+            <div class="template_col-3">
+
+                <!-- parsys 20: modules start here -->
+                <p>
+                    <strong>Parsys 20.</strong> Lorem ipsum dolor sit amet, stet consequuntur vim id, ex sed probatus consequat philosophia, ea viderer senserit signiferumque sit. Elitr decore primis et vim, cetero debitis ius in.
+                </p>
+                <!-- modules end here -->
+
+            </div>
+        </div>
+
+        <!--#include virtual="../includes/site-chrome/footer.html"-->
+
+    </div> <!-- END .site-container -->
+
+<!--#include virtual="../includes/javascripts.html"-->
+</body>
+</html>

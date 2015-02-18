@@ -1,0 +1,18 @@
+<div class="share-price-feed">
+    <h3>LSE (UK)</h3>
+
+    <p class="share-price-feed__price">
+        <span class="value">279.90</span>
+        <span class="change up">+3.25</span>
+    </p>
+
+    <p class="share-price-feed__date">at 14:21 BST on 22/01/2015</p>
+
+    <p class="share-price-feed__info">Prices can be delayed by 20 mins</p>
+
+    <div class="share-price-feed__links">
+        <a href="" class="share-price-feed__link">Dividend details and tools</a>
+        <a href="" class="share-price-feed__link external">DR website</a>
+    </div>
+
+</div>

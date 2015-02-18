@@ -1,0 +1,43 @@
+<section class="link-blocks our-products">
+
+    <div class="row">
+
+        <aside class="link-blocks__item">
+            <div class="link-blocks__content first">
+                <a class="link-blocks__link" href="">
+                    <img src="http://placehold.it/370x120" data-interchange="
+                        [http://placehold.it/225x73, (medium)],
+                        [http://placehold.it/370x120, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="">For Individuals</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+        <aside class="link-blocks__item">
+            <div class="link-blocks__content">
+                <a class="link-blocks__link" href="">
+                    <img src="http://placehold.it/370x120" data-interchange="
+                        [http://placehold.it/225x73, (medium)],
+                        [http://placehold.it/370x120, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="">For small to medium businesses</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+        <aside class="link-blocks__item">
+            <div class="link-blocks__content">
+                <a class="link-blocks__link" href="">
+                    <img src="http://placehold.it/370x120" data-interchange="
+                        [http://placehold.it/225x73, (medium)],
+                        [http://placehold.it/370x120, (large)]" alt="Press releases">
+                </a>
+                <h2 class="link-blocks__heading"><a href="">For corporates and institutions</a></h2>
+                <p class="link-blocks__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis magna et dolor mattis.</p>
+            </div>
+        </aside>
+
+    </div>
+
+</section>
